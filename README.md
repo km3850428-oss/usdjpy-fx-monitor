@@ -1,0 +1,86 @@
+# ドル円FX 24時間モニタリングシステム
+
+USD/JPYのテクニカル指標とファンダメンタル要因を毎時自動でスコアリングし、「買い／売り／待ち」の判定とその根拠をDiscordに通知するシステムです。GitHub Actionsで無料・サーバーレスに24時間稼働します。
+
+**注意：本システムは個人の判断材料を提供するものであり、投資助言ではありません。最終的な売買判断はご自身の責任で行ってください。**
+
+## 仕組み
+
+1. 毎時0分（UTC）にGitHub Actionsが起動
+2. `yfinance` からUSD/JPYの価格データを取得し、移動平均線・RSI・MACD・ボリンジャーバンドを計算（テクニカルスコア）
+3. 金利差（FRED API・任意）・ニュース見出し（RSS）・経済指標カレンダーからファンダメンタルスコアを算出
+4. テクニカル50% + ファンダメンタル50%で総合スコアを算出し、「買い／売り／待ち」を判定
+   - 重要指標発表が3時間以内に迫っている場合はスコアに関わらず「待ち」
+5. 前回判定から**変化した場合は即座に**、それ以外でも**毎日9時・12時・18時（JST）に**Discordへ通知
+6. 判定結果は `state.json` としてリポジトリにコミットし、次回実行時の変化検知に利用
+
+## ディレクトリ構成
+
+```
+ドル円FX/
+├── .github/workflows/fx_monitor.yml  # 定期実行ワークフロー
+├── src/
+│   ├── config.py           # 閾値・重み・通知時刻などの設定
+│   ├── price_data.py       # 価格取得・テクニカル指標スコアリング
+│   ├── fundamental.py      # 金利差・ニュース・経済指標カレンダー
+│   ├── judge.py            # 総合判定ロジック
+│   ├── notify_discord.py   # Discord Webhook通知
+│   ├── state.py            # 前回判定の保存・読込
+│   └── main.py             # 実行エントリーポイント
+├── state.json               # 前回判定（自動生成・自動更新）
+└── requirements.txt
+```
+
+## セットアップ手順
+
+### 1. Discord Webhook URLの取得
+
+1. 通知を受け取りたいDiscordサーバーのチャンネル設定を開く
+2. 「連携サービス」→「ウェブフック」→「新しいウェブフック」を作成
+3. 表示されるWebhook URLをコピーしておく
+
+### 2. GitHubリポジトリの作成とpush
+
+```bash
+cd "ドル円FX"
+git init
+git add .
+git commit -m "Initial commit: FXモニタリングシステム"
+git branch -M main
+git remote add origin <あなたのGitHubリポジトリURL>
+git push -u origin main
+```
+
+Actionsの無料枠を気にせず使いたい場合は**公開（Public）リポジトリ**を推奨します（Actions利用時間が無制限）。非公開でも毎時実行（1日24回・1回1〜2分程度）であれば無料枠（月2,000分）に収まります。
+
+### 3. GitHub Secretsの設定
+
+リポジトリの `Settings → Secrets and variables → Actions → New repository secret` から以下を登録：
+
+| Secret名 | 必須 | 説明 |
+|---|---|---|
+| `DISCORD_WEBHOOK_URL` | 必須 | 手順1で取得したWebhook URL |
+| `FRED_API_KEY` | 任意 | [FRED](https://fred.stlouisfed.org/docs/api/api_key.html)の無料APIキー。設定すると米金利差の自動評価が有効になる（未設定時はその項目のみスキップ） |
+
+### 4. 動作確認
+
+`Actions` タブ →「USD/JPY FX Monitor」→「Run workflow」で手動実行し、Discordに通知が届くか確認してください。
+
+## カスタマイズ
+
+`src/config.py` で以下を調整できます。
+
+- `PERIODIC_NOTIFY_HOURS_JST`：定期通知を送る時刻（デフォルト: 9, 12, 18時）
+- `TECHNICAL_WEIGHT` / `FUNDAMENTAL_WEIGHT`：スコアの重み付け
+- `BUY_THRESHOLD` / `SELL_THRESHOLD`：買い・売り判定の閾値
+- `EVENT_CAUTION_WINDOW_HOURS`：重要指標発表前に「待ち」とする猶予時間
+- `BOJ_POLICY_RATE`：日銀政策金利（日銀会合で変更があった場合は手動更新してください）
+
+実行頻度を変えたい場合は `.github/workflows/fx_monitor.yml` の `cron` を編集してください（例: 30分毎なら `*/30 * * * *`）。
+
+## 既知の制約
+
+- 価格データは非公式のYahoo Financeラッパー（`yfinance`）を利用しています。取得失敗が続く場合はワークフローのログを確認してください。
+- 日銀政策金利は自動取得しておらず、`config.py` の手動更新が必要です（変更頻度が低いため）。
+- ニュースセンチメントはキーワードマッチによる簡易評価であり、文脈までは判断していません。
+- 経済指標カレンダーはForexFactoryの公開JSONを利用しています。仕様変更で取得できなくなった場合はその回の「重要指標警戒」機能のみ無効化されます（判定自体は継続）。
