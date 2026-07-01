@@ -2,7 +2,7 @@
 import sys
 from datetime import datetime, timezone, timedelta
 
-from . import config, price_data, fundamental, judge as judge_mod, state, notify_discord
+from . import config, price_data, fundamental, judge as judge_mod, state, notify_discord, positions
 
 JST = timezone(timedelta(hours=9))
 
@@ -45,6 +45,36 @@ def run():
         print("通知条件に該当しないためスキップします")
 
     state.save_state(judgment, now_jst.isoformat())
+
+    # --- 仮想トレード（ペーパートレード）の決済・エントリー判定 ---
+    pos_data = positions.load_positions()
+
+    closed_now = positions.evaluate_open_positions(
+        pos_data, indicators["price"], judgment["signal"], now_jst.isoformat()
+    )
+    for closed_pos in closed_now:
+        summary = positions.summary_stats(pos_data)
+        print(f"仮想決済: {closed_pos['direction']} {closed_pos['exit_reason']} 損益{closed_pos['pnl_pips']:+.1f}pips")
+        try:
+            notify_discord.send(notify_discord.build_exit_payload(closed_pos, summary, timestamp_jst))
+        except Exception as exc:
+            print(f"仮想決済のDiscord通知に失敗しました: {exc}", file=sys.stderr)
+
+    if is_change and judgment["signal"] in ("買い", "売り"):
+        atr = indicators.get("atr14")
+        if atr is None:
+            print("ATRが計算できないため仮想エントリーをスキップします")
+        else:
+            new_pos = positions.open_position(
+                pos_data, judgment["signal"], indicators["price"], atr, now_jst.isoformat()
+            )
+            print(f"仮想エントリー: {new_pos['direction']} @ {new_pos['entry_price']}")
+            try:
+                notify_discord.send(notify_discord.build_entry_payload(new_pos, timestamp_jst))
+            except Exception as exc:
+                print(f"仮想エントリーのDiscord通知に失敗しました: {exc}", file=sys.stderr)
+
+    positions.save_positions(pos_data)
 
 
 if __name__ == "__main__":

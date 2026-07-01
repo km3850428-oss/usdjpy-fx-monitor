@@ -45,6 +45,17 @@ def _bollinger(series: pd.Series, window: int = 20, num_std: float = 2.0):
     return upper, mid, lower
 
 
+def _atr(df: pd.DataFrame, period: int = 14) -> pd.Series:
+    high, low, close = df["High"], df["Low"], df["Close"]
+    prev_close = close.shift(1)
+    tr = pd.concat([
+        high - low,
+        (high - prev_close).abs(),
+        (low - prev_close).abs(),
+    ], axis=1).max(axis=1)
+    return tr.ewm(alpha=1 / period, min_periods=period, adjust=False).mean()
+
+
 def compute_indicators(df: pd.DataFrame) -> dict:
     close = df["Close"]
 
@@ -54,6 +65,7 @@ def compute_indicators(df: pd.DataFrame) -> dict:
     rsi14 = _rsi(close, 14)
     macd_line, signal_line = _macd(close)
     bb_upper, bb_mid, bb_lower = _bollinger(close)
+    atr14 = _atr(df, 14)
 
     return {
         "price": float(close.iloc[-1]),
@@ -66,6 +78,7 @@ def compute_indicators(df: pd.DataFrame) -> dict:
         "bb_upper": float(bb_upper.iloc[-1]) if pd.notna(bb_upper.iloc[-1]) else None,
         "bb_mid": float(bb_mid.iloc[-1]) if pd.notna(bb_mid.iloc[-1]) else None,
         "bb_lower": float(bb_lower.iloc[-1]) if pd.notna(bb_lower.iloc[-1]) else None,
+        "atr14": float(atr14.iloc[-1]) if pd.notna(atr14.iloc[-1]) else None,
     }
 
 

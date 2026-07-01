@@ -40,4 +40,17 @@ NEWS_RSS_FEEDS = [
 FOREX_CALENDAR_URL = "https://nfs.faireconomy.media/ff_calendar_thisweek.json"
 
 # --- 状態保存 ---
-STATE_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "state.json")
+_ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+STATE_FILE = os.path.join(_ROOT_DIR, "state.json")
+POSITIONS_FILE = os.path.join(_ROOT_DIR, "positions.json")
+
+# --- 仮想トレード（ペーパートレード）---
+# 損切り・利確までの値幅をATR14の倍数で決定（リスクリワード比 概ね1:2）
+ATR_STOP_LOSS_MULTIPLIER = 1.5
+ATR_TAKE_PROFIT_MULTIPLIER = 3.0
+
+# USD/JPYのpipサイズ（0.01円 = 1pips）
+PIP_SIZE = 0.01
+
+# 保存する決済済みトレード履歴の最大件数（古いものから削除）
+MAX_CLOSED_HISTORY = 500
