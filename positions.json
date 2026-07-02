@@ -1,5 +1,15 @@
 {
-  "next_id": 1,
-  "open": [],
+  "next_id": 2,
+  "open": [
+    {
+      "id": 1,
+      "direction": "買い",
+      "entry_price": 161.204,
+      "stop_loss": 160.238,
+      "take_profit": 163.135,
+      "atr_at_entry": 0.644,
+      "opened_at": "2026-07-02T17:30:09.286811+09:00"
+    }
+  ],
   "closed": []
 }
