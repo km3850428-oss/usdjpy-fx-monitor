@@ -1,8 +1,9 @@
 name: USD/JPY FX Monitor
 
 on:
-  schedule:
-    - cron: "0 * * * *"  # 毎時0分（UTC）に実行
+  # 自動実行（cronスケジュール）は一時停止中。再開する場合は下記コメントを解除してください。
+  # schedule:
+  #   - cron: "0 * * * *"  # 毎時0分（UTC）に実行
   workflow_dispatch: {}  # 手動実行用
 
 permissions:
