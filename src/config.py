@@ -44,6 +44,24 @@ _ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATE_FILE = os.path.join(_ROOT_DIR, "state.json")
 POSITIONS_FILE = os.path.join(_ROOT_DIR, "positions.json")
 
+# --- Webダッシュボード用データ（data/ 配下、Vercel側がraw.githubusercontent.com経由で読む） ---
+DATA_DIR = os.path.join(_ROOT_DIR, "data")
+LATEST_FILE = os.path.join(DATA_DIR, "latest.json")
+
+# ニュース見出し・経済指標カレンダーの表示件数/時間窓
+NEWS_HEADLINES_LIMIT_PER_FEED = 10
+CALENDAR_DISPLAY_WINDOW_HOURS = 48
+
+# 価格チャート用の時間足設定。yfinanceの取得可能期間の制限:
+# 15m/30mは直近60日まで、1hは直近730日まで。
+# bootstrap_period: 履歴ファイルが存在しない場合の初回取得期間
+# incremental_period: 2回目以降、直近分だけを取得しマージする期間
+INTRADAY_TIMEFRAMES = {
+    "15m": {"interval": "15m", "bootstrap_period": "60d", "incremental_period": "5d", "max_bars": 1500},
+    "30m": {"interval": "30m", "bootstrap_period": "60d", "incremental_period": "5d", "max_bars": 1500},
+    "1h": {"interval": "1h", "bootstrap_period": "730d", "incremental_period": "7d", "max_bars": 2000},
+}
+
 # --- 仮想トレード（ペーパートレード）---
 # 損切り・利確までの値幅をATR14の倍数で決定（リスクリワード比 概ね1:2）
 ATR_STOP_LOSS_MULTIPLIER = 1.5

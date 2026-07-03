@@ -1,0 +1,118 @@
+{
+  "generated_at_jst": "2026-07-04T00:10:32.715132+09:00",
+  "generated_at_utc": "2026-07-03T15:10:34.941159+00:00",
+  "judgment": {
+    "signal": "買い",
+    "overall_score": 0.377,
+    "technical_score": 0.754,
+    "fundamental_score": 0.0,
+    "override_reason": null
+  },
+  "technical": {
+    "reasons": [
+      "SMA20(161.12) > SMA50(159.61) でゴールデンクロス状態（買い要因）",
+      "RSI14=55.3で中立圏",
+      "MACDがシグナルを上抜け（買い要因）"
+    ],
+    "indicators": {
+      "price": 161.28199768066406,
+      "sma20": 161.1181510925293,
+      "sma50": 159.61142028808592,
+      "sma200": null,
+      "rsi14": 55.260403524478924,
+      "macd": 0.69757778366602,
+      "macd_signal": 0.6845399924610153,
+      "bb_upper": 162.78231016369386,
+      "bb_mid": 161.1181510925293,
+      "bb_lower": 159.45399202136474,
+      "atr14": 0.773463223545727
+    }
+  },
+  "fundamental": {
+    "reasons": [
+      "FRED APIキー未設定のため金利差の自動評価をスキップ",
+      "関連ニュース見出しにドル/円方向を示すキーワードなし（中立）",
+      "直近の重要指標発表なし"
+    ],
+    "has_upcoming_event": false
+  },
+  "news": {
+    "items": [
+      {
+        "title": "Deutsche Bank forecasts S&P 500 to hit 7000 by end of 2025",
+        "link": "https://www.investing.com/news/stock-market-news/deutsche-bank-forecasts-sp-500-to-hit-7000-by-end-of-2025-3741586",
+        "source": "Most Popular News",
+        "published_at": "2024-11-26 10:47:35",
+        "sentiment": "neutral"
+      },
+      {
+        "title": "Trump's tariffs, Fed minutes, Rumble's Bitcoin buy - what's moving markets",
+        "link": "https://www.investing.com/news/economy/trumps-tariffs-fed-minutes-rumbles-bitcoin-buy--whats-moving-markets-3741453",
+        "source": "Most Popular News",
+        "published_at": "2024-11-26 08:55:17",
+        "sentiment": "neutral"
+      },
+      {
+        "title": "Bitcoin price today: slips to $94k as risk appetite sours on Trump tariff threat",
+        "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-today-slips-to-94k-as-risk-appetite-sours-on-trump-tariff-threat-3741330",
+        "source": "Most Popular News",
+        "published_at": "2024-11-26 06:22:06",
+        "sentiment": "neutral"
+      },
+      {
+        "title": "2025 macro outlook for the US is 'murky at best' says Deutsche Bank",
+        "link": "https://www.investing.com/news/economy/2025-macro-outlook-for-the-us-is-murky-at-best-says-deutsche-bank-3741435",
+        "source": "Most Popular News",
+        "published_at": "2024-11-26 08:26:03",
+        "sentiment": "neutral"
+      },
+      {
+        "title": "Trump says he will impose additional 10% tariffs on China over drug inflow",
+        "link": "https://www.investing.com/news/politics/trump-says-he-will-impose-additional-10-tariffs-on-china-over-drug-inflow-3741069",
+        "source": "Most Popular News",
+        "published_at": "2024-11-26 00:01:07",
+        "sentiment": "neutral"
+      },
+      {
+        "title": "Asia stocks fall after Trump threatens tariffs, Japan's Nikkei leads losses",
+        "link": "https://www.investing.com/news/stock-market-news/asia-stocks-fall-after-trump-threatens-tariffs-japans-nikkei-leads-losses-3741249",
+        "source": "Most Popular News",
+        "published_at": "2024-11-26 03:31:51",
+        "sentiment": "neutral"
+      },
+      {
+        "title": "S&P 500 positioning levels at record highs, pullback risks rise, Citi warns",
+        "link": "https://www.investing.com/news/stock-market-news/sp-500-positioning-levels-at-record-highs-pullback-risks-rise-citi-warns-3741245",
+        "source": "Most Popular News",
+        "published_at": "2024-11-26 03:26:47",
+        "sentiment": "neutral"
+      },
+      {
+        "title": "Analyst calls Bitcoin 'global bubble', could soar to infinity",
+        "link": "https://www.investing.com/news/cryptocurrency-news/analyst-calls-bitcoin-global-bubble-could-soar-to-infinity-3740406",
+        "source": "Most Popular News",
+        "published_at": "2024-11-25 18:20:45",
+        "sentiment": "neutral"
+      },
+      {
+        "title": "Stock market today: Dow hits record as Trump's pick for Treasury stokes optimism",
+        "link": "https://www.investing.com/news/stock-market-news/stock-market-today-dow-hits-record-as-trumps-pick-for-treasury-stokes-optimism-3738482",
+        "source": "Most Popular News",
+        "published_at": "2024-11-25 21:05:30",
+        "sentiment": "neutral"
+      },
+      {
+        "title": "Jump in Tesla stock mostly driven by 'animal spirits/momentum' says UBS",
+        "link": "https://www.investing.com/news/stock-market-news/jump-in-tesla-stock-mostly-driven-by-animal-spiritsmomentum-says-ubs-3739718",
+        "source": "Most Popular News",
+        "published_at": "2024-11-25 14:19:31",
+        "sentiment": "neutral"
+      }
+    ]
+  },
+  "calendar": {
+    "caution_window_hours": 3,
+    "display_window_hours": 48,
+    "events": []
+  }
+}

@@ -2,7 +2,7 @@
 import sys
 from datetime import datetime, timezone, timedelta
 
-from . import config, price_data, fundamental, judge as judge_mod, state, notify_discord, positions
+from . import config, price_data, fundamental, judge as judge_mod, state, notify_discord, positions, latest_snapshot
 
 JST = timezone(timedelta(hours=9))
 
@@ -18,7 +18,10 @@ def run():
     technical_score, technical_reasons = price_data.score_technical(indicators)
     print(f"テクニカルスコア: {technical_score:+.3f}")
 
-    fundamental_score, fundamental_reasons, has_event = fundamental.score_fundamental()
+    fundamental_result = fundamental.score_fundamental()
+    fundamental_score = fundamental_result["score"]
+    fundamental_reasons = fundamental_result["reasons"]
+    has_event = fundamental_result["has_upcoming_event"]
     print(f"ファンダメンタルスコア: {fundamental_score:+.3f}")
 
     judgment = judge_mod.judge(technical_score, fundamental_score, has_event)
@@ -45,6 +48,16 @@ def run():
         print("通知条件に該当しないためスキップします")
 
     state.save_state(judgment, now_jst.isoformat())
+
+    try:
+        snapshot = latest_snapshot.build(
+            judgment, indicators, technical_reasons, fundamental_result,
+            now_jst.isoformat(), datetime.now(timezone.utc).isoformat(),
+        )
+        latest_snapshot.save(snapshot)
+        print("data/latest.json を更新しました")
+    except Exception as exc:
+        print(f"data/latest.json の更新に失敗しました: {exc}", file=sys.stderr)
 
     # --- 仮想トレード（ペーパートレード）の決済・エントリー判定 ---
     pos_data = positions.load_positions()
