@@ -2,7 +2,7 @@
 import sys
 from datetime import datetime, timezone, timedelta
 
-from . import config, price_data, fundamental, judge as judge_mod, state, notify_discord, positions, latest_snapshot
+from . import config, price_data, fundamental, judge as judge_mod, state, notify_discord, positions, latest_snapshot, price_history
 
 JST = timezone(timedelta(hours=9))
 
@@ -58,6 +58,11 @@ def run():
         print("data/latest.json を更新しました")
     except Exception as exc:
         print(f"data/latest.json の更新に失敗しました: {exc}", file=sys.stderr)
+
+    try:
+        price_history.update_all()
+    except Exception as exc:
+        print(f"価格チャート履歴の更新に失敗しました: {exc}", file=sys.stderr)
 
     # --- 仮想トレード（ペーパートレード）の決済・エントリー判定 ---
     pos_data = positions.load_positions()
