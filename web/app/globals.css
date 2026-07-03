@@ -1,0 +1,254 @@
+:root {
+  --surface-page: #0d0d0d;
+  --surface-panel: #17181a;
+  --surface-panel-raised: #1e2023;
+  --ink-primary: #ffffff;
+  --ink-secondary: #c3c2b7;
+  --ink-muted: #898781;
+  --border: rgba(255, 255, 255, 0.1);
+  --gridline: #2c2c2a;
+
+  --status-good: #0ca30c;
+  --status-critical: #d03b3b;
+  --status-neutral: #898781;
+}
+
+html {
+  height: 100%;
+  color-scheme: dark;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: var(--ink-primary);
+  background: var(--surface-page);
+  font-family: var(--font-geist-mono), ui-monospace, "SF Mono", Menlo, monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.page {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px 16px 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.page-header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 16px;
+}
+
+.page-header h1 {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.page-header p {
+  color: var(--ink-muted);
+  font-size: 12px;
+}
+
+.panel {
+  background: var(--surface-panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.panel-title {
+  font-size: 12px;
+  color: var(--ink-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.hero {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.hero-signal {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.hero-signal.status-good {
+  color: var(--status-good);
+}
+
+.hero-signal.status-critical {
+  color: var(--status-critical);
+}
+
+.hero-signal.status-neutral {
+  color: var(--status-neutral);
+}
+
+.hero-meta {
+  color: var(--ink-muted);
+  font-size: 12px;
+}
+
+.override-note {
+  color: var(--status-neutral);
+  font-size: 12px;
+  border-left: 2px solid var(--status-neutral);
+  padding-left: 8px;
+}
+
+.kpi-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 12px;
+}
+
+.kpi-tile {
+  background: var(--surface-panel-raised);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.kpi-label {
+  font-size: 11px;
+  color: var(--ink-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.kpi-value {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.kpi-value.status-good {
+  color: var(--status-good);
+}
+
+.kpi-value.status-critical {
+  color: var(--status-critical);
+}
+
+.reason-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.reason-list li {
+  font-size: 13px;
+  color: var(--ink-secondary);
+  padding-left: 14px;
+  position: relative;
+}
+
+.reason-list li::before {
+  content: "・";
+  position: absolute;
+  left: 0;
+  color: var(--ink-muted);
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--gridline);
+  white-space: nowrap;
+}
+
+th {
+  color: var(--ink-muted);
+  font-weight: 500;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+td.num,
+th.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+td.pnl-positive {
+  color: var(--status-good);
+}
+
+td.pnl-negative {
+  color: var(--status-critical);
+}
+
+.empty-state {
+  color: var(--ink-muted);
+  font-size: 13px;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+}
+
+.badge.status-good {
+  color: var(--status-good);
+  border-color: var(--status-good);
+}
+
+.badge.status-critical {
+  color: var(--status-critical);
+  border-color: var(--status-critical);
+}
