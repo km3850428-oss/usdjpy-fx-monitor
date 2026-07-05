@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-07-05T21:58:17.829130+09:00",
-  "generated_at_utc": "2026-07-05T12:58:19.005775+00:00",
+  "generated_at_jst": "2026-07-06T01:40:16.329400+09:00",
+  "generated_at_utc": "2026-07-05T16:40:17.268894+00:00",
   "judgment": {
     "signal": "買い",
     "overall_score": 0.383,
@@ -202,6 +202,15 @@
         "time": "2026-07-07T08:30:00-04:00",
         "forecast": "-78.5B",
         "previous": "-55.9B",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "RCM/TIPP Economic Optimism",
+        "impact": "Low",
+        "time": "2026-07-07T10:10:00-04:00",
+        "forecast": "45.0",
+        "previous": "42.5",
         "actual": null
       }
     ]
