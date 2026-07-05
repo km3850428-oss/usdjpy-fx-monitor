@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-07-05T05:14:43.215204+09:00",
-  "generated_at_utc": "2026-07-04T20:14:44.763553+00:00",
+  "generated_at_jst": "2026-07-05T17:23:52.127476+09:00",
+  "generated_at_utc": "2026-07-05T08:23:53.546683+00:00",
   "judgment": {
     "signal": "買い",
     "overall_score": 0.383,
@@ -113,6 +113,70 @@
   "calendar": {
     "caution_window_hours": 3,
     "display_window_hours": 48,
-    "events": []
+    "events": [
+      {
+        "country": "USD",
+        "title": "Final Services PMI",
+        "impact": "Low",
+        "time": "2026-07-06T09:45:00-04:00",
+        "forecast": "51.4",
+        "previous": "51.3",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "ISM Services PMI",
+        "impact": "High",
+        "time": "2026-07-06T10:00:00-04:00",
+        "forecast": "54.2",
+        "previous": "54.5",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Waller Speaks",
+        "impact": "Low",
+        "time": "2026-07-06T11:00:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Average Cash Earnings y/y",
+        "impact": "Low",
+        "time": "2026-07-06T19:30:00-04:00",
+        "forecast": "3.4%",
+        "previous": "3.5%",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Household Spending y/y",
+        "impact": "Low",
+        "time": "2026-07-06T19:30:00-04:00",
+        "forecast": "-2.2%",
+        "previous": "-0.5%",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "30-y Bond Auction",
+        "impact": "Low",
+        "time": "2026-07-06T23:35:00-04:00",
+        "forecast": "",
+        "previous": "3.86|2.9",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Leading Indicators",
+        "impact": "Low",
+        "time": "2026-07-07T01:00:00-04:00",
+        "forecast": "116.9%",
+        "previous": "115.9%",
+        "actual": null
+      }
+    ]
   }
 }
