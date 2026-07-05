@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-07-05T17:23:52.127476+09:00",
-  "generated_at_utc": "2026-07-05T08:23:53.546683+00:00",
+  "generated_at_jst": "2026-07-05T21:58:17.829130+09:00",
+  "generated_at_utc": "2026-07-05T12:58:19.005775+00:00",
   "judgment": {
     "signal": "買い",
     "overall_score": 0.383,
@@ -175,6 +175,33 @@
         "time": "2026-07-07T01:00:00-04:00",
         "forecast": "116.9%",
         "previous": "115.9%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "ADP Weekly Employment Change",
+        "impact": "Low",
+        "time": "2026-07-07T08:14:00-04:00",
+        "forecast": "",
+        "previous": "30.8K",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "ADP Weekly Employment Change",
+        "impact": "Low",
+        "time": "2026-07-07T08:15:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Trade Balance",
+        "impact": "Low",
+        "time": "2026-07-07T08:30:00-04:00",
+        "forecast": "-78.5B",
+        "previous": "-55.9B",
         "actual": null
       }
     ]
