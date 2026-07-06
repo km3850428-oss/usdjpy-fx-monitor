@@ -1,111 +1,111 @@
 {
-  "generated_at_jst": "2026-07-06T05:39:11.877506+09:00",
-  "generated_at_utc": "2026-07-05T20:39:14.344268+00:00",
+  "generated_at_jst": "2026-07-06T21:16:30.591751+09:00",
+  "generated_at_utc": "2026-07-06T12:16:31.455677+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.041,
-    "technical_score": 0.082,
-    "fundamental_score": 0.0,
-    "override_reason": null
+    "overall_score": 0.962,
+    "technical_score": 0.924,
+    "fundamental_score": 1.0,
+    "override_reason": "重要指標発表が近いためスコアに関わらず待ちと判定"
   },
   "technical": {
     "reasons": [
-      "SMA20(161.17) > SMA50(159.65) でゴールデンクロス状態（買い要因）",
-      "RSI14=54.9で中立圏",
-      "MACDがシグナルを下抜け（売り要因）"
+      "SMA20(161.23) > SMA50(159.67) でゴールデンクロス状態（買い要因）",
+      "RSI14=65.5で中立圏",
+      "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 161.2689971923828,
-      "sma20": 161.17360153198243,
-      "sma50": 159.64862030029298,
+      "price": 162.32699584960938,
+      "sma20": 161.22650146484375,
+      "sma50": 159.6697802734375,
       "sma200": null,
-      "rsi14": 54.91530628851079,
-      "macd": 0.62946997975655,
-      "macd_signal": 0.6756575949325859,
-      "bb_upper": 162.8005277463054,
-      "bb_mid": 161.17360153198243,
-      "bb_lower": 159.54667531765946,
-      "atr14": 0.7208598248952193
+      "rsi14": 65.468585927136,
+      "macd": 0.7138851315530985,
+      "macd_signal": 0.6925614607554088,
+      "bb_upper": 162.9333281522822,
+      "bb_mid": 161.22650146484375,
+      "bb_lower": 159.5196747774053,
+      "atr14": 0.7913356447456078
     }
   },
   "fundamental": {
     "reasons": [
       "FRED APIキー未設定のため金利差の自動評価をスキップ",
-      "関連ニュース見出しにドル/円方向を示すキーワードなし（中立）",
-      "直近の重要指標発表なし"
+      "ニュース見出し 1件がドル買い方向、0件がドル売り方向のキーワードを含む",
+      "今後3時間以内の重要指標: USD ISM Services PMI (07/06 10:00 UTC)"
     ],
-    "has_upcoming_event": false
+    "has_upcoming_event": true
   },
   "news": {
     "items": [
       {
-        "title": "Deutsche Bank forecasts S&P 500 to hit 7000 by end of 2025",
-        "link": "https://www.investing.com/news/stock-market-news/deutsche-bank-forecasts-sp-500-to-hit-7000-by-end-of-2025-3741586",
+        "title": "U.S. markets to close for holiday; Asian stocks rebound - what’s moving markets",
+        "link": "https://www.investing.com/news/economy-news/us-markets-to-close-for-holiday-asian-stocks-rebound--whats-moving-markets-4775079",
         "source": "Most Popular News",
-        "published_at": "2024-11-26 10:47:35",
+        "published_at": "2026-07-03 08:01:24",
         "sentiment": "neutral"
       },
       {
-        "title": "Trump's tariffs, Fed minutes, Rumble's Bitcoin buy - what's moving markets",
-        "link": "https://www.investing.com/news/economy/trumps-tariffs-fed-minutes-rumbles-bitcoin-buy--whats-moving-markets-3741453",
+        "title": "Wall Street indexes end holiday-shortened week with gains of around 2% each",
+        "link": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-as-investors-await-jobs-data-monitor-iran-talks-4772210",
         "source": "Most Popular News",
-        "published_at": "2024-11-26 08:55:17",
+        "published_at": "2026-07-02 21:00:33",
         "sentiment": "neutral"
       },
       {
-        "title": "Bitcoin price today: slips to $94k as risk appetite sours on Trump tariff threat",
-        "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-today-slips-to-94k-as-risk-appetite-sours-on-trump-tariff-threat-3741330",
+        "title": "Gold prices rise, set for positive week after soft jobs data cools rate hike bets",
+        "link": "https://www.investing.com/news/commodities-news/gold-steadies-set-for-positive-week-after-soft-jobs-data-cools-rate-hike-bets-4774846",
         "source": "Most Popular News",
-        "published_at": "2024-11-26 06:22:06",
+        "published_at": "2026-07-03 00:17:48",
+        "sentiment": "bullish"
+      },
+      {
+        "title": "U.S. economy adds 57,000 jobs in June",
+        "link": "https://www.investing.com/news/economic-indicators/us-economy-adds-57000-jobs-in-june-4773099",
+        "source": "Most Popular News",
+        "published_at": "2026-07-02 13:17:50",
         "sentiment": "neutral"
       },
       {
-        "title": "2025 macro outlook for the US is 'murky at best' says Deutsche Bank",
-        "link": "https://www.investing.com/news/economy/2025-macro-outlook-for-the-us-is-murky-at-best-says-deutsche-bank-3741435",
+        "title": "Reaction roundup: Experts, analysts weigh in on June jobs report",
+        "link": "https://www.investing.com/news/economy-news/reaction-roundup-experts-analysts-weigh-in-on-june-jobs-report-4773706",
         "source": "Most Popular News",
-        "published_at": "2024-11-26 08:26:03",
+        "published_at": "2026-07-02 17:09:42",
         "sentiment": "neutral"
       },
       {
-        "title": "Trump says he will impose additional 10% tariffs on China over drug inflow",
-        "link": "https://www.investing.com/news/politics/trump-says-he-will-impose-additional-10-tariffs-on-china-over-drug-inflow-3741069",
+        "title": "AI chip winners may face tougher road ahead as hyperscalers catch up: JPM",
+        "link": "https://www.investing.com/news/stock-market-news/ai-chip-winners-may-face-tougher-road-ahead-as-hyperscalers-catch-up-jpm-4772800",
         "source": "Most Popular News",
-        "published_at": "2024-11-26 00:01:07",
+        "published_at": "2026-07-02 11:02:36",
         "sentiment": "neutral"
       },
       {
-        "title": "Asia stocks fall after Trump threatens tariffs, Japan's Nikkei leads losses",
-        "link": "https://www.investing.com/news/stock-market-news/asia-stocks-fall-after-trump-threatens-tariffs-japans-nikkei-leads-losses-3741249",
+        "title": "Chip stocks selloff extends on valuation, Meta’s pivot fears",
+        "link": "https://www.investing.com/news/stock-market-news/chip-stocks-selloff-extends-on-valuation-metas-pivot-fears-4772457",
         "source": "Most Popular News",
-        "published_at": "2024-11-26 03:31:51",
+        "published_at": "2026-07-02 08:39:37",
         "sentiment": "neutral"
       },
       {
-        "title": "S&P 500 positioning levels at record highs, pullback risks rise, Citi warns",
-        "link": "https://www.investing.com/news/stock-market-news/sp-500-positioning-levels-at-record-highs-pullback-risks-rise-citi-warns-3741245",
+        "title": "Goldman’s Garrett sees investors dialing back tech exposure into H2",
+        "link": "https://www.investing.com/news/stock-market-news/goldmans-garrett-sees-investors-dialing-back-tech-exposure-into-h2-4772729",
         "source": "Most Popular News",
-        "published_at": "2024-11-26 03:26:47",
+        "published_at": "2026-07-02 10:34:08",
         "sentiment": "neutral"
       },
       {
-        "title": "Analyst calls Bitcoin 'global bubble', could soar to infinity",
-        "link": "https://www.investing.com/news/cryptocurrency-news/analyst-calls-bitcoin-global-bubble-could-soar-to-infinity-3740406",
+        "title": "Why have small-caps performed so well this year?",
+        "link": "https://www.investing.com/news/stock-market-news/why-have-smallcaps-performed-so-well-this-year-4772882",
         "source": "Most Popular News",
-        "published_at": "2024-11-25 18:20:45",
+        "published_at": "2026-07-02 11:24:48",
         "sentiment": "neutral"
       },
       {
-        "title": "Stock market today: Dow hits record as Trump's pick for Treasury stokes optimism",
-        "link": "https://www.investing.com/news/stock-market-news/stock-market-today-dow-hits-record-as-trumps-pick-for-treasury-stokes-optimism-3738482",
+        "title": "Up 247%+ since launch: A new AI-picked stock list for July is NOW LIVE",
+        "link": "https://www.investing.com/news/stock-market-news/up-247-since-launch-a-new-aipicked-stock-list-for-july-is-now-live-93CH-4770481",
         "source": "Most Popular News",
-        "published_at": "2024-11-25 21:05:30",
-        "sentiment": "neutral"
-      },
-      {
-        "title": "Jump in Tesla stock mostly driven by 'animal spirits/momentum' says UBS",
-        "link": "https://www.investing.com/news/stock-market-news/jump-in-tesla-stock-mostly-driven-by-animal-spiritsmomentum-says-ubs-3739718",
-        "source": "Most Popular News",
-        "published_at": "2024-11-25 14:19:31",
+        "published_at": "2026-07-01 12:39:58",
         "sentiment": "neutral"
       }
     ]
@@ -220,6 +220,33 @@
         "time": "2026-07-07T16:30:00-04:00",
         "forecast": "",
         "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Bank Lending y/y",
+        "impact": "Low",
+        "time": "2026-07-07T19:50:00-04:00",
+        "forecast": "5.8%",
+        "previous": "5.7%",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Current Account",
+        "impact": "Low",
+        "time": "2026-07-07T19:50:00-04:00",
+        "forecast": "3.19T",
+        "previous": "4.21T",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Economy Watchers Sentiment",
+        "impact": "Low",
+        "time": "2026-07-08T01:00:00-04:00",
+        "forecast": "44.6",
+        "previous": "43.6",
         "actual": null
       }
     ]
