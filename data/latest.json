@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-07-07T04:22:22.042416+09:00",
-  "generated_at_utc": "2026-07-06T19:22:23.987279+00:00",
+  "generated_at_jst": "2026-07-07T08:43:46.849756+09:00",
+  "generated_at_utc": "2026-07-06T23:43:49.964581+00:00",
   "judgment": {
-    "signal": "買い",
-    "overall_score": 0.447,
-    "technical_score": 0.894,
+    "signal": "待ち",
+    "overall_score": 0.115,
+    "technical_score": 0.23,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(161.21) > SMA50(159.67) でゴールデンクロス状態（買い要因）",
-      "RSI14=63.6で中立圏",
-      "MACDがシグナルを上抜け（買い要因）"
+      "SMA20(161.28) > SMA50(159.71) でゴールデンクロス状態（買い要因）",
+      "RSI14=63.8で中立圏",
+      "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 162.08900451660156,
-      "sma20": 161.21460189819337,
-      "sma50": 159.66502044677733,
+      "price": 162.06100463867188,
+      "sma20": 161.27710189819337,
+      "sma50": 159.7063604736328,
       "sma200": null,
-      "rsi14": 63.62249348820618,
-      "macd": 0.6949000679513233,
-      "macd_signal": 0.6887644480350538,
-      "bb_upper": 162.89219189886532,
-      "bb_mid": 161.21460189819337,
-      "bb_lower": 159.5370118975214,
-      "atr14": 0.7924070297204961
+      "rsi14": 63.77582966414702,
+      "macd": 0.6329616253201209,
+      "macd_signal": 0.6694703037625839,
+      "bb_upper": 162.8807262047051,
+      "bb_mid": 161.27710189819337,
+      "bb_lower": 159.67347759168163,
+      "atr14": 0.7692824836417702
     }
   },
   "fundamental": {
@@ -114,24 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "Average Cash Earnings y/y",
-        "impact": "Low",
-        "time": "2026-07-06T19:30:00-04:00",
-        "forecast": "3.4%",
-        "previous": "3.5%",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "Household Spending y/y",
-        "impact": "Low",
-        "time": "2026-07-06T19:30:00-04:00",
-        "forecast": "-2.3%",
-        "previous": "-0.5%",
-        "actual": null
-      },
       {
         "country": "JPY",
         "title": "30-y Bond Auction",
