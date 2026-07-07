@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-07-08T04:16:58.053664+09:00",
-  "generated_at_utc": "2026-07-07T19:16:59.182284+00:00",
+  "generated_at_jst": "2026-07-08T08:31:17.120415+09:00",
+  "generated_at_utc": "2026-07-07T23:31:17.878767+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.119,
-    "technical_score": 0.238,
+    "overall_score": 0.131,
+    "technical_score": 0.263,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(161.28) > SMA50(159.71) でゴールデンクロス状態（買い要因）",
-      "RSI14=64.3で中立圏",
+      "SMA20(161.37) > SMA50(159.76) でゴールデンクロス状態（買い要因）",
+      "RSI14=65.8で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 162.1179962158203,
-      "sma20": 161.2799514770508,
-      "sma50": 159.70750030517578,
+      "price": 162.28799438476562,
+      "sma20": 161.37365112304687,
+      "sma50": 159.76162017822264,
       "sma200": null,
-      "rsi14": 64.26641594130383,
-      "macd": 0.6375079619587325,
-      "macd_signal": 0.6703795710903062,
-      "bb_upper": 162.88963200749686,
-      "bb_mid": 161.2799514770508,
-      "bb_lower": 159.67027094660472,
-      "atr14": 0.7742819168867479
+      "rsi14": 65.7749767123708,
+      "macd": 0.6368035368954565,
+      "macd_signal": 0.6632785459009808,
+      "bb_upper": 162.98257637923496,
+      "bb_mid": 161.37365112304687,
+      "bb_lower": 159.76472586685878,
+      "atr14": 0.7332481247641319
     }
   },
   "fundamental": {
@@ -115,15 +115,6 @@
     "display_window_hours": 48,
     "events": [
       {
-        "country": "USD",
-        "title": "API Weekly Statistical Bulletin",
-        "impact": "Low",
-        "time": "2026-07-07T16:30:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
         "country": "JPY",
         "title": "Bank Lending y/y",
         "impact": "Low",
@@ -164,7 +155,7 @@
         "title": "Crude Oil Inventories",
         "impact": "Low",
         "time": "2026-07-08T10:30:00-04:00",
-        "forecast": "-1.0M",
+        "forecast": "-1.9M",
         "previous": "-3.8M",
         "actual": null
       },
@@ -245,7 +236,7 @@
         "title": "Natural Gas Storage",
         "impact": "Low",
         "time": "2026-07-09T10:30:00-04:00",
-        "forecast": "",
+        "forecast": "60B",
         "previous": "87B",
         "actual": null
       },
