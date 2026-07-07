@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-07-07T20:21:43.975931+09:00",
-  "generated_at_utc": "2026-07-07T11:21:44.831315+00:00",
+  "generated_at_jst": "2026-07-08T04:16:58.053664+09:00",
+  "generated_at_utc": "2026-07-07T19:16:59.182284+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.099,
-    "technical_score": 0.198,
+    "overall_score": 0.119,
+    "technical_score": 0.238,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(161.27) > SMA50(159.70) でゴールデンクロス状態（買い要因）",
-      "RSI14=61.9で中立圏",
+      "SMA20(161.28) > SMA50(159.71) でゴールデンクロス状態（買い要因）",
+      "RSI14=64.3で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 161.8560028076172,
-      "sma20": 161.26685180664063,
-      "sma50": 159.70226043701172,
+      "price": 162.1179962158203,
+      "sma20": 161.2799514770508,
+      "sma50": 159.70750030517578,
       "sma200": null,
-      "rsi14": 61.894004852474765,
-      "macd": 0.6166082028998119,
-      "macd_signal": 0.6661996192785221,
-      "bb_upper": 162.85189195701588,
-      "bb_mid": 161.26685180664063,
-      "bb_lower": 159.68181165626538,
+      "rsi14": 64.26641594130383,
+      "macd": 0.6375079619587325,
+      "macd_signal": 0.6703795710903062,
+      "bb_upper": 162.88963200749686,
+      "bb_mid": 161.2799514770508,
+      "bb_lower": 159.67027094660472,
       "atr14": 0.7742819168867479
     }
   },
@@ -116,42 +116,6 @@
     "events": [
       {
         "country": "USD",
-        "title": "ADP Weekly Employment Change",
-        "impact": "Low",
-        "time": "2026-07-07T08:14:00-04:00",
-        "forecast": "",
-        "previous": "30.8K",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "ADP Weekly Employment Change",
-        "impact": "Low",
-        "time": "2026-07-07T08:15:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Trade Balance",
-        "impact": "Low",
-        "time": "2026-07-07T08:30:00-04:00",
-        "forecast": "-78.3B",
-        "previous": "-55.9B",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "RCM/TIPP Economic Optimism",
-        "impact": "Low",
-        "time": "2026-07-07T10:10:00-04:00",
-        "forecast": "45.0",
-        "previous": "42.5",
-        "actual": null
-      },
-      {
-        "country": "USD",
         "title": "API Weekly Statistical Bulletin",
         "impact": "Low",
         "time": "2026-07-07T16:30:00-04:00",
@@ -200,7 +164,7 @@
         "title": "Crude Oil Inventories",
         "impact": "Low",
         "time": "2026-07-08T10:30:00-04:00",
-        "forecast": "",
+        "forecast": "-1.0M",
         "previous": "-3.8M",
         "actual": null
       },
@@ -247,6 +211,51 @@
         "time": "2026-07-09T02:00:00-04:00",
         "forecast": "",
         "previous": "37.4%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Unemployment Claims",
+        "impact": "Medium",
+        "time": "2026-07-09T08:30:00-04:00",
+        "forecast": "218K",
+        "previous": "215K",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Williams Speaks",
+        "impact": "Low",
+        "time": "2026-07-09T09:00:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Existing Home Sales",
+        "impact": "Low",
+        "time": "2026-07-09T10:00:00-04:00",
+        "forecast": "4.19M",
+        "previous": "4.17M",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Natural Gas Storage",
+        "impact": "Low",
+        "time": "2026-07-09T10:30:00-04:00",
+        "forecast": "",
+        "previous": "87B",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "30-y Bond Auction",
+        "impact": "Low",
+        "time": "2026-07-09T13:01:00-04:00",
+        "forecast": "",
+        "previous": "5.02|2.3",
         "actual": null
       }
     ]
