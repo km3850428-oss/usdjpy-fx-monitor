@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-07-08T08:31:17.120415+09:00",
-  "generated_at_utc": "2026-07-07T23:31:17.878767+00:00",
+  "generated_at_jst": "2026-07-08T18:16:03.722079+09:00",
+  "generated_at_utc": "2026-07-08T09:16:05.179833+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.131,
-    "technical_score": 0.263,
+    "overall_score": 0.148,
+    "technical_score": 0.295,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(161.37) > SMA50(159.76) でゴールデンクロス状態（買い要因）",
-      "RSI14=65.8で中立圏",
+      "SMA20(161.39) > SMA50(159.77) でゴールデンクロス状態（買い要因）",
+      "RSI14=67.7で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 162.28799438476562,
-      "sma20": 161.37365112304687,
-      "sma50": 159.76162017822264,
+      "price": 162.53399658203125,
+      "sma20": 161.38595123291014,
+      "sma50": 159.76654022216798,
       "sma200": null,
-      "rsi14": 65.7749767123708,
-      "macd": 0.6368035368954565,
-      "macd_signal": 0.6632785459009808,
-      "bb_upper": 162.98257637923496,
-      "bb_mid": 161.37365112304687,
-      "bb_lower": 159.76472586685878,
-      "atr14": 0.7332481247641319
+      "rsi14": 67.72129227979724,
+      "macd": 0.6564276437998444,
+      "macd_signal": 0.6672033672818584,
+      "bb_upper": 163.027734243759,
+      "bb_mid": 161.38595123291014,
+      "bb_lower": 159.7441682220613,
+      "atr14": 0.7531052589019667
     }
   },
   "fundamental": {
@@ -114,33 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "Bank Lending y/y",
-        "impact": "Low",
-        "time": "2026-07-07T19:50:00-04:00",
-        "forecast": "5.8%",
-        "previous": "5.7%",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "Current Account",
-        "impact": "Low",
-        "time": "2026-07-07T19:50:00-04:00",
-        "forecast": "3.19T",
-        "previous": "4.21T",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "Economy Watchers Sentiment",
-        "impact": "Low",
-        "time": "2026-07-08T01:00:00-04:00",
-        "forecast": "44.3",
-        "previous": "43.6",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Final Wholesale Inventories m/m",
@@ -247,6 +220,15 @@
         "time": "2026-07-09T13:01:00-04:00",
         "forecast": "",
         "previous": "5.02|2.3",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "PPI y/y",
+        "impact": "Low",
+        "time": "2026-07-09T19:50:00-04:00",
+        "forecast": "6.8%",
+        "previous": "6.3%",
         "actual": null
       }
     ]
