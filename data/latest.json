@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-07-09T01:16:10.224274+09:00",
-  "generated_at_utc": "2026-07-08T16:16:11.204923+00:00",
+  "generated_at_jst": "2026-07-09T05:46:56.038954+09:00",
+  "generated_at_utc": "2026-07-08T20:46:57.288453+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.154,
-    "technical_score": 0.309,
+    "overall_score": 0.152,
+    "technical_score": 0.304,
     "fundamental_score": 0.0,
-    "override_reason": "重要指標発表が近いためスコアに関わらず待ちと判定"
+    "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(161.39) > SMA50(159.77) でゴールデンクロス状態（買い要因）",
-      "RSI14=68.5で中立圏",
+      "RSI14=68.2で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 162.64599609375,
-      "sma20": 161.39155120849608,
-      "sma50": 159.76878021240233,
+      "price": 162.60400390625,
+      "sma20": 161.3894515991211,
+      "sma50": 159.76794036865235,
       "sma200": null,
-      "rsi14": 68.53592457203077,
-      "macd": 0.6653620777831009,
-      "macd_signal": 0.6689902540785096,
-      "bb_upper": 163.05049647538553,
-      "bb_mid": 161.39155120849608,
-      "bb_lower": 159.73260594160664,
+      "rsi14": 68.2353572043966,
+      "macd": 0.662012273652067,
+      "macd_signal": 0.6683202932523029,
+      "bb_upper": 163.04180517094403,
+      "bb_mid": 161.3894515991211,
+      "bb_lower": 159.73709802729815,
       "atr14": 0.7638899530286408
     }
   },
@@ -32,9 +32,9 @@
     "reasons": [
       "FRED APIキー未設定のため金利差の自動評価をスキップ",
       "関連ニュース見出しにドル/円方向を示すキーワードなし（中立）",
-      "今後3時間以内の重要指標: USD FOMC Meeting Minutes (07/08 14:00 UTC)"
+      "直近の重要指標発表なし"
     ],
-    "has_upcoming_event": true
+    "has_upcoming_event": false
   },
   "news": {
     "items": [
@@ -114,33 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "10-y Bond Auction",
-        "impact": "Low",
-        "time": "2026-07-08T13:01:00-04:00",
-        "forecast": "",
-        "previous": "4.54|2.6",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Meeting Minutes",
-        "impact": "High",
-        "time": "2026-07-08T14:00:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Consumer Credit m/m",
-        "impact": "Low",
-        "time": "2026-07-08T15:00:00-04:00",
-        "forecast": "16.9B",
-        "previous": "20.7B",
-        "actual": null
-      },
       {
         "country": "JPY",
         "title": "M2 Money Stock y/y",
