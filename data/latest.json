@@ -1,40 +1,40 @@
 {
-  "generated_at_jst": "2026-07-08T18:16:03.722079+09:00",
-  "generated_at_utc": "2026-07-08T09:16:05.179833+00:00",
+  "generated_at_jst": "2026-07-09T01:16:10.224274+09:00",
+  "generated_at_utc": "2026-07-08T16:16:11.204923+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.148,
-    "technical_score": 0.295,
+    "overall_score": 0.154,
+    "technical_score": 0.309,
     "fundamental_score": 0.0,
-    "override_reason": null
+    "override_reason": "重要指標発表が近いためスコアに関わらず待ちと判定"
   },
   "technical": {
     "reasons": [
       "SMA20(161.39) > SMA50(159.77) でゴールデンクロス状態（買い要因）",
-      "RSI14=67.7で中立圏",
+      "RSI14=68.5で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 162.53399658203125,
-      "sma20": 161.38595123291014,
-      "sma50": 159.76654022216798,
+      "price": 162.64599609375,
+      "sma20": 161.39155120849608,
+      "sma50": 159.76878021240233,
       "sma200": null,
-      "rsi14": 67.72129227979724,
-      "macd": 0.6564276437998444,
-      "macd_signal": 0.6672033672818584,
-      "bb_upper": 163.027734243759,
-      "bb_mid": 161.38595123291014,
-      "bb_lower": 159.7441682220613,
-      "atr14": 0.7531052589019667
+      "rsi14": 68.53592457203077,
+      "macd": 0.6653620777831009,
+      "macd_signal": 0.6689902540785096,
+      "bb_upper": 163.05049647538553,
+      "bb_mid": 161.39155120849608,
+      "bb_lower": 159.73260594160664,
+      "atr14": 0.7638899530286408
     }
   },
   "fundamental": {
     "reasons": [
       "FRED APIキー未設定のため金利差の自動評価をスキップ",
       "関連ニュース見出しにドル/円方向を示すキーワードなし（中立）",
-      "直近の重要指標発表なし"
+      "今後3時間以内の重要指標: USD FOMC Meeting Minutes (07/08 14:00 UTC)"
     ],
-    "has_upcoming_event": false
+    "has_upcoming_event": true
   },
   "news": {
     "items": [
@@ -114,24 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Final Wholesale Inventories m/m",
-        "impact": "Low",
-        "time": "2026-07-08T10:00:00-04:00",
-        "forecast": "0.3%",
-        "previous": "0.3%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Crude Oil Inventories",
-        "impact": "Low",
-        "time": "2026-07-08T10:30:00-04:00",
-        "forecast": "-1.9M",
-        "previous": "-3.8M",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "10-y Bond Auction",
@@ -229,6 +211,15 @@
         "time": "2026-07-09T19:50:00-04:00",
         "forecast": "6.8%",
         "previous": "6.3%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Fed Monetary Policy Report",
+        "impact": "Low",
+        "time": "2026-07-10T11:00:00-04:00",
+        "forecast": "",
+        "previous": "",
         "actual": null
       }
     ]
