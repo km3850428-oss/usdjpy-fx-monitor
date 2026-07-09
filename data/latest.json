@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-07-09T18:01:30.769682+09:00",
-  "generated_at_utc": "2026-07-09T09:01:32.783250+00:00",
+  "generated_at_jst": "2026-07-10T02:26:06.112714+09:00",
+  "generated_at_utc": "2026-07-09T17:26:07.442296+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.139,
-    "technical_score": 0.278,
+    "overall_score": 0.125,
+    "technical_score": 0.25,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(161.47) > SMA50(159.81) でゴールデンクロス状態（買い要因）",
-      "RSI14=66.7で中立圏",
+      "RSI14=65.0で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 162.39599609375,
-      "sma20": 161.47085189819336,
-      "sma50": 159.8073602294922,
+      "price": 162.281005859375,
+      "sma20": 161.4651023864746,
+      "sma50": 159.80506042480468,
       "sma200": null,
-      "rsi14": 66.68727588665578,
-      "macd": 0.6441002970907448,
-      "macd_signal": 0.6603917642800173,
-      "bb_upper": 163.098135202808,
-      "bb_mid": 161.47085189819336,
-      "bb_lower": 159.8435685935787,
+      "rsi14": 65.0209250252698,
+      "macd": 0.6349272869412061,
+      "macd_signal": 0.6585571622501096,
+      "bb_upper": 163.07938329528196,
+      "bb_mid": 161.4651023864746,
+      "bb_lower": 159.85082147766724,
       "atr14": 0.7347582982407427
     }
   },
@@ -114,51 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Unemployment Claims",
-        "impact": "Medium",
-        "time": "2026-07-09T08:30:00-04:00",
-        "forecast": "218K",
-        "previous": "215K",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Williams Speaks",
-        "impact": "Low",
-        "time": "2026-07-09T09:00:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Existing Home Sales",
-        "impact": "Low",
-        "time": "2026-07-09T10:00:00-04:00",
-        "forecast": "4.19M",
-        "previous": "4.17M",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Natural Gas Storage",
-        "impact": "Low",
-        "time": "2026-07-09T10:30:00-04:00",
-        "forecast": "60B",
-        "previous": "87B",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "30-y Bond Auction",
-        "impact": "Low",
-        "time": "2026-07-09T13:01:00-04:00",
-        "forecast": "",
-        "previous": "5.02|2.3",
-        "actual": null
-      },
       {
         "country": "JPY",
         "title": "PPI y/y",
