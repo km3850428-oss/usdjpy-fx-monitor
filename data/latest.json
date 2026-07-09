@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-07-09T05:46:56.038954+09:00",
-  "generated_at_utc": "2026-07-08T20:46:57.288453+00:00",
+  "generated_at_jst": "2026-07-09T18:01:30.769682+09:00",
+  "generated_at_utc": "2026-07-09T09:01:32.783250+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.152,
-    "technical_score": 0.304,
+    "overall_score": 0.139,
+    "technical_score": 0.278,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(161.39) > SMA50(159.77) でゴールデンクロス状態（買い要因）",
-      "RSI14=68.2で中立圏",
+      "SMA20(161.47) > SMA50(159.81) でゴールデンクロス状態（買い要因）",
+      "RSI14=66.7で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 162.60400390625,
-      "sma20": 161.3894515991211,
-      "sma50": 159.76794036865235,
+      "price": 162.39599609375,
+      "sma20": 161.47085189819336,
+      "sma50": 159.8073602294922,
       "sma200": null,
-      "rsi14": 68.2353572043966,
-      "macd": 0.662012273652067,
-      "macd_signal": 0.6683202932523029,
-      "bb_upper": 163.04180517094403,
-      "bb_mid": 161.3894515991211,
-      "bb_lower": 159.73709802729815,
-      "atr14": 0.7638899530286408
+      "rsi14": 66.68727588665578,
+      "macd": 0.6441002970907448,
+      "macd_signal": 0.6603917642800173,
+      "bb_upper": 163.098135202808,
+      "bb_mid": 161.47085189819336,
+      "bb_lower": 159.8435685935787,
+      "atr14": 0.7347582982407427
     }
   },
   "fundamental": {
@@ -114,24 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "M2 Money Stock y/y",
-        "impact": "Low",
-        "time": "2026-07-08T19:50:00-04:00",
-        "forecast": "2.4%",
-        "previous": "2.5%",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "Prelim Machine Tool Orders y/y",
-        "impact": "Low",
-        "time": "2026-07-09T02:00:00-04:00",
-        "forecast": "",
-        "previous": "37.4%",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Unemployment Claims",
