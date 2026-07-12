@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-07-13T04:57:38.775726+09:00",
-  "generated_at_utc": "2026-07-12T19:57:41.043105+00:00",
+  "generated_at_jst": "2026-07-13T07:33:12.674522+09:00",
+  "generated_at_utc": "2026-07-12T22:33:13.906831+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.043,
-    "technical_score": 0.085,
+    "overall_score": 0.07,
+    "technical_score": 0.14,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(161.56) > SMA50(159.90) でゴールデンクロス状態（買い要因）",
-      "RSI14=55.1で中立圏",
+      "SMA20(161.69) > SMA50(160.02) でゴールデンクロス状態（買い要因）",
+      "RSI14=58.4で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 161.6719970703125,
-      "sma20": 161.55510177612305,
-      "sma50": 159.90410034179686,
+      "price": 161.96299743652344,
+      "sma20": 161.6900520324707,
+      "sma50": 160.0202606201172,
       "sma200": null,
-      "rsi14": 55.10073853428693,
-      "macd": 0.5887899517115329,
-      "macd_signal": 0.6478238159022656,
-      "bb_upper": 163.0743759495128,
-      "bb_mid": 161.55510177612305,
-      "bb_lower": 160.0358276027333,
-      "atr14": 0.7687335319267838
+      "rsi14": 58.39504876570895,
+      "macd": 0.5956297874844552,
+      "macd_signal": 0.6462047328860846,
+      "bb_upper": 163.05462598559566,
+      "bb_mid": 161.6900520324707,
+      "bb_lower": 160.32547807934574,
+      "atr14": 0.7684056944711161
     }
   },
   "fundamental": {
@@ -236,6 +236,24 @@
         "title": "FOMC Member Bowman Speaks",
         "impact": "Low",
         "time": "2026-07-14T14:55:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "TIC Long-Term Purchases",
+        "impact": "Low",
+        "time": "2026-07-14T16:00:00-04:00",
+        "forecast": "128.5B",
+        "previous": "103.1B",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "API Weekly Statistical Bulletin",
+        "impact": "Low",
+        "time": "2026-07-14T16:30:00-04:00",
         "forecast": "",
         "previous": "",
         "actual": null
