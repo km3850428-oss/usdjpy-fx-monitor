@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-07-13T00:38:36.897257+09:00",
-  "generated_at_utc": "2026-07-12T15:38:38.388358+00:00",
+  "generated_at_jst": "2026-07-13T04:57:38.775726+09:00",
+  "generated_at_utc": "2026-07-12T19:57:41.043105+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": 0.043,
@@ -209,6 +209,33 @@
         "title": "Fed Chairman Warsh Testifies",
         "impact": "High",
         "time": "2026-07-14T10:00:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Barr Speaks",
+        "impact": "Low",
+        "time": "2026-07-14T12:40:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Goolsbee Speaks",
+        "impact": "Low",
+        "time": "2026-07-14T13:00:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Bowman Speaks",
+        "impact": "Low",
+        "time": "2026-07-14T14:55:00-04:00",
         "forecast": "",
         "previous": "",
         "actual": null
