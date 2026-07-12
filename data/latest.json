@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-07-12T20:44:23.850226+09:00",
-  "generated_at_utc": "2026-07-12T11:44:24.723046+00:00",
+  "generated_at_jst": "2026-07-13T00:38:36.897257+09:00",
+  "generated_at_utc": "2026-07-12T15:38:38.388358+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": 0.043,
@@ -157,6 +157,60 @@
         "time": "2026-07-14T06:00:00-04:00",
         "forecast": "95.6",
         "previous": "95.3",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "ADP Weekly Employment Change",
+        "impact": "Low",
+        "time": "2026-07-14T08:15:00-04:00",
+        "forecast": "",
+        "previous": "21.0K",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Core CPI m/m",
+        "impact": "High",
+        "time": "2026-07-14T08:30:00-04:00",
+        "forecast": "0.2%",
+        "previous": "0.2%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Core CPI y/y",
+        "impact": "High",
+        "time": "2026-07-14T08:30:00-04:00",
+        "forecast": "2.8%",
+        "previous": "2.9%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "CPI m/m",
+        "impact": "High",
+        "time": "2026-07-14T08:30:00-04:00",
+        "forecast": "-0.1%",
+        "previous": "0.5%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "CPI y/y",
+        "impact": "High",
+        "time": "2026-07-14T08:30:00-04:00",
+        "forecast": "3.8%",
+        "previous": "4.2%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Fed Chairman Warsh Testifies",
+        "impact": "High",
+        "time": "2026-07-14T10:00:00-04:00",
+        "forecast": "",
+        "previous": "",
         "actual": null
       }
     ]
