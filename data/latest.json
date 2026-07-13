@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-07-13T19:41:51.293392+09:00",
-  "generated_at_utc": "2026-07-13T10:41:57.945473+00:00",
+  "generated_at_jst": "2026-07-14T03:06:27.038791+09:00",
+  "generated_at_utc": "2026-07-13T18:06:28.375489+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.087,
-    "technical_score": 0.174,
+    "overall_score": 0.129,
+    "technical_score": 0.258,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(161.70) > SMA50(160.02) でゴールデンクロス状態（買い要因）",
-      "RSI14=60.4で中立圏",
+      "SMA20(161.71) > SMA50(160.03) でゴールデンクロス状態（買い要因）",
+      "RSI14=65.5で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 162.0989990234375,
-      "sma20": 161.6968521118164,
-      "sma50": 160.02298065185548,
+      "price": 162.4340057373047,
+      "sma20": 161.71360244750977,
+      "sma50": 160.02968078613281,
       "sma200": null,
-      "rsi14": 60.4428458782779,
-      "macd": 0.6064862810562204,
-      "macd_signal": 0.6483853882466434,
-      "bb_upper": 163.06849027766805,
-      "bb_mid": 161.6968521118164,
-      "bb_lower": 160.32521394596478,
-      "atr14": 0.7684420255599289
+      "rsi14": 65.49596109588774,
+      "macd": 0.6332104633590347,
+      "macd_signal": 0.6537302247072062,
+      "bb_upper": 163.1138032097861,
+      "bb_mid": 161.71360244750977,
+      "bb_lower": 160.31340168523343,
+      "atr14": 0.7760125647619378
     }
   },
   "fundamental": {
@@ -115,24 +115,6 @@
     "display_window_hours": 48,
     "events": [
       {
-        "country": "USD",
-        "title": "FOMC Member Waller Speaks",
-        "impact": "Low",
-        "time": "2026-07-13T12:30:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Federal Budget Balance",
-        "impact": "Low",
-        "time": "2026-07-13T14:00:00-04:00",
-        "forecast": "-132.8B",
-        "previous": "-292.6B",
-        "actual": null
-      },
-      {
         "country": "JPY",
         "title": "Revised Industrial Production m/m",
         "impact": "Low",
@@ -146,7 +128,7 @@
         "title": "NFIB Small Business Index",
         "impact": "Low",
         "time": "2026-07-14T06:00:00-04:00",
-        "forecast": "95.6",
+        "forecast": "95.8",
         "previous": "95.3",
         "actual": null
       },
@@ -265,6 +247,78 @@
         "time": "2026-07-15T00:30:00-04:00",
         "forecast": "0.4%",
         "previous": "1.3%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Core PPI m/m",
+        "impact": "High",
+        "time": "2026-07-15T08:30:00-04:00",
+        "forecast": "0.4%",
+        "previous": "0.4%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "PPI m/m",
+        "impact": "High",
+        "time": "2026-07-15T08:30:00-04:00",
+        "forecast": "0.0%",
+        "previous": "1.1%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Empire State Manufacturing Index",
+        "impact": "Low",
+        "time": "2026-07-15T08:30:00-04:00",
+        "forecast": "9.4",
+        "previous": "5.7",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Williams Speaks",
+        "impact": "Low",
+        "time": "2026-07-15T08:45:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Fed Chairman Warsh Testifies",
+        "impact": "High",
+        "time": "2026-07-15T10:00:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Crude Oil Inventories",
+        "impact": "Low",
+        "time": "2026-07-15T10:30:00-04:00",
+        "forecast": "",
+        "previous": "3.0M",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Cook Speaks",
+        "impact": "Low",
+        "time": "2026-07-15T13:00:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Beige Book",
+        "impact": "Low",
+        "time": "2026-07-15T14:00:00-04:00",
+        "forecast": "",
+        "previous": "",
         "actual": null
       }
     ]
