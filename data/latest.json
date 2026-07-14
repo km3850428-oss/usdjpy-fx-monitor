@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-07-15T01:43:58.802660+09:00",
-  "generated_at_utc": "2026-07-14T16:44:00.220841+00:00",
+  "generated_at_jst": "2026-07-15T05:41:46.498267+09:00",
+  "generated_at_utc": "2026-07-14T20:41:47.486985+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.081,
-    "technical_score": 0.163,
+    "overall_score": 0.091,
+    "technical_score": 0.182,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(161.78) > SMA50(160.12) でゴールデンクロス状態（買い要因）",
-      "RSI14=59.8で中立圏",
+      "SMA20(161.79) > SMA50(160.12) でゴールデンクロス状態（買い要因）",
+      "RSI14=60.9で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 162.1230010986328,
-      "sma20": 161.78050231933594,
-      "sma50": 160.11714080810546,
+      "price": 162.2429962158203,
+      "sma20": 161.7865020751953,
+      "sma50": 160.11954071044923,
       "sma200": null,
-      "rsi14": 59.75492883577868,
-      "macd": 0.5584951744302771,
-      "macd_signal": 0.6275182156533345,
-      "bb_upper": 162.967695428407,
-      "bb_mid": 161.78050231933594,
-      "bb_lower": 160.59330921026486,
+      "rsi14": 60.90543403927704,
+      "macd": 0.5680674344908425,
+      "macd_signal": 0.6294326676654476,
+      "bb_upper": 162.982165799319,
+      "bb_mid": 161.7865020751953,
+      "bb_lower": 160.5908383510716,
       "atr14": 0.7587335806072432
     }
   },
@@ -115,42 +115,6 @@
     "display_window_hours": 48,
     "events": [
       {
-        "country": "USD",
-        "title": "FOMC Member Goolsbee Speaks",
-        "impact": "Low",
-        "time": "2026-07-14T13:00:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Bowman Speaks",
-        "impact": "Low",
-        "time": "2026-07-14T14:55:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "TIC Long-Term Purchases",
-        "impact": "Low",
-        "time": "2026-07-14T16:00:00-04:00",
-        "forecast": "128.5B",
-        "previous": "103.1B",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "API Weekly Statistical Bulletin",
-        "impact": "Low",
-        "time": "2026-07-14T16:30:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
         "country": "JPY",
         "title": "Core Machinery Orders m/m",
         "impact": "Low",
@@ -173,7 +137,7 @@
         "title": "Core PPI m/m",
         "impact": "High",
         "time": "2026-07-15T08:30:00-04:00",
-        "forecast": "0.4%",
+        "forecast": "0.3%",
         "previous": "0.4%",
         "actual": null
       },
@@ -191,7 +155,7 @@
         "title": "Empire State Manufacturing Index",
         "impact": "Low",
         "time": "2026-07-15T08:30:00-04:00",
-        "forecast": "9.4",
+        "forecast": "9.3",
         "previous": "5.7",
         "actual": null
       },
@@ -218,7 +182,7 @@
         "title": "Crude Oil Inventories",
         "impact": "Low",
         "time": "2026-07-15T10:30:00-04:00",
-        "forecast": "-2.4M",
+        "forecast": "-1.8M",
         "previous": "3.0M",
         "actual": null
       },
@@ -308,7 +272,7 @@
         "title": "Pending Home Sales m/m",
         "impact": "Low",
         "time": "2026-07-16T10:00:00-04:00",
-        "forecast": "-0.4%",
+        "forecast": "-0.5%",
         "previous": "3.8%",
         "actual": null
       },
@@ -317,7 +281,7 @@
         "title": "Natural Gas Storage",
         "impact": "Low",
         "time": "2026-07-16T10:30:00-04:00",
-        "forecast": "",
+        "forecast": "45B",
         "previous": "61B",
         "actual": null
       },
@@ -326,6 +290,24 @@
         "title": "FOMC Member Logan Speaks",
         "impact": "Low",
         "time": "2026-07-16T12:30:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Schmid Speaks",
+        "impact": "Low",
+        "time": "2026-07-16T13:25:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Treasury Currency Report",
+        "impact": "Low",
+        "time": "2026-07-16T16:00:00-04:00",
         "forecast": "",
         "previous": "",
         "actual": null
