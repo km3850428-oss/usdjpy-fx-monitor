@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-07-14T15:37:26.198449+09:00",
-  "generated_at_utc": "2026-07-14T06:37:27.379301+00:00",
+  "generated_at_jst": "2026-07-14T21:00:16.056141+09:00",
+  "generated_at_utc": "2026-07-14T12:00:16.855915+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.098,
-    "technical_score": 0.195,
+    "overall_score": 0.087,
+    "technical_score": 0.173,
     "fundamental_score": 0.0,
-    "override_reason": null
+    "override_reason": "重要指標発表が近いためスコアに関わらず待ちと判定"
   },
   "technical": {
     "reasons": [
-      "SMA20(161.79) > SMA50(160.12) でゴールデンクロス状態（買い要因）",
-      "RSI14=61.7で中立圏",
+      "SMA20(161.78) > SMA50(160.12) でゴールデンクロス状態（買い要因）",
+      "RSI14=60.4で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 162.33099365234375,
-      "sma20": 161.7909019470215,
-      "sma50": 160.1213006591797,
+      "price": 162.18899536132812,
+      "sma20": 161.7838020324707,
+      "sma50": 160.11846069335937,
       "sma200": null,
-      "rsi14": 61.70819849188683,
-      "macd": 0.5750871730168967,
-      "macd_signal": 0.6308366153706584,
-      "bb_upper": 162.99426152231146,
-      "bb_mid": 161.7909019470215,
-      "bb_lower": 160.58754237173153,
+      "rsi14": 60.39592389904484,
+      "macd": 0.5637596740185131,
+      "macd_signal": 0.6285711155709817,
+      "bb_upper": 162.97536216952,
+      "bb_mid": 161.7838020324707,
+      "bb_lower": 160.5922418954214,
       "atr14": 0.738018684541395
     }
   },
@@ -32,9 +32,9 @@
     "reasons": [
       "FRED APIキー未設定のため金利差の自動評価をスキップ",
       "関連ニュース見出しにドル/円方向を示すキーワードなし（中立）",
-      "直近の重要指標発表なし"
+      "今後3時間以内の重要指標: USD Core CPI m/m (07/14 08:30 UTC) / USD Core CPI y/y (07/14 08:30 UTC) / USD CPI m/m (07/14 08:30 UTC) / USD CPI y/y (07/14 08:30 UTC) / USD Fed Chairman Warsh Testifies (07/14 10:00 UTC)"
     ],
-    "has_upcoming_event": false
+    "has_upcoming_event": true
   },
   "news": {
     "items": [
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "NFIB Small Business Index",
-        "impact": "Low",
-        "time": "2026-07-14T06:00:00-04:00",
-        "forecast": "95.8",
-        "previous": "95.3",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "ADP Weekly Employment Change",
