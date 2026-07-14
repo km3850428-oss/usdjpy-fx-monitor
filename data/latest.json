@@ -1,40 +1,40 @@
 {
-  "generated_at_jst": "2026-07-14T21:00:16.056141+09:00",
-  "generated_at_utc": "2026-07-14T12:00:16.855915+00:00",
+  "generated_at_jst": "2026-07-15T01:43:58.802660+09:00",
+  "generated_at_utc": "2026-07-14T16:44:00.220841+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.087,
-    "technical_score": 0.173,
+    "overall_score": 0.081,
+    "technical_score": 0.163,
     "fundamental_score": 0.0,
-    "override_reason": "重要指標発表が近いためスコアに関わらず待ちと判定"
+    "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(161.78) > SMA50(160.12) でゴールデンクロス状態（買い要因）",
-      "RSI14=60.4で中立圏",
+      "RSI14=59.8で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 162.18899536132812,
-      "sma20": 161.7838020324707,
-      "sma50": 160.11846069335937,
+      "price": 162.1230010986328,
+      "sma20": 161.78050231933594,
+      "sma50": 160.11714080810546,
       "sma200": null,
-      "rsi14": 60.39592389904484,
-      "macd": 0.5637596740185131,
-      "macd_signal": 0.6285711155709817,
-      "bb_upper": 162.97536216952,
-      "bb_mid": 161.7838020324707,
-      "bb_lower": 160.5922418954214,
-      "atr14": 0.738018684541395
+      "rsi14": 59.75492883577868,
+      "macd": 0.5584951744302771,
+      "macd_signal": 0.6275182156533345,
+      "bb_upper": 162.967695428407,
+      "bb_mid": 161.78050231933594,
+      "bb_lower": 160.59330921026486,
+      "atr14": 0.7587335806072432
     }
   },
   "fundamental": {
     "reasons": [
       "FRED APIキー未設定のため金利差の自動評価をスキップ",
       "関連ニュース見出しにドル/円方向を示すキーワードなし（中立）",
-      "今後3時間以内の重要指標: USD Core CPI m/m (07/14 08:30 UTC) / USD Core CPI y/y (07/14 08:30 UTC) / USD CPI m/m (07/14 08:30 UTC) / USD CPI y/y (07/14 08:30 UTC) / USD Fed Chairman Warsh Testifies (07/14 10:00 UTC)"
+      "直近の重要指標発表なし"
     ],
-    "has_upcoming_event": true
+    "has_upcoming_event": false
   },
   "news": {
     "items": [
@@ -114,69 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "ADP Weekly Employment Change",
-        "impact": "Low",
-        "time": "2026-07-14T08:15:00-04:00",
-        "forecast": "",
-        "previous": "21.0K",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Core CPI m/m",
-        "impact": "High",
-        "time": "2026-07-14T08:30:00-04:00",
-        "forecast": "0.2%",
-        "previous": "0.2%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Core CPI y/y",
-        "impact": "High",
-        "time": "2026-07-14T08:30:00-04:00",
-        "forecast": "2.8%",
-        "previous": "2.9%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "CPI m/m",
-        "impact": "High",
-        "time": "2026-07-14T08:30:00-04:00",
-        "forecast": "-0.1%",
-        "previous": "0.5%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "CPI y/y",
-        "impact": "High",
-        "time": "2026-07-14T08:30:00-04:00",
-        "forecast": "3.8%",
-        "previous": "4.2%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Fed Chairman Warsh Testifies",
-        "impact": "High",
-        "time": "2026-07-14T10:00:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Barr Speaks",
-        "impact": "Low",
-        "time": "2026-07-14T12:40:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "FOMC Member Goolsbee Speaks",
@@ -281,7 +218,7 @@
         "title": "Crude Oil Inventories",
         "impact": "Low",
         "time": "2026-07-15T10:30:00-04:00",
-        "forecast": "",
+        "forecast": "-2.4M",
         "previous": "3.0M",
         "actual": null
       },
@@ -308,6 +245,87 @@
         "title": "FOMC Member Musalem Speaks",
         "impact": "Low",
         "time": "2026-07-15T18:30:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Core Retail Sales m/m",
+        "impact": "Medium",
+        "time": "2026-07-16T08:30:00-04:00",
+        "forecast": "0.0%",
+        "previous": "0.8%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Philly Fed Manufacturing Index",
+        "impact": "Medium",
+        "time": "2026-07-16T08:30:00-04:00",
+        "forecast": "12.7",
+        "previous": "10.3",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Retail Sales m/m",
+        "impact": "Medium",
+        "time": "2026-07-16T08:30:00-04:00",
+        "forecast": "0.2%",
+        "previous": "0.9%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Unemployment Claims",
+        "impact": "Medium",
+        "time": "2026-07-16T08:30:00-04:00",
+        "forecast": "216K",
+        "previous": "215K",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Business Inventories m/m",
+        "impact": "Low",
+        "time": "2026-07-16T10:00:00-04:00",
+        "forecast": "0.3%",
+        "previous": "0.5%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "NAHB Housing Market Index",
+        "impact": "Low",
+        "time": "2026-07-16T10:00:00-04:00",
+        "forecast": "35",
+        "previous": "35",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Pending Home Sales m/m",
+        "impact": "Low",
+        "time": "2026-07-16T10:00:00-04:00",
+        "forecast": "-0.4%",
+        "previous": "3.8%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Natural Gas Storage",
+        "impact": "Low",
+        "time": "2026-07-16T10:30:00-04:00",
+        "forecast": "",
+        "previous": "61B",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Logan Speaks",
+        "impact": "Low",
+        "time": "2026-07-16T12:30:00-04:00",
         "forecast": "",
         "previous": "",
         "actual": null
