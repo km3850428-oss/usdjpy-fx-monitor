@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-07-14T07:13:58.843657+09:00",
-  "generated_at_utc": "2026-07-13T22:14:00.117572+00:00",
+  "generated_at_jst": "2026-07-14T15:37:26.198449+09:00",
+  "generated_at_utc": "2026-07-14T06:37:27.379301+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.13,
-    "technical_score": 0.26,
+    "overall_score": 0.098,
+    "technical_score": 0.195,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(161.71) > SMA50(160.03) でゴールデンクロス状態（買い要因）",
-      "RSI14=65.6で中立圏",
+      "SMA20(161.79) > SMA50(160.12) でゴールデンクロス状態（買い要因）",
+      "RSI14=61.7で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 162.44500732421875,
-      "sma20": 161.71415252685546,
-      "sma50": 160.0299008178711,
+      "price": 162.33099365234375,
+      "sma20": 161.7909019470215,
+      "sma50": 160.1213006591797,
       "sma200": null,
-      "rsi14": 65.59787432898375,
-      "macd": 0.6340880828279296,
-      "macd_signal": 0.6539057486009852,
-      "bb_upper": 163.11555306479164,
-      "bb_mid": 161.71415252685546,
-      "bb_lower": 160.31275198891927,
-      "atr14": 0.7206558578701968
+      "rsi14": 61.70819849188683,
+      "macd": 0.5750871730168967,
+      "macd_signal": 0.6308366153706584,
+      "bb_upper": 162.99426152231146,
+      "bb_mid": 161.7909019470215,
+      "bb_lower": 160.58754237173153,
+      "atr14": 0.738018684541395
     }
   },
   "fundamental": {
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "Revised Industrial Production m/m",
-        "impact": "Low",
-        "time": "2026-07-14T00:30:00-04:00",
-        "forecast": "0.5%",
-        "previous": "0.5%",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "NFIB Small Business Index",
@@ -317,6 +308,15 @@
         "title": "Beige Book",
         "impact": "Low",
         "time": "2026-07-15T14:00:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Musalem Speaks",
+        "impact": "Low",
+        "time": "2026-07-15T18:30:00-04:00",
         "forecast": "",
         "previous": "",
         "actual": null
