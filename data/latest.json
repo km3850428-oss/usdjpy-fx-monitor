@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-07-16T01:59:50.650927+09:00",
-  "generated_at_utc": "2026-07-15T16:59:52.266664+00:00",
+  "generated_at_jst": "2026-07-16T05:40:09.435430+09:00",
+  "generated_at_utc": "2026-07-15T20:40:11.727673+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.072,
-    "technical_score": 0.145,
+    "overall_score": 0.079,
+    "technical_score": 0.158,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(161.88) > SMA50(160.21) でゴールデンクロス状態（買い要因）",
-      "RSI14=58.7で中立圏",
+      "SMA20(161.89) > SMA50(160.21) でゴールデンクロス状態（買い要因）",
+      "RSI14=59.5で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 162.16000366210938,
-      "sma20": 161.88285217285156,
-      "sma50": 160.21292083740235,
+      "price": 162.21600341796875,
+      "sma20": 161.88565216064453,
+      "sma50": 160.21404083251954,
       "sma200": null,
-      "rsi14": 58.69817456764465,
-      "macd": 0.5502217677445174,
-      "macd_signal": 0.6160091637320341,
-      "bb_upper": 162.9168903067123,
-      "bb_mid": 161.88285217285156,
-      "bb_lower": 160.8488140389908,
-      "atr14": 0.7306447040026484
+      "rsi14": 59.46568402556932,
+      "macd": 0.5546889847361456,
+      "macd_signal": 0.6169026071303597,
+      "bb_upper": 162.9231476877181,
+      "bb_mid": 161.88565216064453,
+      "bb_lower": 160.84815663357094,
+      "atr14": 0.7357880058302153
     }
   },
   "fundamental": {
@@ -114,24 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "FOMC Member Cook Speaks",
-        "impact": "Low",
-        "time": "2026-07-15T13:00:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Beige Book",
-        "impact": "Low",
-        "time": "2026-07-15T14:00:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "FOMC Member Musalem Speaks",
