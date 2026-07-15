@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-07-15T21:54:31.250843+09:00",
-  "generated_at_utc": "2026-07-15T12:54:32.245139+00:00",
+  "generated_at_jst": "2026-07-16T01:59:50.650927+09:00",
+  "generated_at_utc": "2026-07-15T16:59:52.266664+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.08,
-    "technical_score": 0.16,
+    "overall_score": 0.072,
+    "technical_score": 0.145,
     "fundamental_score": 0.0,
-    "override_reason": "重要指標発表が近いためスコアに関わらず待ちと判定"
+    "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(161.89) > SMA50(160.21) でゴールデンクロス状態（買い要因）",
-      "RSI14=59.6で中立圏",
+      "SMA20(161.88) > SMA50(160.21) でゴールデンクロス状態（買い要因）",
+      "RSI14=58.7で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 162.2239990234375,
-      "sma20": 161.88605194091798,
-      "sma50": 160.2142007446289,
+      "price": 162.16000366210938,
+      "sma20": 161.88285217285156,
+      "sma50": 160.21292083740235,
       "sma200": null,
-      "rsi14": 59.57690900404518,
-      "macd": 0.5553268108134262,
-      "macd_signal": 0.6170301723458158,
-      "bb_upper": 162.9240894669788,
-      "bb_mid": 161.88605194091798,
-      "bb_lower": 160.84801441485715,
+      "rsi14": 58.69817456764465,
+      "macd": 0.5502217677445174,
+      "macd_signal": 0.6160091637320341,
+      "bb_upper": 162.9168903067123,
+      "bb_mid": 161.88285217285156,
+      "bb_lower": 160.8488140389908,
       "atr14": 0.7306447040026484
     }
   },
@@ -32,9 +32,9 @@
     "reasons": [
       "FRED APIキー未設定のため金利差の自動評価をスキップ",
       "関連ニュース見出しにドル/円方向を示すキーワードなし（中立）",
-      "今後3時間以内の重要指標: USD Fed Chairman Warsh Testifies (07/15 10:00 UTC)"
+      "直近の重要指標発表なし"
     ],
-    "has_upcoming_event": true
+    "has_upcoming_event": false
   },
   "news": {
     "items": [
@@ -114,24 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Fed Chairman Warsh Testifies",
-        "impact": "High",
-        "time": "2026-07-15T10:00:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Crude Oil Inventories",
-        "impact": "Low",
-        "time": "2026-07-15T10:30:00-04:00",
-        "forecast": "-1.8M",
-        "previous": "3.0M",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "FOMC Member Cook Speaks",
@@ -301,6 +283,42 @@
         "time": "2026-07-17T08:30:00-04:00",
         "forecast": "-0.7%",
         "previous": "1.9%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Capacity Utilization Rate",
+        "impact": "Low",
+        "time": "2026-07-17T09:15:00-04:00",
+        "forecast": "76.2%",
+        "previous": "76.2%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Industrial Production m/m",
+        "impact": "Low",
+        "time": "2026-07-17T09:15:00-04:00",
+        "forecast": "0.2%",
+        "previous": "0.1%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Prelim UoM Consumer Sentiment",
+        "impact": "Medium",
+        "time": "2026-07-17T10:00:00-04:00",
+        "forecast": "51.0",
+        "previous": "48.9",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Prelim UoM Inflation Expectations",
+        "impact": "Medium",
+        "time": "2026-07-17T10:00:00-04:00",
+        "forecast": "",
+        "previous": "4.6%",
         "actual": null
       }
     ]
