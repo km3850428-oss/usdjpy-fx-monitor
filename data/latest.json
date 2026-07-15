@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-07-15T16:29:49.019430+09:00",
-  "generated_at_utc": "2026-07-15T07:29:50.216674+00:00",
+  "generated_at_jst": "2026-07-15T21:54:31.250843+09:00",
+  "generated_at_utc": "2026-07-15T12:54:32.245139+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.085,
-    "technical_score": 0.17,
+    "overall_score": 0.08,
+    "technical_score": 0.16,
     "fundamental_score": 0.0,
-    "override_reason": null
+    "override_reason": "重要指標発表が近いためスコアに関わらず待ちと判定"
   },
   "technical": {
     "reasons": [
-      "SMA20(161.89) > SMA50(160.22) でゴールデンクロス状態（買い要因）",
-      "RSI14=60.2で中立圏",
+      "SMA20(161.89) > SMA50(160.21) でゴールデンクロス状態（買い要因）",
+      "RSI14=59.6で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 162.27000427246094,
-      "sma20": 161.88835220336915,
-      "sma50": 160.21512084960938,
+      "price": 162.2239990234375,
+      "sma20": 161.88605194091798,
+      "sma50": 160.2142007446289,
       "sma200": null,
-      "rsi14": 60.2250494238194,
-      "macd": 0.5589967452084466,
-      "macd_signal": 0.6177641592248199,
-      "bb_upper": 162.92974139593252,
-      "bb_mid": 161.88835220336915,
-      "bb_lower": 160.84696301080578,
+      "rsi14": 59.57690900404518,
+      "macd": 0.5553268108134262,
+      "macd_signal": 0.6170301723458158,
+      "bb_upper": 162.9240894669788,
+      "bb_mid": 161.88605194091798,
+      "bb_lower": 160.84801441485715,
       "atr14": 0.7306447040026484
     }
   },
@@ -32,9 +32,9 @@
     "reasons": [
       "FRED APIキー未設定のため金利差の自動評価をスキップ",
       "関連ニュース見出しにドル/円方向を示すキーワードなし（中立）",
-      "直近の重要指標発表なし"
+      "今後3時間以内の重要指標: USD Fed Chairman Warsh Testifies (07/15 10:00 UTC)"
     ],
-    "has_upcoming_event": false
+    "has_upcoming_event": true
   },
   "news": {
     "items": [
@@ -114,42 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Core PPI m/m",
-        "impact": "High",
-        "time": "2026-07-15T08:30:00-04:00",
-        "forecast": "0.3%",
-        "previous": "0.4%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "PPI m/m",
-        "impact": "High",
-        "time": "2026-07-15T08:30:00-04:00",
-        "forecast": "0.0%",
-        "previous": "1.1%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Empire State Manufacturing Index",
-        "impact": "Low",
-        "time": "2026-07-15T08:30:00-04:00",
-        "forecast": "9.3",
-        "previous": "5.7",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Williams Speaks",
-        "impact": "Low",
-        "time": "2026-07-15T08:45:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Fed Chairman Warsh Testifies",
@@ -310,6 +274,33 @@
         "time": "2026-07-16T21:00:00-04:00",
         "forecast": "",
         "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Building Permits",
+        "impact": "Low",
+        "time": "2026-07-17T08:30:00-04:00",
+        "forecast": "1.40M",
+        "previous": "1.41M",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Housing Starts",
+        "impact": "Low",
+        "time": "2026-07-17T08:30:00-04:00",
+        "forecast": "1.31M",
+        "previous": "1.18M",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Import Prices m/m",
+        "impact": "Low",
+        "time": "2026-07-17T08:30:00-04:00",
+        "forecast": "-0.7%",
+        "previous": "1.9%",
         "actual": null
       }
     ]
