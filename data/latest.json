@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-07-17T04:45:48.781665+09:00",
-  "generated_at_utc": "2026-07-16T19:45:50.500502+00:00",
+  "generated_at_jst": "2026-07-17T08:13:43.754779+09:00",
+  "generated_at_utc": "2026-07-16T23:13:44.774091+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.094,
-    "technical_score": 0.187,
+    "overall_score": 0.086,
+    "technical_score": 0.172,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(161.97) > SMA50(160.33) でゴールデンクロス状態（買い要因）",
-      "RSI14=61.2で中立圏",
+      "SMA20(162.01) > SMA50(160.44) でゴールデンクロス状態（買い要因）",
+      "RSI14=60.3で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 162.41400146484375,
-      "sma20": 161.97490158081055,
-      "sma50": 160.33158081054688,
+      "price": 162.35299682617188,
+      "sma20": 162.01100158691406,
+      "sma50": 160.43522094726563,
       "sma200": null,
-      "rsi14": 61.245062757088306,
-      "macd": 0.5402305553998872,
-      "macd_signal": 0.6011868300390786,
-      "bb_upper": 162.84080786696063,
-      "bb_mid": 161.97490158081055,
-      "bb_lower": 161.10899529466047,
-      "atr14": 0.7184490592274277
+      "rsi14": 60.33657050916725,
+      "macd": 0.49868442625171383,
+      "macd_signal": 0.5763821819322283,
+      "bb_upper": 162.80896920245698,
+      "bb_mid": 162.01100158691406,
+      "bb_lower": 161.21303397137115,
+      "atr14": 0.6840276553300262
     }
   },
   "fundamental": {
@@ -116,24 +116,6 @@
     "events": [
       {
         "country": "USD",
-        "title": "Treasury Currency Report",
-        "impact": "Low",
-        "time": "2026-07-16T16:30:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Jefferson Speaks",
-        "impact": "Low",
-        "time": "2026-07-16T19:00:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
         "title": "President Trump Speaks",
         "impact": "Medium",
         "time": "2026-07-16T21:00:00-04:00",
@@ -202,6 +184,15 @@
         "time": "2026-07-17T10:00:00-04:00",
         "forecast": "",
         "previous": "4.6%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Treasury Currency Report",
+        "impact": "Low",
+        "time": "2026-07-17T16:30:00-04:00",
+        "forecast": "",
+        "previous": "",
         "actual": null
       }
     ]
