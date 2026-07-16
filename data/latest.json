@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-07-16T18:28:17.350523+09:00",
-  "generated_at_utc": "2026-07-16T09:28:19.328269+00:00",
+  "generated_at_jst": "2026-07-17T00:47:22.119652+09:00",
+  "generated_at_utc": "2026-07-16T15:47:23.327525+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.069,
-    "technical_score": 0.138,
+    "overall_score": 0.094,
+    "technical_score": 0.188,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(161.96) > SMA50(160.33) でゴールデンクロス状態（買い要因）",
-      "RSI14=58.3で中立圏",
+      "SMA20(161.98) > SMA50(160.33) でゴールデンクロス状態（買い要因）",
+      "RSI14=61.3で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 162.13499450683594,
-      "sma20": 161.96095123291016,
-      "sma50": 160.3260006713867,
+      "price": 162.4199981689453,
+      "sma20": 161.97520141601564,
+      "sma50": 160.3317007446289,
       "sma200": null,
-      "rsi14": 58.291304015746654,
-      "macd": 0.517973590088701,
-      "macd_signal": 0.5967354369768414,
-      "bb_upper": 162.80580548387795,
-      "bb_mid": 161.96095123291016,
-      "bb_lower": 161.11609698194238,
-      "atr14": 0.692805574294392
+      "rsi14": 61.29990465049734,
+      "macd": 0.5407089249578405,
+      "macd_signal": 0.6012825039506693,
+      "bb_upper": 162.84175180929753,
+      "bb_mid": 161.97520141601564,
+      "bb_lower": 161.10865102273374,
+      "atr14": 0.7135204703602402
     }
   },
   "fundamental": {
@@ -114,78 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Core Retail Sales m/m",
-        "impact": "Medium",
-        "time": "2026-07-16T08:30:00-04:00",
-        "forecast": "0.0%",
-        "previous": "0.8%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Philly Fed Manufacturing Index",
-        "impact": "Medium",
-        "time": "2026-07-16T08:30:00-04:00",
-        "forecast": "12.7",
-        "previous": "10.3",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Retail Sales m/m",
-        "impact": "Medium",
-        "time": "2026-07-16T08:30:00-04:00",
-        "forecast": "0.2%",
-        "previous": "0.9%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Unemployment Claims",
-        "impact": "Medium",
-        "time": "2026-07-16T08:30:00-04:00",
-        "forecast": "216K",
-        "previous": "215K",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Business Inventories m/m",
-        "impact": "Low",
-        "time": "2026-07-16T10:00:00-04:00",
-        "forecast": "0.3%",
-        "previous": "0.5%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "NAHB Housing Market Index",
-        "impact": "Low",
-        "time": "2026-07-16T10:00:00-04:00",
-        "forecast": "35",
-        "previous": "35",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Pending Home Sales m/m",
-        "impact": "Low",
-        "time": "2026-07-16T10:00:00-04:00",
-        "forecast": "-0.5%",
-        "previous": "3.8%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Natural Gas Storage",
-        "impact": "Low",
-        "time": "2026-07-16T10:30:00-04:00",
-        "forecast": "45B",
-        "previous": "61B",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "FOMC Member Logan Speaks",
