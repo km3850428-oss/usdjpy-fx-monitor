@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-07-17T21:01:50.761977+09:00",
-  "generated_at_utc": "2026-07-17T12:01:51.847040+00:00",
+  "generated_at_jst": "2026-07-18T01:47:32.595164+09:00",
+  "generated_at_utc": "2026-07-17T16:47:33.612312+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.085,
-    "technical_score": 0.17,
+    "overall_score": 0.098,
+    "technical_score": 0.196,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(162.01) > SMA50(160.43) でゴールデンクロス状態（買い要因）",
-      "RSI14=60.2で中立圏",
+      "SMA20(162.02) > SMA50(160.44) でゴールデンクロス状態（買い要因）",
+      "RSI14=61.8で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 162.33599853515625,
-      "sma20": 162.0101516723633,
-      "sma50": 160.4348809814453,
+      "price": 162.50599670410156,
+      "sma20": 162.01865158081054,
+      "sma50": 160.4382809448242,
       "sma200": null,
-      "rsi14": 60.171685609939544,
-      "macd": 0.4973284372248088,
-      "macd_signal": 0.5761109841268472,
-      "bb_upper": 162.80662036854787,
-      "bb_mid": 162.0101516723633,
-      "bb_lower": 161.21368297617872,
-      "atr14": 0.6905998337619458
+      "rsi14": 61.761443866000754,
+      "macd": 0.5108895447190491,
+      "macd_signal": 0.5788232056256953,
+      "bb_upper": 162.83318567077526,
+      "bb_mid": 162.01865158081054,
+      "bb_lower": 161.20411749084582,
+      "atr14": 0.6930990054276824
     }
   },
   "fundamental": {
@@ -114,69 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Building Permits",
-        "impact": "Low",
-        "time": "2026-07-17T08:30:00-04:00",
-        "forecast": "1.40M",
-        "previous": "1.41M",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Housing Starts",
-        "impact": "Low",
-        "time": "2026-07-17T08:30:00-04:00",
-        "forecast": "1.31M",
-        "previous": "1.18M",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Import Prices m/m",
-        "impact": "Low",
-        "time": "2026-07-17T08:30:00-04:00",
-        "forecast": "-0.7%",
-        "previous": "1.9%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Capacity Utilization Rate",
-        "impact": "Low",
-        "time": "2026-07-17T09:15:00-04:00",
-        "forecast": "76.2%",
-        "previous": "76.2%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Industrial Production m/m",
-        "impact": "Low",
-        "time": "2026-07-17T09:15:00-04:00",
-        "forecast": "0.2%",
-        "previous": "0.1%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Prelim UoM Consumer Sentiment",
-        "impact": "Medium",
-        "time": "2026-07-17T10:00:00-04:00",
-        "forecast": "51.0",
-        "previous": "48.9",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Prelim UoM Inflation Expectations",
-        "impact": "Medium",
-        "time": "2026-07-17T10:00:00-04:00",
-        "forecast": "",
-        "previous": "4.6%",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Treasury Currency Report",
