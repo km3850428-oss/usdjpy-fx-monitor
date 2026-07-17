@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-07-18T05:16:18.971788+09:00",
-  "generated_at_utc": "2026-07-17T20:16:20.340558+00:00",
+  "generated_at_jst": "2026-07-18T08:38:15.004798+09:00",
+  "generated_at_utc": "2026-07-17T23:38:19.760685+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.09,
-    "technical_score": 0.18,
+    "overall_score": 0.086,
+    "technical_score": 0.172,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(162.01) > SMA50(160.44) でゴールデンクロス状態（買い要因）",
-      "RSI14=60.8で中立圏",
+      "RSI14=60.3で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 162.4010009765625,
-      "sma20": 162.0134017944336,
-      "sma50": 160.43618103027345,
+      "price": 162.35299682617188,
+      "sma20": 162.01100158691406,
+      "sma50": 160.43522094726563,
       "sma200": null,
-      "rsi14": 60.79492842399631,
-      "macd": 0.5025138171660615,
-      "macd_signal": 0.5771480601150978,
-      "bb_upper": 162.81597621252644,
-      "bb_mid": 162.0134017944336,
-      "bb_lower": 161.21082737634077,
+      "rsi14": 60.33657050916725,
+      "macd": 0.49868442625171383,
+      "macd_signal": 0.5763821819322283,
+      "bb_upper": 162.80896920245698,
+      "bb_mid": 162.01100158691406,
+      "bb_lower": 161.21303397137115,
       "atr14": 0.6937420543953163
     }
   },
@@ -113,16 +113,6 @@
   "calendar": {
     "caution_window_hours": 3,
     "display_window_hours": 48,
-    "events": [
-      {
-        "country": "USD",
-        "title": "Treasury Currency Report",
-        "impact": "Low",
-        "time": "2026-07-17T16:30:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      }
-    ]
+    "events": []
   }
 }
