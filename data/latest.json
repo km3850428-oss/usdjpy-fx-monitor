@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-07-17T08:13:43.754779+09:00",
-  "generated_at_utc": "2026-07-16T23:13:44.774091+00:00",
+  "generated_at_jst": "2026-07-17T16:35:03.958251+09:00",
+  "generated_at_utc": "2026-07-17T07:35:05.299829+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.086,
-    "technical_score": 0.172,
+    "overall_score": 0.075,
+    "technical_score": 0.15,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(162.01) > SMA50(160.44) でゴールデンクロス状態（買い要因）",
-      "RSI14=60.3で中立圏",
+      "SMA20(162.00) > SMA50(160.43) でゴールデンクロス状態（買い要因）",
+      "RSI14=59.0で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 162.35299682617188,
-      "sma20": 162.01100158691406,
-      "sma50": 160.43522094726563,
+      "price": 162.21800231933594,
+      "sma20": 162.00425186157227,
+      "sma50": 160.4325210571289,
       "sma200": null,
-      "rsi14": 60.33657050916725,
-      "macd": 0.49868442625171383,
-      "macd_signal": 0.5763821819322283,
-      "bb_upper": 162.80896920245698,
-      "bb_mid": 162.01100158691406,
-      "bb_lower": 161.21303397137115,
-      "atr14": 0.6840276553300262
+      "rsi14": 58.98820199527402,
+      "macd": 0.487915633683599,
+      "macd_signal": 0.5742284234186054,
+      "bb_upper": 162.79226079581454,
+      "bb_mid": 162.00425186157227,
+      "bb_lower": 161.21624292733,
+      "atr14": 0.6905998337619458
     }
   },
   "fundamental": {
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "President Trump Speaks",
-        "impact": "Medium",
-        "time": "2026-07-16T21:00:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Building Permits",
