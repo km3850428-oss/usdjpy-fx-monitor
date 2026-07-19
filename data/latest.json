@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-07-19T20:39:50.648021+09:00",
-  "generated_at_utc": "2026-07-19T11:39:52.223769+00:00",
+  "generated_at_jst": "2026-07-20T00:33:12.009687+09:00",
+  "generated_at_utc": "2026-07-19T15:33:14.145020+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": 0.086,
@@ -130,6 +130,15 @@
         "time": "2026-07-20T10:00:00-04:00",
         "forecast": "-0.1%",
         "previous": "0.1%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "ADP Weekly Employment Change",
+        "impact": "Low",
+        "time": "2026-07-21T08:15:00-04:00",
+        "forecast": "",
+        "previous": "19.8K",
         "actual": null
       }
     ]
