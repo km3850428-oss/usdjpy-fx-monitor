@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-07-19T06:36:18.655736+09:00",
-  "generated_at_utc": "2026-07-18T21:36:21.372345+00:00",
+  "generated_at_jst": "2026-07-19T16:17:20.436140+09:00",
+  "generated_at_utc": "2026-07-19T07:17:22.213386+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": 0.086,
@@ -113,6 +113,25 @@
   "calendar": {
     "caution_window_hours": 3,
     "display_window_hours": 48,
-    "events": []
+    "events": [
+      {
+        "country": "JPY",
+        "title": "Bank Holiday",
+        "impact": "Holiday",
+        "time": "2026-07-19T19:00:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "CB Leading Index m/m",
+        "impact": "Low",
+        "time": "2026-07-20T10:00:00-04:00",
+        "forecast": "-0.1%",
+        "previous": "0.1%",
+        "actual": null
+      }
+    ]
   }
 }
