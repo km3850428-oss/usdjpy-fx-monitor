@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-07-20T04:58:50.263469+09:00",
-  "generated_at_utc": "2026-07-19T19:58:52.122367+00:00",
+  "generated_at_jst": "2026-07-20T07:37:12.699585+09:00",
+  "generated_at_utc": "2026-07-19T22:37:15.483558+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.09,
-    "technical_score": 0.18,
+    "overall_score": 0.099,
+    "technical_score": 0.198,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(162.06) > SMA50(160.55) でゴールデンクロス状態（買い要因）",
-      "RSI14=60.8で中立圏",
+      "SMA20(162.07) > SMA50(160.55) でゴールデンクロス状態（買い要因）",
+      "RSI14=61.9で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 162.40199279785156,
-      "sma20": 162.06060180664062,
-      "sma50": 160.5465609741211,
+      "price": 162.50900268554688,
+      "sma20": 162.0659523010254,
+      "sma50": 160.548701171875,
       "sma200": null,
-      "rsi14": 60.823134424665895,
-      "macd": 0.487110720008161,
-      "macd_signal": 0.5588215816770408,
-      "bb_upper": 162.82980164641154,
-      "bb_mid": 162.06060180664062,
-      "bb_lower": 161.2914019668697,
-      "atr14": 0.6425960640721974
+      "rsi14": 61.879916776132234,
+      "macd": 0.495647121305808,
+      "macd_signal": 0.5605288619365703,
+      "bb_upper": 162.84655501723935,
+      "bb_mid": 162.0659523010254,
+      "bb_lower": 161.28534958481143,
+      "atr14": 0.6615965261955233
     }
   },
   "fundamental": {
@@ -139,6 +139,15 @@
         "time": "2026-07-21T08:15:00-04:00",
         "forecast": "",
         "previous": "19.8K",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "API Weekly Statistical Bulletin",
+        "impact": "Low",
+        "time": "2026-07-21T16:30:00-04:00",
+        "forecast": "",
+        "previous": "",
         "actual": null
       }
     ]
