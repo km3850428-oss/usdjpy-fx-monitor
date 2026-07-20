@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-07-20T19:23:46.513389+09:00",
-  "generated_at_utc": "2026-07-20T10:23:47.556845+00:00",
+  "generated_at_jst": "2026-07-21T01:16:55.593738+09:00",
+  "generated_at_utc": "2026-07-20T16:16:56.845321+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.089,
-    "technical_score": 0.178,
+    "overall_score": 0.102,
+    "technical_score": 0.203,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(162.06) > SMA50(160.55) でゴールデンクロス状態（買い要因）",
-      "RSI14=60.7で中立圏",
+      "SMA20(162.07) > SMA50(160.55) でゴールデンクロス状態（買い要因）",
+      "RSI14=62.2で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 162.38699340820312,
-      "sma20": 162.0598518371582,
-      "sma50": 160.54626098632812,
+      "price": 162.54299926757812,
+      "sma20": 162.06765213012696,
+      "sma50": 160.54938110351563,
       "sma200": null,
-      "rsi14": 60.66359087637838,
-      "macd": 0.48588518455551366,
-      "macd_signal": 0.558539624307272,
-      "bb_upper": 162.8276782003074,
-      "bb_mid": 162.0598518371582,
-      "bb_lower": 161.292025474009,
-      "atr14": 0.6616881400955197
+      "rsi14": 62.197603118079115,
+      "macd": 0.49833009641446324,
+      "macd_signal": 0.561028606679062,
+      "bb_upper": 162.85245384552766,
+      "bb_mid": 162.06765213012696,
+      "bb_lower": 161.28285041472625,
+      "atr14": 0.6701883755168366
     }
   },
   "fundamental": {
@@ -116,15 +116,6 @@
     "events": [
       {
         "country": "USD",
-        "title": "CB Leading Index m/m",
-        "impact": "Low",
-        "time": "2026-07-20T10:00:00-04:00",
-        "forecast": "-0.1%",
-        "previous": "0.1%",
-        "actual": null
-      },
-      {
-        "country": "USD",
         "title": "ADP Weekly Employment Change",
         "impact": "Low",
         "time": "2026-07-21T08:15:00-04:00",
@@ -148,6 +139,15 @@
         "time": "2026-07-21T19:50:00-04:00",
         "forecast": "-0.54T",
         "previous": "-0.09T",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Crude Oil Inventories",
+        "impact": "Low",
+        "time": "2026-07-22T10:30:00-04:00",
+        "forecast": "",
+        "previous": "-1.7M",
         "actual": null
       }
     ]
