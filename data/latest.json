@@ -1,32 +1,32 @@
 {
-  "generated_at_jst": "2026-07-22T01:06:28.874166+09:00",
-  "generated_at_utc": "2026-07-21T16:06:30.468562+00:00",
+  "generated_at_jst": "2026-07-22T05:49:27.562501+09:00",
+  "generated_at_utc": "2026-07-21T20:49:30.264279+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.015,
-    "technical_score": 0.03,
+    "overall_score": 0.024,
+    "technical_score": 0.048,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(162.14) > SMA50(160.66) でゴールデンクロス状態（買い要因）",
-      "RSI14=66.4で中立圏",
+      "SMA20(162.15) > SMA50(160.67) でゴールデンクロス状態（買い要因）",
+      "RSI14=67.9で中立圏",
       "MACDがシグナルを下抜け（売り要因）",
       "価格がボリンジャーバンド+2σを上回り過熱感（売り/待ち要因）"
     ],
     "indicators": {
-      "price": 163.00599670410156,
-      "sma20": 162.13790130615234,
-      "sma50": 160.6642608642578,
+      "price": 163.19700622558594,
+      "sma20": 162.14745178222657,
+      "sma50": 160.6680810546875,
       "sma200": null,
-      "rsi14": 66.40748181078055,
-      "macd": 0.5259852063367418,
-      "macd_signal": 0.5536250432637215,
-      "bb_upper": 162.98781966157375,
-      "bb_mid": 162.13790130615234,
-      "bb_lower": 161.28798295073094,
-      "atr14": 0.6607964901304882
+      "rsi14": 67.87538895143106,
+      "macd": 0.541222433121817,
+      "macd_signal": 0.5566724886207365,
+      "bb_upper": 163.04158530931517,
+      "bb_mid": 162.14745178222657,
+      "bb_lower": 161.25331825513797,
+      "atr14": 0.6748672734731221
     }
   },
   "fundamental": {
@@ -116,15 +116,6 @@
     "display_window_hours": 48,
     "events": [
       {
-        "country": "USD",
-        "title": "API Weekly Statistical Bulletin",
-        "impact": "Low",
-        "time": "2026-07-21T16:30:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
         "country": "JPY",
         "title": "Trade Balance",
         "impact": "Low",
@@ -158,6 +149,15 @@
         "time": "2026-07-23T10:30:00-04:00",
         "forecast": "29B",
         "previous": "41B",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Treasury Currency Report",
+        "impact": "Low",
+        "time": "2026-07-23T16:30:00-04:00",
+        "forecast": "",
+        "previous": "",
         "actual": null
       }
     ]
