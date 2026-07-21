@@ -1,31 +1,32 @@
 {
-  "generated_at_jst": "2026-07-21T19:08:15.070201+09:00",
-  "generated_at_utc": "2026-07-21T10:08:16.565731+00:00",
+  "generated_at_jst": "2026-07-22T01:06:28.874166+09:00",
+  "generated_at_utc": "2026-07-21T16:06:30.468562+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.113,
-    "technical_score": 0.226,
+    "overall_score": 0.015,
+    "technical_score": 0.03,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(162.12) > SMA50(160.66) でゴールデンクロス状態（買い要因）",
-      "RSI14=63.6で中立圏",
-      "MACDがシグナルを下抜け（売り要因）"
+      "SMA20(162.14) > SMA50(160.66) でゴールデンクロス状態（買い要因）",
+      "RSI14=66.4で中立圏",
+      "MACDがシグナルを下抜け（売り要因）",
+      "価格がボリンジャーバンド+2σを上回り過熱感（売り/待ち要因）"
     ],
     "indicators": {
-      "price": 162.67999267578125,
-      "sma20": 162.12160110473633,
-      "sma50": 160.6577407836914,
+      "price": 163.00599670410156,
+      "sma20": 162.13790130615234,
+      "sma50": 160.6642608642578,
       "sma200": null,
-      "rsi14": 63.566066500379996,
-      "macd": 0.4999791869835519,
-      "macd_signal": 0.5484238393930835,
-      "bb_upper": 162.911827621689,
-      "bb_mid": 162.12160110473633,
-      "bb_lower": 161.33137458778364,
-      "atr14": 0.6363671688414257
+      "rsi14": 66.40748181078055,
+      "macd": 0.5259852063367418,
+      "macd_signal": 0.5536250432637215,
+      "bb_upper": 162.98781966157375,
+      "bb_mid": 162.13790130615234,
+      "bb_lower": 161.28798295073094,
+      "atr14": 0.6607964901304882
     }
   },
   "fundamental": {
@@ -116,15 +117,6 @@
     "events": [
       {
         "country": "USD",
-        "title": "ADP Weekly Employment Change",
-        "impact": "Low",
-        "time": "2026-07-21T08:15:00-04:00",
-        "forecast": "",
-        "previous": "19.8K",
-        "actual": null
-      },
-      {
-        "country": "USD",
         "title": "API Weekly Statistical Bulletin",
         "impact": "Low",
         "time": "2026-07-21T16:30:00-04:00",
@@ -146,8 +138,26 @@
         "title": "Crude Oil Inventories",
         "impact": "Low",
         "time": "2026-07-22T10:30:00-04:00",
-        "forecast": "",
+        "forecast": "-2.0M",
         "previous": "-1.7M",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Unemployment Claims",
+        "impact": "Medium",
+        "time": "2026-07-23T08:30:00-04:00",
+        "forecast": "211K",
+        "previous": "208K",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Natural Gas Storage",
+        "impact": "Low",
+        "time": "2026-07-23T10:30:00-04:00",
+        "forecast": "29B",
+        "previous": "41B",
         "actual": null
       }
     ]
