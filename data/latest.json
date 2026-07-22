@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-07-22T19:06:59.535360+09:00",
-  "generated_at_utc": "2026-07-22T10:07:00.680108+00:00",
+  "generated_at_jst": "2026-07-23T01:07:44.256458+09:00",
+  "generated_at_utc": "2026-07-22T16:07:45.312169+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.018,
-    "technical_score": 0.037,
+    "overall_score": 0.02,
+    "technical_score": 0.039,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(162.18) > SMA50(160.76) でゴールデンクロス状態（買い要因）",
-      "RSI14=67.0で中立圏",
+      "SMA20(162.19) > SMA50(160.76) でゴールデンクロス状態（買い要因）",
+      "RSI14=67.1で中立圏",
       "MACDがシグナルを下抜け（売り要因）",
       "価格がボリンジャーバンド+2σを上回り過熱感（売り/待ち要因）"
     ],
     "indicators": {
-      "price": 163.0570068359375,
-      "sma20": 162.1848518371582,
-      "sma50": 160.76160095214843,
+      "price": 163.0800018310547,
+      "sma20": 162.18600158691407,
+      "sma50": 160.76206085205078,
       "sma200": null,
-      "rsi14": 66.95258034892345,
-      "macd": 0.5156861124761463,
-      "macd_signal": 0.539396144542067,
-      "bb_upper": 163.01959074322968,
-      "bb_mid": 162.1848518371582,
-      "bb_lower": 161.3501129310867,
+      "rsi14": 67.1407347968742,
+      "macd": 0.5175204710610046,
+      "macd_signal": 0.5397630162590387,
+      "bb_upper": 163.02584626897166,
+      "bb_mid": 162.18600158691407,
+      "bb_lower": 161.34615690485649,
       "atr14": 0.6638136847204715
     }
   },
@@ -117,15 +117,6 @@
     "events": [
       {
         "country": "USD",
-        "title": "Crude Oil Inventories",
-        "impact": "Low",
-        "time": "2026-07-22T10:30:00-04:00",
-        "forecast": "-2.0M",
-        "previous": "-1.7M",
-        "actual": null
-      },
-      {
-        "country": "USD",
         "title": "President Trump Speaks",
         "impact": "Medium",
         "time": "2026-07-22T15:00:00-04:00",
@@ -176,6 +167,33 @@
         "time": "2026-07-23T20:30:00-04:00",
         "forecast": "55.0",
         "previous": "54.9",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Flash Manufacturing PMI",
+        "impact": "Low",
+        "time": "2026-07-24T09:45:00-04:00",
+        "forecast": "54.4",
+        "previous": "55.7",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Flash Services PMI",
+        "impact": "Low",
+        "time": "2026-07-24T09:45:00-04:00",
+        "forecast": "51.3",
+        "previous": "51.3",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "New Home Sales",
+        "impact": "Low",
+        "time": "2026-07-24T10:00:00-04:00",
+        "forecast": "609K",
+        "previous": "580K",
         "actual": null
       }
     ]
