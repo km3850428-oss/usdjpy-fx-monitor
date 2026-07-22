@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-07-23T01:07:44.256458+09:00",
-  "generated_at_utc": "2026-07-22T16:07:45.312169+00:00",
+  "generated_at_jst": "2026-07-23T05:43:31.113199+09:00",
+  "generated_at_utc": "2026-07-22T20:43:32.597762+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.02,
-    "technical_score": 0.039,
+    "overall_score": 0.023,
+    "technical_score": 0.045,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(162.19) > SMA50(160.76) でゴールデンクロス状態（買い要因）",
-      "RSI14=67.1で中立圏",
+      "RSI14=67.6で中立圏",
       "MACDがシグナルを下抜け（売り要因）",
       "価格がボリンジャーバンド+2σを上回り過熱感（売り/待ち要因）"
     ],
     "indicators": {
-      "price": 163.0800018310547,
-      "sma20": 162.18600158691407,
-      "sma50": 160.76206085205078,
+      "price": 163.14100646972656,
+      "sma20": 162.18905181884764,
+      "sma50": 160.76328094482423,
       "sma200": null,
-      "rsi14": 67.1407347968742,
-      "macd": 0.5175204710610046,
-      "macd_signal": 0.5397630162590387,
-      "bb_upper": 163.02584626897166,
-      "bb_mid": 162.18600158691407,
-      "bb_lower": 161.34615690485649,
+      "rsi14": 67.62967254088503,
+      "macd": 0.5223869379636028,
+      "macd_signal": 0.5407363096395583,
+      "bb_upper": 163.04289421633302,
+      "bb_mid": 162.18905181884764,
+      "bb_lower": 161.33520942136226,
       "atr14": 0.6638136847204715
     }
   },
@@ -115,15 +115,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "President Trump Speaks",
-        "impact": "Medium",
-        "time": "2026-07-22T15:00:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Unemployment Claims",
