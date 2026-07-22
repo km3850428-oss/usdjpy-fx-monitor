@@ -1,32 +1,32 @@
 {
-  "generated_at_jst": "2026-07-22T05:49:27.562501+09:00",
-  "generated_at_utc": "2026-07-21T20:49:30.264279+00:00",
+  "generated_at_jst": "2026-07-22T09:06:34.992065+09:00",
+  "generated_at_utc": "2026-07-22T00:06:37.083806+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": 0.024,
-    "technical_score": 0.048,
+    "technical_score": 0.049,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(162.15) > SMA50(160.67) でゴールデンクロス状態（買い要因）",
+      "SMA20(162.19) > SMA50(160.76) でゴールデンクロス状態（買い要因）",
       "RSI14=67.9で中立圏",
       "MACDがシグナルを下抜け（売り要因）",
       "価格がボリンジャーバンド+2σを上回り過熱感（売り/待ち要因）"
     ],
     "indicators": {
-      "price": 163.19700622558594,
-      "sma20": 162.14745178222657,
-      "sma50": 160.6680810546875,
+      "price": 163.17599487304688,
+      "sma20": 162.19080123901367,
+      "sma50": 160.76398071289063,
       "sma200": null,
-      "rsi14": 67.87538895143106,
-      "macd": 0.541222433121817,
-      "macd_signal": 0.5566724886207365,
-      "bb_upper": 163.04158530931517,
-      "bb_mid": 162.14745178222657,
-      "bb_lower": 161.25331825513797,
-      "atr14": 0.6748672734731221
+      "rsi14": 67.9035860765988,
+      "macd": 0.5251780356643678,
+      "macd_signal": 0.5412945291797113,
+      "bb_upper": 163.0529589012671,
+      "bb_mid": 162.19080123901367,
+      "bb_lower": 161.32864357676024,
+      "atr14": 0.6638136847204715
     }
   },
   "fundamental": {
@@ -116,15 +116,6 @@
     "display_window_hours": 48,
     "events": [
       {
-        "country": "JPY",
-        "title": "Trade Balance",
-        "impact": "Low",
-        "time": "2026-07-21T19:50:00-04:00",
-        "forecast": "-0.56T",
-        "previous": "-0.09T",
-        "actual": null
-      },
-      {
         "country": "USD",
         "title": "Crude Oil Inventories",
         "impact": "Low",
@@ -158,6 +149,15 @@
         "time": "2026-07-23T16:30:00-04:00",
         "forecast": "",
         "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "National Core CPI y/y",
+        "impact": "Low",
+        "time": "2026-07-23T19:30:00-04:00",
+        "forecast": "1.6%",
+        "previous": "1.4%",
         "actual": null
       }
     ]
