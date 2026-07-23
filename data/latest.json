@@ -1,32 +1,32 @@
 {
-  "generated_at_jst": "2026-07-23T19:04:56.085270+09:00",
-  "generated_at_utc": "2026-07-23T10:04:58.798685+00:00",
+  "generated_at_jst": "2026-07-24T01:15:45.444299+09:00",
+  "generated_at_utc": "2026-07-23T16:15:46.463937+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.283,
-    "technical_score": 0.566,
+    "overall_score": 0.038,
+    "technical_score": 0.075,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(162.27) > SMA50(160.87) でゴールデンクロス状態（買い要因）",
-      "RSI14=69.3で中立圏",
+      "SMA20(162.29) > SMA50(160.88) でゴールデンクロス状態（買い要因）",
+      "RSI14=72.1で買われすぎ水準（売り/待ち要因）",
       "MACDがシグナルを上抜け（買い要因）",
       "価格がボリンジャーバンド+2σを上回り過熱感（売り/待ち要因）"
     ],
     "indicators": {
-      "price": 163.36099243164062,
-      "sma20": 162.27120132446288,
-      "sma50": 160.87438079833984,
+      "price": 163.76699829101562,
+      "sma20": 162.29150161743163,
+      "sma50": 160.88250091552734,
       "sma200": null,
-      "rsi14": 69.31651236919939,
-      "macd": 0.56638111344094,
-      "macd_signal": 0.5464370222624039,
-      "bb_upper": 163.25610035691426,
-      "bb_mid": 162.27120132446288,
-      "bb_lower": 161.2863022920115,
-      "atr14": 0.6469117268146752
+      "rsi14": 72.12671232191875,
+      "macd": 0.598769045242932,
+      "macd_signal": 0.5529146086228023,
+      "bb_upper": 163.38204912498145,
+      "bb_mid": 162.29150161743163,
+      "bb_lower": 161.20095410988182,
+      "atr14": 0.6859840360362155
     }
   },
   "fundamental": {
@@ -115,24 +115,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Unemployment Claims",
-        "impact": "Medium",
-        "time": "2026-07-23T08:30:00-04:00",
-        "forecast": "211K",
-        "previous": "208K",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Natural Gas Storage",
-        "impact": "Low",
-        "time": "2026-07-23T10:30:00-04:00",
-        "forecast": "29B",
-        "previous": "41B",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Treasury Currency Report",
