@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-07-26T20:48:50.967536+09:00",
-  "generated_at_utc": "2026-07-26T11:48:54.104753+00:00",
+  "generated_at_jst": "2026-07-27T00:45:01.529195+09:00",
+  "generated_at_utc": "2026-07-26T15:45:02.622578+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": 0.038,
@@ -149,6 +149,69 @@
         "time": "2026-07-28T01:00:00-04:00",
         "forecast": "1.4%",
         "previous": "1.4%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "ADP Weekly Employment Change",
+        "impact": "Low",
+        "time": "2026-07-28T08:15:00-04:00",
+        "forecast": "",
+        "previous": "16.5K",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Goods Trade Balance",
+        "impact": "Low",
+        "time": "2026-07-28T08:30:00-04:00",
+        "forecast": "-98.0B",
+        "previous": "-105.8B",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Prelim Wholesale Inventories m/m",
+        "impact": "Low",
+        "time": "2026-07-28T08:30:00-04:00",
+        "forecast": "0.2%",
+        "previous": "0.3%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "HPI m/m",
+        "impact": "Low",
+        "time": "2026-07-28T09:00:00-04:00",
+        "forecast": "0.2%",
+        "previous": "-0.1%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "S&P/CS Composite-20 HPI y/y",
+        "impact": "Low",
+        "time": "2026-07-28T09:00:00-04:00",
+        "forecast": "0.8%",
+        "previous": "1.1%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "CB Consumer Confidence",
+        "impact": "Medium",
+        "time": "2026-07-28T10:00:00-04:00",
+        "forecast": "92.1",
+        "previous": "91.2",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Richmond Manufacturing Index",
+        "impact": "Low",
+        "time": "2026-07-28T10:00:00-04:00",
+        "forecast": "",
+        "previous": "4",
         "actual": null
       }
     ]
