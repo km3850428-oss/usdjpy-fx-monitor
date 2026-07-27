@@ -1,30 +1,31 @@
 {
-  "generated_at_jst": "2026-07-28T01:50:07.639518+09:00",
-  "generated_at_utc": "2026-07-27T16:50:09.047893+00:00",
+  "generated_at_jst": "2026-07-28T05:56:09.191263+09:00",
+  "generated_at_utc": "2026-07-27T20:56:11.877304+00:00",
   "judgment": {
-    "signal": "買い",
-    "overall_score": 0.49,
-    "technical_score": 0.981,
+    "signal": "待ち",
+    "overall_score": 0.287,
+    "technical_score": 0.575,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(162.45) > SMA50(161.07) でゴールデンクロス状態（買い要因）",
-      "RSI14=68.8で中立圏",
-      "MACDがシグナルを上抜け（買い要因）"
+      "SMA20(162.46) > SMA50(161.08) でゴールデンクロス状態（買い要因）",
+      "RSI14=70.0で中立圏",
+      "MACDがシグナルを上抜け（買い要因）",
+      "価格がボリンジャーバンド+2σを上回り過熱感（売り/待ち要因）"
     ],
     "indicators": {
-      "price": 163.64999389648438,
-      "sma20": 162.45170135498046,
-      "sma50": 161.07390075683594,
+      "price": 163.72000122070312,
+      "sma20": 162.4552017211914,
+      "sma50": 161.0753009033203,
       "sma200": null,
-      "rsi14": 68.84162164491136,
-      "macd": 0.6437694678799062,
-      "macd_signal": 0.5737454469226861,
-      "bb_upper": 163.69220231792482,
-      "bb_mid": 162.45170135498046,
-      "bb_lower": 161.2112003920361,
+      "rsi14": 69.98365213414377,
+      "macd": 0.6493540977321004,
+      "macd_signal": 0.574862372893125,
+      "bb_upper": 163.71024938383502,
+      "bb_mid": 162.4552017211914,
+      "bb_lower": 161.20015405854778,
       "atr14": 0.6833720728480317
     }
   },
@@ -115,15 +116,6 @@
     "display_window_hours": 48,
     "events": [
       {
-        "country": "USD",
-        "title": "President Trump Speaks",
-        "impact": "Medium",
-        "time": "2026-07-27T14:50:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
         "country": "JPY",
         "title": "BOJ Core CPI y/y",
         "impact": "Low",
@@ -146,7 +138,7 @@
         "title": "Goods Trade Balance",
         "impact": "Low",
         "time": "2026-07-28T08:30:00-04:00",
-        "forecast": "-98.0B",
+        "forecast": "-100.3B",
         "previous": "-105.8B",
         "actual": null
       },
@@ -155,7 +147,7 @@
         "title": "Prelim Wholesale Inventories m/m",
         "impact": "Low",
         "time": "2026-07-28T08:30:00-04:00",
-        "forecast": "0.2%",
+        "forecast": "0.4%",
         "previous": "0.3%",
         "actual": null
       },
@@ -164,7 +156,7 @@
         "title": "HPI m/m",
         "impact": "Low",
         "time": "2026-07-28T09:00:00-04:00",
-        "forecast": "0.2%",
+        "forecast": "0.1%",
         "previous": "-0.1%",
         "actual": null
       },
@@ -173,7 +165,7 @@
         "title": "S&P/CS Composite-20 HPI y/y",
         "impact": "Low",
         "time": "2026-07-28T09:00:00-04:00",
-        "forecast": "0.8%",
+        "forecast": "1.3%",
         "previous": "1.1%",
         "actual": null
       },
@@ -182,7 +174,7 @@
         "title": "CB Consumer Confidence",
         "impact": "Medium",
         "time": "2026-07-28T10:00:00-04:00",
-        "forecast": "92.1",
+        "forecast": "92.4",
         "previous": "91.2",
         "actual": null
       },
@@ -191,7 +183,7 @@
         "title": "Richmond Manufacturing Index",
         "impact": "Low",
         "time": "2026-07-28T10:00:00-04:00",
-        "forecast": "",
+        "forecast": "7",
         "previous": "4",
         "actual": null
       },
@@ -209,8 +201,35 @@
         "title": "Crude Oil Inventories",
         "impact": "Low",
         "time": "2026-07-29T10:30:00-04:00",
-        "forecast": "",
+        "forecast": "-1.7M",
         "previous": "2.0M",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Federal Funds Rate",
+        "impact": "High",
+        "time": "2026-07-29T14:00:00-04:00",
+        "forecast": "3.75%",
+        "previous": "3.75%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Statement",
+        "impact": "High",
+        "time": "2026-07-29T14:00:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Press Conference",
+        "impact": "High",
+        "time": "2026-07-29T14:30:00-04:00",
+        "forecast": "",
+        "previous": "",
         "actual": null
       }
     ]
