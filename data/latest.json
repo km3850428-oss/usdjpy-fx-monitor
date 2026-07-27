@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-07-27T05:15:31.190549+09:00",
-  "generated_at_utc": "2026-07-26T20:15:34.712629+00:00",
+  "generated_at_jst": "2026-07-27T17:59:19.451714+09:00",
+  "generated_at_utc": "2026-07-27T08:59:20.489517+00:00",
   "judgment": {
     "signal": "買い",
-    "overall_score": 0.493,
-    "technical_score": 0.987,
+    "overall_score": 0.473,
+    "technical_score": 0.947,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(162.45) > SMA50(161.07) でゴールデンクロス状態（買い要因）",
-      "RSI14=69.2で中立圏",
+      "RSI14=66.8で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 163.6719970703125,
-      "sma20": 162.4528015136719,
-      "sma50": 161.0743408203125,
+      "price": 163.5189971923828,
+      "sma20": 162.44515151977538,
+      "sma50": 161.07128082275392,
       "sma200": null,
-      "rsi14": 69.21337615611102,
-      "macd": 0.6454872106158973,
-      "macd_signal": 0.5740413539112389,
-      "bb_upper": 163.6978079559646,
-      "bb_mid": 162.4528015136719,
-      "bb_lower": 161.20779507137917,
-      "atr14": 0.6609450016676606
+      "rsi14": 66.80182754993196,
+      "macd": 0.6333195883504175,
+      "macd_signal": 0.5716554710167885,
+      "bb_upper": 163.66013342722147,
+      "bb_mid": 162.44515151977538,
+      "bb_lower": 161.2301696123293,
+      "atr14": 0.6833720728480317
     }
   },
   "fundamental": {
@@ -115,15 +115,6 @@
     "display_window_hours": 48,
     "events": [
       {
-        "country": "JPY",
-        "title": "SPPI y/y",
-        "impact": "Low",
-        "time": "2026-07-26T19:50:00-04:00",
-        "forecast": "3.4%",
-        "previous": "3.3%",
-        "actual": null
-      },
-      {
         "country": "USD",
         "title": "Core Durable Goods Orders m/m",
         "impact": "Low",
@@ -211,6 +202,15 @@
         "time": "2026-07-28T10:00:00-04:00",
         "forecast": "",
         "previous": "4",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "API Weekly Statistical Bulletin",
+        "impact": "Low",
+        "time": "2026-07-28T16:30:00-04:00",
+        "forecast": "",
+        "previous": "",
         "actual": null
       }
     ]
