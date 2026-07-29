@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-07-29T09:10:59.268935+09:00",
-  "generated_at_utc": "2026-07-29T00:11:02.175774+00:00",
+  "generated_at_jst": "2026-07-29T19:49:00.186223+09:00",
+  "generated_at_utc": "2026-07-29T10:49:02.137011+00:00",
   "judgment": {
-    "signal": "待ち",
-    "overall_score": 0.167,
-    "technical_score": 0.333,
+    "signal": "買い",
+    "overall_score": 0.481,
+    "technical_score": 0.962,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(162.60) > SMA50(161.27) でゴールデンクロス状態（買い要因）",
-      "RSI14=70.3で買われすぎ水準（売り/待ち要因）",
+      "SMA20(162.59) > SMA50(161.26) でゴールデンクロス状態（買い要因）",
+      "RSI14=67.7で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 163.8780059814453,
-      "sma20": 162.60465087890626,
-      "sma50": 161.26818084716797,
+      "price": 163.6699981689453,
+      "sma20": 162.59425048828126,
+      "sma50": 161.26402069091796,
       "sma200": null,
-      "rsi14": 70.28846563363896,
-      "macd": 0.6912688162288703,
-      "macd_signal": 0.6120746608417654,
-      "bb_upper": 164.07104363331302,
-      "bb_mid": 162.60465087890626,
-      "bb_lower": 161.1382581244995,
-      "atr14": 0.6194412685939186
+      "rsi14": 67.70631834327406,
+      "macd": 0.6746756004169185,
+      "macd_signal": 0.608756017679375,
+      "bb_upper": 164.02513758096683,
+      "bb_mid": 162.59425048828126,
+      "bb_lower": 161.1633633955957,
+      "atr14": 0.6549408413478248
     }
   },
   "fundamental": {
@@ -256,6 +256,51 @@
         "time": "2026-07-30T19:50:00-04:00",
         "forecast": "3.1%",
         "previous": "5.3%",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "BOJ Policy Rate",
+        "impact": "High",
+        "time": "2026-07-30T22:30:00-04:00",
+        "forecast": "<1.00%",
+        "previous": "<1.00%",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Monetary Policy Statement",
+        "impact": "High",
+        "time": "2026-07-30T22:30:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "BOJ Outlook Report",
+        "impact": "High",
+        "time": "2026-07-30T22:31:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Housing Starts y/y",
+        "impact": "Low",
+        "time": "2026-07-31T01:00:00-04:00",
+        "forecast": "12.7%",
+        "previous": "33.9%",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "BOJ Press Conference",
+        "impact": "High",
+        "time": "2026-07-31T01:30:00-04:00",
+        "forecast": "",
+        "previous": "",
         "actual": null
       }
     ]
