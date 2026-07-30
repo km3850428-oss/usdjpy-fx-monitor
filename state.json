@@ -1,8 +1,8 @@
 {
-  "signal": "買い",
-  "overall_score": 0.418,
-  "technical_score": 0.836,
+  "signal": "待ち",
+  "overall_score": 0.42,
+  "technical_score": 0.839,
   "fundamental_score": 0.0,
-  "override_reason": null,
-  "timestamp": "2026-07-30T09:14:15.121732+09:00"
+  "override_reason": "重要指標発表が近いためスコアに関わらず待ちと判定",
+  "timestamp": "2026-07-30T19:02:23.890528+09:00"
 }

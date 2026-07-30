@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-07-30T09:14:15.121732+09:00",
-  "generated_at_utc": "2026-07-30T00:14:16.863854+00:00",
+  "generated_at_jst": "2026-07-30T19:02:23.890528+09:00",
+  "generated_at_utc": "2026-07-30T10:02:25.692875+00:00",
   "judgment": {
-    "signal": "買い",
-    "overall_score": 0.418,
-    "technical_score": 0.836,
+    "signal": "待ち",
+    "overall_score": 0.42,
+    "technical_score": 0.839,
     "fundamental_score": 0.0,
-    "override_reason": null
+    "override_reason": "重要指標発表が近いためスコアに関わらず待ちと判定"
   },
   "technical": {
     "reasons": [
       "SMA20(162.64) > SMA50(161.36) でゴールデンクロス状態（買い要因）",
-      "RSI14=60.2で中立圏",
+      "RSI14=60.4で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 163.2480010986328,
-      "sma20": 162.63940048217773,
-      "sma50": 161.35510070800783,
+      "price": 163.26300048828125,
+      "sma20": 162.64015045166016,
+      "sma50": 161.35540069580077,
       "sma200": null,
-      "rsi14": 60.15880084735243,
-      "macd": 0.6500708311800452,
-      "macd_signal": 0.619491319948648,
-      "bb_upper": 164.13070323862763,
-      "bb_mid": 162.63940048217773,
-      "bb_lower": 161.14809772572784,
+      "rsi14": 60.36905124729554,
+      "macd": 0.651267363687623,
+      "macd_signal": 0.6197306264501636,
+      "bb_upper": 164.1327564092711,
+      "bb_mid": 162.64015045166016,
+      "bb_lower": 161.1475444940492,
       "atr14": 0.6536479479352072
     }
   },
@@ -32,9 +32,9 @@
     "reasons": [
       "FRED APIキー未設定のため金利差の自動評価をスキップ",
       "関連ニュース見出しにドル/円方向を示すキーワードなし（中立）",
-      "直近の重要指標発表なし"
+      "今後3時間以内の重要指標: USD Advance GDP q/q (07/30 08:30 UTC) / USD Core PCE Price Index m/m (07/30 08:30 UTC)"
     ],
-    "has_upcoming_event": false
+    "has_upcoming_event": true
   },
   "news": {
     "items": [
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "Consumer Confidence",
-        "impact": "Low",
-        "time": "2026-07-30T01:00:00-04:00",
-        "forecast": "34.2",
-        "previous": "33.8",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Advance GDP q/q",
