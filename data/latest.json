@@ -1,40 +1,41 @@
 {
-  "generated_at_jst": "2026-07-30T19:02:23.890528+09:00",
-  "generated_at_utc": "2026-07-30T10:02:25.692875+00:00",
+  "generated_at_jst": "2026-07-31T01:17:08.095017+09:00",
+  "generated_at_utc": "2026-07-30T16:17:09.538756+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.42,
-    "technical_score": 0.839,
+    "overall_score": -0.026,
+    "technical_score": -0.051,
     "fundamental_score": 0.0,
-    "override_reason": "重要指標発表が近いためスコアに関わらず待ちと判定"
+    "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(162.64) > SMA50(161.36) でゴールデンクロス状態（買い要因）",
-      "RSI14=60.4で中立圏",
-      "MACDがシグナルを上抜け（買い要因）"
+      "SMA20(162.45) > SMA50(161.28) でゴールデンクロス状態（買い要因）",
+      "RSI14=31.9で中立圏",
+      "MACDがシグナルを下抜け（売り要因）",
+      "価格がボリンジャーバンド-2σを下回り売られすぎ（買い要因）"
     ],
     "indicators": {
-      "price": 163.26300048828125,
-      "sma20": 162.64015045166016,
-      "sma50": 161.35540069580077,
+      "price": 159.42999267578125,
+      "sma20": 162.44850006103516,
+      "sma50": 161.27874053955077,
       "sma200": null,
-      "rsi14": 60.36905124729554,
-      "macd": 0.651267363687623,
-      "macd_signal": 0.6197306264501636,
-      "bb_upper": 164.1327564092711,
-      "bb_mid": 162.64015045166016,
-      "bb_lower": 161.1475444940492,
-      "atr14": 0.6536479479352072
+      "rsi14": 31.888864518662203,
+      "macd": 0.34550035870185525,
+      "macd_signal": 0.55857722545301,
+      "bb_upper": 164.48836424230782,
+      "bb_mid": 162.44850006103516,
+      "bb_lower": 160.4086358797625,
+      "atr14": 1.0307187835936893
     }
   },
   "fundamental": {
     "reasons": [
       "FRED APIキー未設定のため金利差の自動評価をスキップ",
       "関連ニュース見出しにドル/円方向を示すキーワードなし（中立）",
-      "今後3時間以内の重要指標: USD Advance GDP q/q (07/30 08:30 UTC) / USD Core PCE Price Index m/m (07/30 08:30 UTC)"
+      "直近の重要指標発表なし"
     ],
-    "has_upcoming_event": true
+    "has_upcoming_event": false
   },
   "news": {
     "items": [
@@ -114,69 +115,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Advance GDP q/q",
-        "impact": "High",
-        "time": "2026-07-30T08:30:00-04:00",
-        "forecast": "2.1%",
-        "previous": "2.0%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Core PCE Price Index m/m",
-        "impact": "High",
-        "time": "2026-07-30T08:30:00-04:00",
-        "forecast": "0.2%",
-        "previous": "0.3%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Advance GDP Price Index q/q",
-        "impact": "Medium",
-        "time": "2026-07-30T08:30:00-04:00",
-        "forecast": "4.1%",
-        "previous": "3.6%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Unemployment Claims",
-        "impact": "Medium",
-        "time": "2026-07-30T08:30:00-04:00",
-        "forecast": "201K",
-        "previous": "187K",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Personal Income m/m",
-        "impact": "Low",
-        "time": "2026-07-30T08:30:00-04:00",
-        "forecast": "0.3%",
-        "previous": "0.7%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Personal Spending m/m",
-        "impact": "Low",
-        "time": "2026-07-30T08:30:00-04:00",
-        "forecast": "0.4%",
-        "previous": "0.7%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Natural Gas Storage",
-        "impact": "Low",
-        "time": "2026-07-30T10:30:00-04:00",
-        "forecast": "37B",
-        "previous": "32B",
-        "actual": null
-      },
       {
         "country": "JPY",
         "title": "Tokyo Core CPI y/y",
