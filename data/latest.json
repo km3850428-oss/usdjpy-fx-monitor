@@ -1,32 +1,32 @@
 {
-  "generated_at_jst": "2026-07-31T17:10:06.556094+09:00",
-  "generated_at_utc": "2026-07-31T08:10:08.398464+00:00",
+  "generated_at_jst": "2026-08-01T01:13:48.833789+09:00",
+  "generated_at_utc": "2026-07-31T16:13:49.946217+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": -0.005,
-    "technical_score": -0.01,
+    "overall_score": 0.212,
+    "technical_score": 0.425,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(162.59) > SMA50(161.38) でゴールデンクロス状態（買い要因）",
-      "RSI14=35.2で中立圏",
+      "SMA20(162.53) > SMA50(161.36) でゴールデンクロス状態（買い要因）",
+      "RSI14=29.9で売られすぎ水準（買い要因）",
       "MACDがシグナルを下抜け（売り要因）",
       "価格がボリンジャーバンド-2σを下回り売られすぎ（買い要因）"
     ],
     "indicators": {
-      "price": 160.41400146484375,
-      "sma20": 162.59025039672852,
-      "sma50": 161.38406066894532,
+      "price": 159.2209930419922,
+      "sma20": 162.53059997558594,
+      "sma50": 161.36020050048828,
       "sma200": null,
-      "rsi14": 35.172363978819945,
-      "macd": 0.3882996000298533,
-      "macd_signal": 0.5737996103258309,
-      "bb_upper": 164.3141975012003,
-      "bb_mid": 162.59025039672852,
-      "bb_lower": 160.86630329225673,
-      "atr14": 1.2342731406049539
+      "rsi14": 29.945597537162172,
+      "macd": 0.2931308369533667,
+      "macd_signal": 0.5547658577105337,
+      "bb_upper": 164.61622203068478,
+      "bb_mid": 162.53059997558594,
+      "bb_lower": 160.4449779204871,
+      "atr14": 1.2939153873962483
     }
   },
   "fundamental": {
@@ -114,43 +114,6 @@
   "calendar": {
     "caution_window_hours": 3,
     "display_window_hours": 48,
-    "events": [
-      {
-        "country": "USD",
-        "title": "Employment Cost Index q/q",
-        "impact": "Medium",
-        "time": "2026-07-31T08:30:00-04:00",
-        "forecast": "0.8%",
-        "previous": "0.9%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Chicago PMI",
-        "impact": "Low",
-        "time": "2026-07-31T09:45:00-04:00",
-        "forecast": "55.9",
-        "previous": "56.7",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Revised UoM Consumer Sentiment",
-        "impact": "Medium",
-        "time": "2026-07-31T10:00:00-04:00",
-        "forecast": "53.9",
-        "previous": "54.4",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Revised UoM Inflation Expectations",
-        "impact": "Medium",
-        "time": "2026-07-31T10:00:00-04:00",
-        "forecast": "",
-        "previous": "4.2%",
-        "actual": null
-      }
-    ]
+    "events": []
   }
 }
