@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-08-02T10:54:27.703912+09:00",
-  "generated_at_utc": "2026-08-02T01:54:28.960323+00:00",
+  "generated_at_jst": "2026-08-02T14:19:16.430044+09:00",
+  "generated_at_utc": "2026-08-02T05:19:17.973590+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": 0.212,
@@ -114,6 +114,88 @@
   "calendar": {
     "caution_window_hours": 3,
     "display_window_hours": 48,
-    "events": []
+    "events": [
+      {
+        "country": "JPY",
+        "title": "Final Manufacturing PMI",
+        "impact": "Low",
+        "time": "2026-08-02T20:30:00-04:00",
+        "forecast": "54.7",
+        "previous": "54.7",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Final Manufacturing PMI",
+        "impact": "Low",
+        "time": "2026-08-03T09:45:00-04:00",
+        "forecast": "53.8",
+        "previous": "53.8",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "ISM Manufacturing PMI",
+        "impact": "High",
+        "time": "2026-08-03T10:00:00-04:00",
+        "forecast": "54.0",
+        "previous": "53.3",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "ISM Manufacturing Prices",
+        "impact": "Medium",
+        "time": "2026-08-03T10:00:00-04:00",
+        "forecast": "70.0",
+        "previous": "73.0",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Construction Spending m/m",
+        "impact": "Low",
+        "time": "2026-08-03T10:00:00-04:00",
+        "forecast": "0.2%",
+        "previous": "0.1%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Omdia Total Vehicle Sales",
+        "impact": "Low",
+        "time": "2026-08-03T10:15:00-04:00",
+        "forecast": "16.3M",
+        "previous": "16.5M",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Loan Officer Survey",
+        "impact": "Low",
+        "time": "2026-08-03T14:03:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Monetary Base y/y",
+        "impact": "Low",
+        "time": "2026-08-03T19:50:00-04:00",
+        "forecast": "-13.0%",
+        "previous": "-13.7%",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "10-y Bond Auction",
+        "impact": "Low",
+        "time": "2026-08-03T23:35:00-04:00",
+        "forecast": "",
+        "previous": "2.73|3.1",
+        "actual": null
+      }
+    ]
   }
 }
