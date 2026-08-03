@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-08-03T21:50:50.657481+09:00",
-  "generated_at_utc": "2026-08-03T12:50:51.924908+00:00",
+  "generated_at_jst": "2026-08-04T00:38:32.137844+09:00",
+  "generated_at_utc": "2026-08-03T15:38:34.419125+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": 0.212,
     "technical_score": 0.425,
     "fundamental_score": 0.0,
-    "override_reason": "重要指標発表が近いためスコアに関わらず待ちと判定"
+    "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(162.35) > SMA50(161.34) でゴールデンクロス状態（買い要因）",
-      "RSI14=22.6で売られすぎ水準（買い要因）",
+      "SMA20(162.34) > SMA50(161.34) でゴールデンクロス状態（買い要因）",
+      "RSI14=22.4で売られすぎ水準（買い要因）",
       "MACDがシグナルを下抜け（売り要因）",
       "価格がボリンジャーバンド-2σを下回り売られすぎ（買い要因）"
     ],
     "indicators": {
-      "price": 156.8520050048828,
-      "sma20": 162.34870071411132,
-      "sma50": 161.33756072998048,
+      "price": 156.76699829101562,
+      "sma20": 162.34445037841797,
+      "sma50": 161.33586059570314,
       "sma200": null,
-      "rsi14": 22.56720401024225,
-      "macd": -0.12277531275120168,
-      "macd_signal": 0.4315223807197221,
-      "bb_upper": 165.44846922817428,
-      "bb_mid": 162.34870071411132,
-      "bb_lower": 159.24893220004836,
+      "rsi14": 22.374934509265017,
+      "macd": -0.1295564751110021,
+      "macd_signal": 0.430166148247762,
+      "bb_upper": 165.4760233783741,
+      "bb_mid": 162.34445037841797,
+      "bb_lower": 159.21287737846185,
       "atr14": 1.546377604956453
     }
   },
@@ -33,9 +33,9 @@
     "reasons": [
       "FRED APIキー未設定のため金利差の自動評価をスキップ",
       "関連ニュース見出しにドル/円方向を示すキーワードなし（中立）",
-      "今後3時間以内の重要指標: USD ISM Manufacturing PMI (08/03 10:00 UTC)"
+      "直近の重要指標発表なし"
     ],
-    "has_upcoming_event": true
+    "has_upcoming_event": false
   },
   "news": {
     "items": [
@@ -115,51 +115,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Final Manufacturing PMI",
-        "impact": "Low",
-        "time": "2026-08-03T09:45:00-04:00",
-        "forecast": "53.8",
-        "previous": "53.8",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "ISM Manufacturing PMI",
-        "impact": "High",
-        "time": "2026-08-03T10:00:00-04:00",
-        "forecast": "54.0",
-        "previous": "53.3",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "ISM Manufacturing Prices",
-        "impact": "Medium",
-        "time": "2026-08-03T10:00:00-04:00",
-        "forecast": "70.0",
-        "previous": "73.0",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Construction Spending m/m",
-        "impact": "Low",
-        "time": "2026-08-03T10:00:00-04:00",
-        "forecast": "0.2%",
-        "previous": "0.1%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Omdia Total Vehicle Sales",
-        "impact": "Low",
-        "time": "2026-08-03T10:15:00-04:00",
-        "forecast": "16.3M",
-        "previous": "16.5M",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Loan Officer Survey",
@@ -257,6 +212,33 @@
         "time": "2026-08-05T08:15:00-04:00",
         "forecast": "71K",
         "previous": "98K",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Final Services PMI",
+        "impact": "Low",
+        "time": "2026-08-05T09:45:00-04:00",
+        "forecast": "53.6",
+        "previous": "53.6",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "ISM Services PMI",
+        "impact": "Medium",
+        "time": "2026-08-05T10:00:00-04:00",
+        "forecast": "54.5",
+        "previous": "54.0",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Crude Oil Inventories",
+        "impact": "Low",
+        "time": "2026-08-05T10:30:00-04:00",
+        "forecast": "",
+        "previous": "-7.2M",
         "actual": null
       }
     ]
