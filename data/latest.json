@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-08-03T18:24:31.726975+09:00",
-  "generated_at_utc": "2026-08-03T09:24:36.059929+00:00",
+  "generated_at_jst": "2026-08-03T21:50:50.657481+09:00",
+  "generated_at_utc": "2026-08-03T12:50:51.924908+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": 0.212,
     "technical_score": 0.425,
     "fundamental_score": 0.0,
-    "override_reason": null
+    "override_reason": "重要指標発表が近いためスコアに関わらず待ちと判定"
   },
   "technical": {
     "reasons": [
       "SMA20(162.35) > SMA50(161.34) でゴールデンクロス状態（買い要因）",
-      "RSI14=22.7で売られすぎ水準（買い要因）",
+      "RSI14=22.6で売られすぎ水準（買い要因）",
       "MACDがシグナルを下抜け（売り要因）",
       "価格がボリンジャーバンド-2σを下回り売られすぎ（買い要因）"
     ],
     "indicators": {
-      "price": 156.93099975585938,
-      "sma20": 162.35265045166017,
-      "sma50": 161.339140625,
+      "price": 156.8520050048828,
+      "sma20": 162.34870071411132,
+      "sma50": 161.33756072998048,
       "sma200": null,
-      "rsi14": 22.748861496155,
-      "macd": -0.1164737371747151,
-      "macd_signal": 0.4327826958350194,
-      "bb_upper": 165.42299042729272,
-      "bb_mid": 162.35265045166017,
-      "bb_lower": 159.28231047602762,
+      "rsi14": 22.56720401024225,
+      "macd": -0.12277531275120168,
+      "macd_signal": 0.4315223807197221,
+      "bb_upper": 165.44846922817428,
+      "bb_mid": 162.34870071411132,
+      "bb_lower": 159.24893220004836,
       "atr14": 1.546377604956453
     }
   },
@@ -33,9 +33,9 @@
     "reasons": [
       "FRED APIキー未設定のため金利差の自動評価をスキップ",
       "関連ニュース見出しにドル/円方向を示すキーワードなし（中立）",
-      "直近の重要指標発表なし"
+      "今後3時間以内の重要指標: USD ISM Manufacturing PMI (08/03 10:00 UTC)"
     ],
-    "has_upcoming_event": false
+    "has_upcoming_event": true
   },
   "news": {
     "items": [
@@ -248,6 +248,15 @@
         "time": "2026-08-04T19:50:00-04:00",
         "forecast": "",
         "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "ADP Non-Farm Employment Change",
+        "impact": "Medium",
+        "time": "2026-08-05T08:15:00-04:00",
+        "forecast": "71K",
+        "previous": "98K",
         "actual": null
       }
     ]
