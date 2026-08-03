@@ -1,8 +1,8 @@
 {
-  "signal": "買い",
-  "overall_score": 0.713,
+  "signal": "待ち",
+  "overall_score": 0.212,
   "technical_score": 0.425,
-  "fundamental_score": 1.0,
+  "fundamental_score": 0.0,
   "override_reason": null,
-  "timestamp": "2026-08-03T14:38:50.122533+09:00"
+  "timestamp": "2026-08-03T18:24:31.726975+09:00"
 }
