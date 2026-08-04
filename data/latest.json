@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-08-04T09:00:25.738176+09:00",
-  "generated_at_utc": "2026-08-04T00:00:27.721382+00:00",
+  "generated_at_jst": "2026-08-04T12:58:29.761331+09:00",
+  "generated_at_utc": "2026-08-04T03:58:31.323509+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": 0.212,
@@ -10,23 +10,23 @@
   },
   "technical": {
     "reasons": [
-      "SMA20(162.16) > SMA50(161.32) でゴールデンクロス状態（買い要因）",
-      "RSI14=24.1で売られすぎ水準（買い要因）",
+      "SMA20(162.16) > SMA50(161.33) でゴールデンクロス状態（買い要因）",
+      "RSI14=25.0で売られすぎ水準（買い要因）",
       "MACDがシグナルを下抜け（売り要因）",
       "価格がボリンジャーバンド-2σを下回り売られすぎ（買い要因）"
     ],
     "indicators": {
-      "price": 157.48699951171875,
-      "sma20": 162.15515060424804,
-      "sma50": 161.3228207397461,
+      "price": 157.6510009765625,
+      "sma20": 162.16335067749023,
+      "sma50": 161.32610076904297,
       "sma200": null,
-      "rsi14": 24.102761869440414,
-      "macd": -0.4117447257719107,
-      "macd_signal": 0.2721658494803068,
-      "bb_upper": 165.73778084858,
-      "bb_mid": 162.15515060424804,
-      "bb_lower": 158.57252035991607,
-      "atr14": 1.4716478416298557
+      "rsi14": 24.980230896976295,
+      "macd": -0.3986619878356521,
+      "macd_signal": 0.2747823970675585,
+      "bb_upper": 165.70146709261056,
+      "bb_mid": 162.16335067749023,
+      "bb_lower": 158.6252342623699,
+      "atr14": 1.4772903238424673
     }
   },
   "fundamental": {
@@ -115,15 +115,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "10-y Bond Auction",
-        "impact": "Low",
-        "time": "2026-08-03T23:35:00-04:00",
-        "forecast": "",
-        "previous": "2.73|3.1",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Trade Balance",
@@ -239,6 +230,24 @@
         "time": "2026-08-05T16:05:00-04:00",
         "forecast": "",
         "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Daly Speaks",
+        "impact": "Low",
+        "time": "2026-08-05T20:35:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "30-y Bond Auction",
+        "impact": "Low",
+        "time": "2026-08-05T23:35:00-04:00",
+        "forecast": "",
+        "previous": "3.99|4.6",
         "actual": null
       }
     ]
