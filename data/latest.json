@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-08-05T07:04:36.474403+09:00",
-  "generated_at_utc": "2026-08-04T22:04:37.548338+00:00",
+  "generated_at_jst": "2026-08-05T08:55:55.134409+09:00",
+  "generated_at_utc": "2026-08-04T23:55:58.575156+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": 0.212,
@@ -10,23 +10,23 @@
   },
   "technical": {
     "reasons": [
-      "SMA20(162.17) > SMA50(161.33) でゴールデンクロス状態（買い要因）",
-      "RSI14=25.8で売られすぎ水準（買い要因）",
+      "SMA20(161.93) > SMA50(161.29) でゴールデンクロス状態（買い要因）",
+      "RSI14=26.2で売られすぎ水準（買い要因）",
       "MACDがシグナルを下抜け（売り要因）",
       "価格がボリンジャーバンド-2σを下回り売られすぎ（買い要因）"
     ],
     "indicators": {
-      "price": 157.74400329589844,
-      "sma20": 162.16800079345703,
-      "sma50": 161.3279608154297,
+      "price": 157.73899841308594,
+      "sma20": 161.92605056762696,
+      "sma50": 161.29358093261717,
       "sma200": null,
-      "rsi14": 25.784890431704312,
-      "macd": -0.3912429993985995,
-      "macd_signal": 0.27626619475496905,
-      "bb_upper": 165.68130395885964,
-      "bb_mid": 162.16800079345703,
-      "bb_lower": 158.6546976280544,
-      "atr14": 1.4485754626538512
+      "rsi14": 26.160683236440676,
+      "macd": -0.6564245446547261,
+      "macd_signal": 0.08691976094773002,
+      "bb_upper": 166.00388325856088,
+      "bb_mid": 161.92605056762696,
+      "bb_lower": 157.84821787669304,
+      "atr14": 1.3986455107693396
     }
   },
   "fundamental": {
@@ -115,24 +115,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "Average Cash Earnings y/y",
-        "impact": "Low",
-        "time": "2026-08-04T19:30:00-04:00",
-        "forecast": "3.4%",
-        "previous": "3.2%",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "Monetary Policy Meeting Minutes",
-        "impact": "Low",
-        "time": "2026-08-04T19:50:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "FOMC Member Schmid Speaks",
@@ -275,6 +257,15 @@
         "time": "2026-08-06T17:30:00-04:00",
         "forecast": "",
         "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Household Spending y/y",
+        "impact": "Low",
+        "time": "2026-08-06T19:30:00-04:00",
+        "forecast": "0.8%",
+        "previous": "-0.4%",
         "actual": null
       }
     ]
