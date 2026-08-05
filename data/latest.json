@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-08-06T04:16:05.923498+09:00",
-  "generated_at_utc": "2026-08-05T19:16:07.020268+00:00",
+  "generated_at_jst": "2026-08-06T05:58:12.902050+09:00",
+  "generated_at_utc": "2026-08-05T20:58:13.874676+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": 0.212,
@@ -10,22 +10,22 @@
   },
   "technical": {
     "reasons": [
-      "SMA20(161.92) > SMA50(161.29) でゴールデンクロス状態（買い要因）",
-      "RSI14=25.9で売られすぎ水準（買い要因）",
+      "SMA20(161.93) > SMA50(161.29) でゴールデンクロス状態（買い要因）",
+      "RSI14=26.3で売られすぎ水準（買い要因）",
       "MACDがシグナルを下抜け（売り要因）",
       "価格がボリンジャーバンド-2σを下回り売られすぎ（買い要因）"
     ],
     "indicators": {
-      "price": 157.71099853515625,
-      "sma20": 161.92465057373047,
-      "sma50": 161.2930209350586,
+      "price": 157.7550048828125,
+      "sma20": 161.92685089111328,
+      "sma50": 161.2939010620117,
       "sma200": null,
-      "rsi14": 25.9064173573218,
-      "macd": -0.6586581531505544,
-      "macd_signal": 0.08647303924856434,
-      "bb_upper": 166.00855057004114,
-      "bb_mid": 161.92465057373047,
-      "bb_lower": 157.8407505774198,
+      "rsi14": 26.305254983733946,
+      "macd": -0.6551476752748329,
+      "macd_signal": 0.08717513482370864,
+      "bb_upper": 166.0012283627625,
+      "bb_mid": 161.92685089111328,
+      "bb_lower": 157.85247341946405,
       "atr14": 1.4198595872202324
     }
   },
@@ -115,24 +115,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "FOMC Member Cook Speaks",
-        "impact": "Low",
-        "time": "2026-08-05T16:05:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "President Trump Speaks",
-        "impact": "Medium",
-        "time": "2026-08-05T16:30:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "FOMC Member Daly Speaks",
