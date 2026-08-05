@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-08-05T21:47:58.438846+09:00",
-  "generated_at_utc": "2026-08-05T12:47:59.393946+00:00",
+  "generated_at_jst": "2026-08-06T00:08:47.312434+09:00",
+  "generated_at_utc": "2026-08-05T15:08:48.903387+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": 0.212,
@@ -10,22 +10,22 @@
   },
   "technical": {
     "reasons": [
-      "SMA20(161.92) > SMA50(161.29) でゴールデンクロス状態（買い要因）",
-      "RSI14=24.8で売られすぎ水準（買い要因）",
+      "SMA20(161.91) > SMA50(161.29) でゴールデンクロス状態（買い要因）",
+      "RSI14=24.1で売られすぎ水準（買い要因）",
       "MACDがシグナルを下抜け（売り要因）",
       "価格がボリンジャーバンド-2σを下回り売られすぎ（買い要因）"
     ],
     "indicators": {
-      "price": 157.593994140625,
-      "sma20": 161.9188003540039,
-      "sma50": 161.29068084716798,
+      "price": 157.5,
+      "sma20": 161.91410064697266,
+      "sma50": 161.28880096435546,
       "sma200": null,
-      "rsi14": 24.824680232689033,
-      "macd": -0.6679918370447808,
-      "macd_signal": 0.08460630246971906,
-      "bb_upper": 166.02837001369653,
-      "bb_mid": 161.9188003540039,
-      "bb_lower": 157.80923069431128,
+      "rsi14": 24.12207868312592,
+      "macd": -0.6754899451288168,
+      "macd_signal": 0.08310668085291187,
+      "bb_upper": 166.04465634509685,
+      "bb_mid": 161.91410064697266,
+      "bb_lower": 157.78354494884846,
       "atr14": 1.4198595872202324
     }
   },
@@ -115,33 +115,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Final Services PMI",
-        "impact": "Low",
-        "time": "2026-08-05T09:45:00-04:00",
-        "forecast": "53.6",
-        "previous": "53.6",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "ISM Services PMI",
-        "impact": "Medium",
-        "time": "2026-08-05T10:00:00-04:00",
-        "forecast": "54.5",
-        "previous": "54.0",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Crude Oil Inventories",
-        "impact": "Low",
-        "time": "2026-08-05T10:30:00-04:00",
-        "forecast": "-1.5M",
-        "previous": "-7.2M",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "FOMC Member Cook Speaks",
@@ -284,6 +257,15 @@
         "time": "2026-08-07T08:30:00-04:00",
         "forecast": "4.2%",
         "previous": "4.2%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Barkin Speaks",
+        "impact": "Low",
+        "time": "2026-08-07T10:00:00-04:00",
+        "forecast": "",
+        "previous": "",
         "actual": null
       }
     ]
