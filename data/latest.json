@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-08-05T19:26:54.582186+09:00",
-  "generated_at_utc": "2026-08-05T10:26:55.576669+00:00",
+  "generated_at_jst": "2026-08-05T21:47:58.438846+09:00",
+  "generated_at_utc": "2026-08-05T12:47:59.393946+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": 0.212,
@@ -10,22 +10,22 @@
   },
   "technical": {
     "reasons": [
-      "SMA20(161.93) > SMA50(161.29) でゴールデンクロス状態（買い要因）",
-      "RSI14=26.1で売られすぎ水準（買い要因）",
+      "SMA20(161.92) > SMA50(161.29) でゴールデンクロス状態（買い要因）",
+      "RSI14=24.8で売られすぎ水準（買い要因）",
       "MACDがシグナルを下抜け（売り要因）",
       "価格がボリンジャーバンド-2σを下回り売られすぎ（買い要因）"
     ],
     "indicators": {
-      "price": 157.73500061035156,
-      "sma20": 161.92585067749025,
-      "sma50": 161.2935009765625,
+      "price": 157.593994140625,
+      "sma20": 161.9188003540039,
+      "sma50": 161.29068084716798,
       "sma200": null,
-      "rsi14": 26.124486182329008,
-      "macd": -0.6567434576933806,
-      "macd_signal": 0.08685597833999911,
-      "bb_upper": 166.004547853714,
-      "bb_mid": 161.92585067749025,
-      "bb_lower": 157.8471535012665,
+      "rsi14": 24.824680232689033,
+      "macd": -0.6679918370447808,
+      "macd_signal": 0.08460630246971906,
+      "bb_upper": 166.02837001369653,
+      "bb_mid": 161.9188003540039,
+      "bb_lower": 157.80923069431128,
       "atr14": 1.4198595872202324
     }
   },
@@ -115,15 +115,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "ADP Non-Farm Employment Change",
-        "impact": "Medium",
-        "time": "2026-08-05T08:15:00-04:00",
-        "forecast": "68K",
-        "previous": "98K",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Final Services PMI",
@@ -266,6 +257,33 @@
         "time": "2026-08-07T01:00:00-04:00",
         "forecast": "116.5%",
         "previous": "116.8%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Average Hourly Earnings m/m",
+        "impact": "High",
+        "time": "2026-08-07T08:30:00-04:00",
+        "forecast": "0.3%",
+        "previous": "0.3%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Non-Farm Employment Change",
+        "impact": "High",
+        "time": "2026-08-07T08:30:00-04:00",
+        "forecast": "85K",
+        "previous": "57K",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Unemployment Rate",
+        "impact": "High",
+        "time": "2026-08-07T08:30:00-04:00",
+        "forecast": "4.2%",
+        "previous": "4.2%",
         "actual": null
       }
     ]
