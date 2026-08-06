@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-08-06T21:51:24.152850+09:00",
-  "generated_at_utc": "2026-08-06T12:51:26.332277+00:00",
+  "generated_at_jst": "2026-08-07T00:10:11.819510+09:00",
+  "generated_at_utc": "2026-08-06T15:10:13.100118+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.167,
-    "technical_score": 0.333,
+    "overall_score": -0.158,
+    "technical_score": -0.315,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(161.69) > SMA50(161.26) でゴールデンクロス状態（買い要因）",
-      "RSI14=27.7で売られすぎ水準（買い要因）",
+      "SMA20(161.71) > SMA50(161.27) でゴールデンクロス状態（買い要因）",
+      "RSI14=31.1で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 157.89199829101562,
-      "sma20": 161.69135055541992,
-      "sma50": 161.25912109375,
+      "price": 158.27699279785156,
+      "sma20": 161.71060028076172,
+      "sma50": 161.26682098388673,
       "sma200": null,
-      "rsi14": 27.65843202184635,
-      "macd": -0.8339107844174123,
-      "macd_signal": -0.09783856203597757,
-      "bb_upper": 166.14410538714716,
-      "bb_mid": 161.69135055541992,
-      "bb_lower": 157.23859572369267,
-      "atr14": 1.3452261777477301
+      "rsi14": 31.089177060691554,
+      "macd": -0.803198971906312,
+      "macd_signal": -0.09169619953375752,
+      "bb_upper": 166.09703203498324,
+      "bb_mid": 161.71060028076172,
+      "bb_lower": 157.3241685265402,
+      "atr14": 1.37158355602619
     }
   },
   "fundamental": {
@@ -114,24 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Final Wholesale Inventories m/m",
-        "impact": "Low",
-        "time": "2026-08-06T10:00:00-04:00",
-        "forecast": "0.3%",
-        "previous": "0.3%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Natural Gas Storage",
-        "impact": "Low",
-        "time": "2026-08-06T10:30:00-04:00",
-        "forecast": "30B",
-        "previous": "28B",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "FOMC Member Musalem Speaks",
