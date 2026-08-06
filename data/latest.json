@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-08-07T00:10:11.819510+09:00",
-  "generated_at_utc": "2026-08-06T15:10:13.100118+00:00",
+  "generated_at_jst": "2026-08-07T08:50:45.083310+09:00",
+  "generated_at_utc": "2026-08-06T23:50:46.193963+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": -0.158,
-    "technical_score": -0.315,
+    "overall_score": -0.143,
+    "technical_score": -0.286,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(161.71) > SMA50(161.27) でゴールデンクロス状態（買い要因）",
-      "RSI14=31.1で中立圏",
+      "SMA20(161.48) > SMA50(161.24) でゴールデンクロス状態（買い要因）",
+      "RSI14=32.9で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 158.27699279785156,
-      "sma20": 161.71060028076172,
-      "sma50": 161.26682098388673,
+      "price": 158.38600158691406,
+      "sma20": 161.47790069580077,
+      "sma50": 161.23560119628905,
       "sma200": null,
-      "rsi14": 31.089177060691554,
-      "macd": -0.803198971906312,
-      "macd_signal": -0.09169619953375752,
-      "bb_upper": 166.09703203498324,
-      "bb_mid": 161.71060028076172,
-      "bb_lower": 157.3241685265402,
-      "atr14": 1.37158355602619
+      "rsi14": 32.869966767679685,
+      "macd": -0.9391285190296799,
+      "macd_signal": -0.2698498093690997,
+      "bb_upper": 166.20287101540814,
+      "bb_mid": 161.47790069580077,
+      "bb_lower": 156.7529303761934,
+      "atr14": 1.3466351736548026
     }
   },
   "fundamental": {
@@ -115,24 +115,6 @@
     "display_window_hours": 48,
     "events": [
       {
-        "country": "USD",
-        "title": "FOMC Member Musalem Speaks",
-        "impact": "Low",
-        "time": "2026-08-06T17:30:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "Household Spending y/y",
-        "impact": "Low",
-        "time": "2026-08-06T19:30:00-04:00",
-        "forecast": "0.8%",
-        "previous": "-0.4%",
-        "actual": null
-      },
-      {
         "country": "JPY",
         "title": "Leading Indicators",
         "impact": "Low",
@@ -184,6 +166,15 @@
         "time": "2026-08-07T15:00:00-04:00",
         "forecast": "11.4B",
         "previous": "-0.2B",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Bowman Speaks",
+        "impact": "Low",
+        "time": "2026-08-08T12:45:00-04:00",
+        "forecast": "",
+        "previous": "",
         "actual": null
       }
     ]
