@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-08-06T19:29:28.780473+09:00",
-  "generated_at_utc": "2026-08-06T10:29:30.022490+00:00",
+  "generated_at_jst": "2026-08-06T21:51:24.152850+09:00",
+  "generated_at_utc": "2026-08-06T12:51:26.332277+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": 0.167,
@@ -11,21 +11,21 @@
   "technical": {
     "reasons": [
       "SMA20(161.69) > SMA50(161.26) でゴールデンクロス状態（買い要因）",
-      "RSI14=27.2で売られすぎ水準（買い要因）",
+      "RSI14=27.7で売られすぎ水準（買い要因）",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 157.8419952392578,
-      "sma20": 161.68885040283203,
-      "sma50": 161.25812103271485,
+      "price": 157.89199829101562,
+      "sma20": 161.69135055541992,
+      "sma50": 161.25912109375,
       "sma200": null,
-      "rsi14": 27.187619270360784,
-      "macd": -0.8378996318510872,
-      "macd_signal": -0.09863633152271256,
-      "bb_upper": 166.15063445161215,
-      "bb_mid": 161.68885040283203,
-      "bb_lower": 157.2270663540519,
-      "atr14": 1.3390114909452748
+      "rsi14": 27.65843202184635,
+      "macd": -0.8339107844174123,
+      "macd_signal": -0.09783856203597757,
+      "bb_upper": 166.14410538714716,
+      "bb_mid": 161.69135055541992,
+      "bb_lower": 157.23859572369267,
+      "atr14": 1.3452261777477301
     }
   },
   "fundamental": {
@@ -114,33 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Unemployment Claims",
-        "impact": "Medium",
-        "time": "2026-08-06T08:30:00-04:00",
-        "forecast": "203K",
-        "previous": "197K",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Prelim Nonfarm Productivity q/q",
-        "impact": "Low",
-        "time": "2026-08-06T08:30:00-04:00",
-        "forecast": "0.6%",
-        "previous": "0.8%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Prelim Unit Labor Costs q/q",
-        "impact": "Low",
-        "time": "2026-08-06T08:30:00-04:00",
-        "forecast": "2.2%",
-        "previous": "2.3%",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Final Wholesale Inventories m/m",
