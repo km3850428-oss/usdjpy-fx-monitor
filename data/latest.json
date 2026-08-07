@@ -1,40 +1,40 @@
 {
-  "generated_at_jst": "2026-08-07T20:38:45.775631+09:00",
-  "generated_at_utc": "2026-08-07T11:38:47.609795+00:00",
+  "generated_at_jst": "2026-08-07T21:41:38.446577+09:00",
+  "generated_at_utc": "2026-08-07T12:41:39.895640+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": -0.146,
-    "technical_score": -0.293,
+    "overall_score": 0.167,
+    "technical_score": 0.333,
     "fundamental_score": 0.0,
-    "override_reason": "重要指標発表が近いためスコアに関わらず待ちと判定"
+    "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(161.48) > SMA50(161.23) でゴールデンクロス状態（買い要因）",
-      "RSI14=32.4で中立圏",
+      "SMA20(161.41) > SMA50(161.21) でゴールデンクロス状態（買い要因）",
+      "RSI14=23.7で売られすぎ水準（買い要因）",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 158.33700561523438,
-      "sma20": 161.4754508972168,
-      "sma50": 161.23462127685548,
+      "price": 157.093994140625,
+      "sma20": 161.41330032348634,
+      "sma50": 161.2097610473633,
       "sma200": null,
-      "rsi14": 32.4492628219528,
-      "macd": -0.9430370295910109,
-      "macd_signal": -0.2706315114813659,
-      "bb_upper": 166.20721696904485,
-      "bb_mid": 161.4754508972168,
-      "bb_lower": 156.74368482538875,
-      "atr14": 1.3514929181442
+      "rsi14": 23.723325868645162,
+      "macd": -1.0421946401011724,
+      "macd_signal": -0.2904630335833982,
+      "bb_upper": 166.34698089468532,
+      "bb_mid": 161.41330032348634,
+      "bb_lower": 156.47961975228736,
+      "atr14": 1.4192081542630617
     }
   },
   "fundamental": {
     "reasons": [
       "FRED APIキー未設定のため金利差の自動評価をスキップ",
       "関連ニュース見出しにドル/円方向を示すキーワードなし（中立）",
-      "今後3時間以内の重要指標: USD Average Hourly Earnings m/m (08/07 08:30 UTC) / USD Non-Farm Employment Change (08/07 08:30 UTC) / USD Unemployment Rate (08/07 08:30 UTC)"
+      "直近の重要指標発表なし"
     ],
-    "has_upcoming_event": true
+    "has_upcoming_event": false
   },
   "news": {
     "items": [
@@ -114,33 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Average Hourly Earnings m/m",
-        "impact": "High",
-        "time": "2026-08-07T08:30:00-04:00",
-        "forecast": "0.3%",
-        "previous": "0.3%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Non-Farm Employment Change",
-        "impact": "High",
-        "time": "2026-08-07T08:30:00-04:00",
-        "forecast": "85K",
-        "previous": "57K",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Unemployment Rate",
-        "impact": "High",
-        "time": "2026-08-07T08:30:00-04:00",
-        "forecast": "4.2%",
-        "previous": "4.2%",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "FOMC Member Barkin Speaks",
