@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-08-09T01:21:45.550613+09:00",
-  "generated_at_utc": "2026-08-08T16:21:46.845899+00:00",
+  "generated_at_jst": "2026-08-09T02:21:29.087604+09:00",
+  "generated_at_utc": "2026-08-08T17:21:30.325223+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": 0.167,
@@ -113,16 +113,6 @@
   "calendar": {
     "caution_window_hours": 3,
     "display_window_hours": 48,
-    "events": [
-      {
-        "country": "USD",
-        "title": "FOMC Member Bowman Speaks",
-        "impact": "Low",
-        "time": "2026-08-08T12:45:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      }
-    ]
+    "events": []
   }
 }
