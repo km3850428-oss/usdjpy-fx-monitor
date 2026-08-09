@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-08-09T12:25:00.761517+09:00",
-  "generated_at_utc": "2026-08-09T03:25:02.215501+00:00",
+  "generated_at_jst": "2026-08-09T13:55:50.502586+09:00",
+  "generated_at_utc": "2026-08-09T04:55:51.573226+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": 0.167,
@@ -113,6 +113,61 @@
   "calendar": {
     "caution_window_hours": 3,
     "display_window_hours": 48,
-    "events": []
+    "events": [
+      {
+        "country": "JPY",
+        "title": "Bank Lending y/y",
+        "impact": "Low",
+        "time": "2026-08-09T19:50:00-04:00",
+        "forecast": "5.7%",
+        "previous": "5.7%",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "BOJ Summary of Opinions",
+        "impact": "Low",
+        "time": "2026-08-09T19:50:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Current Account",
+        "impact": "Low",
+        "time": "2026-08-09T19:50:00-04:00",
+        "forecast": "2.50T",
+        "previous": "3.06T",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Economy Watchers Sentiment",
+        "impact": "Low",
+        "time": "2026-08-10T01:00:00-04:00",
+        "forecast": "44.6",
+        "previous": "44.0",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Cleveland Fed Inflation Expectations",
+        "impact": "Low",
+        "time": "2026-08-10T09:48:00-04:00",
+        "forecast": "",
+        "previous": "3.7%",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Bank Holiday",
+        "impact": "Holiday",
+        "time": "2026-08-10T19:00:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      }
+    ]
   }
 }
