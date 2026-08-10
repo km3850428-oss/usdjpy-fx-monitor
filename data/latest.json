@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-08-10T23:14:17.415020+09:00",
-  "generated_at_utc": "2026-08-10T14:14:18.421930+00:00",
+  "generated_at_jst": "2026-08-11T00:51:37.272937+09:00",
+  "generated_at_utc": "2026-08-10T15:51:38.714462+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": -0.106,
@@ -229,6 +229,15 @@
         "time": "2026-08-12T08:30:00-04:00",
         "forecast": "3.4%",
         "previous": "3.5%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Crude Oil Inventories",
+        "impact": "Low",
+        "time": "2026-08-12T10:30:00-04:00",
+        "forecast": "",
+        "previous": "2.5M",
         "actual": null
       }
     ]
