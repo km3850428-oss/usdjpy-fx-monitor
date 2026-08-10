@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-08-10T21:46:45.908824+09:00",
-  "generated_at_utc": "2026-08-10T12:46:46.943336+00:00",
+  "generated_at_jst": "2026-08-10T23:14:17.415020+09:00",
+  "generated_at_utc": "2026-08-10T14:14:18.421930+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": -0.11,
-    "technical_score": -0.219,
+    "overall_score": -0.106,
+    "technical_score": -0.211,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(161.33) > SMA50(161.23) でゴールデンクロス状態（買い要因）",
-      "RSI14=36.9で中立圏",
+      "RSI14=37.3で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 158.8489990234375,
-      "sma20": 161.32760009765624,
-      "sma50": 161.22598114013672,
+      "price": 158.90899658203125,
+      "sma20": 161.33059997558593,
+      "sma50": 161.22718109130858,
       "sma200": null,
-      "rsi14": 36.85518255201667,
-      "macd": -0.9541940237027973,
-      "macd_signal": -0.40636132682236625,
-      "bb_upper": 166.18781350433852,
-      "bb_mid": 161.32760009765624,
-      "bb_lower": 156.46738669097397,
-      "atr14": 1.3987818631853701
+      "rsi14": 37.339214514919554,
+      "macd": -0.949407893672543,
+      "macd_signal": -0.4054041008163154,
+      "bb_upper": 166.184441707401,
+      "bb_mid": 161.33059997558593,
+      "bb_lower": 156.47675824377086,
+      "atr14": 1.4111382125854817
     }
   },
   "fundamental": {
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Cleveland Fed Inflation Expectations",
-        "impact": "Low",
-        "time": "2026-08-10T09:48:00-04:00",
-        "forecast": "",
-        "previous": "3.7%",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "FOMC Member Hammack Speaks",
