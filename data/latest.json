@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-08-11T03:43:25.717926+09:00",
-  "generated_at_utc": "2026-08-10T18:43:27.125383+00:00",
+  "generated_at_jst": "2026-08-11T04:48:19.701078+09:00",
+  "generated_at_utc": "2026-08-10T19:48:20.766468+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": -0.089,
-    "technical_score": -0.178,
+    "overall_score": -0.081,
+    "technical_score": -0.162,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(161.34) > SMA50(161.23) でゴールデンクロス状態（買い要因）",
-      "RSI14=39.3で中立圏",
+      "SMA20(161.35) > SMA50(161.23) でゴールデンクロス状態（買い要因）",
+      "RSI14=40.3で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 159.16299438476562,
-      "sma20": 161.34329986572266,
-      "sma50": 161.2322610473633,
+      "price": 159.2949981689453,
+      "sma20": 161.34990005493165,
+      "sma50": 161.23490112304688,
       "sma200": null,
-      "rsi14": 39.30872796144723,
-      "macd": -0.9291459606908745,
-      "macd_signal": -0.4013517142199817,
-      "bb_upper": 166.17172617916574,
-      "bb_mid": 161.34329986572266,
-      "bb_lower": 156.51487355227957,
-      "atr14": 1.4197812266758836
+      "rsi14": 40.284186667197055,
+      "macd": -0.9186157442890988,
+      "macd_signal": -0.39924567093962654,
+      "bb_upper": 166.1661229636661,
+      "bb_mid": 161.34990005493165,
+      "bb_lower": 156.5336771461972,
+      "atr14": 1.4324961576189639
     }
   },
   "fundamental": {
@@ -115,15 +115,6 @@
     "display_window_hours": 48,
     "events": [
       {
-        "country": "USD",
-        "title": "FOMC Member Hammack Speaks",
-        "impact": "Low",
-        "time": "2026-08-10T15:00:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
         "country": "JPY",
         "title": "Bank Holiday",
         "impact": "Holiday",
@@ -137,7 +128,7 @@
         "title": "NFIB Small Business Index",
         "impact": "Low",
         "time": "2026-08-11T06:00:00-04:00",
-        "forecast": "97.8",
+        "forecast": "97.5",
         "previous": "97.4",
         "actual": null
       },
@@ -254,7 +245,7 @@
         "title": "Federal Budget Balance",
         "impact": "Low",
         "time": "2026-08-12T14:00:00-04:00",
-        "forecast": "-294.6B",
+        "forecast": "-361.2B",
         "previous": "-120.3B",
         "actual": null
       }
