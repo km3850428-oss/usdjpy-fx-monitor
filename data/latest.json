@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-08-10T20:47:38.885640+09:00",
-  "generated_at_utc": "2026-08-10T11:47:40.113088+00:00",
+  "generated_at_jst": "2026-08-10T21:46:45.908824+09:00",
+  "generated_at_utc": "2026-08-10T12:46:46.943336+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": -0.111,
-    "technical_score": -0.222,
+    "overall_score": -0.11,
+    "technical_score": -0.219,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(161.33) > SMA50(161.23) でゴールデンクロス状態（買い要因）",
-      "RSI14=36.7で中立圏",
+      "RSI14=36.9で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 158.8280029296875,
-      "sma20": 161.32655029296876,
-      "sma50": 161.22556121826173,
+      "price": 158.8489990234375,
+      "sma20": 161.32760009765624,
+      "sma50": 161.22598114013672,
       "sma200": null,
-      "rsi14": 36.68402485625933,
-      "macd": -0.9558689257683568,
-      "macd_signal": -0.4066963072354781,
-      "bb_upper": 166.18902646264218,
-      "bb_mid": 161.32655029296876,
-      "bb_lower": 156.46407412329535,
+      "rsi14": 36.85518255201667,
+      "macd": -0.9541940237027973,
+      "macd_signal": -0.40636132682236625,
+      "bb_upper": 166.18781350433852,
+      "bb_mid": 161.32760009765624,
+      "bb_lower": 156.46738669097397,
       "atr14": 1.3987818631853701
     }
   },
@@ -202,6 +202,42 @@
         "time": "2026-08-12T02:00:00-04:00",
         "forecast": "",
         "previous": "52.8%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Core CPI m/m",
+        "impact": "High",
+        "time": "2026-08-12T08:30:00-04:00",
+        "forecast": "0.2%",
+        "previous": "0.0%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Core CPI y/y",
+        "impact": "High",
+        "time": "2026-08-12T08:30:00-04:00",
+        "forecast": "2.5%",
+        "previous": "2.6%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "CPI m/m",
+        "impact": "High",
+        "time": "2026-08-12T08:30:00-04:00",
+        "forecast": "0.1%",
+        "previous": "-0.4%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "CPI y/y",
+        "impact": "High",
+        "time": "2026-08-12T08:30:00-04:00",
+        "forecast": "3.4%",
+        "previous": "3.5%",
         "actual": null
       }
     ]
