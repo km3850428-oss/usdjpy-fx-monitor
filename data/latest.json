@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-08-10T12:44:17.271217+09:00",
-  "generated_at_utc": "2026-08-10T03:44:19.053600+00:00",
+  "generated_at_jst": "2026-08-10T14:17:17.274818+09:00",
+  "generated_at_utc": "2026-08-10T05:17:18.364630+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": -0.149,
-    "technical_score": -0.297,
+    "overall_score": -0.143,
+    "technical_score": -0.286,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(161.30) > SMA50(161.21) でゴールデンクロス状態（買い要因）",
-      "RSI14=32.2で中立圏",
+      "SMA20(161.30) > SMA50(161.22) でゴールデンクロス状態（買い要因）",
+      "RSI14=32.8で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 158.20399475097656,
-      "sma20": 161.29534988403321,
-      "sma50": 161.2130810546875,
+      "price": 158.36099243164062,
+      "sma20": 161.3031997680664,
+      "sma50": 161.21622100830078,
       "sma200": null,
-      "rsi14": 32.163323395095276,
-      "macd": -1.0056473559789083,
-      "macd_signal": -0.41665199327758845,
-      "bb_upper": 166.23276021641468,
-      "bb_mid": 161.29534988403321,
-      "bb_lower": 156.35793955165175,
+      "rsi14": 32.84800687919599,
+      "macd": -0.9931233244729469,
+      "macd_signal": -0.4141471869763962,
+      "bb_upper": 166.2203736127632,
+      "bb_mid": 161.3031997680664,
+      "bb_lower": 156.3860259233696,
       "atr14": 1.3643525854928478
     }
   },
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "Economy Watchers Sentiment",
-        "impact": "Low",
-        "time": "2026-08-10T01:00:00-04:00",
-        "forecast": "44.6",
-        "previous": "44.0",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Cleveland Fed Inflation Expectations",
