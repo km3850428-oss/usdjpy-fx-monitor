@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-08-11T07:27:30.264445+09:00",
-  "generated_at_utc": "2026-08-10T22:27:31.860447+00:00",
+  "generated_at_jst": "2026-08-11T08:26:04.918588+09:00",
+  "generated_at_utc": "2026-08-10T23:26:07.385522+00:00",
   "judgment": {
-    "signal": "待ち",
-    "overall_score": -0.081,
-    "technical_score": -0.163,
+    "signal": "売り",
+    "overall_score": -0.402,
+    "technical_score": -0.805,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(161.35) > SMA50(161.23) でゴールデンクロス状態（買い要因）",
-      "RSI14=40.2で中立圏",
+      "SMA20(161.12) < SMA50(161.20) でデッドクロス状態（売り要因）",
+      "RSI14=41.7で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 159.28799438476562,
-      "sma20": 161.34954986572265,
-      "sma50": 161.2347610473633,
+      "price": 159.24400329589844,
+      "sma20": 161.120450592041,
+      "sma50": 161.19898132324218,
       "sma200": null,
-      "rsi14": 40.23321968924642,
-      "macd": -0.919174450719396,
-      "macd_signal": -0.399357412225686,
-      "bb_upper": 166.1664028574901,
-      "bb_mid": 161.34954986572265,
-      "bb_lower": 156.5326968739552,
-      "atr14": 1.3692822642735398
+      "rsi14": 41.70908964914686,
+      "macd": -0.9840214586143929,
+      "macd_signal": -0.5340260130880807,
+      "bb_upper": 166.14962315834399,
+      "bb_mid": 161.120450592041,
+      "bb_lower": 156.09127802573803,
+      "atr14": 1.3924208381547125
     }
   },
   "fundamental": {
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "Bank Holiday",
-        "impact": "Holiday",
-        "time": "2026-08-10T19:00:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "NFIB Small Business Index",

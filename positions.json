@@ -1,32 +1,14 @@
 {
-  "next_id": 12,
+  "next_id": 13,
   "open": [
     {
-      "id": 9,
-      "direction": "買い",
-      "entry_price": 156.402,
-      "stop_loss": 154.082,
-      "take_profit": 161.041,
-      "atr_at_entry": 1.546,
-      "opened_at": "2026-08-03T14:38:50.122533+09:00"
-    },
-    {
-      "id": 10,
-      "direction": "買い",
-      "entry_price": 157.435,
-      "stop_loss": 155.197,
-      "take_profit": 161.912,
-      "atr_at_entry": 1.492,
-      "opened_at": "2026-08-04T23:01:45.757702+09:00"
-    },
-    {
-      "id": 11,
-      "direction": "買い",
-      "entry_price": 157.745,
-      "stop_loss": 155.616,
-      "take_profit": 162.003,
-      "atr_at_entry": 1.419,
-      "opened_at": "2026-08-09T16:45:34.776658+09:00"
+      "id": 12,
+      "direction": "売り",
+      "entry_price": 159.244,
+      "stop_loss": 161.333,
+      "take_profit": 155.067,
+      "atr_at_entry": 1.392,
+      "opened_at": "2026-08-11T08:26:04.918588+09:00"
     }
   ],
   "closed": [
@@ -133,6 +115,45 @@
       "exit_price": 162.523,
       "exit_reason": "損切り",
       "pnl_pips": -98.9
+    },
+    {
+      "id": 9,
+      "direction": "買い",
+      "entry_price": 156.402,
+      "stop_loss": 154.082,
+      "take_profit": 161.041,
+      "atr_at_entry": 1.546,
+      "opened_at": "2026-08-03T14:38:50.122533+09:00",
+      "closed_at": "2026-08-11T08:26:04.918588+09:00",
+      "exit_price": 159.244,
+      "exit_reason": "シグナル反転による決済",
+      "pnl_pips": 284.2
+    },
+    {
+      "id": 10,
+      "direction": "買い",
+      "entry_price": 157.435,
+      "stop_loss": 155.197,
+      "take_profit": 161.912,
+      "atr_at_entry": 1.492,
+      "opened_at": "2026-08-04T23:01:45.757702+09:00",
+      "closed_at": "2026-08-11T08:26:04.918588+09:00",
+      "exit_price": 159.244,
+      "exit_reason": "シグナル反転による決済",
+      "pnl_pips": 180.9
+    },
+    {
+      "id": 11,
+      "direction": "買い",
+      "entry_price": 157.745,
+      "stop_loss": 155.616,
+      "take_profit": 162.003,
+      "atr_at_entry": 1.419,
+      "opened_at": "2026-08-09T16:45:34.776658+09:00",
+      "closed_at": "2026-08-11T08:26:04.918588+09:00",
+      "exit_price": 159.244,
+      "exit_reason": "シグナル反転による決済",
+      "pnl_pips": 149.9
     }
   ]
 }
