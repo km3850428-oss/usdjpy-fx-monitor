@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-08-12T06:36:27.610572+09:00",
-  "generated_at_utc": "2026-08-11T21:36:28.470199+00:00",
+  "generated_at_jst": "2026-08-12T07:32:31.658146+09:00",
+  "generated_at_utc": "2026-08-11T22:32:33.573015+00:00",
   "judgment": {
     "signal": "売り",
-    "overall_score": -0.402,
-    "technical_score": -0.804,
+    "overall_score": -0.401,
+    "technical_score": -0.802,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(161.12) < SMA50(161.20) でデッドクロス状態（売り要因）",
-      "RSI14=41.7で中立圏",
+      "RSI14=41.9で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 159.24899291992188,
-      "sma20": 161.12070007324218,
-      "sma50": 161.19908111572266,
+      "price": 159.26600646972656,
+      "sma20": 161.1215507507324,
+      "sma50": 161.19942138671874,
       "sma200": null,
-      "rsi14": 41.74274416123387,
-      "macd": -0.9836234259287551,
-      "macd_signal": -0.5339464065509532,
-      "bb_upper": 166.1494811843512,
-      "bb_mid": 161.12070007324218,
-      "bb_lower": 156.09191896213315,
-      "atr14": 1.398206099036409
+      "rsi14": 41.85720725068991,
+      "macd": -0.9822662196765464,
+      "macd_signal": -0.5336749653005114,
+      "bb_upper": 166.14900430043457,
+      "bb_mid": 161.1215507507324,
+      "bb_lower": 156.09409720103025,
+      "atr14": 1.3921341909030385
     }
   },
   "fundamental": {
@@ -236,7 +236,7 @@
         "title": "Unemployment Claims",
         "impact": "Medium",
         "time": "2026-08-13T08:30:00-04:00",
-        "forecast": "203K",
+        "forecast": "202K",
         "previous": "199K",
         "actual": null
       },
@@ -263,7 +263,7 @@
         "title": "Natural Gas Storage",
         "impact": "Low",
         "time": "2026-08-13T10:30:00-04:00",
-        "forecast": "",
+        "forecast": "31B",
         "previous": "33B",
         "actual": null
       },
