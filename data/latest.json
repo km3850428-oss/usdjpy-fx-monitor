@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-08-12T05:34:57.340504+09:00",
-  "generated_at_utc": "2026-08-11T20:34:58.541886+00:00",
+  "generated_at_jst": "2026-08-12T06:36:27.610572+09:00",
+  "generated_at_utc": "2026-08-11T21:36:28.470199+00:00",
   "judgment": {
     "signal": "売り",
-    "overall_score": -0.398,
-    "technical_score": -0.795,
+    "overall_score": -0.402,
+    "technical_score": -0.804,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(161.12) < SMA50(161.20) でデッドクロス状態（売り要因）",
-      "RSI14=42.3で中立圏",
+      "RSI14=41.7で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 159.33200073242188,
-      "sma20": 161.12485046386718,
-      "sma50": 161.20074127197265,
+      "price": 159.24899291992188,
+      "sma20": 161.12070007324218,
+      "sma50": 161.19908111572266,
       "sma200": null,
-      "rsi14": 42.29697689792603,
-      "macd": -0.9770017200882819,
-      "macd_signal": -0.5326220653828585,
-      "bb_upper": 166.14726025662995,
-      "bb_mid": 161.12485046386718,
-      "bb_lower": 156.1024406711044,
+      "rsi14": 41.74274416123387,
+      "macd": -0.9836234259287551,
+      "macd_signal": -0.5339464065509532,
+      "bb_upper": 166.1494811843512,
+      "bb_mid": 161.12070007324218,
+      "bb_lower": 156.09191896213315,
       "atr14": 1.398206099036409
     }
   },
@@ -173,7 +173,7 @@
         "title": "Crude Oil Inventories",
         "impact": "Low",
         "time": "2026-08-12T10:30:00-04:00",
-        "forecast": "-1.5M",
+        "forecast": "-1.7M",
         "previous": "2.5M",
         "actual": null
       },
@@ -191,7 +191,7 @@
         "title": "Federal Budget Balance",
         "impact": "Low",
         "time": "2026-08-12T14:00:00-04:00",
-        "forecast": "-361.2B",
+        "forecast": "-348.3B",
         "previous": "-120.3B",
         "actual": null
       },
