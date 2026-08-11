@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-08-11T21:42:47.166990+09:00",
-  "generated_at_utc": "2026-08-11T12:42:49.276305+00:00",
+  "generated_at_jst": "2026-08-11T23:13:21.919187+09:00",
+  "generated_at_utc": "2026-08-11T14:13:22.833918+00:00",
   "judgment": {
     "signal": "売り",
     "overall_score": -0.401,
-    "technical_score": -0.803,
+    "technical_score": -0.802,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(161.12) < SMA50(161.20) でデッドクロス状態（売り要因）",
-      "RSI14=41.8で中立圏",
+      "RSI14=41.9で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 159.26300048828125,
-      "sma20": 161.12140045166015,
-      "sma50": 161.19936126708984,
+      "price": 159.26800537109375,
+      "sma20": 161.12165069580078,
+      "sma50": 161.1994613647461,
       "sma200": null,
-      "rsi14": 41.83701645310599,
-      "macd": -0.9825060130681891,
-      "macd_signal": -0.5337229239788399,
-      "bb_upper": 166.14908774505855,
-      "bb_mid": 161.12140045166015,
-      "bb_lower": 156.09371315826175,
+      "rsi14": 41.87062586021655,
+      "macd": -0.9821067631572191,
+      "macd_signal": -0.533643073996646,
+      "bb_upper": 166.14894900486013,
+      "bb_mid": 161.12165069580078,
+      "bb_lower": 156.09435238674143,
       "atr14": 1.398206099036409
     }
   },
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Existing Home Sales",
-        "impact": "Low",
-        "time": "2026-08-11T10:00:00-04:00",
-        "forecast": "4.05M",
-        "previous": "4.09M",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "API Weekly Statistical Bulletin",
@@ -265,6 +256,15 @@
         "time": "2026-08-13T08:40:00-04:00",
         "forecast": "",
         "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Mortgage Delinquencies",
+        "impact": "Low",
+        "time": "2026-08-13T10:00:00-04:00",
+        "forecast": "",
+        "previous": "4.44%",
         "actual": null
       }
     ]
