@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-08-12T04:55:11.897103+09:00",
-  "generated_at_utc": "2026-08-11T19:55:13.161128+00:00",
+  "generated_at_jst": "2026-08-12T05:34:57.340504+09:00",
+  "generated_at_utc": "2026-08-11T20:34:58.541886+00:00",
   "judgment": {
     "signal": "売り",
-    "overall_score": -0.402,
-    "technical_score": -0.805,
+    "overall_score": -0.398,
+    "technical_score": -0.795,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(161.12) < SMA50(161.20) でデッドクロス状態（売り要因）",
-      "RSI14=41.7で中立圏",
+      "RSI14=42.3で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 159.2449951171875,
-      "sma20": 161.12050018310546,
-      "sma50": 161.19900115966797,
+      "price": 159.33200073242188,
+      "sma20": 161.12485046386718,
+      "sma50": 161.20074127197265,
       "sma200": null,
-      "rsi14": 41.71578248000029,
-      "macd": -0.9839423389674096,
-      "macd_signal": -0.534010189158684,
-      "bb_upper": 166.14959486079698,
-      "bb_mid": 161.12050018310546,
-      "bb_lower": 156.09140550541395,
+      "rsi14": 42.29697689792603,
+      "macd": -0.9770017200882819,
+      "macd_signal": -0.5326220653828585,
+      "bb_upper": 166.14726025662995,
+      "bb_mid": 161.12485046386718,
+      "bb_lower": 156.1024406711044,
       "atr14": 1.398206099036409
     }
   },
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "API Weekly Statistical Bulletin",
-        "impact": "Low",
-        "time": "2026-08-11T16:30:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
       {
         "country": "JPY",
         "title": "M2 Money Stock y/y",
