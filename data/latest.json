@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-08-12T23:14:52.242944+09:00",
-  "generated_at_utc": "2026-08-12T14:14:53.896820+00:00",
+  "generated_at_jst": "2026-08-13T00:51:34.986270+09:00",
+  "generated_at_utc": "2026-08-12T15:51:36.878755+00:00",
   "judgment": {
     "signal": "売り",
-    "overall_score": -0.41,
-    "technical_score": -0.819,
+    "overall_score": -0.402,
+    "technical_score": -0.803,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(160.96) < SMA50(161.18) でデッドクロス状態（売り要因）",
-      "RSI14=40.8で中立圏",
+      "SMA20(160.97) < SMA50(161.18) でデッドクロス状態（売り要因）",
+      "RSI14=41.8で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 159.10299682617188,
-      "sma20": 160.96185073852538,
-      "sma50": 161.17992126464844,
+      "price": 159.25,
+      "sma20": 160.9692008972168,
+      "sma50": 161.182861328125,
       "sma200": null,
-      "rsi14": 40.840277558603205,
-      "macd": -0.9529790152348312,
-      "macd_signal": -0.6188701464273566,
-      "bb_upper": 166.04861890543995,
-      "bb_mid": 160.96185073852538,
-      "bb_lower": 155.87508257161082,
+      "rsi14": 41.802148876439624,
+      "macd": -0.9412522663254776,
+      "macd_signal": -0.6165247966454859,
+      "bb_upper": 166.04507290237498,
+      "bb_mid": 160.9692008972168,
+      "bb_lower": 155.89332889205863,
       "atr14": 1.3617057433428865
     }
   },
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Crude Oil Inventories",
-        "impact": "Low",
-        "time": "2026-08-12T10:30:00-04:00",
-        "forecast": "-1.7M",
-        "previous": "2.5M",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "10-y Bond Auction",
