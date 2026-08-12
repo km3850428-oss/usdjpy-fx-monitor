@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-08-13T01:47:46.398332+09:00",
-  "generated_at_utc": "2026-08-12T16:47:47.839056+00:00",
+  "generated_at_jst": "2026-08-13T02:51:40.961163+09:00",
+  "generated_at_utc": "2026-08-12T17:51:42.197833+00:00",
   "judgment": {
     "signal": "売り",
-    "overall_score": -0.393,
-    "technical_score": -0.786,
+    "overall_score": -0.388,
+    "technical_score": -0.776,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(160.98) < SMA50(161.19) でデッドクロス状態（売り要因）",
-      "RSI14=42.8で中立圏",
+      "RSI14=43.4で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 159.39199829101562,
-      "sma20": 160.97630081176757,
-      "sma50": 161.1857012939453,
+      "price": 159.47999572753906,
+      "sma20": 160.98070068359374,
+      "sma50": 161.1874612426758,
       "sma200": null,
-      "rsi14": 42.81318213177026,
-      "macd": -0.9299247673270656,
-      "macd_signal": -0.6142592968458035,
-      "bb_upper": 166.0424354759831,
-      "bb_mid": 160.97630081176757,
-      "bb_lower": 155.91016614755205,
-      "atr14": 1.3617057433428865
+      "rsi14": 43.42228521355487,
+      "macd": -0.922905028800983,
+      "macd_signal": -0.6128553491405869,
+      "bb_upper": 166.04119159635633,
+      "bb_mid": 160.98070068359374,
+      "bb_lower": 155.92020977083115,
+      "atr14": 1.3664196192496947
     }
   },
   "fundamental": {
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "10-y Bond Auction",
-        "impact": "Low",
-        "time": "2026-08-12T13:01:00-04:00",
-        "forecast": "",
-        "previous": "4.58|2.6",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Federal Budget Balance",
