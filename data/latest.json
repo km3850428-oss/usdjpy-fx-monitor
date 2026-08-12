@@ -1,40 +1,40 @@
 {
-  "generated_at_jst": "2026-08-12T18:02:52.188531+09:00",
-  "generated_at_utc": "2026-08-12T09:02:54.362868+00:00",
+  "generated_at_jst": "2026-08-12T19:52:36.413524+09:00",
+  "generated_at_utc": "2026-08-12T10:52:38.549718+00:00",
   "judgment": {
-    "signal": "売り",
-    "overall_score": -0.397,
-    "technical_score": -0.794,
+    "signal": "待ち",
+    "overall_score": -0.406,
+    "technical_score": -0.812,
     "fundamental_score": 0.0,
-    "override_reason": null
+    "override_reason": "重要指標発表が近いためスコアに関わらず待ちと判定"
   },
   "technical": {
     "reasons": [
       "SMA20(160.97) < SMA50(161.18) でデッドクロス状態（売り要因）",
-      "RSI14=42.3で中立圏",
+      "RSI14=41.3で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 159.3249969482422,
-      "sma20": 160.97295074462892,
-      "sma50": 161.18436126708986,
+      "price": 159.1820068359375,
+      "sma20": 160.96580123901367,
+      "sma50": 161.18150146484376,
       "sma200": null,
-      "rsi14": 42.34054327120742,
-      "macd": -0.9352696037876171,
-      "macd_signal": -0.6153282641379137,
-      "bb_upper": 166.04358316826574,
-      "bb_mid": 160.97295074462892,
-      "bb_lower": 155.9023183209921,
-      "atr14": 1.3196339921570608
+      "rsi14": 41.30526974770655,
+      "macd": -0.9466762224330125,
+      "macd_signal": -0.6176095878669928,
+      "bb_upper": 166.0466102016374,
+      "bb_mid": 160.96580123901367,
+      "bb_lower": 155.88499227638994,
+      "atr14": 1.3617057433428865
     }
   },
   "fundamental": {
     "reasons": [
       "FRED APIキー未設定のため金利差の自動評価をスキップ",
       "関連ニュース見出しにドル/円方向を示すキーワードなし（中立）",
-      "直近の重要指標発表なし"
+      "今後3時間以内の重要指標: USD Core CPI m/m (08/12 08:30 UTC) / USD Core CPI y/y (08/12 08:30 UTC) / USD CPI m/m (08/12 08:30 UTC) / USD CPI y/y (08/12 08:30 UTC)"
     ],
-    "has_upcoming_event": false
+    "has_upcoming_event": true
   },
   "news": {
     "items": [
