@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-08-12T21:46:02.962484+09:00",
-  "generated_at_utc": "2026-08-12T12:46:04.263708+00:00",
+  "generated_at_jst": "2026-08-12T23:14:52.242944+09:00",
+  "generated_at_utc": "2026-08-12T14:14:53.896820+00:00",
   "judgment": {
     "signal": "売り",
-    "overall_score": -0.417,
-    "technical_score": -0.834,
+    "overall_score": -0.41,
+    "technical_score": -0.819,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(160.95) < SMA50(161.18) でデッドクロス状態（売り要因）",
-      "RSI14=39.9で中立圏",
+      "SMA20(160.96) < SMA50(161.18) でデッドクロス状態（売り要因）",
+      "RSI14=40.8で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 158.92300415039062,
-      "sma20": 160.95285110473634,
-      "sma50": 161.17632141113282,
+      "price": 159.10299682617188,
+      "sma20": 160.96185073852538,
+      "sma50": 161.17992126464844,
       "sma200": null,
-      "rsi14": 39.94061877237476,
-      "macd": -0.9673374053256225,
-      "macd_signal": -0.6217418244455148,
-      "bb_upper": 166.05408288576632,
-      "bb_mid": 160.95285110473634,
-      "bb_lower": 155.85161932370636,
+      "rsi14": 40.840277558603205,
+      "macd": -0.9529790152348312,
+      "macd_signal": -0.6188701464273566,
+      "bb_upper": 166.04861890543995,
+      "bb_mid": 160.96185073852538,
+      "bb_lower": 155.87508257161082,
       "atr14": 1.3617057433428865
     }
   },
@@ -238,6 +238,33 @@
         "time": "2026-08-14T08:30:00-04:00",
         "forecast": "0.1%",
         "previous": "0.2%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Prelim UoM Consumer Sentiment",
+        "impact": "Medium",
+        "time": "2026-08-14T10:00:00-04:00",
+        "forecast": "54.7",
+        "previous": "54.4",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Prelim UoM Inflation Expectations",
+        "impact": "Medium",
+        "time": "2026-08-14T10:00:00-04:00",
+        "forecast": "",
+        "previous": "4.2%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Business Inventories m/m",
+        "impact": "Low",
+        "time": "2026-08-14T10:00:00-04:00",
+        "forecast": "0.2%",
+        "previous": "0.3%",
         "actual": null
       }
     ]
