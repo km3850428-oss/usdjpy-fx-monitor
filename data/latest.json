@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-08-12T08:30:25.542343+09:00",
-  "generated_at_utc": "2026-08-11T23:30:26.899903+00:00",
+  "generated_at_jst": "2026-08-12T10:09:19.497042+09:00",
+  "generated_at_utc": "2026-08-12T01:09:20.332746+00:00",
   "judgment": {
     "signal": "売り",
-    "overall_score": -0.399,
-    "technical_score": -0.798,
+    "overall_score": -0.397,
+    "technical_score": -0.793,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(160.97) < SMA50(161.18) でデッドクロス状態（売り要因）",
-      "RSI14=42.1で中立圏",
+      "RSI14=42.4で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 159.29200744628906,
-      "sma20": 160.97130126953124,
-      "sma50": 161.1837014770508,
+      "price": 159.33299255371094,
+      "sma20": 160.97335052490234,
+      "sma50": 161.1845211791992,
       "sma200": null,
-      "rsi14": 42.10494765837496,
-      "macd": -0.9379012449690833,
-      "macd_signal": -0.615854592374207,
-      "bb_upper": 166.04421181842508,
-      "bb_mid": 160.97130126953124,
-      "bb_lower": 155.8983907206374,
-      "atr14": 1.3084907164874178
+      "rsi14": 42.39735575354419,
+      "macd": -0.9346317777103366,
+      "macd_signal": -0.6152006989224577,
+      "bb_upper": 166.04343711277966,
+      "bb_mid": 160.97335052490234,
+      "bb_lower": 155.90326393702503,
+      "atr14": 1.3135631739371947
     }
   },
   "fundamental": {
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "M2 Money Stock y/y",
-        "impact": "Low",
-        "time": "2026-08-11T19:50:00-04:00",
-        "forecast": "2.1%",
-        "previous": "2.2%",
-        "actual": null
-      },
       {
         "country": "JPY",
         "title": "Prelim Machine Tool Orders y/y",
