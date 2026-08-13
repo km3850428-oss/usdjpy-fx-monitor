@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-08-13T21:48:29.926877+09:00",
-  "generated_at_utc": "2026-08-13T12:48:31.712064+00:00",
+  "generated_at_jst": "2026-08-13T23:16:28.006040+09:00",
+  "generated_at_utc": "2026-08-13T14:16:29.366709+00:00",
   "judgment": {
     "signal": "売り",
-    "overall_score": -0.401,
-    "technical_score": -0.802,
+    "overall_score": -0.409,
+    "technical_score": -0.818,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(160.83) < SMA50(161.17) でデッドクロス状態（売り要因）",
-      "RSI14=41.9で中立圏",
+      "SMA20(160.82) < SMA50(161.17) でデッドクロス状態（売り要因）",
+      "RSI14=40.9で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 159.25399780273438,
-      "sma20": 160.82905044555665,
-      "sma50": 161.16944122314453,
+      "price": 159.07899475097656,
+      "sma20": 160.82030029296874,
+      "sma50": 161.16594116210936,
       "sma200": null,
-      "rsi14": 41.85125463003192,
-      "macd": -0.8903007206938582,
-      "macd_signal": -0.6710628214610204,
-      "bb_upper": 165.931429953301,
-      "bb_mid": 160.82905044555665,
-      "bb_lower": 155.7266709378123,
-      "atr14": 1.2765640401380398
+      "rsi14": 40.894812026718064,
+      "macd": -0.9042610780990401,
+      "macd_signal": -0.6738548929420567,
+      "bb_upper": 165.93463899792985,
+      "bb_mid": 160.82030029296874,
+      "bb_lower": 155.70596158800763,
+      "atr14": 1.2874206685560086
     }
   },
   "fundamental": {
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Mortgage Delinquencies",
-        "impact": "Low",
-        "time": "2026-08-13T10:00:00-04:00",
-        "forecast": "",
-        "previous": "4.44%",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Natural Gas Storage",
