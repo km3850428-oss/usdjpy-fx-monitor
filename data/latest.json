@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-08-13T08:31:07.504357+09:00",
-  "generated_at_utc": "2026-08-12T23:31:08.543231+00:00",
+  "generated_at_jst": "2026-08-13T10:11:23.283943+09:00",
+  "generated_at_utc": "2026-08-13T01:11:24.851574+00:00",
   "judgment": {
     "signal": "売り",
-    "overall_score": -0.397,
-    "technical_score": -0.793,
+    "overall_score": -0.398,
+    "technical_score": -0.796,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(160.83) < SMA50(161.17) でデッドクロス状態（売り要因）",
-      "RSI14=42.4で中立圏",
+      "RSI14=42.2で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 159.32699584960938,
-      "sma20": 160.83270034790038,
-      "sma50": 161.17090118408203,
+      "price": 159.30799865722656,
+      "sma20": 160.83175048828124,
+      "sma50": 161.17052124023436,
       "sma200": null,
-      "rsi14": 42.39089398832617,
-      "macd": -0.8844775146753534,
-      "macd_signal": -0.6698981802573194,
-      "bb_upper": 165.930438231992,
-      "bb_mid": 160.83270034790038,
-      "bb_lower": 155.73496246380876,
-      "atr14": 1.2674916001268792
+      "rsi14": 42.24525674938505,
+      "macd": -0.8859929602215288,
+      "macd_signal": -0.6702012693665544,
+      "bb_upper": 165.93067660753198,
+      "bb_mid": 160.83175048828124,
+      "bb_lower": 155.7328243690305,
+      "atr14": 1.2694196571162766
     }
   },
   "fundamental": {
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "PPI y/y",
-        "impact": "Low",
-        "time": "2026-08-12T19:50:00-04:00",
-        "forecast": "7.4%",
-        "previous": "7.1%",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "FOMC Member Hammack Speaks",
