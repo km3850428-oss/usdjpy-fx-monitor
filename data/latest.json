@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-08-14T05:31:56.083866+09:00",
-  "generated_at_utc": "2026-08-13T20:31:57.528930+00:00",
+  "generated_at_jst": "2026-08-14T06:35:35.622439+09:00",
+  "generated_at_utc": "2026-08-13T21:35:36.729767+00:00",
   "judgment": {
     "signal": "売り",
-    "overall_score": -0.383,
-    "technical_score": -0.766,
+    "overall_score": -0.388,
+    "technical_score": -0.776,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(160.84) < SMA50(161.18) でデッドクロス状態（売り要因）",
-      "RSI14=44.1で中立圏",
+      "SMA20(160.84) < SMA50(161.17) でデッドクロス状態（売り要因）",
+      "RSI14=43.4で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 159.55099487304688,
-      "sma20": 160.84390029907226,
-      "sma50": 161.17538116455077,
+      "price": 159.46600341796875,
+      "sma20": 160.83965072631835,
+      "sma50": 161.17368133544923,
       "sma200": null,
-      "rsi14": 44.05433693114948,
-      "macd": -0.8666086467088121,
-      "macd_signal": -0.666324406664011,
-      "bb_upper": 165.9286771435419,
-      "bb_mid": 160.84390029907226,
-      "bb_lower": 155.75912345460262,
+      "rsi14": 43.43461529646486,
+      "macd": -0.873388591843252,
+      "macd_signal": -0.6676803956908991,
+      "bb_upper": 165.9291171050822,
+      "bb_mid": 160.83965072631835,
+      "bb_lower": 155.7501843475545,
       "atr14": 1.2933487081067898
     }
   },
@@ -114,6 +114,15 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
+      {
+        "country": "USD",
+        "title": "FOMC Member Goolsbee Speaks",
+        "impact": "Low",
+        "time": "2026-08-13T18:00:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
       {
         "country": "USD",
         "title": "Core Retail Sales m/m",
