@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-08-14T21:43:21.256692+09:00",
-  "generated_at_utc": "2026-08-14T12:43:21.971707+00:00",
+  "generated_at_jst": "2026-08-14T23:09:26.157367+09:00",
+  "generated_at_utc": "2026-08-14T14:09:27.661807+00:00",
   "judgment": {
     "signal": "売り",
-    "overall_score": -0.419,
-    "technical_score": -0.838,
+    "overall_score": -0.411,
+    "technical_score": -0.823,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(160.66) < SMA50(161.15) でデッドクロス状態（売り要因）",
-      "RSI14=39.7で中立圏",
+      "SMA20(160.67) < SMA50(161.15) でデッドクロス状態（売り要因）",
+      "RSI14=40.6で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 158.85299682617188,
-      "sma20": 160.65660018920897,
-      "sma50": 161.14818115234374,
+      "price": 159.02200317382812,
+      "sma20": 160.6650505065918,
+      "sma50": 161.15156127929689,
       "sma200": null,
-      "rsi14": 39.70988849528387,
-      "macd": -0.8686188995551163,
-      "macd_signal": -0.7096270598933619,
-      "bb_upper": 165.77318001153327,
-      "bb_mid": 160.65660018920897,
-      "bb_lower": 155.54002036688468,
+      "rsi14": 40.62882730208653,
+      "macd": -0.8551369117078877,
+      "macd_signal": -0.7069306623239162,
+      "bb_upper": 165.7696323962852,
+      "bb_mid": 160.6650505065918,
+      "bb_lower": 155.5604686168984,
       "atr14": 1.260840799238726
     }
   },
@@ -114,33 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Prelim UoM Consumer Sentiment",
-        "impact": "Medium",
-        "time": "2026-08-14T10:00:00-04:00",
-        "forecast": "54.7",
-        "previous": "54.4",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Prelim UoM Inflation Expectations",
-        "impact": "Medium",
-        "time": "2026-08-14T10:00:00-04:00",
-        "forecast": "",
-        "previous": "4.2%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Business Inventories m/m",
-        "impact": "Low",
-        "time": "2026-08-14T10:00:00-04:00",
-        "forecast": "0.2%",
-        "previous": "0.3%",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "President Trump Speaks",
