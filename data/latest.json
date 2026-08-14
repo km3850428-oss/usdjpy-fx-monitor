@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-08-15T03:41:48.197195+09:00",
-  "generated_at_utc": "2026-08-14T18:41:49.785265+00:00",
+  "generated_at_jst": "2026-08-15T04:42:18.795214+09:00",
+  "generated_at_utc": "2026-08-14T19:42:20.356176+00:00",
   "judgment": {
     "signal": "売り",
-    "overall_score": -0.394,
-    "technical_score": -0.788,
+    "overall_score": -0.393,
+    "technical_score": -0.785,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(160.68) < SMA50(161.16) でデッドクロス状態（売り要因）",
-      "RSI14=42.7で中立圏",
+      "RSI14=42.9で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 159.36700439453125,
-      "sma20": 160.68230056762695,
-      "sma50": 161.15846130371094,
+      "price": 159.38600158691406,
+      "sma20": 160.6832504272461,
+      "sma50": 161.1588412475586,
       "sma200": null,
-      "rsi14": 42.72483131946381,
-      "macd": -0.827615446808494,
-      "macd_signal": -0.7014263693440375,
-      "bb_upper": 165.76579211856136,
-      "bb_mid": 160.68230056762695,
-      "bb_lower": 155.59880901669254,
+      "rsi14": 42.87905269460073,
+      "macd": -0.8261000012622901,
+      "macd_signal": -0.7011232802347966,
+      "bb_upper": 165.76571417159133,
+      "bb_mid": 160.6832504272461,
+      "bb_lower": 155.60078668290086,
       "atr14": 1.260840799238726
     }
   },
@@ -113,16 +113,6 @@
   "calendar": {
     "caution_window_hours": 3,
     "display_window_hours": 48,
-    "events": [
-      {
-        "country": "USD",
-        "title": "President Trump Speaks",
-        "impact": "Medium",
-        "time": "2026-08-14T15:00:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      }
-    ]
+    "events": []
   }
 }
