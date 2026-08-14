@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-08-14T20:37:26.007076+09:00",
-  "generated_at_utc": "2026-08-14T11:37:26.972621+00:00",
+  "generated_at_jst": "2026-08-14T21:43:21.256692+09:00",
+  "generated_at_utc": "2026-08-14T12:43:21.971707+00:00",
   "judgment": {
     "signal": "売り",
-    "overall_score": -0.407,
-    "technical_score": -0.813,
+    "overall_score": -0.419,
+    "technical_score": -0.838,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(160.67) < SMA50(161.15) でデッドクロス状態（売り要因）",
-      "RSI14=41.2で中立圏",
+      "SMA20(160.66) < SMA50(161.15) でデッドクロス状態（売り要因）",
+      "RSI14=39.7で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 159.12399291992188,
-      "sma20": 160.67014999389647,
-      "sma50": 161.15360107421876,
+      "price": 158.85299682617188,
+      "sma20": 160.65660018920897,
+      "sma50": 161.14818115234374,
       "sma200": null,
-      "rsi14": 41.20424522086765,
-      "macd": -0.8470009775465428,
-      "macd_signal": -0.7053034754916472,
-      "bb_upper": 165.76802005744878,
-      "bb_mid": 160.67014999389647,
-      "bb_lower": 155.57227993034417,
-      "atr14": 1.227912332441851
+      "rsi14": 39.70988849528387,
+      "macd": -0.8686188995551163,
+      "macd_signal": -0.7096270598933619,
+      "bb_upper": 165.77318001153327,
+      "bb_mid": 160.65660018920897,
+      "bb_lower": 155.54002036688468,
+      "atr14": 1.260840799238726
     }
   },
   "fundamental": {
@@ -116,24 +116,6 @@
     "events": [
       {
         "country": "USD",
-        "title": "Core Retail Sales m/m",
-        "impact": "Medium",
-        "time": "2026-08-14T08:30:00-04:00",
-        "forecast": "0.2%",
-        "previous": "-0.2%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Retail Sales m/m",
-        "impact": "Medium",
-        "time": "2026-08-14T08:30:00-04:00",
-        "forecast": "0.1%",
-        "previous": "0.2%",
-        "actual": null
-      },
-      {
-        "country": "USD",
         "title": "Prelim UoM Consumer Sentiment",
         "impact": "Medium",
         "time": "2026-08-14T10:00:00-04:00",
@@ -157,6 +139,15 @@
         "time": "2026-08-14T10:00:00-04:00",
         "forecast": "0.2%",
         "previous": "0.3%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "President Trump Speaks",
+        "impact": "Medium",
+        "time": "2026-08-14T15:00:00-04:00",
+        "forecast": "",
+        "previous": "",
         "actual": null
       }
     ]
