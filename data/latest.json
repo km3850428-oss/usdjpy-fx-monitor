@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-08-16T22:24:34.573221+09:00",
-  "generated_at_utc": "2026-08-16T13:24:36.475568+00:00",
+  "generated_at_jst": "2026-08-16T23:14:04.086806+09:00",
+  "generated_at_utc": "2026-08-16T14:14:05.082427+00:00",
   "judgment": {
     "signal": "売り",
     "overall_score": -0.396,
@@ -229,6 +229,15 @@
         "time": "2026-08-18T09:15:00-04:00",
         "forecast": "0.3%",
         "previous": "0.1%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Pending Home Sales m/m",
+        "impact": "Low",
+        "time": "2026-08-18T10:00:00-04:00",
+        "forecast": "0.1%",
+        "previous": "-5.4%",
         "actual": null
       }
     ]
