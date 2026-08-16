@@ -1,10 +1,10 @@
 {
-  "generated_at_jst": "2026-08-17T05:11:47.554170+09:00",
-  "generated_at_utc": "2026-08-16T20:11:48.476706+00:00",
+  "generated_at_jst": "2026-08-17T06:11:52.488389+09:00",
+  "generated_at_utc": "2026-08-16T21:11:53.857466+00:00",
   "judgment": {
     "signal": "売り",
     "overall_score": -0.398,
-    "technical_score": -0.797,
+    "technical_score": -0.796,
     "fundamental_score": 0.0,
     "override_reason": null
   },
@@ -15,17 +15,17 @@
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 159.26800537109375,
-      "sma20": 160.52305068969727,
-      "sma50": 161.13846130371093,
+      "price": 159.27499389648438,
+      "sma20": 160.5234001159668,
+      "sma50": 161.13860107421874,
       "sma200": null,
-      "rsi14": 42.18932885547296,
-      "macd": -0.7779625360406328,
-      "macd_signal": -0.7159806757780818,
-      "bb_upper": 165.564823658342,
-      "bb_mid": 160.52305068969727,
-      "bb_lower": 155.48127772105255,
-      "atr14": 1.1776636237819023
+      "rsi14": 42.233077582974005,
+      "macd": -0.7774050468356677,
+      "macd_signal": -0.7158691779370887,
+      "bb_upper": 165.56480779814837,
+      "bb_mid": 160.5234001159668,
+      "bb_lower": 155.48199243378525,
+      "atr14": 1.1783775171273263
     }
   },
   "fundamental": {
@@ -238,6 +238,15 @@
         "time": "2026-08-18T10:00:00-04:00",
         "forecast": "0.1%",
         "previous": "-5.4%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "API Weekly Statistical Bulletin",
+        "impact": "Low",
+        "time": "2026-08-18T16:30:00-04:00",
+        "forecast": "",
+        "previous": "",
         "actual": null
       }
     ]
