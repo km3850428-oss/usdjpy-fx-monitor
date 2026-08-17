@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-08-17T08:11:12.092661+09:00",
-  "generated_at_utc": "2026-08-16T23:11:13.105544+00:00",
+  "generated_at_jst": "2026-08-17T09:42:29.940846+09:00",
+  "generated_at_utc": "2026-08-17T00:42:31.790677+00:00",
   "judgment": {
     "signal": "売り",
-    "overall_score": -0.404,
-    "technical_score": -0.808,
+    "overall_score": -0.409,
+    "technical_score": -0.819,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(160.52) < SMA50(161.14) でデッドクロス状態（売り要因）",
-      "RSI14=41.5で中立圏",
+      "SMA20(160.51) < SMA50(161.13) でデッドクロス状態（売り要因）",
+      "RSI14=40.9で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 159.16200256347656,
-      "sma20": 160.51775054931642,
-      "sma50": 161.1363412475586,
+      "price": 159.0540008544922,
+      "sma20": 160.5123504638672,
+      "sma50": 161.1341812133789,
       "sma200": null,
-      "rsi14": 41.526943386045026,
-      "macd": -0.7864560959784512,
-      "macd_signal": -0.7177270284484437,
-      "bb_upper": 165.56529828304596,
-      "bb_mid": 160.51775054931642,
-      "bb_lower": 155.47020281558687,
-      "atr14": 1.1871853700456283
+      "rsi14": 40.88255432765943,
+      "macd": -0.79507161692311,
+      "macd_signal": -0.7194501326373755,
+      "bb_upper": 165.5662324202887,
+      "bb_mid": 160.5123504638672,
+      "bb_lower": 155.45846850744567,
+      "atr14": 1.194184794571298
     }
   },
   "fundamental": {
@@ -114,24 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "Prelim GDP Price Index y/y",
-        "impact": "Low",
-        "time": "2026-08-16T19:50:00-04:00",
-        "forecast": "2.3%",
-        "previous": "3.4%",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "Prelim GDP q/q",
-        "impact": "Low",
-        "time": "2026-08-16T19:50:00-04:00",
-        "forecast": "0.5%",
-        "previous": "0.5%",
-        "actual": null
-      },
       {
         "country": "JPY",
         "title": "Revised Industrial Production m/m",
@@ -247,6 +229,15 @@
         "time": "2026-08-18T16:30:00-04:00",
         "forecast": "",
         "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Core Machinery Orders m/m",
+        "impact": "Low",
+        "time": "2026-08-18T19:50:00-04:00",
+        "forecast": "7.6%",
+        "previous": "-12.4%",
         "actual": null
       }
     ]
