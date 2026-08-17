@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-08-17T22:32:52.143442+09:00",
-  "generated_at_utc": "2026-08-17T13:32:53.574862+00:00",
+  "generated_at_jst": "2026-08-17T23:18:28.360211+09:00",
+  "generated_at_utc": "2026-08-17T14:18:29.917246+00:00",
   "judgment": {
     "signal": "売り",
-    "overall_score": -0.398,
-    "technical_score": -0.796,
+    "overall_score": -0.401,
+    "technical_score": -0.802,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(160.52) < SMA50(161.14) でデッドクロス状態（売り要因）",
-      "RSI14=42.2で中立圏",
+      "RSI14=41.9で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 159.27699279785156,
-      "sma20": 160.52350006103515,
-      "sma50": 161.1386410522461,
+      "price": 159.2169952392578,
+      "sma20": 160.52050018310547,
+      "sma50": 161.13744110107422,
       "sma200": null,
-      "rsi14": 42.23573824057672,
-      "macd": -0.7772830858289126,
-      "macd_signal": -0.715892426418536,
-      "bb_upper": 165.56480361320524,
-      "bb_mid": 160.52350006103515,
-      "bb_lower": 155.48219650886506,
+      "rsi14": 41.86292376517199,
+      "macd": -0.7820692158591953,
+      "macd_signal": -0.7168496524245925,
+      "bb_upper": 165.56499727151544,
+      "bb_mid": 160.52050018310547,
+      "bb_lower": 155.4760030946955,
       "atr14": 1.2077563975288872
     }
   },
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "NAHB Housing Market Index",
-        "impact": "Low",
-        "time": "2026-08-17T10:00:00-04:00",
-        "forecast": "33",
-        "previous": "34",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "TIC Long-Term Purchases",
