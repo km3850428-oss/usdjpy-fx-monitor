@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-08-17T21:24:18.321937+09:00",
-  "generated_at_utc": "2026-08-17T12:24:19.318874+00:00",
+  "generated_at_jst": "2026-08-17T22:32:52.143442+09:00",
+  "generated_at_utc": "2026-08-17T13:32:53.574862+00:00",
   "judgment": {
     "signal": "売り",
-    "overall_score": -0.4,
-    "technical_score": -0.801,
+    "overall_score": -0.398,
+    "technical_score": -0.796,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(160.52) < SMA50(161.14) でデッドクロス状態（売り要因）",
-      "RSI14=41.9で中立圏",
+      "RSI14=42.2で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 159.22999572753906,
-      "sma20": 160.52115020751953,
-      "sma50": 161.13770111083986,
+      "price": 159.27699279785156,
+      "sma20": 160.52350006103515,
+      "sma50": 161.1386410522461,
       "sma200": null,
-      "rsi14": 41.94314692690123,
-      "macd": -0.7810321398709164,
-      "macd_signal": -0.7166422372269368,
-      "bb_upper": 165.56494336694786,
-      "bb_mid": 160.52115020751953,
-      "bb_lower": 155.4773570480912,
+      "rsi14": 42.23573824057672,
+      "macd": -0.7772830858289126,
+      "macd_signal": -0.715892426418536,
+      "bb_upper": 165.56480361320524,
+      "bb_mid": 160.52350006103515,
+      "bb_lower": 155.48219650886506,
       "atr14": 1.2077563975288872
     }
   },
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Empire State Manufacturing Index",
-        "impact": "Low",
-        "time": "2026-08-17T08:30:00-04:00",
-        "forecast": "10.6",
-        "previous": "15.6",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "NAHB Housing Market Index",
