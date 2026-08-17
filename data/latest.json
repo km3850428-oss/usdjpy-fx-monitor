@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-08-17T12:41:21.858710+09:00",
-  "generated_at_utc": "2026-08-17T03:41:24.451058+00:00",
+  "generated_at_jst": "2026-08-17T13:32:36.468156+09:00",
+  "generated_at_utc": "2026-08-17T04:32:37.805816+00:00",
   "judgment": {
     "signal": "売り",
-    "overall_score": -0.406,
-    "technical_score": -0.811,
+    "overall_score": -0.407,
+    "technical_score": -0.814,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(160.52) < SMA50(161.14) でデッドクロス状態（売り要因）",
-      "RSI14=41.3で中立圏",
+      "SMA20(160.51) < SMA50(161.14) でデッドクロス状態（売り要因）",
+      "RSI14=41.1で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 159.12899780273438,
-      "sma20": 160.5161003112793,
-      "sma50": 161.13568115234375,
+      "price": 159.09800720214844,
+      "sma20": 160.51455078125,
+      "sma50": 161.13506134033204,
       "sma200": null,
-      "rsi14": 41.32787642507366,
-      "macd": -0.7890889543852495,
-      "macd_signal": -0.7182536001298034,
-      "bb_upper": 165.56553557338933,
-      "bb_mid": 160.5161003112793,
-      "bb_lower": 155.46666504916928,
+      "rsi14": 41.142687385059844,
+      "macd": -0.7915611390473885,
+      "macd_signal": -0.7187480370622312,
+      "bb_upper": 165.56579700352503,
+      "bb_mid": 160.51455078125,
+      "bb_lower": 155.46330455897495,
       "atr14": 1.2001139240355836
     }
   },
@@ -114,24 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "Revised Industrial Production m/m",
-        "impact": "Low",
-        "time": "2026-08-17T00:30:00-04:00",
-        "forecast": "1.3%",
-        "previous": "1.3%",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "Tertiary Industry Activity m/m",
-        "impact": "Low",
-        "time": "2026-08-17T00:30:00-04:00",
-        "forecast": "-0.9%",
-        "previous": "1.1%",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Empire State Manufacturing Index",
