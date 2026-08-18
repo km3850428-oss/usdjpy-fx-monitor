@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-08-18T22:35:32.915099+09:00",
-  "generated_at_utc": "2026-08-18T13:35:34.782321+00:00",
+  "generated_at_jst": "2026-08-18T23:23:15.193495+09:00",
+  "generated_at_utc": "2026-08-18T14:23:18.120663+00:00",
   "judgment": {
-    "signal": "待ち",
-    "overall_score": -0.039,
-    "technical_score": -0.078,
+    "signal": "売り",
+    "overall_score": -0.383,
+    "technical_score": -0.765,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(160.38) < SMA50(161.13) でデッドクロス状態（売り要因）",
-      "RSI14=45.3で中立圏",
-      "MACDがシグナルを上抜け（買い要因）"
+      "SMA20(160.37) < SMA50(161.12) でデッドクロス状態（売り要因）",
+      "RSI14=44.1で中立圏",
+      "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 159.61500549316406,
-      "sma20": 160.37720108032227,
-      "sma50": 161.1263815307617,
+      "price": 159.468994140625,
+      "sma20": 160.36990051269532,
+      "sma50": 161.12346130371094,
       "sma200": null,
-      "rsi14": 45.31579768657109,
-      "macd": -0.7089863596443706,
-      "macd_signal": -0.7151738567765685,
-      "bb_upper": 165.34868794718398,
-      "bb_mid": 160.37720108032227,
-      "bb_lower": 155.40571421346056,
+      "rsi14": 44.09735096350461,
+      "macd": -0.7206339889067408,
+      "macd_signal": -0.7175033826290426,
+      "bb_upper": 165.34652629172788,
+      "bb_mid": 160.36990051269532,
+      "bb_lower": 155.39327473366276,
       "atr14": 1.1600899710707282
     }
   },
@@ -116,15 +116,6 @@
     "events": [
       {
         "country": "USD",
-        "title": "Pending Home Sales m/m",
-        "impact": "Low",
-        "time": "2026-08-18T10:00:00-04:00",
-        "forecast": "0.1%",
-        "previous": "-5.4%",
-        "actual": null
-      },
-      {
-        "country": "USD",
         "title": "API Weekly Statistical Bulletin",
         "impact": "Low",
         "time": "2026-08-18T16:30:00-04:00",
@@ -184,6 +175,15 @@
         "time": "2026-08-20T08:30:00-04:00",
         "forecast": "210K",
         "previous": "209K",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "CB Leading Index m/m",
+        "impact": "Low",
+        "time": "2026-08-20T10:00:00-04:00",
+        "forecast": "0.1%",
+        "previous": "-0.2%",
         "actual": null
       }
     ]
