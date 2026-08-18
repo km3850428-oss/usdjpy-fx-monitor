@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-08-18T20:16:42.550050+09:00",
-  "generated_at_utc": "2026-08-18T11:16:43.484297+00:00",
+  "generated_at_jst": "2026-08-18T21:26:12.843178+09:00",
+  "generated_at_utc": "2026-08-18T12:26:13.652679+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": -0.032,
-    "technical_score": -0.064,
+    "overall_score": -0.036,
+    "technical_score": -0.073,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(160.38) < SMA50(161.13) でデッドクロス状態（売り要因）",
-      "RSI14=46.2で中立圏",
+      "RSI14=45.6で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 159.7220001220703,
-      "sma20": 160.38255081176757,
-      "sma50": 161.12852142333983,
+      "price": 159.65499877929688,
+      "sma20": 160.37920074462892,
+      "sma50": 161.1271813964844,
       "sma200": null,
-      "rsi14": 46.17546379479337,
-      "macd": -0.7004511755720557,
-      "macd_signal": -0.7134668199621055,
-      "bb_upper": 165.35081349043477,
-      "bb_mid": 160.38255081176757,
-      "bb_lower": 155.41428813310037,
+      "rsi14": 45.6403251631016,
+      "macd": -0.7057960120326356,
+      "macd_signal": -0.7145357872542215,
+      "bb_upper": 165.3494287812787,
+      "bb_mid": 160.37920074462892,
+      "bb_lower": 155.40897270797913,
       "atr14": 1.1600899710707282
     }
   },
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "ADP Weekly Employment Change",
-        "impact": "Low",
-        "time": "2026-08-18T08:15:00-04:00",
-        "forecast": "",
-        "previous": "8.3K",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Building Permits",
