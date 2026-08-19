@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-08-19T22:37:07.139660+09:00",
-  "generated_at_utc": "2026-08-19T13:37:08.694736+00:00",
+  "generated_at_jst": "2026-08-19T23:23:45.487272+09:00",
+  "generated_at_utc": "2026-08-19T14:23:46.801012+00:00",
   "judgment": {
     "signal": "売り",
-    "overall_score": -0.436,
-    "technical_score": -0.873,
+    "overall_score": -0.443,
+    "technical_score": -0.887,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(160.13) < SMA50(161.08) でデッドクロス状態（売り要因）",
-      "RSI14=37.6で中立圏",
+      "SMA20(160.12) < SMA50(161.08) でデッドクロス状態（売り要因）",
+      "RSI14=36.8で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 158.49400329589844,
-      "sma20": 160.12885055541992,
-      "sma50": 161.0830813598633,
+      "price": 158.34100341796875,
+      "sma20": 160.12120056152344,
+      "sma50": 161.08002136230468,
       "sma200": null,
-      "rsi14": 37.62729948137158,
-      "macd": -0.7504737776944239,
-      "macd_signal": -0.7258325533957024,
-      "bb_upper": 164.99155147885457,
-      "bb_mid": 160.12885055541992,
-      "bb_lower": 155.26614963198526,
+      "rsi14": 36.80051654948174,
+      "macd": -0.7626788961617592,
+      "macd_signal": -0.7282735770891695,
+      "bb_upper": 164.99519897767254,
+      "bb_mid": 160.12120056152344,
+      "bb_lower": 155.24720214537433,
       "atr14": 1.183543596598618
     }
   },
@@ -202,6 +202,24 @@
         "time": "2026-08-20T20:30:00-04:00",
         "forecast": "55.1",
         "previous": "54.7",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Flash Manufacturing PMI",
+        "impact": "Low",
+        "time": "2026-08-21T09:45:00-04:00",
+        "forecast": "53.9",
+        "previous": "53.8",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Flash Services PMI",
+        "impact": "Low",
+        "time": "2026-08-21T09:45:00-04:00",
+        "forecast": "54.0",
+        "previous": "53.6",
         "actual": null
       }
     ]
