@@ -1,40 +1,40 @@
 {
-  "generated_at_jst": "2026-08-19T23:23:45.487272+09:00",
-  "generated_at_utc": "2026-08-19T14:23:46.801012+00:00",
+  "generated_at_jst": "2026-08-20T00:21:46.085972+09:00",
+  "generated_at_utc": "2026-08-19T15:21:47.589786+00:00",
   "judgment": {
-    "signal": "売り",
-    "overall_score": -0.443,
-    "technical_score": -0.887,
+    "signal": "待ち",
+    "overall_score": -0.44,
+    "technical_score": -0.88,
     "fundamental_score": 0.0,
-    "override_reason": null
+    "override_reason": "重要指標発表が近いためスコアに関わらず待ちと判定"
   },
   "technical": {
     "reasons": [
       "SMA20(160.12) < SMA50(161.08) でデッドクロス状態（売り要因）",
-      "RSI14=36.8で中立圏",
+      "RSI14=37.2で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 158.34100341796875,
-      "sma20": 160.12120056152344,
-      "sma50": 161.08002136230468,
+      "price": 158.41299438476562,
+      "sma20": 160.1248001098633,
+      "sma50": 161.08146118164063,
       "sma200": null,
-      "rsi14": 36.80051654948174,
-      "macd": -0.7626788961617592,
-      "macd_signal": -0.7282735770891695,
-      "bb_upper": 164.99519897767254,
-      "bb_mid": 160.12120056152344,
-      "bb_lower": 155.24720214537433,
-      "atr14": 1.183543596598618
+      "rsi14": 37.18496914700209,
+      "macd": -0.7569360270155414,
+      "macd_signal": -0.7271250032599259,
+      "bb_upper": 164.99336620159463,
+      "bb_mid": 160.1248001098633,
+      "bb_lower": 155.25623401813195,
+      "atr14": 1.19183020897306
     }
   },
   "fundamental": {
     "reasons": [
       "FRED APIキー未設定のため金利差の自動評価をスキップ",
       "関連ニュース見出しにドル/円方向を示すキーワードなし（中立）",
-      "直近の重要指標発表なし"
+      "今後3時間以内の重要指標: USD FOMC Meeting Minutes (08/19 14:00 UTC)"
     ],
-    "has_upcoming_event": false
+    "has_upcoming_event": true
   },
   "news": {
     "items": [
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Crude Oil Inventories",
-        "impact": "Low",
-        "time": "2026-08-19T10:30:00-04:00",
-        "forecast": "0.2M",
-        "previous": "17.4M",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "FOMC Meeting Minutes",
