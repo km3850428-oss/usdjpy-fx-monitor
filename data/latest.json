@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-08-20T02:18:54.624724+09:00",
-  "generated_at_utc": "2026-08-19T17:18:55.824399+00:00",
+  "generated_at_jst": "2026-08-20T03:20:35.423812+09:00",
+  "generated_at_utc": "2026-08-19T18:20:36.854114+00:00",
   "judgment": {
-    "signal": "待ち",
-    "overall_score": -0.437,
-    "technical_score": -0.874,
+    "signal": "売り",
+    "overall_score": -0.439,
+    "technical_score": -0.878,
     "fundamental_score": 0.0,
-    "override_reason": "重要指標発表が近いためスコアに関わらず待ちと判定"
+    "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(160.13) < SMA50(161.08) でデッドクロス状態（売り要因）",
-      "RSI14=37.5で中立圏",
+      "RSI14=37.3で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 158.47799682617188,
-      "sma20": 160.1280502319336,
-      "sma50": 161.08276123046875,
+      "price": 158.43800354003906,
+      "sma20": 160.12605056762695,
+      "sma50": 161.0819613647461,
       "sma200": null,
-      "rsi14": 37.539067599472915,
-      "macd": -0.7517506470742887,
-      "macd_signal": -0.7260879272716754,
-      "bb_upper": 164.9918892170893,
-      "bb_mid": 160.1280502319336,
-      "bb_lower": 155.2642112467779,
+      "rsi14": 37.32041207452736,
+      "macd": -0.7549409946860521,
+      "macd_signal": -0.726725996794028,
+      "bb_upper": 164.99277793565727,
+      "bb_mid": 160.12605056762695,
+      "bb_lower": 155.25932319959662,
       "atr14": 1.19183020897306
     }
   },
@@ -32,9 +32,9 @@
     "reasons": [
       "FRED APIキー未設定のため金利差の自動評価をスキップ",
       "関連ニュース見出しにドル/円方向を示すキーワードなし（中立）",
-      "今後3時間以内の重要指標: USD FOMC Meeting Minutes (08/19 14:00 UTC)"
+      "直近の重要指標発表なし"
     ],
-    "has_upcoming_event": true
+    "has_upcoming_event": false
   },
   "news": {
     "items": [
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "FOMC Meeting Minutes",
-        "impact": "High",
-        "time": "2026-08-19T14:00:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "President Trump Speaks",
