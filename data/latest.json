@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-08-20T22:38:50.532495+09:00",
-  "generated_at_utc": "2026-08-20T13:38:51.779533+00:00",
+  "generated_at_jst": "2026-08-20T23:26:00.783521+09:00",
+  "generated_at_utc": "2026-08-20T14:26:01.781046+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": -0.095,
-    "technical_score": -0.189,
+    "overall_score": -0.087,
+    "technical_score": -0.175,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(159.96) < SMA50(161.07) でデッドクロス状態（売り要因）",
-      "RSI14=38.7で中立圏",
+      "SMA20(159.97) < SMA50(161.07) でデッドクロス状態（売り要因）",
+      "RSI14=39.5で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.62399291992188,
-      "sma20": 159.95880050659179,
-      "sma50": 161.06614135742188,
+      "price": 158.77200317382812,
+      "sma20": 159.9662010192871,
+      "sma50": 161.0691015625,
       "sma200": null,
-      "rsi14": 38.6512938136353,
-      "macd": -0.6817909022443303,
-      "macd_signal": -0.7035727417784063,
-      "bb_upper": 164.61432992785015,
-      "bb_mid": 159.95880050659179,
-      "bb_lower": 155.30327108533342,
+      "rsi14": 39.52986671125493,
+      "macd": -0.6699838164626044,
+      "macd_signal": -0.7012113246220611,
+      "bb_upper": 164.61325925517696,
+      "bb_mid": 159.9662010192871,
+      "bb_lower": 155.31914278339724,
       "atr14": 1.2079430489434482
     }
   },
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "CB Leading Index m/m",
-        "impact": "Low",
-        "time": "2026-08-20T10:00:00-04:00",
-        "forecast": "0.1%",
-        "previous": "-0.2%",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Natural Gas Storage",
