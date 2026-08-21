@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-08-21T08:17:29.014017+09:00",
-  "generated_at_utc": "2026-08-20T23:17:30.948461+00:00",
+  "generated_at_jst": "2026-08-21T09:45:03.748508+09:00",
+  "generated_at_utc": "2026-08-21T00:45:05.611566+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": -0.065,
-    "technical_score": -0.13,
+    "overall_score": -0.053,
+    "technical_score": -0.105,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(159.69) < SMA50(161.03) でデッドクロス状態（売り要因）",
-      "RSI14=42.2で中立圏",
+      "SMA20(159.70) < SMA50(161.04) でデッドクロス状態（売り要因）",
+      "RSI14=43.7で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.88999938964844,
-      "sma20": 159.69430084228514,
-      "sma50": 161.03438140869142,
+      "price": 159.0800018310547,
+      "sma20": 159.70380096435548,
+      "sma50": 161.03818145751953,
       "sma200": null,
-      "rsi14": 42.19430156681563,
-      "macd": -0.6863674202129744,
-      "macd_signal": -0.7045261592253856,
-      "bb_upper": 164.01665010038266,
-      "bb_mid": 159.69430084228514,
-      "bb_lower": 155.37195158418763,
-      "atr14": 1.168147678754916
+      "rsi14": 43.69671088678572,
+      "macd": -0.6712105303002431,
+      "macd_signal": -0.7014947812428394,
+      "bb_upper": 164.0195370952517,
+      "bb_mid": 159.70380096435548,
+      "bb_lower": 155.38806483345925,
+      "atr14": 1.1696484896505634
     }
   },
   "fundamental": {
@@ -114,24 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "National Core CPI y/y",
-        "impact": "Low",
-        "time": "2026-08-20T19:30:00-04:00",
-        "forecast": "1.8%",
-        "previous": "1.6%",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "Flash Manufacturing PMI",
-        "impact": "Low",
-        "time": "2026-08-20T20:30:00-04:00",
-        "forecast": "55.1",
-        "previous": "54.7",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Flash Manufacturing PMI",
