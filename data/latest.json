@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-08-23T22:25:18.568645+09:00",
-  "generated_at_utc": "2026-08-23T13:25:20.342304+00:00",
+  "generated_at_jst": "2026-08-23T23:14:10.665576+09:00",
+  "generated_at_utc": "2026-08-23T14:14:13.064339+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": -0.062,
@@ -157,6 +157,33 @@
         "time": "2026-08-25T09:00:00-04:00",
         "forecast": "1.9%",
         "previous": "1.6%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "CB Consumer Confidence",
+        "impact": "Medium",
+        "time": "2026-08-25T10:00:00-04:00",
+        "forecast": "90.3",
+        "previous": "90.8",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "New Home Sales",
+        "impact": "Low",
+        "time": "2026-08-25T10:00:00-04:00",
+        "forecast": "620K",
+        "previous": "628K",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Richmond Manufacturing Index",
+        "impact": "Low",
+        "time": "2026-08-25T10:00:00-04:00",
+        "forecast": "7",
+        "previous": "5",
         "actual": null
       }
     ]
