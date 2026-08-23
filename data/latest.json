@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-08-23T13:28:23.589009+09:00",
-  "generated_at_utc": "2026-08-23T04:28:25.231140+00:00",
+  "generated_at_jst": "2026-08-23T14:21:08.301410+09:00",
+  "generated_at_utc": "2026-08-23T05:21:09.848447+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": -0.062,
@@ -113,6 +113,25 @@
   "calendar": {
     "caution_window_hours": 3,
     "display_window_hours": 48,
-    "events": []
+    "events": [
+      {
+        "country": "USD",
+        "title": "Treasury Sec Bessent Speaks",
+        "impact": "Medium",
+        "time": "2026-08-24T14:00:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "BOJ Core CPI y/y",
+        "impact": "Low",
+        "time": "2026-08-25T01:00:00-04:00",
+        "forecast": "1.4%",
+        "previous": "1.5%",
+        "actual": null
+      }
+    ]
   }
 }
