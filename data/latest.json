@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-08-25T08:15:10.947094+09:00",
-  "generated_at_utc": "2026-08-24T23:15:12.216025+00:00",
+  "generated_at_jst": "2026-08-25T09:43:24.366038+09:00",
+  "generated_at_utc": "2026-08-25T00:43:26.881720+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": -0.051,
-    "technical_score": -0.102,
+    "overall_score": -0.048,
+    "technical_score": -0.096,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(159.22) < SMA50(160.99) でデッドクロス状態（売り要因）",
-      "RSI14=43.9で中立圏",
+      "SMA20(159.23) < SMA50(160.99) でデッドクロス状態（売り要因）",
+      "RSI14=44.3で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 159.0749969482422,
-      "sma20": 159.22380142211915,
-      "sma50": 160.99014129638672,
+      "price": 159.11700439453125,
+      "sma20": 159.22590179443358,
+      "sma50": 160.9909814453125,
       "sma200": null,
-      "rsi14": 43.880024781401715,
-      "macd": -0.6173275985455859,
-      "macd_signal": -0.6800773182726894,
-      "bb_upper": 162.5759396430459,
-      "bb_mid": 159.22380142211915,
-      "bb_lower": 155.8716632011924,
-      "atr14": 1.0630621857551323
+      "rsi14": 44.25034715725921,
+      "macd": -0.6139765771891916,
+      "macd_signal": -0.6794071140014104,
+      "bb_upper": 162.57770006120322,
+      "bb_mid": 159.22590179443358,
+      "bb_lower": 155.87410352766395,
+      "atr14": 1.0661335620107129
     }
   },
   "fundamental": {
@@ -245,7 +245,7 @@
         "title": "Core Durable Goods Orders m/m",
         "impact": "Low",
         "time": "2026-08-26T08:30:00-04:00",
-        "forecast": "0.5%",
+        "forecast": "0.6%",
         "previous": "0.6%",
         "actual": null
       },
@@ -254,7 +254,7 @@
         "title": "Durable Goods Orders m/m",
         "impact": "Low",
         "time": "2026-08-26T08:30:00-04:00",
-        "forecast": "0.5%",
+        "forecast": "0.4%",
         "previous": "0.3%",
         "actual": null
       },
