@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-08-25T13:30:20.167433+09:00",
-  "generated_at_utc": "2026-08-25T04:30:21.664413+00:00",
+  "generated_at_jst": "2026-08-25T14:23:36.514526+09:00",
+  "generated_at_utc": "2026-08-25T05:23:38.033929+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": -0.033,
-    "technical_score": -0.066,
+    "technical_score": -0.065,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(159.24) < SMA50(161.00) でデッドクロス状態（売り要因）",
-      "RSI14=46.0で中立圏",
+      "RSI14=46.1で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 159.3249969482422,
-      "sma20": 159.23630142211914,
-      "sma50": 160.99514129638672,
+      "price": 159.33200073242188,
+      "sma20": 159.2366516113281,
+      "sma50": 160.9952813720703,
       "sma200": null,
-      "rsi14": 46.01420464859015,
-      "macd": -0.5973845786025436,
-      "macd_signal": -0.6760887142840808,
-      "bb_upper": 162.58796772761093,
-      "bb_mid": 159.23630142211914,
-      "bb_lower": 155.88463511662735,
+      "rsi14": 46.071659056594044,
+      "macd": -0.5968258721722464,
+      "macd_signal": -0.6759769729980214,
+      "bb_upper": 162.58835839947088,
+      "bb_mid": 159.2366516113281,
+      "bb_lower": 155.88494482318535,
       "atr14": 1.0827056968460922
     }
   },
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "BOJ Core CPI y/y",
-        "impact": "Low",
-        "time": "2026-08-25T01:00:00-04:00",
-        "forecast": "1.4%",
-        "previous": "1.5%",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "ADP Weekly Employment Change",
