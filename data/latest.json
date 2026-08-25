@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-08-26T01:25:35.756887+09:00",
-  "generated_at_utc": "2026-08-25T16:25:36.872851+00:00",
+  "generated_at_jst": "2026-08-26T02:23:18.900565+09:00",
+  "generated_at_utc": "2026-08-25T17:23:20.114393+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": -0.037,
-    "technical_score": -0.075,
+    "overall_score": -0.035,
+    "technical_score": -0.069,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(159.23) < SMA50(160.99) でデッドクロス状態（売り要因）",
-      "RSI14=45.5で中立圏",
+      "SMA20(159.24) < SMA50(160.99) でデッドクロス状態（売り要因）",
+      "RSI14=45.8で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 159.26499938964844,
-      "sma20": 159.23330154418946,
-      "sma50": 160.99394134521484,
+      "price": 159.30499267578125,
+      "sma20": 159.23530120849608,
+      "sma50": 160.9947412109375,
       "sma200": null,
-      "rsi14": 45.51696192730375,
-      "macd": -0.6021707086328263,
-      "macd_signal": -0.6770459402901374,
-      "bb_upper": 162.58474098521637,
-      "bb_mid": 159.23330154418946,
-      "bb_lower": 155.88186210316255,
+      "rsi14": 45.84942659815244,
+      "macd": -0.5989803610210913,
+      "macd_signal": -0.6764078707677904,
+      "bb_upper": 162.58686800453364,
+      "bb_mid": 159.23530120849608,
+      "bb_lower": 155.88373441245852,
       "atr14": 1.0894195640335922
     }
   },
@@ -209,7 +209,7 @@
         "title": "Crude Oil Inventories",
         "impact": "Low",
         "time": "2026-08-26T10:30:00-04:00",
-        "forecast": "1.9M",
+        "forecast": "1.6M",
         "previous": "4.4M",
         "actual": null
       },
@@ -254,7 +254,7 @@
         "title": "Natural Gas Storage",
         "impact": "Low",
         "time": "2026-08-27T10:30:00-04:00",
-        "forecast": "",
+        "forecast": "19B",
         "previous": "16B",
         "actual": null
       }
