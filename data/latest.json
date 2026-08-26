@@ -1,12 +1,12 @@
 {
-  "generated_at_jst": "2026-08-26T20:20:19.851377+09:00",
-  "generated_at_utc": "2026-08-26T11:20:21.640346+00:00",
+  "generated_at_jst": "2026-08-26T21:32:56.509696+09:00",
+  "generated_at_utc": "2026-08-26T12:32:58.427655+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": -0.048,
+    "overall_score": -0.049,
     "technical_score": -0.097,
     "fundamental_score": 0.0,
-    "override_reason": "重要指標発表が近いためスコアに関わらず待ちと判定"
+    "override_reason": null
   },
   "technical": {
     "reasons": [
@@ -15,16 +15,16 @@
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 159.1060028076172,
-      "sma20": 158.98910217285157,
-      "sma50": 160.9651614379883,
+      "price": 159.10299682617188,
+      "sma20": 158.98895187377929,
+      "sma50": 160.9651013183594,
       "sma200": null,
-      "rsi14": 44.191011112463215,
-      "macd": -0.5706140292396071,
-      "macd_signal": -0.6573860261528829,
-      "bb_upper": 161.5330637113977,
-      "bb_mid": 158.98910217285157,
-      "bb_lower": 156.44514063430546,
+      "rsi14": 44.16875176050416,
+      "macd": -0.5708538226312498,
+      "macd_signal": -0.6574339848312114,
+      "bb_upper": 161.53288468704548,
+      "bb_mid": 158.98895187377929,
+      "bb_lower": 156.4450190605131,
       "atr14": 1.0387872536078107
     }
   },
@@ -32,9 +32,9 @@
     "reasons": [
       "FRED APIキー未設定のため金利差の自動評価をスキップ",
       "関連ニュース見出しにドル/円方向を示すキーワードなし（中立）",
-      "今後3時間以内の重要指標: USD Core PCE Price Index m/m (08/26 08:30 UTC) / USD Prelim GDP q/q (08/26 08:30 UTC)"
+      "直近の重要指標発表なし"
     ],
-    "has_upcoming_event": true
+    "has_upcoming_event": false
   },
   "news": {
     "items": [
@@ -114,69 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Core PCE Price Index m/m",
-        "impact": "High",
-        "time": "2026-08-26T08:30:00-04:00",
-        "forecast": "0.2%",
-        "previous": "0.1%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Prelim GDP q/q",
-        "impact": "High",
-        "time": "2026-08-26T08:30:00-04:00",
-        "forecast": "1.5%",
-        "previous": "1.5%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Prelim GDP Price Index q/q",
-        "impact": "Medium",
-        "time": "2026-08-26T08:30:00-04:00",
-        "forecast": "6.2%",
-        "previous": "6.2%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Core Durable Goods Orders m/m",
-        "impact": "Low",
-        "time": "2026-08-26T08:30:00-04:00",
-        "forecast": "0.6%",
-        "previous": "0.6%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Durable Goods Orders m/m",
-        "impact": "Low",
-        "time": "2026-08-26T08:30:00-04:00",
-        "forecast": "0.4%",
-        "previous": "0.3%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Personal Income m/m",
-        "impact": "Low",
-        "time": "2026-08-26T08:30:00-04:00",
-        "forecast": "0.2%",
-        "previous": "0.2%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Personal Spending m/m",
-        "impact": "Low",
-        "time": "2026-08-26T08:30:00-04:00",
-        "forecast": "0.1%",
-        "previous": "0.3%",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Crude Oil Inventories",
