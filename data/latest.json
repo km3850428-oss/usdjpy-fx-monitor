@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-08-26T08:17:31.482012+09:00",
-  "generated_at_utc": "2026-08-25T23:17:33.352128+00:00",
+  "generated_at_jst": "2026-08-26T09:44:24.181004+09:00",
+  "generated_at_utc": "2026-08-26T00:44:26.842086+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": -0.04,
-    "technical_score": -0.08,
+    "overall_score": -0.044,
+    "technical_score": -0.089,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(158.99) < SMA50(160.97) でデッドクロス状態（売り要因）",
-      "RSI14=45.2で中立圏",
+      "RSI14=44.7で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 159.22000122070312,
-      "sma20": 158.99480209350585,
-      "sma50": 160.96744140625,
+      "price": 159.16299438476562,
+      "sma20": 158.991951751709,
+      "sma50": 160.96630126953124,
       "sma200": null,
-      "rsi14": 45.18535550765407,
-      "macd": -0.5615201387370234,
-      "macd_signal": -0.6555672480523661,
-      "bb_upper": 161.54037680063936,
-      "bb_mid": 158.99480209350585,
-      "bb_lower": 156.44922738637234,
-      "atr14": 1.0180723575419623
+      "rsi14": 44.66067886161172,
+      "macd": -0.5660676926009671,
+      "macd_signal": -0.6564767588251549,
+      "bb_upper": 161.53659222105344,
+      "bb_mid": 158.991951751709,
+      "bb_lower": 156.44731128236455,
+      "atr14": 1.0199295701535696
     }
   },
   "fundamental": {
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "SPPI y/y",
-        "impact": "Low",
-        "time": "2026-08-25T19:50:00-04:00",
-        "forecast": "3.2%",
-        "previous": "3.2%",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Core PCE Price Index m/m",
@@ -238,6 +229,24 @@
         "time": "2026-08-27T10:30:00-04:00",
         "forecast": "19B",
         "previous": "16B",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Tokyo Core CPI y/y",
+        "impact": "Medium",
+        "time": "2026-08-27T19:30:00-04:00",
+        "forecast": "1.8%",
+        "previous": "1.9%",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Unemployment Rate",
+        "impact": "Low",
+        "time": "2026-08-27T19:30:00-04:00",
+        "forecast": "2.5%",
+        "previous": "2.5%",
         "actual": null
       }
     ]
