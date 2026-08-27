@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-08-27T11:26:13.107446+09:00",
-  "generated_at_utc": "2026-08-27T02:26:15.127044+00:00",
+  "generated_at_jst": "2026-08-27T22:22:32.620696+09:00",
+  "generated_at_utc": "2026-08-27T13:22:34.032620+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": -0.029,
-    "technical_score": -0.058,
+    "overall_score": -0.027,
+    "technical_score": -0.054,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(158.80) < SMA50(160.94) でデッドクロス状態（売り要因）",
-      "RSI14=46.5で中立圏",
+      "RSI14=46.8で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 159.35699462890625,
-      "sma20": 158.79780197143555,
-      "sma50": 160.9426412963867,
+      "price": 159.38600158691406,
+      "sma20": 158.79925231933595,
+      "sma50": 160.9432214355469,
       "sma200": null,
-      "rsi14": 46.50598505219778,
-      "macd": -0.5042568609523812,
-      "macd_signal": -0.6252472303180302,
-      "bb_upper": 160.3606182825018,
-      "bb_mid": 158.79780197143555,
-      "bb_lower": 157.2349856603693,
-      "atr14": 0.9952269075423448
+      "rsi14": 46.77587253664215,
+      "macd": -0.5019429155842658,
+      "macd_signal": -0.6247844412444071,
+      "bb_upper": 160.36430592154153,
+      "bb_mid": 158.79925231933595,
+      "bb_lower": 157.23419871713037,
+      "atr14": 1.0057979786221438
     }
   },
   "fundamental": {
@@ -114,33 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Unemployment Claims",
-        "impact": "Medium",
-        "time": "2026-08-27T08:30:00-04:00",
-        "forecast": "208K",
-        "previous": "206K",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Goods Trade Balance",
-        "impact": "Low",
-        "time": "2026-08-27T08:30:00-04:00",
-        "forecast": "-100.8B",
-        "previous": "-101.5B",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Prelim Wholesale Inventories m/m",
-        "impact": "Low",
-        "time": "2026-08-27T08:30:00-04:00",
-        "forecast": "0.2%",
-        "previous": "0.2%",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Natural Gas Storage",
