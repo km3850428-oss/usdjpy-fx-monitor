@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-08-27T22:22:32.620696+09:00",
-  "generated_at_utc": "2026-08-27T13:22:34.032620+00:00",
+  "generated_at_jst": "2026-08-28T08:23:01.057517+09:00",
+  "generated_at_utc": "2026-08-27T23:23:03.488433+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": -0.027,
-    "technical_score": -0.054,
+    "overall_score": -0.029,
+    "technical_score": -0.058,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(158.80) < SMA50(160.94) でデッドクロス状態（売り要因）",
-      "RSI14=46.8で中立圏",
+      "SMA20(158.75) < SMA50(160.90) でデッドクロス状態（売り要因）",
+      "RSI14=46.5で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 159.38600158691406,
-      "sma20": 158.79925231933595,
-      "sma50": 160.9432214355469,
+      "price": 159.35400390625,
+      "sma20": 158.75125274658203,
+      "sma50": 160.90190155029296,
       "sma200": null,
-      "rsi14": 46.77587253664215,
-      "macd": -0.5019429155842658,
-      "macd_signal": -0.6247844412444071,
-      "bb_upper": 160.36430592154153,
-      "bb_mid": 158.79925231933595,
-      "bb_lower": 157.23419871713037,
-      "atr14": 1.0057979786221438
+      "rsi14": 46.54770803420453,
+      "macd": -0.4604019927683112,
+      "macd_signal": -0.5936243594834284,
+      "bb_upper": 160.19091408149583,
+      "bb_mid": 158.75125274658203,
+      "bb_lower": 157.31159141166822,
+      "atr14": 0.9424220187887214
     }
   },
   "fundamental": {
@@ -115,15 +115,6 @@
     "display_window_hours": 48,
     "events": [
       {
-        "country": "USD",
-        "title": "Natural Gas Storage",
-        "impact": "Low",
-        "time": "2026-08-27T10:30:00-04:00",
-        "forecast": "19B",
-        "previous": "16B",
-        "actual": null
-      },
-      {
         "country": "JPY",
         "title": "Tokyo Core CPI y/y",
         "impact": "Medium",
@@ -139,6 +130,15 @@
         "time": "2026-08-27T19:30:00-04:00",
         "forecast": "2.5%",
         "previous": "2.5%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Hammack Speaks",
+        "impact": "Low",
+        "time": "2026-08-28T09:00:00-04:00",
+        "forecast": "",
+        "previous": "",
         "actual": null
       },
       {
