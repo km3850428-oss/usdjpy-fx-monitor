@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-08-28T17:05:16.037427+09:00",
-  "generated_at_utc": "2026-08-28T08:05:16.998558+00:00",
+  "generated_at_jst": "2026-08-29T05:30:34.221130+09:00",
+  "generated_at_utc": "2026-08-28T20:30:35.365246+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": -0.016,
-    "technical_score": -0.031,
+    "overall_score": 0.024,
+    "technical_score": 0.048,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(158.76) < SMA50(160.91) でデッドクロス状態（売り要因）",
-      "RSI14=48.1で中立圏",
+      "SMA20(158.79) < SMA50(160.92) でデッドクロス状態（売り要因）",
+      "RSI14=52.9で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 159.51600646972656,
-      "sma20": 158.75935287475585,
-      "sma50": 160.9051416015625,
+      "price": 160.0659942626953,
+      "sma20": 158.7868522644043,
+      "sma50": 160.91614135742188,
       "sma200": null,
-      "rsi14": 48.12847811035162,
-      "macd": -0.44747871135137984,
-      "macd_signal": -0.5910397032000422,
-      "bb_upper": 160.21502740904688,
-      "bb_mid": 158.75935287475585,
-      "bb_lower": 157.3036783404648,
-      "atr14": 0.9542072535124937
+      "rsi14": 52.861210654426095,
+      "macd": -0.40360504125703756,
+      "macd_signal": -0.5822649691811737,
+      "bb_upper": 160.32135766298134,
+      "bb_mid": 158.7868522644043,
+      "bb_lower": 157.25234686582726,
+      "atr14": 1.0000642742993242
     }
   },
   "fundamental": {
@@ -113,61 +113,6 @@
   "calendar": {
     "caution_window_hours": 3,
     "display_window_hours": 48,
-    "events": [
-      {
-        "country": "USD",
-        "title": "FOMC Member Hammack Speaks",
-        "impact": "Low",
-        "time": "2026-08-28T09:00:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Chicago PMI",
-        "impact": "Low",
-        "time": "2026-08-28T09:45:00-04:00",
-        "forecast": "57.9",
-        "previous": "57.6",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Fed Chairman Warsh Speaks",
-        "impact": "High",
-        "time": "2026-08-28T10:00:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Prelim Benchmark Payrolls Revision",
-        "impact": "High",
-        "time": "2026-08-28T10:00:00-04:00",
-        "forecast": "",
-        "previous": "-911K",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Revised UoM Consumer Sentiment",
-        "impact": "Medium",
-        "time": "2026-08-28T10:00:00-04:00",
-        "forecast": "51.0",
-        "previous": "51.0",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Revised UoM Inflation Expectations",
-        "impact": "Medium",
-        "time": "2026-08-28T10:00:00-04:00",
-        "forecast": "",
-        "previous": "4.3%",
-        "actual": null
-      }
-    ]
+    "events": []
   }
 }
