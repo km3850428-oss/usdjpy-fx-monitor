@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-08-30T17:42:54.295190+09:00",
-  "generated_at_utc": "2026-08-30T08:42:55.344761+00:00",
+  "generated_at_jst": "2026-08-30T23:07:25.904324+09:00",
+  "generated_at_utc": "2026-08-30T14:07:27.996636+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": 0.022,
@@ -175,6 +175,60 @@
         "time": "2026-09-01T01:00:00-04:00",
         "forecast": "35.3",
         "previous": "34.9",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Barr Speaks",
+        "impact": "Low",
+        "time": "2026-09-01T09:05:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Final Manufacturing PMI",
+        "impact": "Low",
+        "time": "2026-09-01T09:45:00-04:00",
+        "forecast": "53.3",
+        "previous": "53.2",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "ISM Manufacturing PMI",
+        "impact": "High",
+        "time": "2026-09-01T10:00:00-04:00",
+        "forecast": "55.2",
+        "previous": "55.6",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "ISM Manufacturing Prices",
+        "impact": "Medium",
+        "time": "2026-09-01T10:00:00-04:00",
+        "forecast": "71.2",
+        "previous": "71.1",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "JOLTS Job Openings",
+        "impact": "Medium",
+        "time": "2026-09-01T10:00:00-04:00",
+        "forecast": "7.33M",
+        "previous": "7.36M",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Construction Spending m/m",
+        "impact": "Low",
+        "time": "2026-09-01T10:00:00-04:00",
+        "forecast": "0.0%",
+        "previous": "-0.1%",
         "actual": null
       }
     ]
