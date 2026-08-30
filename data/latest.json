@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-08-30T23:07:25.904324+09:00",
-  "generated_at_utc": "2026-08-30T14:07:27.996636+00:00",
+  "generated_at_jst": "2026-08-31T03:17:03.274800+09:00",
+  "generated_at_utc": "2026-08-30T18:17:05.570184+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": 0.022,
@@ -229,6 +229,24 @@
         "time": "2026-09-01T10:00:00-04:00",
         "forecast": "0.0%",
         "previous": "-0.1%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "RCM/TIPP Economic Optimism",
+        "impact": "Low",
+        "time": "2026-09-01T10:10:00-04:00",
+        "forecast": "46.2",
+        "previous": "45.1",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Omdia Total Vehicle Sales",
+        "impact": "Low",
+        "time": "2026-09-01T10:15:00-04:00",
+        "forecast": "16.3M",
+        "previous": "16.3M",
         "actual": null
       }
     ]
