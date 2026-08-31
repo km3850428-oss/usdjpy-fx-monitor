@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-08-31T23:38:25.572402+09:00",
-  "generated_at_utc": "2026-08-31T14:38:26.862835+00:00",
+  "generated_at_jst": "2026-09-01T05:30:58.814319+09:00",
+  "generated_at_utc": "2026-08-31T20:31:00.835390+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.002,
-    "technical_score": 0.004,
+    "overall_score": 0.006,
+    "technical_score": 0.012,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(158.86) < SMA50(160.87) でデッドクロス状態（売り要因）",
-      "RSI14=50.3で中立圏",
+      "RSI14=50.7で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 159.72000122070312,
-      "sma20": 158.85650253295898,
-      "sma50": 160.86698150634766,
+      "price": 159.76699829101562,
+      "sma20": 158.8588523864746,
+      "sma50": 160.8679214477539,
       "sma200": null,
-      "rsi14": 50.25946311414083,
-      "macd": -0.38722853467234586,
-      "macd_signal": -0.5527664518662997,
-      "bb_upper": 160.24487853146815,
-      "bb_mid": 158.85650253295898,
-      "bb_lower": 157.46812653444982,
+      "rsi14": 50.6962777120597,
+      "macd": -0.3834794806303421,
+      "macd_signal": -0.5520166410578989,
+      "bb_upper": 160.25352682072307,
+      "bb_mid": 158.8588523864746,
+      "bb_lower": 157.46417795222615,
       "atr14": 0.981540028712016
     }
   },
@@ -182,7 +182,7 @@
         "title": "ISM Manufacturing Prices",
         "impact": "Medium",
         "time": "2026-09-01T10:00:00-04:00",
-        "forecast": "71.2",
+        "forecast": "70.5",
         "previous": "71.1",
         "actual": null
       },
@@ -245,7 +245,7 @@
         "title": "ADP Non-Farm Employment Change",
         "impact": "Medium",
         "time": "2026-09-02T08:15:00-04:00",
-        "forecast": "47K",
+        "forecast": "48K",
         "previous": "44K",
         "actual": null
       },
@@ -254,7 +254,7 @@
         "title": "Factory Orders m/m",
         "impact": "Low",
         "time": "2026-09-02T10:00:00-04:00",
-        "forecast": "0.6%",
+        "forecast": "0.7%",
         "previous": "-0.3%",
         "actual": null
       },
@@ -265,6 +265,15 @@
         "time": "2026-09-02T10:30:00-04:00",
         "forecast": "",
         "previous": "0.1M",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Beige Book",
+        "impact": "Low",
+        "time": "2026-09-02T14:00:00-04:00",
+        "forecast": "",
+        "previous": "",
         "actual": null
       }
     ]
