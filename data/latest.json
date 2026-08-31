@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-08-31T15:26:40.904351+09:00",
-  "generated_at_utc": "2026-08-31T06:26:42.463938+00:00",
+  "generated_at_jst": "2026-08-31T23:38:25.572402+09:00",
+  "generated_at_utc": "2026-08-31T14:38:26.862835+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.011,
-    "technical_score": 0.023,
+    "overall_score": 0.002,
+    "technical_score": 0.004,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(158.86) < SMA50(160.87) でデッドクロス状態（売り要因）",
-      "RSI14=51.4で中立圏",
+      "RSI14=50.3で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 159.84100341796875,
-      "sma20": 158.86255264282227,
-      "sma50": 160.86940155029296,
+      "price": 159.72000122070312,
+      "sma20": 158.85650253295898,
+      "sma50": 160.86698150634766,
       "sma200": null,
-      "rsi14": 51.368778618751726,
-      "macd": -0.3775759377394934,
-      "macd_signal": -0.5508359324797292,
-      "bb_upper": 160.2677252315952,
-      "bb_mid": 158.86255264282227,
-      "bb_lower": 157.45738005404934,
+      "rsi14": 50.25946311414083,
+      "macd": -0.38722853467234586,
+      "macd_signal": -0.5527664518662997,
+      "bb_upper": 160.24487853146815,
+      "bb_mid": 158.85650253295898,
+      "bb_lower": 157.46812653444982,
       "atr14": 0.981540028712016
     }
   },
@@ -39,73 +39,73 @@
   "news": {
     "items": [
       {
-        "title": "5 big analyst AI moves: Apple upgraded on foldable iPhone push, new AI strategy",
-        "link": "https://www.investing.com/news/stock-market-news/5-big-analyst-ai-moves-apple-upgraded-on-foldable-iphone-push-new-ai-strategy-4872396",
+        "title": "Deutsche Bank forecasts S&P 500 to hit 7000 by end of 2025",
+        "link": "https://www.investing.com/news/stock-market-news/deutsche-bank-forecasts-sp-500-to-hit-7000-by-end-of-2025-3741586",
         "source": "Most Popular News",
-        "published_at": "2026-08-23 07:56:12",
+        "published_at": "2024-11-26 10:47:35",
         "sentiment": "neutral"
       },
       {
-        "title": "These 3 AI stocks are bought by both hedge funds and mutual funds",
-        "link": "https://www.investing.com/news/stock-market-news/these-3-ai-stocks-are-bought-by-both-hedge-funds-and-mutual-funds-4872330",
+        "title": "Trump's tariffs, Fed minutes, Rumble's Bitcoin buy - what's moving markets",
+        "link": "https://www.investing.com/news/economy/trumps-tariffs-fed-minutes-rumbles-bitcoin-buy--whats-moving-markets-3741453",
         "source": "Most Popular News",
-        "published_at": "2026-08-22 11:01:13",
+        "published_at": "2024-11-26 08:55:17",
         "sentiment": "neutral"
       },
       {
-        "title": "Where are central banks keeping their gold?",
-        "link": "https://www.investing.com/news/economy-news/where-are-central-banks-keeping-their-gold-4872312",
+        "title": "Bitcoin price today: slips to $94k as risk appetite sours on Trump tariff threat",
+        "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-today-slips-to-94k-as-risk-appetite-sours-on-trump-tariff-threat-3741330",
         "source": "Most Popular News",
-        "published_at": "2026-08-22 08:03:55",
+        "published_at": "2024-11-26 06:22:06",
         "sentiment": "neutral"
       },
       {
-        "title": "Is the Fed’s stock valuation model working again?",
-        "link": "https://www.investing.com/news/stock-market-news/is-the-feds-stock-valuation-model-working-again-4872237",
+        "title": "2025 macro outlook for the US is 'murky at best' says Deutsche Bank",
+        "link": "https://www.investing.com/news/economy/2025-macro-outlook-for-the-us-is-murky-at-best-says-deutsche-bank-3741435",
         "source": "Most Popular News",
-        "published_at": "2026-08-22 00:37:50",
+        "published_at": "2024-11-26 08:26:03",
         "sentiment": "neutral"
       },
       {
-        "title": "Can Anthropic actually match or beat SpaceX’s IPO? Numbers say \"Yes, but\"",
-        "link": "https://www.investing.com/news/stock-market-news/can-anthropic-actually-match-or-beat-spacexs-ipo-numbers-say-yes-but-4871905",
+        "title": "Trump says he will impose additional 10% tariffs on China over drug inflow",
+        "link": "https://www.investing.com/news/politics/trump-says-he-will-impose-additional-10-tariffs-on-china-over-drug-inflow-3741069",
         "source": "Most Popular News",
-        "published_at": "2026-08-21 15:32:21",
+        "published_at": "2024-11-26 00:01:07",
         "sentiment": "neutral"
       },
       {
-        "title": "Trump disclosure shows more than 1,000 securities trades in June - report",
-        "link": "https://www.investing.com/news/company-news/trump-disclosure-shows-more-than-1000-securities-trades-in-june--report-4872419",
+        "title": "Asia stocks fall after Trump threatens tariffs, Japan's Nikkei leads losses",
+        "link": "https://www.investing.com/news/stock-market-news/asia-stocks-fall-after-trump-threatens-tariffs-japans-nikkei-leads-losses-3741249",
         "source": "Most Popular News",
-        "published_at": "2026-08-23 06:03:55",
+        "published_at": "2024-11-26 03:31:51",
         "sentiment": "neutral"
       },
       {
-        "title": "Nvidia customers notified about AI-related price hikes above 15%, Bloomberg News reports",
-        "link": "https://www.investing.com/news/stock-market-news/nvidia-customers-notified-about-airelated-price-hikes-above-15-bloomberg-news-reports-4872385",
+        "title": "S&P 500 positioning levels at record highs, pullback risks rise, Citi warns",
+        "link": "https://www.investing.com/news/stock-market-news/sp-500-positioning-levels-at-record-highs-pullback-risks-rise-citi-warns-3741245",
         "source": "Most Popular News",
-        "published_at": "2026-08-22 20:00:33",
+        "published_at": "2024-11-26 03:26:47",
         "sentiment": "neutral"
       },
       {
-        "title": "Nvidia customers face over 15% server price hikes as memory costs soar - report",
-        "link": "https://www.investing.com/news/stock-market-news/nvidia-customers-face-over-15-server-price-hikes-as-memory-costs-soar--report-4872389",
+        "title": "Analyst calls Bitcoin 'global bubble', could soar to infinity",
+        "link": "https://www.investing.com/news/cryptocurrency-news/analyst-calls-bitcoin-global-bubble-could-soar-to-infinity-3740406",
         "source": "Most Popular News",
-        "published_at": "2026-08-22 20:47:44",
+        "published_at": "2024-11-25 18:20:45",
         "sentiment": "neutral"
       },
       {
-        "title": "Iran condemns US plans to announce new sanctions",
-        "link": "https://www.investing.com/news/commodities-news/iran-condemns-us-plans-to-announce-new-sanctions-4872376",
+        "title": "Stock market today: Dow hits record as Trump's pick for Treasury stokes optimism",
+        "link": "https://www.investing.com/news/stock-market-news/stock-market-today-dow-hits-record-as-trumps-pick-for-treasury-stokes-optimism-3738482",
         "source": "Most Popular News",
-        "published_at": "2026-08-23 03:00:37",
+        "published_at": "2024-11-25 21:05:30",
         "sentiment": "neutral"
       },
       {
-        "title": "Alibaba plans $10 billion Hong Kong share placement to fund AI spending",
-        "link": "https://www.investing.com/news/stock-market-news/alibaba-proposes-hong-kong-share-placement-worth-10-billion-4872416",
+        "title": "Jump in Tesla stock mostly driven by 'animal spirits/momentum' says UBS",
+        "link": "https://www.investing.com/news/stock-market-news/jump-in-tesla-stock-mostly-driven-by-animal-spiritsmomentum-says-ubs-3739718",
         "source": "Most Popular News",
-        "published_at": "2026-08-23 06:30:36",
+        "published_at": "2024-11-25 14:19:31",
         "sentiment": "neutral"
       }
     ]
@@ -238,6 +238,33 @@
         "time": "2026-09-01T19:50:00-04:00",
         "forecast": "-13.5%",
         "previous": "-13.8%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "ADP Non-Farm Employment Change",
+        "impact": "Medium",
+        "time": "2026-09-02T08:15:00-04:00",
+        "forecast": "47K",
+        "previous": "44K",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Factory Orders m/m",
+        "impact": "Low",
+        "time": "2026-09-02T10:00:00-04:00",
+        "forecast": "0.6%",
+        "previous": "-0.3%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Crude Oil Inventories",
+        "impact": "Low",
+        "time": "2026-09-02T10:30:00-04:00",
+        "forecast": "",
+        "previous": "0.1M",
         "actual": null
       }
     ]
