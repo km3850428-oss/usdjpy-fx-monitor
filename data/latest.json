@@ -1,10 +1,10 @@
 {
-  "generated_at_jst": "2026-08-31T06:44:53.838035+09:00",
-  "generated_at_utc": "2026-08-30T21:44:54.921549+00:00",
+  "generated_at_jst": "2026-08-31T09:03:07.775814+09:00",
+  "generated_at_utc": "2026-08-31T00:03:09.516208+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": 0.025,
-    "technical_score": 0.049,
+    "technical_score": 0.05,
     "fundamental_score": 0.0,
     "override_reason": null
   },
@@ -15,17 +15,17 @@
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 160.0240020751953,
-      "sma20": 158.8717025756836,
-      "sma50": 160.8730615234375,
+      "price": 160.0260009765625,
+      "sma20": 158.87180252075194,
+      "sma50": 160.87310150146484,
       "sma200": null,
-      "rsi14": 52.95552630980941,
-      "macd": -0.36297775425703094,
-      "macd_signal": -0.5479162957832368,
-      "bb_upper": 160.30578742667703,
-      "bb_mid": 158.8717025756836,
-      "bb_lower": 157.43761772469017,
-      "atr14": 0.9766114398448285
+      "rsi14": 52.97228692749124,
+      "macd": -0.3628182977377037,
+      "macd_signal": -0.5478844044793713,
+      "bb_upper": 160.30622574400587,
+      "bb_mid": 158.87180252075194,
+      "bb_lower": 157.437379297498,
+      "atr14": 0.981540028712016
     }
   },
   "fundamental": {
@@ -114,24 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "Prelim Industrial Production m/m",
-        "impact": "Low",
-        "time": "2026-08-30T19:50:00-04:00",
-        "forecast": "-0.7%",
-        "previous": "1.3%",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "Retail Sales y/y",
-        "impact": "Low",
-        "time": "2026-08-30T19:50:00-04:00",
-        "forecast": "3.2%",
-        "previous": "0.5%",
-        "actual": null
-      },
       {
         "country": "JPY",
         "title": "Housing Starts y/y",
@@ -256,6 +238,15 @@
         "time": "2026-09-01T16:30:00-04:00",
         "forecast": "",
         "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Monetary Base y/y",
+        "impact": "Low",
+        "time": "2026-09-01T19:50:00-04:00",
+        "forecast": "-13.5%",
+        "previous": "-13.8%",
         "actual": null
       }
     ]
