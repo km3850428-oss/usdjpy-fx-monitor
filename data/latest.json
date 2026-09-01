@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-09-01T09:13:33.953376+09:00",
-  "generated_at_utc": "2026-09-01T00:13:35.763585+00:00",
+  "generated_at_jst": "2026-09-01T14:53:34.438178+09:00",
+  "generated_at_utc": "2026-09-01T05:53:36.326710+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": -0.001,
-    "technical_score": -0.002,
+    "overall_score": 0.01,
+    "technical_score": 0.02,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(158.99) < SMA50(160.84) でデッドクロス状態（売り要因）",
-      "RSI14=49.9で中立圏",
+      "RSI14=51.2で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 159.71200561523438,
-      "sma20": 158.9857521057129,
-      "sma50": 160.837861328125,
+      "price": 159.8560028076172,
+      "sma20": 158.99295196533203,
+      "sma50": 160.84074127197266,
       "sma200": null,
-      "rsi14": 49.90235913797435,
-      "macd": -0.29930218583865553,
-      "macd_signal": -0.49694275041469,
-      "bb_upper": 160.33501414849025,
-      "bb_mid": 158.9857521057129,
-      "bb_lower": 157.63649006293554,
-      "atr14": 0.9352353724689144
+      "rsi14": 51.193612982591304,
+      "macd": -0.2878152303209447,
+      "macd_signal": -0.49464535931114784,
+      "bb_upper": 160.35995164961034,
+      "bb_mid": 158.99295196533203,
+      "bb_lower": 157.6259522810537,
+      "atr14": 0.9399492483757225
     }
   },
   "fundamental": {
@@ -114,33 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "Final Manufacturing PMI",
-        "impact": "Low",
-        "time": "2026-08-31T20:30:00-04:00",
-        "forecast": "55.1",
-        "previous": "55.1",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "10-y Bond Auction",
-        "impact": "Low",
-        "time": "2026-08-31T23:35:00-04:00",
-        "forecast": "",
-        "previous": "2.84|2.6",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "Consumer Confidence",
-        "impact": "Low",
-        "time": "2026-09-01T01:00:00-04:00",
-        "forecast": "35.3",
-        "previous": "34.9",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "FOMC Member Barr Speaks",
@@ -265,6 +238,15 @@
         "time": "2026-09-02T14:00:00-04:00",
         "forecast": "",
         "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "30-y Bond Auction",
+        "impact": "Low",
+        "time": "2026-09-02T23:35:00-04:00",
+        "forecast": "",
+        "previous": "3.94|3.9",
         "actual": null
       }
     ]
