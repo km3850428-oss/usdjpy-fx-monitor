@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-09-01T19:49:20.392605+09:00",
-  "generated_at_utc": "2026-09-01T10:49:22.119812+00:00",
+  "generated_at_jst": "2026-09-02T00:19:23.559463+09:00",
+  "generated_at_utc": "2026-09-01T15:19:24.691092+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.029,
-    "technical_score": 0.057,
+    "overall_score": 0.025,
+    "technical_score": 0.049,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(159.00) < SMA50(160.85) でデッドクロス状態（売り要因）",
-      "RSI14=53.4で中立圏",
+      "SMA20(159.00) < SMA50(160.84) でデッドクロス状態（売り要因）",
+      "RSI14=53.0で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 160.08999633789062,
-      "sma20": 159.0046516418457,
-      "sma50": 160.84542114257812,
+      "price": 160.04200744628906,
+      "sma20": 159.00225219726562,
+      "sma50": 160.84446136474608,
       "sma200": null,
-      "rsi14": 53.44066015575331,
-      "macd": -0.2691490797578524,
-      "macd_signal": -0.4909121291985294,
-      "bb_upper": 160.40631836402164,
-      "bb_mid": 159.0046516418457,
-      "bb_lower": 157.60298491966975,
-      "atr14": 0.9399492483757225
+      "rsi14": 52.963885548795666,
+      "macd": -0.27297725344683954,
+      "macd_signal": -0.4916777639363268,
+      "bb_upper": 160.39623924012295,
+      "bb_mid": 159.00225219726562,
+      "bb_lower": 157.6082651544083,
+      "atr14": 0.9461639351781778
     }
   },
   "fundamental": {
@@ -116,78 +116,6 @@
     "events": [
       {
         "country": "USD",
-        "title": "FOMC Member Barr Speaks",
-        "impact": "Low",
-        "time": "2026-09-01T09:05:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Final Manufacturing PMI",
-        "impact": "Low",
-        "time": "2026-09-01T09:45:00-04:00",
-        "forecast": "53.3",
-        "previous": "53.2",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "ISM Manufacturing PMI",
-        "impact": "High",
-        "time": "2026-09-01T10:00:00-04:00",
-        "forecast": "55.2",
-        "previous": "55.6",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "ISM Manufacturing Prices",
-        "impact": "Medium",
-        "time": "2026-09-01T10:00:00-04:00",
-        "forecast": "70.5",
-        "previous": "71.1",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "JOLTS Job Openings",
-        "impact": "Medium",
-        "time": "2026-09-01T10:00:00-04:00",
-        "forecast": "7.33M",
-        "previous": "7.36M",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Construction Spending m/m",
-        "impact": "Low",
-        "time": "2026-09-01T10:00:00-04:00",
-        "forecast": "0.0%",
-        "previous": "-0.1%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "RCM/TIPP Economic Optimism",
-        "impact": "Low",
-        "time": "2026-09-01T10:10:00-04:00",
-        "forecast": "46.2",
-        "previous": "45.1",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Omdia Total Vehicle Sales",
-        "impact": "Low",
-        "time": "2026-09-01T10:15:00-04:00",
-        "forecast": "16.3M",
-        "previous": "16.3M",
-        "actual": null
-      },
-      {
-        "country": "USD",
         "title": "API Weekly Statistical Bulletin",
         "impact": "Low",
         "time": "2026-09-01T16:30:00-04:00",
@@ -256,6 +184,78 @@
         "time": "2026-09-03T05:30:00-04:00",
         "forecast": "",
         "previous": "-46.1%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Unemployment Claims",
+        "impact": "Medium",
+        "time": "2026-09-03T08:30:00-04:00",
+        "forecast": "205K",
+        "previous": "203K",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Waller Speaks",
+        "impact": "Low",
+        "time": "2026-09-03T08:30:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Revised Nonfarm Productivity q/q",
+        "impact": "Low",
+        "time": "2026-09-03T08:30:00-04:00",
+        "forecast": "1.4%",
+        "previous": "1.4%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Revised Unit Labor Costs q/q",
+        "impact": "Low",
+        "time": "2026-09-03T08:30:00-04:00",
+        "forecast": "1.3%",
+        "previous": "1.3%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Trade Balance",
+        "impact": "Low",
+        "time": "2026-09-03T08:30:00-04:00",
+        "forecast": "-89.4B",
+        "previous": "-73.3B",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Final Services PMI",
+        "impact": "Low",
+        "time": "2026-09-03T09:45:00-04:00",
+        "forecast": "56.8",
+        "previous": "56.8",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "ISM Services PMI",
+        "impact": "Medium",
+        "time": "2026-09-03T10:00:00-04:00",
+        "forecast": "54.2",
+        "previous": "54.1",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Natural Gas Storage",
+        "impact": "Low",
+        "time": "2026-09-03T10:30:00-04:00",
+        "forecast": "",
+        "previous": "15B",
         "actual": null
       }
     ]
