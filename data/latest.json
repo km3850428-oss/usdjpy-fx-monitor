@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-09-02T19:13:50.948179+09:00",
-  "generated_at_utc": "2026-09-02T10:13:52.102061+00:00",
+  "generated_at_jst": "2026-09-02T23:49:14.615743+09:00",
+  "generated_at_utc": "2026-09-02T14:49:15.614288+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.011,
-    "technical_score": 0.022,
+    "overall_score": -0.063,
+    "technical_score": -0.127,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(159.10) < SMA50(160.80) でデッドクロス状態（売り要因）",
-      "RSI14=51.3で中立圏",
+      "SMA20(159.04) < SMA50(160.78) でデッドクロス状態（売り要因）",
+      "RSI14=42.4で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 159.86900329589844,
-      "sma20": 159.09635162353516,
-      "sma50": 160.80396118164063,
+      "price": 158.7760009765625,
+      "sma20": 159.04170150756835,
+      "sma50": 160.7821011352539,
       "sma200": null,
-      "rsi14": 51.336987233755806,
-      "macd": -0.2374485340290562,
-      "macd_signal": -0.4445973315054409,
-      "bb_upper": 160.35802594439957,
-      "bb_mid": 159.09635162353516,
-      "bb_lower": 157.83467730267074,
-      "atr14": 0.9464576516725458
+      "rsi14": 42.396615389672185,
+      "macd": -0.324639602238193,
+      "macd_signal": -0.46203554514726825,
+      "bb_upper": 160.25626715775104,
+      "bb_mid": 159.04170150756835,
+      "bb_lower": 157.82713585738566,
+      "atr14": 1.034529202314287
     }
   },
   "fundamental": {
@@ -114,33 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "ADP Non-Farm Employment Change",
-        "impact": "Medium",
-        "time": "2026-09-02T08:15:00-04:00",
-        "forecast": "47K",
-        "previous": "44K",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Factory Orders m/m",
-        "impact": "Low",
-        "time": "2026-09-02T10:00:00-04:00",
-        "forecast": "0.7%",
-        "previous": "-0.3%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Crude Oil Inventories",
-        "impact": "Low",
-        "time": "2026-09-02T10:30:00-04:00",
-        "forecast": "-0.4M",
-        "previous": "0.1M",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Beige Book",
@@ -265,6 +238,33 @@
         "time": "2026-09-03T19:30:00-04:00",
         "forecast": "-1.6%",
         "previous": "-3.3%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Average Hourly Earnings m/m",
+        "impact": "High",
+        "time": "2026-09-04T08:30:00-04:00",
+        "forecast": "0.3%",
+        "previous": "0.1%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Non-Farm Employment Change",
+        "impact": "High",
+        "time": "2026-09-04T08:30:00-04:00",
+        "forecast": "55K",
+        "previous": "-23K",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Unemployment Rate",
+        "impact": "High",
+        "time": "2026-09-04T08:30:00-04:00",
+        "forecast": "4.1%",
+        "previous": "4.1%",
         "actual": null
       }
     ]
