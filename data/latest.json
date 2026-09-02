@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-09-02T07:12:27.623339+09:00",
-  "generated_at_utc": "2026-09-01T22:12:28.666367+00:00",
+  "generated_at_jst": "2026-09-02T09:41:34.030953+09:00",
+  "generated_at_utc": "2026-09-02T00:41:36.007059+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.034,
-    "technical_score": 0.067,
+    "overall_score": 0.035,
+    "technical_score": 0.071,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(159.01) < SMA50(160.85) でデッドクロス状態（売り要因）",
-      "RSI14=54.0で中立圏",
+      "SMA20(159.11) < SMA50(160.81) でデッドクロス状態（売り要因）",
+      "RSI14=54.3で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 160.15199279785156,
-      "sma20": 159.00775146484375,
-      "sma50": 160.84666107177733,
+      "price": 160.21299743652344,
+      "sma20": 159.1135513305664,
+      "sma50": 160.81084106445311,
       "sma200": null,
-      "rsi14": 54.02364172528191,
-      "macd": -0.26420349320824243,
-      "macd_signal": -0.4899230118886074,
-      "bb_upper": 160.41976063741296,
-      "bb_mid": 159.00775146484375,
-      "bb_lower": 157.59574229227454,
-      "atr14": 0.9100921578344278
+      "rsi14": 54.25601954722714,
+      "macd": -0.2100074060020063,
+      "macd_signal": -0.4391091059000309,
+      "bb_upper": 160.42785687888184,
+      "bb_mid": 159.1135513305664,
+      "bb_lower": 157.79924578225095,
+      "atr14": 0.9133155618287958
     }
   },
   "fundamental": {
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "Monetary Base y/y",
-        "impact": "Low",
-        "time": "2026-09-01T19:50:00-04:00",
-        "forecast": "-13.5%",
-        "previous": "-13.8%",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "ADP Non-Farm Employment Change",
@@ -265,6 +256,15 @@
         "time": "2026-09-03T15:05:00-04:00",
         "forecast": "",
         "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Household Spending y/y",
+        "impact": "Low",
+        "time": "2026-09-03T19:30:00-04:00",
+        "forecast": "-1.6%",
+        "previous": "-3.3%",
         "actual": null
       }
     ]
