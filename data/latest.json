@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-09-02T23:49:14.615743+09:00",
-  "generated_at_utc": "2026-09-02T14:49:15.614288+00:00",
+  "generated_at_jst": "2026-09-03T03:15:14.300304+09:00",
+  "generated_at_utc": "2026-09-02T18:15:15.773072+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": -0.063,
-    "technical_score": -0.127,
+    "overall_score": -0.054,
+    "technical_score": -0.108,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(159.04) < SMA50(160.78) でデッドクロス状態（売り要因）",
-      "RSI14=42.4で中立圏",
+      "SMA20(159.05) < SMA50(160.79) でデッドクロス状態（売り要因）",
+      "RSI14=43.5で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.7760009765625,
-      "sma20": 159.04170150756835,
-      "sma50": 160.7821011352539,
+      "price": 158.93699645996094,
+      "sma20": 159.04975128173828,
+      "sma50": 160.7853210449219,
       "sma200": null,
-      "rsi14": 42.396615389672185,
-      "macd": -0.324639602238193,
-      "macd_signal": -0.46203554514726825,
-      "bb_upper": 160.25626715775104,
-      "bb_mid": 159.04170150756835,
-      "bb_lower": 157.82713585738566,
+      "rsi14": 43.5194975460796,
+      "macd": -0.31179665769360554,
+      "macd_signal": -0.45946695623835077,
+      "bb_upper": 160.2590247966529,
+      "bb_mid": 159.04975128173828,
+      "bb_lower": 157.84047776682365,
       "atr14": 1.034529202314287
     }
   },
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Beige Book",
-        "impact": "Low",
-        "time": "2026-09-02T14:00:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
       {
         "country": "JPY",
         "title": "30-y Bond Auction",
