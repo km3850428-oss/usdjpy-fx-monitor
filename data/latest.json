@@ -1,32 +1,32 @@
 {
-  "generated_at_jst": "2026-09-03T16:31:15.011716+09:00",
-  "generated_at_utc": "2026-09-03T07:31:16.072392+00:00",
+  "generated_at_jst": "2026-09-03T21:22:32.699856+09:00",
+  "generated_at_utc": "2026-09-03T12:22:34.435935+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": -0.019,
-    "technical_score": -0.039,
+    "overall_score": -0.038,
+    "technical_score": -0.075,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(159.07) < SMA50(160.71) でデッドクロス状態（売り要因）",
-      "RSI14=32.9で中立圏",
-      "MACDがシグナルを上抜け（買い要因）",
+      "SMA20(159.02) < SMA50(160.69) でデッドクロス状態（売り要因）",
+      "RSI14=29.6で売られすぎ水準（買い要因）",
+      "MACDがシグナルを下抜け（売り要因）",
       "価格がボリンジャーバンド-2σを下回り売られすぎ（買い要因）"
     ],
     "indicators": {
-      "price": 156.7689971923828,
-      "sma20": 159.07115097045897,
-      "sma50": 160.71062103271484,
+      "price": 155.78900146484375,
+      "sma20": 159.02215118408202,
+      "sma50": 160.69102111816406,
       "sma200": null,
-      "rsi14": 32.889628058043044,
-      "macd": -0.4156449913357676,
-      "macd_signal": -0.43466167459416716,
-      "bb_upper": 160.6161405822141,
-      "bb_mid": 159.07115097045897,
-      "bb_lower": 157.52616135870386,
-      "atr14": 1.224065256865387
+      "rsi14": 29.572317282274454,
+      "macd": -0.4938212886893041,
+      "macd_signal": -0.4502969340648745,
+      "bb_upper": 160.90071670932775,
+      "bb_mid": 159.02215118408202,
+      "bb_lower": 157.1435856588363,
+      "atr14": 1.265493959083579
     }
   },
   "fundamental": {
@@ -115,15 +115,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Challenger Job Cuts y/y",
-        "impact": "Low",
-        "time": "2026-09-03T05:30:00-04:00",
-        "forecast": "",
-        "previous": "-46.1%",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Unemployment Claims",
