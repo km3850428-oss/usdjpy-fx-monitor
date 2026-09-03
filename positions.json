@@ -20,24 +20,6 @@
       "opened_at": "2026-08-12T21:46:02.962484+09:00"
     },
     {
-      "id": 14,
-      "direction": "売り",
-      "entry_price": 159.254,
-      "stop_loss": 161.169,
-      "take_profit": 155.424,
-      "atr_at_entry": 1.277,
-      "opened_at": "2026-08-13T21:48:29.926877+09:00"
-    },
-    {
-      "id": 15,
-      "direction": "売り",
-      "entry_price": 159.305,
-      "stop_loss": 161.196,
-      "take_profit": 155.522,
-      "atr_at_entry": 1.261,
-      "opened_at": "2026-08-15T07:13:24.640397+09:00"
-    },
-    {
       "id": 17,
       "direction": "売り",
       "entry_price": 158.494,
@@ -234,6 +216,32 @@
       "exit_price": 155.989,
       "exit_reason": "利確（目標値到達）",
       "pnl_pips": 348.0
+    },
+    {
+      "id": 14,
+      "direction": "売り",
+      "entry_price": 159.254,
+      "stop_loss": 161.169,
+      "take_profit": 155.424,
+      "atr_at_entry": 1.277,
+      "opened_at": "2026-08-13T21:48:29.926877+09:00",
+      "closed_at": "2026-09-04T01:46:10.117988+09:00",
+      "exit_price": 155.424,
+      "exit_reason": "利確（目標値到達）",
+      "pnl_pips": 383.0
+    },
+    {
+      "id": 15,
+      "direction": "売り",
+      "entry_price": 159.305,
+      "stop_loss": 161.196,
+      "take_profit": 155.522,
+      "atr_at_entry": 1.261,
+      "opened_at": "2026-08-15T07:13:24.640397+09:00",
+      "closed_at": "2026-09-04T01:46:10.117988+09:00",
+      "exit_price": 155.522,
+      "exit_reason": "利確（目標値到達）",
+      "pnl_pips": 378.3
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-09-03T21:22:32.699856+09:00",
-  "generated_at_utc": "2026-09-03T12:22:34.435935+00:00",
+  "generated_at_jst": "2026-09-04T01:46:10.117988+09:00",
+  "generated_at_utc": "2026-09-03T16:46:12.198101+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": -0.038,
@@ -10,23 +10,23 @@
   },
   "technical": {
     "reasons": [
-      "SMA20(159.02) < SMA50(160.69) でデッドクロス状態（売り要因）",
-      "RSI14=29.6で売られすぎ水準（買い要因）",
+      "SMA20(159.00) < SMA50(160.68) でデッドクロス状態（売り要因）",
+      "RSI14=28.2で売られすぎ水準（買い要因）",
       "MACDがシグナルを下抜け（売り要因）",
       "価格がボリンジャーバンド-2σを下回り売られすぎ（買い要因）"
     ],
     "indicators": {
-      "price": 155.78900146484375,
-      "sma20": 159.02215118408202,
-      "sma50": 160.69102111816406,
+      "price": 155.3249969482422,
+      "sma20": 158.99895095825195,
+      "sma50": 160.68174102783203,
       "sma200": null,
-      "rsi14": 29.572317282274454,
-      "macd": -0.4938212886893041,
-      "macd_signal": -0.4502969340648745,
-      "bb_upper": 160.90071670932775,
-      "bb_mid": 159.02215118408202,
-      "bb_lower": 157.1435856588363,
-      "atr14": 1.265493959083579
+      "rsi14": 28.224439397982394,
+      "macd": -0.5308358940022515,
+      "macd_signal": -0.4576998551274639,
+      "bb_upper": 161.0492509302486,
+      "bb_mid": 158.99895095825195,
+      "bb_lower": 156.9486509862553,
+      "atr14": 1.298422425880454
     }
   },
   "fundamental": {
@@ -115,78 +115,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Unemployment Claims",
-        "impact": "Medium",
-        "time": "2026-09-03T08:30:00-04:00",
-        "forecast": "205K",
-        "previous": "203K",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Waller Speaks",
-        "impact": "Low",
-        "time": "2026-09-03T08:30:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Revised Nonfarm Productivity q/q",
-        "impact": "Low",
-        "time": "2026-09-03T08:30:00-04:00",
-        "forecast": "1.4%",
-        "previous": "1.4%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Revised Unit Labor Costs q/q",
-        "impact": "Low",
-        "time": "2026-09-03T08:30:00-04:00",
-        "forecast": "1.3%",
-        "previous": "1.3%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Trade Balance",
-        "impact": "Low",
-        "time": "2026-09-03T08:30:00-04:00",
-        "forecast": "-89.4B",
-        "previous": "-73.3B",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Final Services PMI",
-        "impact": "Low",
-        "time": "2026-09-03T09:45:00-04:00",
-        "forecast": "56.8",
-        "previous": "56.8",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "ISM Services PMI",
-        "impact": "Medium",
-        "time": "2026-09-03T10:00:00-04:00",
-        "forecast": "54.2",
-        "previous": "54.1",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Natural Gas Storage",
-        "impact": "Low",
-        "time": "2026-09-03T10:30:00-04:00",
-        "forecast": "30B",
-        "previous": "15B",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "FOMC Member Hammack Speaks",
