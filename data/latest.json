@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-09-05T02:54:50.729059+09:00",
-  "generated_at_utc": "2026-09-04T17:54:52.499151+00:00",
+  "generated_at_jst": "2026-09-05T05:03:41.093667+09:00",
+  "generated_at_utc": "2026-09-04T20:03:42.520905+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": -0.038,
-    "technical_score": -0.075,
+    "overall_score": -0.285,
+    "technical_score": -0.571,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(159.06) < SMA50(160.64) でデッドクロス状態（売り要因）",
-      "RSI14=29.9で売られすぎ水準（買い要因）",
+      "SMA20(159.07) < SMA50(160.64) でデッドクロス状態（売り要因）",
+      "RSI14=30.4で中立圏",
       "MACDがシグナルを下抜け（売り要因）",
       "価格がボリンジャーバンド-2σを下回り売られすぎ（買い要因）"
     ],
     "indicators": {
-      "price": 156.10400390625,
-      "sma20": 159.0636016845703,
-      "sma50": 160.63968139648438,
+      "price": 156.24600219726562,
+      "sma20": 159.0707015991211,
+      "sma50": 160.64252136230468,
       "sma200": null,
-      "rsi14": 29.868825460839247,
-      "macd": -0.49133927666770205,
-      "macd_signal": -0.41852796812255194,
-      "bb_upper": 160.80623279700498,
-      "bb_mid": 159.0636016845703,
-      "bb_lower": 157.32097057213562,
+      "rsi14": 30.351382277309398,
+      "macd": -0.48001177766931846,
+      "macd_signal": -0.4162624683228752,
+      "bb_upper": 160.76299153678477,
+      "bb_mid": 159.0707015991211,
+      "bb_lower": 157.37841166145742,
       "atr14": 1.4629056749579008
     }
   },
@@ -114,16 +114,6 @@
   "calendar": {
     "caution_window_hours": 3,
     "display_window_hours": 48,
-    "events": [
-      {
-        "country": "USD",
-        "title": "FOMC Member Goolsbee Speaks",
-        "impact": "Low",
-        "time": "2026-09-04T18:00:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      }
-    ]
+    "events": []
   }
 }
