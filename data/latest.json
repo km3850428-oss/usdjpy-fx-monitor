@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-09-08T05:17:23.834788+09:00",
-  "generated_at_utc": "2026-09-07T20:17:25.708979+00:00",
+  "generated_at_jst": "2026-09-08T08:10:40.418756+09:00",
+  "generated_at_utc": "2026-09-07T23:10:41.549133+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": -0.038,
@@ -10,23 +10,23 @@
   },
   "technical": {
     "reasons": [
-      "SMA20(158.87) < SMA50(160.48) でデッドクロス状態（売り要因）",
-      "RSI14=24.8で売られすぎ水準（買い要因）",
+      "SMA20(158.70) < SMA50(160.36) でデッドクロス状態（売り要因）",
+      "RSI14=26.1で売られすぎ水準（買い要因）",
       "MACDがシグナルを下抜け（売り要因）",
       "価格がボリンジャーバンド-2σを下回り売られすぎ（買い要因）"
     ],
     "indicators": {
-      "price": 154.36599731445312,
-      "sma20": 158.86515121459962,
-      "sma50": 160.4823812866211,
+      "price": 154.04600524902344,
+      "sma20": 158.70120162963866,
+      "sma50": 160.3614614868164,
       "sma200": null,
-      "rsi14": 24.771673711072324,
-      "macd": -0.8456742136758635,
-      "macd_signal": -0.5096628083710113,
-      "bb_upper": 161.66194415841804,
-      "bb_mid": 158.86515121459962,
-      "bb_lower": 156.0683582707812,
-      "atr14": 1.5152555383682016
+      "rsi14": 26.07541972185564,
+      "macd": -0.9986281050943262,
+      "macd_signal": -0.5840857254881062,
+      "bb_upper": 161.83449769509176,
+      "bb_mid": 158.70120162963866,
+      "bb_lower": 155.56790556418557,
+      "atr14": 1.558575861963912
     }
   },
   "fundamental": {
@@ -120,7 +120,7 @@
         "title": "Average Cash Earnings y/y",
         "impact": "Low",
         "time": "2026-09-07T19:30:00-04:00",
-        "forecast": "3.9%",
+        "forecast": "3.8%",
         "previous": "3.4%",
         "actual": null
       },
@@ -138,7 +138,7 @@
         "title": "Current Account",
         "impact": "Low",
         "time": "2026-09-07T19:50:00-04:00",
-        "forecast": "2.46T",
+        "forecast": "2.48T",
         "previous": "1.40T",
         "actual": null
       },
@@ -174,7 +174,7 @@
         "title": "NFIB Small Business Index",
         "impact": "Low",
         "time": "2026-09-08T06:00:00-04:00",
-        "forecast": "99.2",
+        "forecast": "99.4",
         "previous": "99.8",
         "actual": null
       },
@@ -183,7 +183,7 @@
         "title": "Consumer Credit m/m",
         "impact": "Low",
         "time": "2026-09-08T15:00:00-04:00",
-        "forecast": "13.2B",
+        "forecast": "11.9B",
         "previous": "14.2B",
         "actual": null
       },
@@ -230,6 +230,15 @@
         "time": "2026-09-09T13:01:00-04:00",
         "forecast": "",
         "previous": "4.68|2.5",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "API Weekly Statistical Bulletin",
+        "impact": "Low",
+        "time": "2026-09-09T16:30:00-04:00",
+        "forecast": "",
+        "previous": "",
         "actual": null
       }
     ]
