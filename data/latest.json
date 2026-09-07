@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-09-07T20:06:00.245461+09:00",
-  "generated_at_utc": "2026-09-07T11:06:01.439388+00:00",
+  "generated_at_jst": "2026-09-08T01:53:40.530369+09:00",
+  "generated_at_utc": "2026-09-07T16:53:41.911670+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": -0.038,
@@ -10,22 +10,22 @@
   },
   "technical": {
     "reasons": [
-      "SMA20(158.88) < SMA50(160.49) でデッドクロス状態（売り要因）",
-      "RSI14=25.5で売られすぎ水準（買い要因）",
+      "SMA20(158.86) < SMA50(160.48) でデッドクロス状態（売り要因）",
+      "RSI14=24.7で売られすぎ水準（買い要因）",
       "MACDがシグナルを下抜け（売り要因）",
       "価格がボリンジャーバンド-2σを下回り売られすぎ（買い要因）"
     ],
     "indicators": {
-      "price": 154.66600036621094,
-      "sma20": 158.8801513671875,
-      "sma50": 160.48838134765626,
+      "price": 154.32000732421875,
+      "sma20": 158.86285171508788,
+      "sma50": 160.4814614868164,
       "sma200": null,
-      "rsi14": 25.537861221355342,
-      "macd": -0.8217423462991462,
-      "macd_signal": -0.5048764348956678,
-      "bb_upper": 161.57676612995098,
-      "bb_mid": 158.8801513671875,
-      "bb_lower": 156.183536604424,
+      "rsi14": 24.658263884486203,
+      "macd": -0.8493429308455518,
+      "macd_signal": -0.5103965518049489,
+      "bb_upper": 161.67525217221447,
+      "bb_mid": 158.86285171508788,
+      "bb_lower": 156.0504512579613,
       "atr14": 1.5152555383682016
     }
   },
@@ -116,15 +116,6 @@
     "display_window_hours": 48,
     "events": [
       {
-        "country": "USD",
-        "title": "Bank Holiday",
-        "impact": "Holiday",
-        "time": "2026-09-07T08:00:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
         "country": "JPY",
         "title": "Average Cash Earnings y/y",
         "impact": "Low",
@@ -212,6 +203,24 @@
         "time": "2026-09-09T02:00:00-04:00",
         "forecast": "",
         "previous": "50.4%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "ADP Weekly Employment Change",
+        "impact": "Low",
+        "time": "2026-09-09T08:15:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "ADP Weekly Employment Change",
+        "impact": "Low",
+        "time": "2026-09-09T08:16:00-04:00",
+        "forecast": "",
+        "previous": "11.8K",
         "actual": null
       }
     ]
