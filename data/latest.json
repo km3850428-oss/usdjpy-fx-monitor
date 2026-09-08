@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-09-08T08:10:40.418756+09:00",
-  "generated_at_utc": "2026-09-07T23:10:41.549133+00:00",
+  "generated_at_jst": "2026-09-08T11:11:35.848820+09:00",
+  "generated_at_utc": "2026-09-08T02:11:36.978449+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": -0.038,
@@ -10,23 +10,23 @@
   },
   "technical": {
     "reasons": [
-      "SMA20(158.70) < SMA50(160.36) でデッドクロス状態（売り要因）",
-      "RSI14=26.1で売られすぎ水準（買い要因）",
+      "SMA20(158.66) < SMA50(160.34) でデッドクロス状態（売り要因）",
+      "RSI14=24.2で売られすぎ水準（買い要因）",
       "MACDがシグナルを下抜け（売り要因）",
       "価格がボリンジャーバンド-2σを下回り売られすぎ（買い要因）"
     ],
     "indicators": {
-      "price": 154.04600524902344,
-      "sma20": 158.70120162963866,
-      "sma50": 160.3614614868164,
+      "price": 153.1959991455078,
+      "sma20": 158.6587013244629,
+      "sma50": 160.34446136474608,
       "sma200": null,
-      "rsi14": 26.07541972185564,
-      "macd": -0.9986281050943262,
-      "macd_signal": -0.5840857254881062,
-      "bb_upper": 161.83449769509176,
-      "bb_mid": 158.70120162963866,
-      "bb_lower": 155.56790556418557,
-      "atr14": 1.558575861963912
+      "rsi14": 24.161945386016228,
+      "macd": -1.0664348597907463,
+      "macd_signal": -0.5976470764273902,
+      "bb_upper": 162.06870551155276,
+      "bb_mid": 158.6587013244629,
+      "bb_lower": 155.24869713737303,
+      "atr14": 1.621218640632997
     }
   },
   "fundamental": {
@@ -115,51 +115,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "Average Cash Earnings y/y",
-        "impact": "Low",
-        "time": "2026-09-07T19:30:00-04:00",
-        "forecast": "3.8%",
-        "previous": "3.4%",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "Bank Lending y/y",
-        "impact": "Low",
-        "time": "2026-09-07T19:50:00-04:00",
-        "forecast": "5.5%",
-        "previous": "5.4%",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "Current Account",
-        "impact": "Low",
-        "time": "2026-09-07T19:50:00-04:00",
-        "forecast": "2.48T",
-        "previous": "1.40T",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "Final GDP Price Index y/y",
-        "impact": "Low",
-        "time": "2026-09-07T19:50:00-04:00",
-        "forecast": "2.6%",
-        "previous": "2.6%",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "Final GDP q/q",
-        "impact": "Low",
-        "time": "2026-09-07T19:50:00-04:00",
-        "forecast": "0.4%",
-        "previous": "0.3%",
-        "actual": null
-      },
       {
         "country": "JPY",
         "title": "Economy Watchers Sentiment",
