@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-09-09T19:26:31.459201+09:00",
-  "generated_at_utc": "2026-09-09T10:26:32.356132+00:00",
+  "generated_at_jst": "2026-09-09T23:55:30.287247+09:00",
+  "generated_at_utc": "2026-09-09T14:55:32.168263+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": -0.038,
@@ -10,22 +10,22 @@
   },
   "technical": {
     "reasons": [
-      "SMA20(158.41) < SMA50(160.18) でデッドクロス状態（売り要因）",
-      "RSI14=24.9で売られすぎ水準（買い要因）",
+      "SMA20(158.39) < SMA50(160.17) でデッドクロス状態（売り要因）",
+      "RSI14=24.2で売られすぎ水準（買い要因）",
       "MACDがシグナルを下抜け（売り要因）",
       "価格がボリンジャーバンド-2σを下回り売られすぎ（買い要因）"
     ],
     "indicators": {
-      "price": 153.57200622558594,
-      "sma20": 158.40700149536133,
-      "sma50": 160.17652130126953,
+      "price": 153.25799560546875,
+      "sma20": 158.39130096435548,
+      "sma50": 160.1702410888672,
       "sma200": null,
-      "rsi14": 24.92417539154826,
-      "macd": -1.271096768308979,
-      "macd_signal": -0.7239258903378929,
-      "bb_upper": 162.3194081207818,
-      "bb_mid": 158.40700149536133,
-      "bb_lower": 154.49459486994087,
+      "rsi14": 24.195520020313026,
+      "macd": -1.2961460485462624,
+      "macd_signal": -0.7289357463853496,
+      "bb_upper": 162.38703681976386,
+      "bb_mid": 158.39130096435548,
+      "bb_lower": 154.3955651089471,
       "atr14": 1.5967691880455315
     }
   },
@@ -117,24 +117,6 @@
     "events": [
       {
         "country": "USD",
-        "title": "ADP Weekly Employment Change",
-        "impact": "Low",
-        "time": "2026-09-09T08:15:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "ADP Weekly Employment Change",
-        "impact": "Low",
-        "time": "2026-09-09T08:16:00-04:00",
-        "forecast": "",
-        "previous": "11.8K",
-        "actual": null
-      },
-      {
-        "country": "USD",
         "title": "10-y Bond Auction",
         "impact": "Low",
         "time": "2026-09-09T13:01:00-04:00",
@@ -147,6 +129,15 @@
         "title": "API Weekly Statistical Bulletin",
         "impact": "Low",
         "time": "2026-09-09T16:30:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "President Trump Speaks",
+        "impact": "Medium",
+        "time": "2026-09-09T21:15:00-04:00",
         "forecast": "",
         "previous": "",
         "actual": null
@@ -239,6 +230,60 @@
         "time": "2026-09-10T19:50:00-04:00",
         "forecast": "7.4%",
         "previous": "7.2%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Core CPI m/m",
+        "impact": "High",
+        "time": "2026-09-11T08:30:00-04:00",
+        "forecast": "0.2%",
+        "previous": "0.2%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Core CPI y/y",
+        "impact": "High",
+        "time": "2026-09-11T08:30:00-04:00",
+        "forecast": "2.4%",
+        "previous": "2.5%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "CPI m/m",
+        "impact": "High",
+        "time": "2026-09-11T08:30:00-04:00",
+        "forecast": "0.4%",
+        "previous": "0.1%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "CPI y/y",
+        "impact": "High",
+        "time": "2026-09-11T08:30:00-04:00",
+        "forecast": "3.4%",
+        "previous": "3.4%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Prelim UoM Consumer Sentiment",
+        "impact": "Medium",
+        "time": "2026-09-11T10:00:00-04:00",
+        "forecast": "51.0",
+        "previous": "51.0",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Prelim UoM Inflation Expectations",
+        "impact": "Medium",
+        "time": "2026-09-11T10:00:00-04:00",
+        "forecast": "",
+        "previous": "4.3%",
         "actual": null
       }
     ]
