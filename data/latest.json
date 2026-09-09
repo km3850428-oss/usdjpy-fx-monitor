@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-09-09T23:55:30.287247+09:00",
-  "generated_at_utc": "2026-09-09T14:55:32.168263+00:00",
+  "generated_at_jst": "2026-09-10T03:12:07.969540+09:00",
+  "generated_at_utc": "2026-09-09T18:12:09.193548+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": -0.038,
@@ -10,22 +10,22 @@
   },
   "technical": {
     "reasons": [
-      "SMA20(158.39) < SMA50(160.17) でデッドクロス状態（売り要因）",
-      "RSI14=24.2で売られすぎ水準（買い要因）",
+      "SMA20(158.40) < SMA50(160.17) でデッドクロス状態（売り要因）",
+      "RSI14=24.7で売られすぎ水準（買い要因）",
       "MACDがシグナルを下抜け（売り要因）",
       "価格がボリンジャーバンド-2σを下回り売られすぎ（買い要因）"
     ],
     "indicators": {
-      "price": 153.25799560546875,
-      "sma20": 158.39130096435548,
-      "sma50": 160.1702410888672,
+      "price": 153.46600341796875,
+      "sma20": 158.40170135498047,
+      "sma50": 160.1744012451172,
       "sma200": null,
-      "rsi14": 24.195520020313026,
-      "macd": -1.2961460485462624,
-      "macd_signal": -0.7289357463853496,
-      "bb_upper": 162.38703681976386,
-      "bb_mid": 158.39130096435548,
-      "bb_lower": 154.3955651089471,
+      "rsi14": 24.673340359069442,
+      "macd": -1.2795528327343106,
+      "macd_signal": -0.7256171032229592,
+      "bb_upper": 162.34187547682885,
+      "bb_mid": 158.40170135498047,
+      "bb_lower": 154.4615272331321,
       "atr14": 1.5967691880455315
     }
   },
@@ -117,15 +117,6 @@
     "events": [
       {
         "country": "USD",
-        "title": "10-y Bond Auction",
-        "impact": "Low",
-        "time": "2026-09-09T13:01:00-04:00",
-        "forecast": "",
-        "previous": "4.68|2.5",
-        "actual": null
-      },
-      {
-        "country": "USD",
         "title": "API Weekly Statistical Bulletin",
         "impact": "Low",
         "time": "2026-09-09T16:30:00-04:00",
@@ -192,7 +183,7 @@
         "title": "Natural Gas Storage",
         "impact": "Low",
         "time": "2026-09-10T10:30:00-04:00",
-        "forecast": "",
+        "forecast": "35B",
         "previous": "30B",
         "actual": null
       },
@@ -201,7 +192,7 @@
         "title": "Crude Oil Inventories",
         "impact": "Low",
         "time": "2026-09-10T12:00:00-04:00",
-        "forecast": "",
+        "forecast": "-1.4M",
         "previous": "-4.5M",
         "actual": null
       },
@@ -284,6 +275,15 @@
         "time": "2026-09-11T10:00:00-04:00",
         "forecast": "",
         "previous": "4.3%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Federal Budget Balance",
+        "impact": "Low",
+        "time": "2026-09-11T14:00:00-04:00",
+        "forecast": "-221.1B",
+        "previous": "-432.3B",
         "actual": null
       }
     ]
