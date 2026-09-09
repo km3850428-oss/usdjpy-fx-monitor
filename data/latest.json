@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-09-09T07:11:52.823660+09:00",
-  "generated_at_utc": "2026-09-08T22:11:54.134862+00:00",
+  "generated_at_jst": "2026-09-09T09:53:35.496937+09:00",
+  "generated_at_utc": "2026-09-09T00:53:37.037438+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": -0.038,
@@ -10,23 +10,23 @@
   },
   "technical": {
     "reasons": [
-      "SMA20(158.69) < SMA50(160.36) でデッドクロス状態（売り要因）",
-      "RSI14=25.4で売られすぎ水準（買い要因）",
+      "SMA20(158.41) < SMA50(160.18) でデッドクロス状態（売り要因）",
+      "RSI14=25.2で売られすぎ水準（買い要因）",
       "MACDがシグナルを下抜け（売り要因）",
       "価格がボリンジャーバンド-2σを下回り売られすぎ（買い要因）"
     ],
     "indicators": {
-      "price": 153.76199340820312,
-      "sma20": 158.68700103759767,
-      "sma50": 160.35578125,
+      "price": 153.70399475097656,
+      "sma20": 158.41360092163086,
+      "sma50": 160.17916107177734,
       "sma200": null,
-      "rsi14": 25.403226654609696,
-      "macd": -1.0212843203164823,
-      "macd_signal": -0.5886169685325374,
-      "bb_upper": 161.9104097102458,
-      "bb_mid": 158.68700103759767,
-      "bb_lower": 155.46359236494953,
-      "atr14": 1.580646610429314
+      "rsi14": 25.243720678483783,
+      "macd": -1.260567769132507,
+      "macd_signal": -0.7218200905025984,
+      "bb_upper": 162.29196516561848,
+      "bb_mid": 158.41360092163086,
+      "bb_lower": 154.53523667764324,
+      "atr14": 1.5741970793680762
     }
   },
   "fundamental": {
@@ -115,15 +115,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "M2 Money Stock y/y",
-        "impact": "Low",
-        "time": "2026-09-08T19:50:00-04:00",
-        "forecast": "2.2%",
-        "previous": "2.2%",
-        "actual": null
-      },
       {
         "country": "JPY",
         "title": "Prelim Machine Tool Orders y/y",
@@ -239,6 +230,24 @@
         "time": "2026-09-10T13:01:00-04:00",
         "forecast": "",
         "previous": "5.22|2.4",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "BSI Manufacturing Index",
+        "impact": "Low",
+        "time": "2026-09-10T19:50:00-04:00",
+        "forecast": "2.5",
+        "previous": "-1.8",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "PPI y/y",
+        "impact": "Low",
+        "time": "2026-09-10T19:50:00-04:00",
+        "forecast": "7.4%",
+        "previous": "7.2%",
         "actual": null
       }
     ]
