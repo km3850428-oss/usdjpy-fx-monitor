@@ -1,32 +1,31 @@
 {
-  "generated_at_jst": "2026-09-10T16:39:44.025394+09:00",
-  "generated_at_utc": "2026-09-10T07:39:44.954993+00:00",
+  "generated_at_jst": "2026-09-10T21:31:10.215430+09:00",
+  "generated_at_utc": "2026-09-10T12:31:12.376606+00:00",
   "judgment": {
-    "signal": "待ち",
-    "overall_score": -0.038,
-    "technical_score": -0.075,
+    "signal": "売り",
+    "overall_score": -0.488,
+    "technical_score": -0.977,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(158.11) < SMA50(159.99) でデッドクロス状態（売り要因）",
-      "RSI14=24.5で売られすぎ水準（買い要因）",
-      "MACDがシグナルを下抜け（売り要因）",
-      "価格がボリンジャーバンド-2σを下回り売られすぎ（買い要因）"
+      "SMA20(158.16) < SMA50(160.01) でデッドクロス状態（売り要因）",
+      "RSI14=31.4で中立圏",
+      "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 153.40499877929688,
-      "sma20": 158.10615081787108,
-      "sma50": 159.99196105957031,
+      "price": 154.42999267578125,
+      "sma20": 158.15740051269532,
+      "sma50": 160.0124609375,
       "sma200": null,
-      "rsi14": 24.52101651523357,
-      "macd": -1.4772377808792498,
-      "macd_signal": -0.8757617782008502,
-      "bb_upper": 162.60146696059022,
-      "bb_mid": 158.10615081787108,
-      "bb_lower": 153.61083467515195,
-      "atr14": 1.504660515905418
+      "rsi14": 31.39017447155284,
+      "macd": -1.3954718860030084,
+      "macd_signal": -0.859408599225602,
+      "bb_upper": 162.44564998699454,
+      "bb_mid": 158.15740051269532,
+      "bb_lower": 153.8691510383961,
+      "atr14": 1.5545883636314226
     }
   },
   "fundamental": {
@@ -115,33 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Core PPI m/m",
-        "impact": "High",
-        "time": "2026-09-10T08:30:00-04:00",
-        "forecast": "0.3%",
-        "previous": "0.2%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "PPI m/m",
-        "impact": "High",
-        "time": "2026-09-10T08:30:00-04:00",
-        "forecast": "0.4%",
-        "previous": "0.0%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Unemployment Claims",
-        "impact": "Medium",
-        "time": "2026-09-10T08:30:00-04:00",
-        "forecast": "205K",
-        "previous": "206K",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Existing Home Sales",
