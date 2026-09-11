@@ -1,40 +1,40 @@
 {
-  "generated_at_jst": "2026-09-11T19:16:25.455563+09:00",
-  "generated_at_utc": "2026-09-11T10:16:29.060765+00:00",
+  "generated_at_jst": "2026-09-11T23:43:33.796961+09:00",
+  "generated_at_utc": "2026-09-11T14:43:35.086003+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": -0.167,
     "technical_score": -0.333,
     "fundamental_score": 0.0,
-    "override_reason": "重要指標発表が近いためスコアに関わらず待ちと判定"
+    "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.85) < SMA50(159.85) でデッドクロス状態（売り要因）",
-      "RSI14=29.7で売られすぎ水準（買い要因）",
+      "SMA20(157.82) < SMA50(159.84) でデッドクロス状態（売り要因）",
+      "RSI14=25.9で売られすぎ水準（買い要因）",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 154.13099670410156,
-      "sma20": 157.84980087280275,
-      "sma50": 159.84896087646484,
+      "price": 153.6280059814453,
+      "sma20": 157.82465133666992,
+      "sma50": 159.83890106201173,
       "sma200": null,
-      "rsi14": 29.71532223858317,
-      "macd": -1.5477997144836877,
-      "macd_signal": -1.0080372213742268,
-      "bb_upper": 162.6000156906845,
-      "bb_mid": 157.84980087280275,
-      "bb_lower": 153.099586054921,
-      "atr14": 1.527749791836445
+      "rsi14": 25.878985979823796,
+      "macd": -1.5879243305360262,
+      "macd_signal": -1.0160621445846945,
+      "bb_upper": 162.6622881358193,
+      "bb_mid": 157.82465133666992,
+      "bb_lower": 152.98701453752054,
+      "atr14": 1.5519644001651283
     }
   },
   "fundamental": {
     "reasons": [
       "FRED APIキー未設定のため金利差の自動評価をスキップ",
       "関連ニュース見出しにドル/円方向を示すキーワードなし（中立）",
-      "今後3時間以内の重要指標: USD Core CPI m/m (09/11 08:30 UTC) / USD Core CPI y/y (09/11 08:30 UTC) / USD CPI m/m (09/11 08:30 UTC) / USD CPI y/y (09/11 08:30 UTC)"
+      "直近の重要指標発表なし"
     ],
-    "has_upcoming_event": true
+    "has_upcoming_event": false
   },
   "news": {
     "items": [
@@ -114,60 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Core CPI m/m",
-        "impact": "High",
-        "time": "2026-09-11T08:30:00-04:00",
-        "forecast": "0.2%",
-        "previous": "0.2%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Core CPI y/y",
-        "impact": "High",
-        "time": "2026-09-11T08:30:00-04:00",
-        "forecast": "2.4%",
-        "previous": "2.5%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "CPI m/m",
-        "impact": "High",
-        "time": "2026-09-11T08:30:00-04:00",
-        "forecast": "0.4%",
-        "previous": "0.1%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "CPI y/y",
-        "impact": "High",
-        "time": "2026-09-11T08:30:00-04:00",
-        "forecast": "3.4%",
-        "previous": "3.4%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Prelim UoM Consumer Sentiment",
-        "impact": "Medium",
-        "time": "2026-09-11T10:00:00-04:00",
-        "forecast": "51.0",
-        "previous": "51.0",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Prelim UoM Inflation Expectations",
-        "impact": "Medium",
-        "time": "2026-09-11T10:00:00-04:00",
-        "forecast": "",
-        "previous": "4.3%",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Federal Budget Balance",
