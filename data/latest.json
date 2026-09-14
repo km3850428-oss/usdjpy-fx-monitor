@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-09-14T17:20:12.479829+09:00",
-  "generated_at_utc": "2026-09-14T08:20:14.199281+00:00",
+  "generated_at_jst": "2026-09-15T00:28:06.326933+09:00",
+  "generated_at_utc": "2026-09-14T15:28:07.559579+00:00",
   "judgment": {
     "signal": "売り",
-    "overall_score": -0.481,
-    "technical_score": -0.962,
+    "overall_score": -0.479,
+    "technical_score": -0.957,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(157.63) < SMA50(159.72) でデッドクロス状態（売り要因）",
-      "RSI14=32.3で中立圏",
+      "RSI14=32.6で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 154.5019989013672,
-      "sma20": 157.6313003540039,
-      "sma50": 159.7169808959961,
+      "price": 154.53900146484375,
+      "sma20": 157.63315048217774,
+      "sma50": 159.71772094726563,
       "sma200": null,
-      "rsi14": 32.3029971944875,
-      "macd": -1.5447772919168017,
-      "macd_signal": -1.1109747364112117,
-      "bb_upper": 162.51007104062643,
-      "bb_mid": 157.6313003540039,
-      "bb_lower": 152.7525296673814,
-      "atr14": 1.518010432931039
+      "rsi14": 32.569296024392585,
+      "macd": -1.5418255204713773,
+      "macd_signal": -1.1103843821221266,
+      "bb_upper": 162.50695009339682,
+      "bb_mid": 157.63315048217774,
+      "bb_lower": 152.75935087095866,
+      "atr14": 1.5517247273646328
     }
   },
   "fundamental": {
@@ -166,6 +166,60 @@
         "time": "2026-09-15T19:50:00-04:00",
         "forecast": "-0.98T",
         "previous": "-0.69T",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Core Retail Sales m/m",
+        "impact": "Medium",
+        "time": "2026-09-16T08:30:00-04:00",
+        "forecast": "0.5%",
+        "previous": "-0.3%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Retail Sales m/m",
+        "impact": "Medium",
+        "time": "2026-09-16T08:30:00-04:00",
+        "forecast": "0.8%",
+        "previous": "-0.6%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Import Prices m/m",
+        "impact": "Low",
+        "time": "2026-09-16T08:30:00-04:00",
+        "forecast": "0.0%",
+        "previous": "-0.4%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Business Inventories m/m",
+        "impact": "Low",
+        "time": "2026-09-16T10:00:00-04:00",
+        "forecast": "0.3%",
+        "previous": "0.0%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "NAHB Housing Market Index",
+        "impact": "Low",
+        "time": "2026-09-16T10:00:00-04:00",
+        "forecast": "34",
+        "previous": "35",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Crude Oil Inventories",
+        "impact": "Low",
+        "time": "2026-09-16T10:30:00-04:00",
+        "forecast": "",
+        "previous": "-0.4M",
         "actual": null
       }
     ]
