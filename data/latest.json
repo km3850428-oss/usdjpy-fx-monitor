@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-09-15T05:03:56.547070+09:00",
-  "generated_at_utc": "2026-09-14T20:03:57.910873+00:00",
+  "generated_at_jst": "2026-09-15T08:36:44.145642+09:00",
+  "generated_at_utc": "2026-09-14T23:36:45.313044+00:00",
   "judgment": {
     "signal": "売り",
-    "overall_score": -0.484,
-    "technical_score": -0.968,
+    "overall_score": -0.454,
+    "technical_score": -0.908,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.63) < SMA50(159.72) でデッドクロス状態（売り要因）",
-      "RSI14=31.9で中立圏",
+      "SMA20(157.33) < SMA50(159.54) でデッドクロス状態（売り要因）",
+      "RSI14=35.5で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 154.41000366210938,
-      "sma20": 157.626700592041,
-      "sma50": 159.71514099121094,
+      "price": 154.4149932861328,
+      "sma20": 157.33115005493164,
+      "sma50": 159.54196075439452,
       "sma200": null,
-      "rsi14": 31.912430279194453,
-      "macd": -1.5521159434815104,
-      "macd_signal": -1.1124424667241533,
-      "bb_upper": 162.51805102121392,
-      "bb_mid": 157.626700592041,
-      "bb_lower": 152.7353501628681,
-      "atr14": 1.5517247273646328
+      "rsi14": 35.50282253656549,
+      "macd": -1.6200311827339249,
+      "macd_signal": -1.226545151388004,
+      "bb_upper": 162.49363586870996,
+      "bb_mid": 157.33115005493164,
+      "bb_lower": 152.16866424115332,
+      "atr14": 1.5111527248559666
     }
   },
   "fundamental": {
@@ -137,7 +137,7 @@
         "title": "Empire State Manufacturing Index",
         "impact": "Low",
         "time": "2026-09-15T08:30:00-04:00",
-        "forecast": "14.1",
+        "forecast": "14.8",
         "previous": "20.6",
         "actual": null
       },
@@ -155,7 +155,7 @@
         "title": "Core Machinery Orders m/m",
         "impact": "Low",
         "time": "2026-09-15T19:50:00-04:00",
-        "forecast": "-1.1%",
+        "forecast": "-1.2%",
         "previous": "9.7%",
         "actual": null
       },
@@ -164,7 +164,7 @@
         "title": "Trade Balance",
         "impact": "Low",
         "time": "2026-09-15T19:50:00-04:00",
-        "forecast": "-0.98T",
+        "forecast": "-1.00T",
         "previous": "-0.69T",
         "actual": null
       },
@@ -191,7 +191,7 @@
         "title": "Import Prices m/m",
         "impact": "Low",
         "time": "2026-09-16T08:30:00-04:00",
-        "forecast": "0.0%",
+        "forecast": "0.4%",
         "previous": "-0.4%",
         "actual": null
       },
@@ -200,7 +200,7 @@
         "title": "Business Inventories m/m",
         "impact": "Low",
         "time": "2026-09-16T10:00:00-04:00",
-        "forecast": "0.3%",
+        "forecast": "0.6%",
         "previous": "0.0%",
         "actual": null
       },
