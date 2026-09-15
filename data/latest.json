@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-09-15T17:12:08.088834+09:00",
-  "generated_at_utc": "2026-09-15T08:12:09.247544+00:00",
+  "generated_at_jst": "2026-09-15T23:00:29.415877+09:00",
+  "generated_at_utc": "2026-09-15T14:00:30.748161+00:00",
   "judgment": {
     "signal": "売り",
-    "overall_score": -0.418,
-    "technical_score": -0.836,
+    "overall_score": -0.426,
+    "technical_score": -0.852,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.37) < SMA50(159.56) でデッドクロス状態（売り要因）",
-      "RSI14=39.8で中立圏",
+      "SMA20(157.36) < SMA50(159.55) でデッドクロス状態（売り要因）",
+      "RSI14=38.9で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 155.1820068359375,
-      "sma20": 157.36950073242187,
-      "sma50": 159.55730102539061,
+      "price": 155.00399780273438,
+      "sma20": 157.36060028076173,
+      "sma50": 159.55374084472658,
       "sma200": null,
-      "rsi14": 39.833884348418366,
-      "macd": -1.5588449166526175,
-      "macd_signal": -1.2143078981717423,
-      "bb_upper": 162.45154165541635,
-      "bb_mid": 157.36950073242187,
-      "bb_lower": 152.2874598094274,
+      "rsi14": 38.881381669620005,
+      "macd": -1.5730450674494705,
+      "macd_signal": -1.217147928331113,
+      "bb_upper": 162.45936803554147,
+      "bb_mid": 157.36060028076173,
+      "bb_lower": 152.261832525982,
       "atr14": 1.5679393982655647
     }
   },
@@ -114,24 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "ADP Weekly Employment Change",
-        "impact": "Low",
-        "time": "2026-09-15T08:15:00-04:00",
-        "forecast": "",
-        "previous": "12.0K",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Empire State Manufacturing Index",
-        "impact": "Low",
-        "time": "2026-09-15T08:30:00-04:00",
-        "forecast": "14.8",
-        "previous": "20.6",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "API Weekly Statistical Bulletin",
@@ -256,6 +238,51 @@
         "time": "2026-09-16T16:00:00-04:00",
         "forecast": "146.3B",
         "previous": "172.7B",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Philly Fed Manufacturing Index",
+        "impact": "Medium",
+        "time": "2026-09-17T08:30:00-04:00",
+        "forecast": "31.3",
+        "previous": "47.4",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Unemployment Claims",
+        "impact": "Medium",
+        "time": "2026-09-17T08:30:00-04:00",
+        "forecast": "208K",
+        "previous": "206K",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Building Permits",
+        "impact": "Low",
+        "time": "2026-09-17T08:30:00-04:00",
+        "forecast": "1.40M",
+        "previous": "1.44M",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Housing Starts",
+        "impact": "Low",
+        "time": "2026-09-17T08:30:00-04:00",
+        "forecast": "1.31M",
+        "previous": "1.24M",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Pending Home Sales m/m",
+        "impact": "Low",
+        "time": "2026-09-17T10:00:00-04:00",
+        "forecast": "-0.2%",
+        "previous": "-2.3%",
         "actual": null
       }
     ]
