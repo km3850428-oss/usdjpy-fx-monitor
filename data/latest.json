@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-09-15T11:34:57.346547+09:00",
-  "generated_at_utc": "2026-09-15T02:34:58.854854+00:00",
+  "generated_at_jst": "2026-09-15T17:12:08.088834+09:00",
+  "generated_at_utc": "2026-09-15T08:12:09.247544+00:00",
   "judgment": {
     "signal": "売り",
-    "overall_score": -0.432,
-    "technical_score": -0.864,
+    "overall_score": -0.418,
+    "technical_score": -0.836,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.35) < SMA50(159.55) でデッドクロス状態（売り要因）",
-      "RSI14=38.2で中立圏",
+      "SMA20(157.37) < SMA50(159.56) でデッドクロス状態（売り要因）",
+      "RSI14=39.8で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 154.8730010986328,
-      "sma20": 157.35405044555665,
-      "sma50": 159.55112091064453,
+      "price": 155.1820068359375,
+      "sma20": 157.36950073242187,
+      "sma50": 159.55730102539061,
       "sma200": null,
-      "rsi14": 38.16094568262701,
-      "macd": -1.5834949469789308,
-      "macd_signal": -1.219237904237005,
-      "bb_upper": 162.4658844222749,
-      "bb_mid": 157.35405044555665,
-      "bb_lower": 152.2422164688384,
-      "atr14": 1.5418675773252746
+      "rsi14": 39.833884348418366,
+      "macd": -1.5588449166526175,
+      "macd_signal": -1.2143078981717423,
+      "bb_upper": 162.45154165541635,
+      "bb_mid": 157.36950073242187,
+      "bb_lower": 152.2874598094274,
+      "atr14": 1.5679393982655647
     }
   },
   "fundamental": {
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "Tertiary Industry Activity m/m",
-        "impact": "Low",
-        "time": "2026-09-15T00:30:00-04:00",
-        "forecast": "0.3%",
-        "previous": "-0.2%",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "ADP Weekly Employment Change",
