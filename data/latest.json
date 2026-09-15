@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-09-16T03:35:52.078842+09:00",
-  "generated_at_utc": "2026-09-15T18:35:52.846777+00:00",
+  "generated_at_jst": "2026-09-16T06:50:10.293540+09:00",
+  "generated_at_utc": "2026-09-15T21:50:12.306772+00:00",
   "judgment": {
     "signal": "売り",
-    "overall_score": -0.42,
-    "technical_score": -0.84,
+    "overall_score": -0.422,
+    "technical_score": -0.844,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.37) < SMA50(159.56) でデッドクロス状態（売り要因）",
-      "RSI14=39.6で中立圏",
+      "SMA20(157.36) < SMA50(159.56) でデッドクロス状態（売り要因）",
+      "RSI14=39.4で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 155.13999938964844,
-      "sma20": 157.3674003601074,
-      "sma50": 159.55646087646485,
+      "price": 155.09100341796875,
+      "sma20": 157.36495056152344,
+      "sma50": 159.55548095703125,
       "sma200": null,
-      "rsi14": 39.611794328681555,
-      "macd": -1.5621959380090118,
-      "macd_signal": -1.2149781024430213,
-      "bb_upper": 162.45328119130025,
-      "bb_mid": 157.3674003601074,
-      "bb_lower": 152.28151952891457,
+      "rsi14": 39.35067613892533,
+      "macd": -1.5661044485703428,
+      "macd_signal": -1.2157598045552875,
+      "bb_upper": 162.4553940560669,
+      "bb_mid": 157.36495056152344,
+      "bb_lower": 152.27450706698,
       "atr14": 1.5679393982655647
     }
   },
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "API Weekly Statistical Bulletin",
-        "impact": "Low",
-        "time": "2026-09-15T16:30:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
       {
         "country": "JPY",
         "title": "Core Machinery Orders m/m",
