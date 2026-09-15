@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-09-16T06:50:10.293540+09:00",
-  "generated_at_utc": "2026-09-15T21:50:12.306772+00:00",
+  "generated_at_jst": "2026-09-16T08:50:26.722126+09:00",
+  "generated_at_utc": "2026-09-15T23:50:28.013588+00:00",
   "judgment": {
     "signal": "売り",
-    "overall_score": -0.422,
-    "technical_score": -0.844,
+    "overall_score": -0.408,
+    "technical_score": -0.815,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.36) < SMA50(159.56) でデッドクロス状態（売り要因）",
-      "RSI14=39.4で中立圏",
+      "SMA20(157.12) < SMA50(159.40) でデッドクロス状態（売り要因）",
+      "RSI14=41.1で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 155.09100341796875,
-      "sma20": 157.36495056152344,
-      "sma50": 159.55548095703125,
+      "price": 155.35299682617188,
+      "sma20": 157.1197998046875,
+      "sma50": 159.4011605834961,
       "sma200": null,
-      "rsi14": 39.35067613892533,
-      "macd": -1.5661044485703428,
-      "macd_signal": -1.2157598045552875,
-      "bb_upper": 162.4553940560669,
-      "bb_mid": 157.36495056152344,
-      "bb_lower": 152.27450706698,
-      "atr14": 1.5679393982655647
+      "rsi14": 41.09959653912672,
+      "macd": -1.5201753976166685,
+      "macd_signal": -1.2856540910361574,
+      "bb_upper": 162.24693605606032,
+      "bb_mid": 157.1197998046875,
+      "bb_lower": 151.99266355331466,
+      "atr14": 1.5294488171683511
     }
   },
   "fundamental": {
@@ -115,29 +115,11 @@
     "display_window_hours": 48,
     "events": [
       {
-        "country": "JPY",
-        "title": "Core Machinery Orders m/m",
-        "impact": "Low",
-        "time": "2026-09-15T19:50:00-04:00",
-        "forecast": "-1.2%",
-        "previous": "9.7%",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "Trade Balance",
-        "impact": "Low",
-        "time": "2026-09-15T19:50:00-04:00",
-        "forecast": "-1.00T",
-        "previous": "-0.69T",
-        "actual": null
-      },
-      {
         "country": "USD",
         "title": "Core Retail Sales m/m",
         "impact": "Medium",
         "time": "2026-09-16T08:30:00-04:00",
-        "forecast": "0.5%",
+        "forecast": "0.6%",
         "previous": "-0.3%",
         "actual": null
       },
@@ -182,7 +164,7 @@
         "title": "Crude Oil Inventories",
         "impact": "Low",
         "time": "2026-09-16T10:30:00-04:00",
-        "forecast": "",
+        "forecast": "-1.6M",
         "previous": "-0.4M",
         "actual": null
       },
@@ -245,7 +227,7 @@
         "title": "Unemployment Claims",
         "impact": "Medium",
         "time": "2026-09-17T08:30:00-04:00",
-        "forecast": "208K",
+        "forecast": "207K",
         "previous": "206K",
         "actual": null
       },
@@ -263,7 +245,7 @@
         "title": "Housing Starts",
         "impact": "Low",
         "time": "2026-09-17T08:30:00-04:00",
-        "forecast": "1.31M",
+        "forecast": "1.32M",
         "previous": "1.24M",
         "actual": null
       },
@@ -281,8 +263,17 @@
         "title": "Natural Gas Storage",
         "impact": "Low",
         "time": "2026-09-17T10:30:00-04:00",
-        "forecast": "",
+        "forecast": "49B",
         "previous": "40B",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "National Core CPI y/y",
+        "impact": "Low",
+        "time": "2026-09-17T19:30:00-04:00",
+        "forecast": "1.8%",
+        "previous": "1.8%",
         "actual": null
       }
     ]
