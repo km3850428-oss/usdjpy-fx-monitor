@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-09-16T11:29:23.548723+09:00",
-  "generated_at_utc": "2026-09-16T02:29:25.967978+00:00",
+  "generated_at_jst": "2026-09-16T17:05:45.044400+09:00",
+  "generated_at_utc": "2026-09-16T08:05:46.389463+00:00",
   "judgment": {
     "signal": "売り",
-    "overall_score": -0.408,
-    "technical_score": -0.816,
+    "overall_score": -0.424,
+    "technical_score": -0.849,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.12) < SMA50(159.40) でデッドクロス状態（売り要因）",
-      "RSI14=41.0で中立圏",
+      "SMA20(157.10) < SMA50(159.39) でデッドクロス状態（売り要因）",
+      "RSI14=39.1で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 155.33999633789062,
-      "sma20": 157.11914978027343,
-      "sma50": 159.40090057373047,
+      "price": 154.9929962158203,
+      "sma20": 157.10179977416993,
+      "sma50": 159.39396057128906,
       "sma200": null,
-      "rsi14": 41.028834393752746,
-      "macd": -1.521212473604919,
-      "macd_signal": -1.2858615062338075,
-      "bb_upper": 162.24723238759248,
-      "bb_mid": 157.11914978027343,
-      "bb_lower": 151.9910671729544,
+      "rsi14": 39.075183710928385,
+      "macd": -1.5488933950236117,
+      "macd_signal": -1.2913976905175457,
+      "bb_upper": 162.25750116367786,
+      "bb_mid": 157.10179977416993,
+      "bb_lower": 151.946098384662,
       "atr14": 1.5338782256504941
     }
   },
@@ -274,6 +274,33 @@
         "time": "2026-09-17T19:30:00-04:00",
         "forecast": "1.8%",
         "previous": "1.8%",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "BOJ Policy Rate",
+        "impact": "High",
+        "time": "2026-09-17T22:30:00-04:00",
+        "forecast": "<1.25%",
+        "previous": "<1.00%",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Monetary Policy Statement",
+        "impact": "High",
+        "time": "2026-09-17T22:30:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "BOJ Press Conference",
+        "impact": "High",
+        "time": "2026-09-18T01:30:00-04:00",
+        "forecast": "",
+        "previous": "",
         "actual": null
       }
     ]
