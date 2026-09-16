@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-09-16T17:05:45.044400+09:00",
-  "generated_at_utc": "2026-09-16T08:05:46.389463+00:00",
+  "generated_at_jst": "2026-09-16T22:54:20.893889+09:00",
+  "generated_at_utc": "2026-09-16T13:54:21.998028+00:00",
   "judgment": {
     "signal": "売り",
-    "overall_score": -0.424,
-    "technical_score": -0.849,
+    "overall_score": -0.411,
+    "technical_score": -0.822,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.10) < SMA50(159.39) でデッドクロス状態（売り要因）",
-      "RSI14=39.1で中立圏",
+      "SMA20(157.12) < SMA50(159.40) でデッドクロス状態（売り要因）",
+      "RSI14=40.7で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 154.9929962158203,
-      "sma20": 157.10179977416993,
-      "sma50": 159.39396057128906,
+      "price": 155.27499389648438,
+      "sma20": 157.11589965820312,
+      "sma50": 159.39960052490235,
       "sma200": null,
-      "rsi14": 39.075183710928385,
-      "macd": -1.5488933950236117,
-      "macd_signal": -1.2913976905175457,
-      "bb_upper": 162.25750116367786,
-      "bb_mid": 157.10179977416993,
-      "bb_lower": 151.946098384662,
+      "rsi14": 40.672457873904584,
+      "macd": -1.5263978535461717,
+      "macd_signal": -1.286898582222058,
+      "bb_upper": 162.24881021074478,
+      "bb_mid": 157.11589965820312,
+      "bb_lower": 151.98298910566146,
       "atr14": 1.5338782256504941
     }
   },
@@ -114,33 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Core Retail Sales m/m",
-        "impact": "Medium",
-        "time": "2026-09-16T08:30:00-04:00",
-        "forecast": "0.6%",
-        "previous": "-0.3%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Retail Sales m/m",
-        "impact": "Medium",
-        "time": "2026-09-16T08:30:00-04:00",
-        "forecast": "0.8%",
-        "previous": "-0.6%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Import Prices m/m",
-        "impact": "Low",
-        "time": "2026-09-16T08:30:00-04:00",
-        "forecast": "0.4%",
-        "previous": "-0.4%",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Business Inventories m/m",
@@ -299,6 +272,33 @@
         "title": "BOJ Press Conference",
         "impact": "High",
         "time": "2026-09-18T01:30:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Capacity Utilization Rate",
+        "impact": "Low",
+        "time": "2026-09-18T09:15:00-04:00",
+        "forecast": "76.4%",
+        "previous": "76.3%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Industrial Production m/m",
+        "impact": "Low",
+        "time": "2026-09-18T09:15:00-04:00",
+        "forecast": "0.3%",
+        "previous": "0.2%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Bowman Speaks",
+        "impact": "Low",
+        "time": "2026-09-18T09:30:00-04:00",
         "forecast": "",
         "previous": "",
         "actual": null
