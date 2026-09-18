@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-09-18T21:30:57.618243+09:00",
-  "generated_at_utc": "2026-09-18T12:30:58.836891+00:00",
+  "generated_at_jst": "2026-09-19T01:49:49.710909+09:00",
+  "generated_at_utc": "2026-09-18T16:49:51.302664+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.031,
-    "technical_score": 0.061,
+    "overall_score": -0.011,
+    "technical_score": -0.022,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(156.95) < SMA50(159.18) でデッドクロス状態（売り要因）",
-      "RSI14=53.7で中立圏",
+      "SMA20(156.90) < SMA50(159.16) でデッドクロス状態（売り要因）",
+      "RSI14=48.7で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 157.92799377441406,
-      "sma20": 156.95460052490233,
-      "sma50": 159.18022064208984,
+      "price": 156.76800537109375,
+      "sma20": 156.89660110473633,
+      "sma50": 159.15702087402343,
       "sma200": null,
-      "rsi14": 53.670145606617865,
-      "macd": -1.088101285258631,
-      "macd_signal": -1.261356868334736,
-      "bb_upper": 162.0239134331787,
-      "bb_mid": 156.95460052490233,
-      "bb_lower": 151.88528761662596,
+      "rsi14": 48.65487605001896,
+      "macd": -1.1806359727029871,
+      "macd_signal": -1.2798638058236071,
+      "bb_upper": 161.94552445318703,
+      "bb_mid": 156.89660110473633,
+      "bb_lower": 151.84767775628563,
       "atr14": 1.5445773086628167
     }
   },
@@ -113,52 +113,6 @@
   "calendar": {
     "caution_window_hours": 3,
     "display_window_hours": 48,
-    "events": [
-      {
-        "country": "USD",
-        "title": "Capacity Utilization Rate",
-        "impact": "Low",
-        "time": "2026-09-18T09:15:00-04:00",
-        "forecast": "76.4%",
-        "previous": "76.3%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Industrial Production m/m",
-        "impact": "Low",
-        "time": "2026-09-18T09:15:00-04:00",
-        "forecast": "0.3%",
-        "previous": "0.2%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Bowman Speaks",
-        "impact": "Low",
-        "time": "2026-09-18T09:30:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "CB Leading Index m/m",
-        "impact": "Low",
-        "time": "2026-09-18T10:00:00-04:00",
-        "forecast": "0.1%",
-        "previous": "0.2%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Schmid Speaks",
-        "impact": "Low",
-        "time": "2026-09-18T11:45:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      }
-    ]
+    "events": []
   }
 }
