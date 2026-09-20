@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-09-20T11:30:31.595725+09:00",
-  "generated_at_utc": "2026-09-20T02:30:32.722438+00:00",
+  "generated_at_jst": "2026-09-20T17:05:52.666434+09:00",
+  "generated_at_utc": "2026-09-20T08:05:54.063013+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": -0.006,
@@ -113,6 +113,34 @@
   "calendar": {
     "caution_window_hours": 3,
     "display_window_hours": 48,
-    "events": []
+    "events": [
+      {
+        "country": "JPY",
+        "title": "Bank Holiday",
+        "impact": "Holiday",
+        "time": "2026-09-20T19:00:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Goolsbee Speaks",
+        "impact": "Low",
+        "time": "2026-09-21T06:30:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Bank Holiday",
+        "impact": "Holiday",
+        "time": "2026-09-21T19:00:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      }
+    ]
   }
 }
