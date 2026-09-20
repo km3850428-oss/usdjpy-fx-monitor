@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-09-20T22:20:42.923435+09:00",
-  "generated_at_utc": "2026-09-20T13:20:43.967303+00:00",
+  "generated_at_jst": "2026-09-21T02:09:36.226329+09:00",
+  "generated_at_utc": "2026-09-20T17:09:37.639444+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": -0.006,
@@ -148,6 +148,42 @@
         "time": "2026-09-22T08:15:00-04:00",
         "forecast": "",
         "previous": "16.3K",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Richmond Manufacturing Index",
+        "impact": "Low",
+        "time": "2026-09-22T10:00:00-04:00",
+        "forecast": "5",
+        "previous": "4",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Williams Speaks",
+        "impact": "Low",
+        "time": "2026-09-22T10:05:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Jefferson Speaks",
+        "impact": "Low",
+        "time": "2026-09-22T10:20:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Barkin Speaks",
+        "impact": "Low",
+        "time": "2026-09-22T13:00:00-04:00",
+        "forecast": "",
+        "previous": "",
         "actual": null
       }
     ]
