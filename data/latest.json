@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-09-22T02:28:42.926076+09:00",
-  "generated_at_utc": "2026-09-21T17:28:44.059017+00:00",
+  "generated_at_jst": "2026-09-22T06:26:59.724020+09:00",
+  "generated_at_utc": "2026-09-21T21:27:00.529286+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.016,
-    "technical_score": 0.033,
+    "overall_score": 0.013,
+    "technical_score": 0.026,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(156.79) < SMA50(159.05) でデッドクロス状態（売り要因）",
-      "RSI14=52.0で中立圏",
+      "RSI14=51.6で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 157.41200256347656,
-      "sma20": 156.7900505065918,
-      "sma50": 159.05492065429686,
+      "price": 157.32200622558594,
+      "sma20": 156.78555068969726,
+      "sma50": 159.05312072753907,
       "sma200": null,
-      "rsi14": 51.9764332520583,
-      "macd": -1.0026305293635005,
-      "macd_signal": -1.2325919762954687,
-      "bb_upper": 161.76719417951097,
-      "bb_mid": 156.7900505065918,
-      "bb_lower": 151.81290683367263,
+      "rsi14": 51.56675886793022,
+      "macd": -1.0098097244089104,
+      "macd_signal": -1.2340278153045507,
+      "bb_upper": 161.7604890067556,
+      "bb_mid": 156.78555068969726,
+      "bb_lower": 151.81061237263893,
       "atr14": 1.5206040491944195
     }
   },
@@ -137,7 +137,7 @@
         "title": "Richmond Manufacturing Index",
         "impact": "Low",
         "time": "2026-09-22T10:00:00-04:00",
-        "forecast": "5",
+        "forecast": "2",
         "previous": "4",
         "actual": null
       },
@@ -191,7 +191,7 @@
         "title": "Flash Manufacturing PMI",
         "impact": "Low",
         "time": "2026-09-23T09:45:00-04:00",
-        "forecast": "53.4",
+        "forecast": "53.6",
         "previous": "53.2",
         "actual": null
       },
@@ -200,7 +200,7 @@
         "title": "Flash Services PMI",
         "impact": "Low",
         "time": "2026-09-23T09:45:00-04:00",
-        "forecast": "56.0",
+        "forecast": "55.8",
         "previous": "56.8",
         "actual": null
       },
@@ -218,7 +218,7 @@
         "title": "Crude Oil Inventories",
         "impact": "Low",
         "time": "2026-09-23T10:30:00-04:00",
-        "forecast": "",
+        "forecast": "-0.6M",
         "previous": "-0.6M",
         "actual": null
       }
