@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-09-21T20:30:30.033714+09:00",
-  "generated_at_utc": "2026-09-21T11:30:31.019365+00:00",
+  "generated_at_jst": "2026-09-22T02:28:42.926076+09:00",
+  "generated_at_utc": "2026-09-21T17:28:44.059017+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.01,
-    "technical_score": 0.019,
+    "overall_score": 0.016,
+    "technical_score": 0.033,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(156.78) < SMA50(159.05) でデッドクロス状態（売り要因）",
-      "RSI14=51.1で中立圏",
+      "SMA20(156.79) < SMA50(159.05) でデッドクロス状態（売り要因）",
+      "RSI14=52.0で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 157.22999572753906,
-      "sma20": 156.78095016479492,
-      "sma50": 159.05128051757814,
+      "price": 157.41200256347656,
+      "sma20": 156.7900505065918,
+      "sma50": 159.05492065429686,
       "sma200": null,
-      "rsi14": 51.140626191484294,
-      "macd": -1.0171495931989796,
-      "macd_signal": -1.2354957890625644,
-      "bb_upper": 161.75396951728473,
-      "bb_mid": 156.78095016479492,
-      "bb_lower": 151.8079308123051,
-      "atr14": 1.5052460780030132
+      "rsi14": 51.9764332520583,
+      "macd": -1.0026305293635005,
+      "macd_signal": -1.2325919762954687,
+      "bb_upper": 161.76719417951097,
+      "bb_mid": 156.7900505065918,
+      "bb_lower": 151.81290683367263,
+      "atr14": 1.5206040491944195
     }
   },
   "fundamental": {
@@ -184,6 +184,42 @@
         "time": "2026-09-22T19:00:00-04:00",
         "forecast": "",
         "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Flash Manufacturing PMI",
+        "impact": "Low",
+        "time": "2026-09-23T09:45:00-04:00",
+        "forecast": "53.4",
+        "previous": "53.2",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Flash Services PMI",
+        "impact": "Low",
+        "time": "2026-09-23T09:45:00-04:00",
+        "forecast": "56.0",
+        "previous": "56.8",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Barr Speaks",
+        "impact": "Low",
+        "time": "2026-09-23T10:05:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Crude Oil Inventories",
+        "impact": "Low",
+        "time": "2026-09-23T10:30:00-04:00",
+        "forecast": "",
+        "previous": "-0.6M",
         "actual": null
       }
     ]
