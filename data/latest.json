@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-09-21T07:48:12.528802+09:00",
-  "generated_at_utc": "2026-09-20T22:48:13.909278+00:00",
+  "generated_at_jst": "2026-09-21T09:40:53.651954+09:00",
+  "generated_at_utc": "2026-09-21T00:40:56.504758+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": -0.0,
-    "technical_score": -0.0,
+    "overall_score": -0.01,
+    "technical_score": -0.02,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(156.77) < SMA50(159.05) でデッドクロス状態（売り要因）",
-      "RSI14=50.0で中立圏",
+      "SMA20(156.76) < SMA50(159.04) でデッドクロス状態（売り要因）",
+      "RSI14=48.8で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 156.99000549316406,
-      "sma20": 156.76895065307616,
-      "sma50": 159.04648071289063,
+      "price": 156.75399780273438,
+      "sma20": 156.75715026855468,
+      "sma50": 159.04176055908204,
       "sma200": null,
-      "rsi14": 49.999785305972495,
-      "macd": -1.0362792918487003,
-      "macd_signal": -1.2393028970635267,
-      "bb_upper": 161.73856483863904,
-      "bb_mid": 156.76895065307616,
-      "bb_lower": 151.79933646751329,
-      "atr14": 1.4833720590315682
+      "rsi14": 48.81066621909969,
+      "macd": -1.0551209376278337,
+      "macd_signal": -1.2430900579483353,
+      "bb_upper": 161.7256750489214,
+      "bb_mid": 156.75715026855468,
+      "bb_lower": 151.78862548818796,
+      "atr14": 1.4906750243618303
     }
   },
   "fundamental": {
@@ -115,15 +115,6 @@
     "display_window_hours": 48,
     "events": [
       {
-        "country": "JPY",
-        "title": "Bank Holiday",
-        "impact": "Holiday",
-        "time": "2026-09-20T19:00:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
         "country": "USD",
         "title": "FOMC Member Goolsbee Speaks",
         "impact": "Low",
@@ -191,6 +182,15 @@
         "title": "API Weekly Statistical Bulletin",
         "impact": "Low",
         "time": "2026-09-22T16:30:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Bank Holiday",
+        "impact": "Holiday",
+        "time": "2026-09-22T19:00:00-04:00",
         "forecast": "",
         "previous": "",
         "actual": null
