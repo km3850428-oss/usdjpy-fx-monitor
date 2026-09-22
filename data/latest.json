@@ -1,10 +1,10 @@
 {
-  "generated_at_jst": "2026-09-23T04:24:31.373300+09:00",
-  "generated_at_utc": "2026-09-22T19:24:32.592796+00:00",
+  "generated_at_jst": "2026-09-23T07:32:58.606272+09:00",
+  "generated_at_utc": "2026-09-22T22:33:00.025928+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": 0.019,
-    "technical_score": 0.039,
+    "technical_score": 0.038,
     "fundamental_score": 0.0,
     "override_reason": null
   },
@@ -15,17 +15,17 @@
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 157.45899963378906,
-      "sma20": 156.68775024414063,
-      "sma50": 158.94820068359374,
+      "price": 157.4499969482422,
+      "sma20": 156.6873001098633,
+      "sma50": 158.94802062988282,
       "sma200": null,
-      "rsi14": 52.3293397667589,
-      "macd": -0.8305842664624947,
-      "macd_signal": -1.156861853043262,
-      "bb_upper": 161.54499835329798,
-      "bb_mid": 156.68775024414063,
-      "bb_lower": 151.83050213498328,
-      "atr14": 1.4801626297446269
+      "rsi14": 52.28618108848713,
+      "macd": -0.8313024294121192,
+      "macd_signal": -1.1570054856331868,
+      "bb_upper": 161.54424893625838,
+      "bb_mid": 156.6873001098633,
+      "bb_lower": 151.8303512834682,
+      "atr14": 1.4425900415052297
     }
   },
   "fundamental": {
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "API Weekly Statistical Bulletin",
-        "impact": "Low",
-        "time": "2026-09-22T16:30:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
       {
         "country": "JPY",
         "title": "Bank Holiday",
