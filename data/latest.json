@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-09-22T19:37:28.962446+09:00",
-  "generated_at_utc": "2026-09-22T10:37:30.299167+00:00",
+  "generated_at_jst": "2026-09-23T00:16:52.700829+09:00",
+  "generated_at_utc": "2026-09-22T15:16:53.747641+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.002,
-    "technical_score": 0.005,
+    "overall_score": 0.013,
+    "technical_score": 0.027,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(156.67) < SMA50(158.94) でデッドクロス状態（売り要因）",
-      "RSI14=50.3で中立圏",
+      "SMA20(156.68) < SMA50(158.95) でデッドクロス状態（売り要因）",
+      "RSI14=51.6で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 157.0500030517578,
-      "sma20": 156.66730041503905,
-      "sma50": 158.9400207519531,
+      "price": 157.31300354003906,
+      "sma20": 156.68045043945312,
+      "sma50": 158.94528076171875,
       "sma200": null,
-      "rsi14": 50.286443134512666,
-      "macd": -0.8632107744307973,
-      "macd_signal": -1.1633871546369225,
-      "bb_upper": 161.51430966625395,
-      "bb_mid": 156.66730041503905,
-      "bb_lower": 151.82029116382415,
+      "rsi14": 51.619660653973085,
+      "macd": -0.8422306784995328,
+      "macd_signal": -1.1591911354506697,
+      "bb_upper": 161.5332549783632,
+      "bb_mid": 156.68045043945312,
+      "bb_lower": 151.82764590054305,
       "atr14": 1.4801626297446269
     }
   },
@@ -116,42 +116,6 @@
     "events": [
       {
         "country": "USD",
-        "title": "ADP Weekly Employment Change",
-        "impact": "Low",
-        "time": "2026-09-22T08:15:00-04:00",
-        "forecast": "",
-        "previous": "16.3K",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Richmond Manufacturing Index",
-        "impact": "Low",
-        "time": "2026-09-22T10:00:00-04:00",
-        "forecast": "2",
-        "previous": "4",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Williams Speaks",
-        "impact": "Low",
-        "time": "2026-09-22T10:05:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Jefferson Speaks",
-        "impact": "Low",
-        "time": "2026-09-22T10:20:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
         "title": "FOMC Member Barkin Speaks",
         "impact": "Low",
         "time": "2026-09-22T13:00:00-04:00",
@@ -229,6 +193,69 @@
         "time": "2026-09-24T04:10:00-04:00",
         "forecast": "",
         "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Unemployment Claims",
+        "impact": "Medium",
+        "time": "2026-09-24T08:30:00-04:00",
+        "forecast": "201K",
+        "previous": "196K",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Current Account",
+        "impact": "Low",
+        "time": "2026-09-24T08:30:00-04:00",
+        "forecast": "-258B",
+        "previous": "-227B",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Barkin Speaks",
+        "impact": "Low",
+        "time": "2026-09-24T08:30:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Hammack Speaks",
+        "impact": "Low",
+        "time": "2026-09-24T08:50:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "New Home Sales",
+        "impact": "Low",
+        "time": "2026-09-24T10:00:00-04:00",
+        "forecast": "615K",
+        "previous": "607K",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Paulson Speaks",
+        "impact": "Low",
+        "time": "2026-09-24T10:10:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Natural Gas Storage",
+        "impact": "Low",
+        "time": "2026-09-24T10:30:00-04:00",
+        "forecast": "52B",
+        "previous": "44B",
         "actual": null
       }
     ]
