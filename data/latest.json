@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-09-22T06:26:59.724020+09:00",
-  "generated_at_utc": "2026-09-21T21:27:00.529286+00:00",
+  "generated_at_jst": "2026-09-22T09:25:01.803315+09:00",
+  "generated_at_utc": "2026-09-22T00:25:03.496726+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.013,
-    "technical_score": 0.026,
+    "overall_score": 0.014,
+    "technical_score": 0.029,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(156.79) < SMA50(159.05) でデッドクロス状態（売り要因）",
-      "RSI14=51.6で中立圏",
+      "SMA20(156.68) < SMA50(158.95) でデッドクロス状態（売り要因）",
+      "RSI14=51.7で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 157.32200622558594,
-      "sma20": 156.78555068969726,
-      "sma50": 159.05312072753907,
+      "price": 157.3350067138672,
+      "sma20": 156.68155059814453,
+      "sma50": 158.9457208251953,
       "sma200": null,
-      "rsi14": 51.56675886793022,
-      "macd": -1.0098097244089104,
-      "macd_signal": -1.2340278153045507,
-      "bb_upper": 161.7604890067556,
-      "bb_mid": 156.78555068969726,
-      "bb_lower": 151.81061237263893,
-      "atr14": 1.5206040491944195
+      "rsi14": 51.72796616288833,
+      "macd": -0.8404754395616862,
+      "macd_signal": -1.1588400876631002,
+      "bb_upper": 161.53496887863065,
+      "bb_mid": 156.68155059814453,
+      "bb_lower": 151.8281323176584,
+      "atr14": 1.4400189355481985
     }
   },
   "fundamental": {
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "Bank Holiday",
-        "impact": "Holiday",
-        "time": "2026-09-21T19:00:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "ADP Weekly Employment Change",
