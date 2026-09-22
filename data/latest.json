@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-09-23T00:16:52.700829+09:00",
-  "generated_at_utc": "2026-09-22T15:16:53.747641+00:00",
+  "generated_at_jst": "2026-09-23T04:24:31.373300+09:00",
+  "generated_at_utc": "2026-09-22T19:24:32.592796+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.013,
-    "technical_score": 0.027,
+    "overall_score": 0.019,
+    "technical_score": 0.039,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(156.68) < SMA50(158.95) でデッドクロス状態（売り要因）",
-      "RSI14=51.6で中立圏",
+      "SMA20(156.69) < SMA50(158.95) でデッドクロス状態（売り要因）",
+      "RSI14=52.3で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 157.31300354003906,
-      "sma20": 156.68045043945312,
-      "sma50": 158.94528076171875,
+      "price": 157.45899963378906,
+      "sma20": 156.68775024414063,
+      "sma50": 158.94820068359374,
       "sma200": null,
-      "rsi14": 51.619660653973085,
-      "macd": -0.8422306784995328,
-      "macd_signal": -1.1591911354506697,
-      "bb_upper": 161.5332549783632,
-      "bb_mid": 156.68045043945312,
-      "bb_lower": 151.82764590054305,
+      "rsi14": 52.3293397667589,
+      "macd": -0.8305842664624947,
+      "macd_signal": -1.156861853043262,
+      "bb_upper": 161.54499835329798,
+      "bb_mid": 156.68775024414063,
+      "bb_lower": 151.83050213498328,
       "atr14": 1.4801626297446269
     }
   },
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "FOMC Member Barkin Speaks",
-        "impact": "Low",
-        "time": "2026-09-22T13:00:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "API Weekly Statistical Bulletin",
