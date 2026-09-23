@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-09-23T10:04:45.863309+09:00",
-  "generated_at_utc": "2026-09-23T01:04:47.333291+00:00",
+  "generated_at_jst": "2026-09-23T16:01:08.060229+09:00",
+  "generated_at_utc": "2026-09-23T07:01:09.876269+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.025,
-    "technical_score": 0.05,
+    "overall_score": 0.031,
+    "technical_score": 0.062,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(156.60) < SMA50(158.85) でデッドクロス状態（売り要因）",
-      "RSI14=53.0で中立圏",
+      "SMA20(156.61) < SMA50(158.86) でデッドクロス状態（売り要因）",
+      "RSI14=53.7で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 157.5850067138672,
-      "sma20": 156.60135040283203,
-      "sma50": 158.85436096191407,
+      "price": 157.7310028076172,
+      "sma20": 156.60865020751953,
+      "sma50": 158.85728088378906,
       "sma200": null,
-      "rsi14": 53.002800982808196,
-      "macd": -0.6589412560241215,
-      "macd_signal": -1.0584264048466996,
-      "bb_upper": 161.3289536444525,
-      "bb_mid": 156.60135040283203,
-      "bb_lower": 151.87374716121155,
-      "atr14": 1.3960848231985743
+      "rsi14": 53.72350846388571,
+      "macd": -0.6472948439870834,
+      "macd_signal": -1.0560971224392919,
+      "bb_upper": 161.34309449820867,
+      "bb_mid": 156.60865020751953,
+      "bb_lower": 151.8742059168304,
+      "atr14": 1.4058711565551592
     }
   },
   "fundamental": {
@@ -146,8 +146,17 @@
         "title": "Crude Oil Inventories",
         "impact": "Low",
         "time": "2026-09-23T10:30:00-04:00",
-        "forecast": "-0.6M",
+        "forecast": "-0.7M",
         "previous": "-0.6M",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Goolsbee Speaks",
+        "impact": "Low",
+        "time": "2026-09-23T12:00:00-04:00",
+        "forecast": "",
+        "previous": "",
         "actual": null
       },
       {
@@ -227,8 +236,17 @@
         "title": "Natural Gas Storage",
         "impact": "Low",
         "time": "2026-09-24T10:30:00-04:00",
-        "forecast": "52B",
+        "forecast": "50B",
         "previous": "44B",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "BOJ Core CPI y/y",
+        "impact": "Low",
+        "time": "2026-09-25T01:00:00-04:00",
+        "forecast": "1.5%",
+        "previous": "1.6%",
         "actual": null
       }
     ]
