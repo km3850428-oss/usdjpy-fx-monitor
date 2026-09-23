@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-09-23T07:32:58.606272+09:00",
-  "generated_at_utc": "2026-09-22T22:33:00.025928+00:00",
+  "generated_at_jst": "2026-09-23T10:04:45.863309+09:00",
+  "generated_at_utc": "2026-09-23T01:04:47.333291+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.019,
-    "technical_score": 0.038,
+    "overall_score": 0.025,
+    "technical_score": 0.05,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(156.69) < SMA50(158.95) でデッドクロス状態（売り要因）",
-      "RSI14=52.3で中立圏",
+      "SMA20(156.60) < SMA50(158.85) でデッドクロス状態（売り要因）",
+      "RSI14=53.0で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 157.4499969482422,
-      "sma20": 156.6873001098633,
-      "sma50": 158.94802062988282,
+      "price": 157.5850067138672,
+      "sma20": 156.60135040283203,
+      "sma50": 158.85436096191407,
       "sma200": null,
-      "rsi14": 52.28618108848713,
-      "macd": -0.8313024294121192,
-      "macd_signal": -1.1570054856331868,
-      "bb_upper": 161.54424893625838,
-      "bb_mid": 156.6873001098633,
-      "bb_lower": 151.8303512834682,
-      "atr14": 1.4425900415052297
+      "rsi14": 53.002800982808196,
+      "macd": -0.6589412560241215,
+      "macd_signal": -1.0584264048466996,
+      "bb_upper": 161.3289536444525,
+      "bb_mid": 156.60135040283203,
+      "bb_lower": 151.87374716121155,
+      "atr14": 1.3960848231985743
     }
   },
   "fundamental": {
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "Bank Holiday",
-        "impact": "Holiday",
-        "time": "2026-09-22T19:00:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Flash Manufacturing PMI",
