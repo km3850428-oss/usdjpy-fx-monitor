@@ -1,16 +1,6 @@
 {
   "next_id": 24,
-  "open": [
-    {
-      "id": 23,
-      "direction": "売り",
-      "entry_price": 156.356,
-      "stop_loss": 158.756,
-      "take_profit": 151.556,
-      "atr_at_entry": 1.6,
-      "opened_at": "2026-09-17T05:40:10.236877+09:00"
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "id": 1,
@@ -297,6 +287,19 @@
       "exit_price": 156.762,
       "exit_reason": "損切り",
       "pnl_pips": -233.2
+    },
+    {
+      "id": 23,
+      "direction": "売り",
+      "entry_price": 156.356,
+      "stop_loss": 158.756,
+      "take_profit": 151.556,
+      "atr_at_entry": 1.6,
+      "opened_at": "2026-09-17T05:40:10.236877+09:00",
+      "closed_at": "2026-09-24T19:46:57.738825+09:00",
+      "exit_price": 158.756,
+      "exit_reason": "損切り",
+      "pnl_pips": -240.0
     }
   ]
 }
