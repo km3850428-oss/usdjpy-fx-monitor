@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-09-24T19:46:57.738825+09:00",
-  "generated_at_utc": "2026-09-24T10:46:58.679956+00:00",
+  "generated_at_jst": "2026-09-25T00:36:10.832161+09:00",
+  "generated_at_utc": "2026-09-24T15:36:15.494917+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.072,
-    "technical_score": 0.145,
+    "overall_score": 0.078,
+    "technical_score": 0.156,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(156.57) < SMA50(158.79) でデッドクロス状態（売り要因）",
-      "RSI14=58.7で中立圏",
+      "SMA20(156.58) < SMA50(158.79) でデッドクロス状態（売り要因）",
+      "RSI14=59.4で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.77200317382812,
-      "sma20": 156.57115020751954,
-      "sma50": 158.7859408569336,
+      "price": 158.94400024414062,
+      "sma20": 156.57975006103516,
+      "sma50": 158.78938079833983,
       "sma200": null,
-      "rsi14": 58.682813187496215,
-      "macd": -0.4240654093201215,
-      "macd_signal": -0.9330642196281749,
-      "bb_upper": 161.24113965070148,
-      "bb_mid": 156.57115020751954,
-      "bb_lower": 151.9011607643376,
-      "atr14": 1.4388512632104369
+      "rsi14": 59.38837581458696,
+      "macd": -0.41034484530661075,
+      "macd_signal": -0.9303201068254727,
+      "bb_upper": 161.2674044181214,
+      "bb_mid": 156.57975006103516,
+      "bb_lower": 151.8920957039489,
+      "atr14": 1.4554942424236066
     }
   },
   "fundamental": {
@@ -114,69 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Unemployment Claims",
-        "impact": "Medium",
-        "time": "2026-09-24T08:30:00-04:00",
-        "forecast": "201K",
-        "previous": "196K",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Current Account",
-        "impact": "Low",
-        "time": "2026-09-24T08:30:00-04:00",
-        "forecast": "-258B",
-        "previous": "-227B",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Barkin Speaks",
-        "impact": "Low",
-        "time": "2026-09-24T08:30:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Hammack Speaks",
-        "impact": "Low",
-        "time": "2026-09-24T08:50:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "New Home Sales",
-        "impact": "Low",
-        "time": "2026-09-24T10:00:00-04:00",
-        "forecast": "615K",
-        "previous": "607K",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Paulson Speaks",
-        "impact": "Low",
-        "time": "2026-09-24T10:10:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Natural Gas Storage",
-        "impact": "Low",
-        "time": "2026-09-24T10:30:00-04:00",
-        "forecast": "50B",
-        "previous": "44B",
-        "actual": null
-      },
       {
         "country": "JPY",
         "title": "BOJ Core CPI y/y",
