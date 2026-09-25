@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-09-25T21:26:21.365075+09:00",
-  "generated_at_utc": "2026-09-25T12:26:22.817607+00:00",
+  "generated_at_jst": "2026-09-26T02:38:27.742173+09:00",
+  "generated_at_utc": "2026-09-25T17:38:28.863671+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.021,
-    "technical_score": 0.043,
+    "overall_score": 0.009,
+    "technical_score": 0.018,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(156.46) < SMA50(158.68) でデッドクロス状態（売り要因）",
-      "RSI14=52.6で中立圏",
+      "SMA20(156.45) < SMA50(158.68) でデッドクロス状態（売り要因）",
+      "RSI14=51.1で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 157.6199951171875,
-      "sma20": 156.46074981689452,
-      "sma50": 158.6806805419922,
+      "price": 157.343994140625,
+      "sma20": 156.44694976806642,
+      "sma50": 158.67516052246094,
       "sma200": null,
-      "rsi14": 52.56710681166317,
-      "macd": -0.3508067714050469,
-      "macd_signal": -0.8230947795215555,
-      "bb_upper": 160.93080973542885,
-      "bb_mid": 156.46074981689452,
-      "bb_lower": 151.9906898983602,
-      "atr14": 1.446597662460593
+      "rsi14": 51.06260255549919,
+      "macd": -0.3728239433245619,
+      "macd_signal": -0.8274982139054585,
+      "bb_upper": 160.90362498620385,
+      "bb_mid": 156.44694976806642,
+      "bb_lower": 151.99027454992898,
+      "atr14": 1.4863119307362627
     }
   },
   "fundamental": {
@@ -114,51 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Core Durable Goods Orders m/m",
-        "impact": "Low",
-        "time": "2026-09-25T08:30:00-04:00",
-        "forecast": "0.6%",
-        "previous": "0.4%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Durable Goods Orders m/m",
-        "impact": "Low",
-        "time": "2026-09-25T08:30:00-04:00",
-        "forecast": "-0.3%",
-        "previous": "1.1%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Schmid Speaks",
-        "impact": "Low",
-        "time": "2026-09-25T09:20:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Revised UoM Consumer Sentiment",
-        "impact": "Medium",
-        "time": "2026-09-25T10:00:00-04:00",
-        "forecast": "47.4",
-        "previous": "47.8",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Revised UoM Inflation Expectations",
-        "impact": "Medium",
-        "time": "2026-09-25T10:00:00-04:00",
-        "forecast": "",
-        "previous": "4.6%",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "FOMC Member Hammack Speaks",
