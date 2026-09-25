@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-09-25T10:01:33.727513+09:00",
-  "generated_at_utc": "2026-09-25T01:01:35.453208+00:00",
+  "generated_at_jst": "2026-09-25T15:52:11.769111+09:00",
+  "generated_at_utc": "2026-09-25T06:52:12.767187+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.069,
-    "technical_score": 0.139,
+    "overall_score": 0.041,
+    "technical_score": 0.082,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(156.51) < SMA50(158.70) でデッドクロス状態（売り要因）",
-      "RSI14=58.3で中立圏",
+      "SMA20(156.48) < SMA50(158.69) でデッドクロス状態（売り要因）",
+      "RSI14=54.9で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.6540069580078,
-      "sma20": 156.51245040893554,
-      "sma50": 158.7013607788086,
+      "price": 158.02499389648438,
+      "sma20": 156.4809997558594,
+      "sma50": 158.68878051757812,
       "sma200": null,
-      "rsi14": 58.313491592930525,
-      "macd": -0.26832149635384894,
-      "macd_signal": -0.806597724511316,
-      "bb_upper": 161.06217307611237,
-      "bb_mid": 156.51245040893554,
-      "bb_lower": 151.9627277417587,
-      "atr14": 1.3910981768997672
+      "rsi14": 54.94253704534517,
+      "macd": -0.3184991764753704,
+      "macd_signal": -0.8166332605356202,
+      "bb_upper": 160.9767668441169,
+      "bb_mid": 156.4809997558594,
+      "bb_lower": 151.98523266760188,
+      "atr14": 1.4139547530018877
     }
   },
   "fundamental": {
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "BOJ Core CPI y/y",
-        "impact": "Low",
-        "time": "2026-09-25T01:00:00-04:00",
-        "forecast": "1.5%",
-        "previous": "1.6%",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "FOMC Member Williams Speaks",
