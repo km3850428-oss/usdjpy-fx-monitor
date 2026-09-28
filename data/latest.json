@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-09-28T06:44:26.293493+09:00",
-  "generated_at_utc": "2026-09-27T21:44:28.125481+00:00",
+  "generated_at_jst": "2026-09-28T09:08:07.892495+09:00",
+  "generated_at_utc": "2026-09-28T00:08:10.065863+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.002,
-    "technical_score": 0.003,
+    "overall_score": 0.013,
+    "technical_score": 0.026,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(156.38) < SMA50(158.60) でデッドクロス状態（売り要因）",
-      "RSI14=50.2で中立圏",
+      "SMA20(156.39) < SMA50(158.61) でデッドクロス状態（売り要因）",
+      "RSI14=51.6で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 157.2989959716797,
-      "sma20": 156.379150390625,
-      "sma50": 158.60024078369142,
+      "price": 157.5709991455078,
+      "sma20": 156.39275054931642,
+      "sma50": 158.60568084716797,
       "sma200": null,
-      "rsi14": 50.200225075721725,
-      "macd": -0.20996987868340966,
-      "macd_signal": -0.685268310304781,
-      "bb_upper": 160.64051774477002,
-      "bb_mid": 156.379150390625,
-      "bb_lower": 152.11778303647998,
-      "atr14": 1.494116478906528
+      "rsi14": 51.582246919117836,
+      "macd": -0.1883300674672057,
+      "macd_signal": -0.6810146100983395,
+      "bb_upper": 160.6681916525249,
+      "bb_mid": 156.39275054931642,
+      "bb_lower": 152.11730944610792,
+      "atr14": 1.4941305553161366
     }
   },
   "fundamental": {
@@ -114,24 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "Monetary Policy Meeting Minutes",
-        "impact": "Low",
-        "time": "2026-09-27T19:50:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "SPPI y/y",
-        "impact": "Low",
-        "time": "2026-09-27T19:50:00-04:00",
-        "forecast": "3.6%",
-        "previous": "3.6%",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "FOMC Member Bowman Speaks",
@@ -256,6 +238,24 @@
         "time": "2026-09-29T16:30:00-04:00",
         "forecast": "",
         "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Prelim Industrial Production m/m",
+        "impact": "Low",
+        "time": "2026-09-29T19:50:00-04:00",
+        "forecast": "1.2%",
+        "previous": "0.1%",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Retail Sales y/y",
+        "impact": "Low",
+        "time": "2026-09-29T19:50:00-04:00",
+        "forecast": "3.2%",
+        "previous": "4.0%",
         "actual": null
       }
     ]
