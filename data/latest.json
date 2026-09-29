@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-09-29T05:56:23.855800+09:00",
-  "generated_at_utc": "2026-09-28T20:56:24.999545+00:00",
+  "generated_at_jst": "2026-09-29T09:46:39.531401+09:00",
+  "generated_at_utc": "2026-09-29T00:46:42.592520+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.005,
-    "technical_score": 0.011,
+    "overall_score": 0.009,
+    "technical_score": 0.018,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(156.38) < SMA50(158.60) でデッドクロス状態（売り要因）",
-      "RSI14=50.6で中立圏",
+      "SMA20(156.27) < SMA50(158.50) でデッドクロス状態（売り要因）",
+      "RSI14=51.1で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 157.38900756835938,
-      "sma20": 156.38365097045897,
-      "sma50": 158.602041015625,
+      "price": 157.47300720214844,
+      "sma20": 156.27365112304688,
+      "sma50": 158.50324096679688,
       "sma200": null,
-      "rsi14": 50.64613058096268,
-      "macd": -0.20284791407732428,
-      "macd_signal": -0.6839181794203633,
-      "bb_upper": 160.64929675300266,
-      "bb_mid": 156.38365097045897,
-      "bb_lower": 152.1180051879153,
-      "atr14": 1.5392736827575428
+      "rsi14": 51.07556757968411,
+      "macd": -0.14774421873582355,
+      "macd_signal": -0.5757390151769727,
+      "bb_upper": 160.27934718166736,
+      "bb_mid": 156.27365112304688,
+      "bb_lower": 152.2679550644264,
+      "atr14": 1.4444933438454528
     }
   },
   "fundamental": {
@@ -346,6 +346,60 @@
         "time": "2026-09-30T15:25:00-04:00",
         "forecast": "",
         "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Goolsbee Speaks",
+        "impact": "Low",
+        "time": "2026-09-30T17:10:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Kashkari Speaks",
+        "impact": "Low",
+        "time": "2026-09-30T18:00:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "BOJ Summary of Opinions",
+        "impact": "Low",
+        "time": "2026-09-30T19:50:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Tankan Manufacturing Index",
+        "impact": "Low",
+        "time": "2026-09-30T19:50:00-04:00",
+        "forecast": "25",
+        "previous": "22",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Tankan Non-Manufacturing Index",
+        "impact": "Low",
+        "time": "2026-09-30T19:50:00-04:00",
+        "forecast": "36",
+        "previous": "37",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Final Manufacturing PMI",
+        "impact": "Low",
+        "time": "2026-09-30T20:30:00-04:00",
+        "forecast": "54.1",
+        "previous": "54.1",
         "actual": null
       }
     ]
