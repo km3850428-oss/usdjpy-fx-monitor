@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-09-30T10:45:30.930824+09:00",
-  "generated_at_utc": "2026-09-30T01:45:32.040471+00:00",
+  "generated_at_jst": "2026-09-30T16:43:57.051061+09:00",
+  "generated_at_utc": "2026-09-30T07:43:58.491228+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": -0.025,
-    "technical_score": -0.051,
+    "overall_score": -0.019,
+    "technical_score": -0.038,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(156.09) < SMA50(158.37) でデッドクロス状態（売り要因）",
-      "RSI14=46.9で中立圏",
+      "SMA20(156.10) < SMA50(158.37) でデッドクロス状態（売り要因）",
+      "RSI14=47.7で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 156.7100067138672,
-      "sma20": 156.09375076293946,
-      "sma50": 158.37148071289062,
+      "price": 156.86399841308594,
+      "sma20": 156.1014503479004,
+      "sma50": 158.374560546875,
       "sma200": null,
-      "rsi14": 46.94398954327142,
-      "macd": -0.1752776136462728,
-      "macd_signal": -0.49707643906421145,
-      "bb_upper": 159.65135995006807,
-      "bb_mid": 156.09375076293946,
-      "bb_lower": 152.53614157581086,
-      "atr14": 1.4313565836046585
+      "rsi14": 47.731919445512354,
+      "macd": -0.16299337553198257,
+      "macd_signal": -0.4946195914413534,
+      "bb_upper": 159.66533628833278,
+      "bb_mid": 156.1014503479004,
+      "bb_lower": 152.537564407468,
+      "atr14": 1.4484278988250825
     }
   },
   "fundamental": {
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "Housing Starts y/y",
-        "impact": "Low",
-        "time": "2026-09-30T01:00:00-04:00",
-        "forecast": "6.9%",
-        "previous": "8.2%",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "ADP Non-Farm Employment Change",
@@ -227,6 +218,15 @@
         "title": "FOMC Member Cook Speaks",
         "impact": "Low",
         "time": "2026-09-30T15:25:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "President Trump Speaks",
+        "impact": "Medium",
+        "time": "2026-09-30T15:30:00-04:00",
         "forecast": "",
         "previous": "",
         "actual": null
