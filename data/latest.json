@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-09-30T23:26:44.232778+09:00",
-  "generated_at_utc": "2026-09-30T14:26:45.342667+00:00",
+  "generated_at_jst": "2026-10-01T04:44:25.903329+09:00",
+  "generated_at_utc": "2026-09-30T19:44:27.334936+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": -0.015,
-    "technical_score": -0.029,
+    "overall_score": 0.005,
+    "technical_score": 0.01,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(156.11) < SMA50(158.38) でデッドクロス状態（売り要因）",
-      "RSI14=48.3で中立圏",
+      "SMA20(156.13) < SMA50(158.39) でデッドクロス状態（売り要因）",
+      "RSI14=50.6で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 156.96400451660156,
-      "sma20": 156.10645065307617,
-      "sma50": 158.3765606689453,
+      "price": 157.38900756835938,
+      "sma20": 156.12770080566406,
+      "sma50": 158.38506072998047,
       "sma200": null,
-      "rsi14": 48.257943485822715,
-      "macd": -0.15501568066463278,
-      "macd_signal": -0.49302405246788344,
-      "bb_upper": 159.67511882022035,
-      "bb_mid": 156.10645065307617,
-      "bb_lower": 152.53778248593198,
+      "rsi14": 50.62506371583431,
+      "macd": -0.12111230331643696,
+      "macd_signal": -0.48624337699824427,
+      "bb_upper": 159.72283308627078,
+      "bb_mid": 156.12770080566406,
+      "bb_lower": 152.53256852505734,
       "atr14": 1.4484278988250825
     }
   },
@@ -114,42 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Crude Oil Inventories",
-        "impact": "Low",
-        "time": "2026-09-30T10:30:00-04:00",
-        "forecast": "-0.7M",
-        "previous": "3.0M",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Barkin Speaks",
-        "impact": "Low",
-        "time": "2026-09-30T13:30:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Cook Speaks",
-        "impact": "Low",
-        "time": "2026-09-30T15:25:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "President Trump Speaks",
-        "impact": "Medium",
-        "time": "2026-09-30T15:30:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "FOMC Member Goolsbee Speaks",
