@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-10-01T04:44:25.903329+09:00",
-  "generated_at_utc": "2026-09-30T19:44:27.334936+00:00",
+  "generated_at_jst": "2026-10-01T08:20:20.747631+09:00",
+  "generated_at_utc": "2026-09-30T23:20:22.195386+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.005,
-    "technical_score": 0.01,
+    "overall_score": 0.006,
+    "technical_score": 0.011,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(156.13) < SMA50(158.39) でデッドクロス状態（売り要因）",
-      "RSI14=50.6で中立圏",
+      "SMA20(156.05) < SMA50(158.27) でデッドクロス状態（売り要因）",
+      "RSI14=50.7で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 157.38900756835938,
-      "sma20": 156.12770080566406,
-      "sma50": 158.38506072998047,
+      "price": 157.3979949951172,
+      "sma20": 156.0522003173828,
+      "sma50": 158.2717007446289,
       "sma200": null,
-      "rsi14": 50.62506371583431,
-      "macd": -0.12111230331643696,
-      "macd_signal": -0.48624337699824427,
-      "bb_upper": 159.72283308627078,
-      "bb_mid": 156.12770080566406,
-      "bb_lower": 152.53256852505734,
-      "atr14": 1.4484278988250825
+      "rsi14": 50.675353662433054,
+      "macd": -0.0901620420594611,
+      "macd_signal": -0.40675565340571895,
+      "bb_upper": 159.45862209352345,
+      "bb_mid": 156.0522003173828,
+      "bb_lower": 152.64577854124218,
+      "atr14": 1.3508049293456452
     }
   },
   "fundamental": {
@@ -114,24 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "FOMC Member Goolsbee Speaks",
-        "impact": "Low",
-        "time": "2026-09-30T17:10:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Kashkari Speaks",
-        "impact": "Medium",
-        "time": "2026-09-30T18:00:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
       {
         "country": "JPY",
         "title": "BOJ Summary of Opinions",
