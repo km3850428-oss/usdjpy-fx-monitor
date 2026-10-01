@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-10-01T12:13:46.295234+09:00",
-  "generated_at_utc": "2026-10-01T03:13:48.049866+00:00",
+  "generated_at_jst": "2026-10-01T19:35:14.554898+09:00",
+  "generated_at_utc": "2026-10-01T10:35:15.658917+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.038,
-    "technical_score": 0.077,
+    "overall_score": 0.043,
+    "technical_score": 0.085,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(156.09) < SMA50(158.29) でデッドクロス状態（売り要因）",
-      "RSI14=54.6で中立圏",
+      "RSI14=55.1で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.10000610351562,
-      "sma20": 156.08730087280273,
-      "sma50": 158.28574096679688,
+      "price": 158.19900512695312,
+      "sma20": 156.0922508239746,
+      "sma50": 158.28772094726563,
       "sma200": null,
-      "rsi14": 54.61402095450378,
-      "macd": -0.03416115591940638,
-      "macd_signal": -0.395555476177708,
-      "bb_upper": 159.56581608838323,
-      "bb_mid": 156.08730087280273,
-      "bb_lower": 152.60878565722223,
-      "atr14": 1.4060188575683015
+      "rsi14": 55.1192985508915,
+      "macd": -0.026263797924400478,
+      "macd_signal": -0.3939760045787068,
+      "bb_upper": 159.58308531837923,
+      "bb_mid": 156.0922508239746,
+      "bb_lower": 152.60141632957,
+      "atr14": 1.4225899024901765
     }
   },
   "fundamental": {
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Challenger Job Cuts y/y",
-        "impact": "Low",
-        "time": "2026-10-01T05:30:00-04:00",
-        "forecast": "",
-        "previous": "-38.5%",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Unemployment Claims",
@@ -299,7 +290,7 @@
         "title": "Non-Farm Employment Change",
         "impact": "High",
         "time": "2026-10-02T08:30:00-04:00",
-        "forecast": "90K",
+        "forecast": "89K",
         "previous": "162K",
         "actual": null
       },
