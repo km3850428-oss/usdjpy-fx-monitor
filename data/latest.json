@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-10-01T19:35:14.554898+09:00",
-  "generated_at_utc": "2026-10-01T10:35:15.658917+00:00",
+  "generated_at_jst": "2026-10-02T02:12:00.001621+09:00",
+  "generated_at_utc": "2026-10-01T17:12:01.164018+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.043,
-    "technical_score": 0.085,
+    "overall_score": 0.021,
+    "technical_score": 0.042,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(156.09) < SMA50(158.29) でデッドクロス状態（売り要因）",
-      "RSI14=55.1で中立圏",
+      "SMA20(156.07) < SMA50(158.28) でデッドクロス状態（売り要因）",
+      "RSI14=52.5で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.19900512695312,
-      "sma20": 156.0922508239746,
-      "sma50": 158.28772094726563,
+      "price": 157.7100067138672,
+      "sma20": 156.06780090332032,
+      "sma50": 158.27794097900392,
       "sma200": null,
-      "rsi14": 55.1192985508915,
-      "macd": -0.026263797924400478,
-      "macd_signal": -0.3939760045787068,
-      "bb_upper": 159.58308531837923,
-      "bb_mid": 156.0922508239746,
-      "bb_lower": 152.60141632957,
-      "atr14": 1.4225899024901765
+      "rsi14": 52.50768945713554,
+      "macd": -0.06527221834147667,
+      "macd_signal": -0.40177768866212205,
+      "bb_upper": 159.50291096586588,
+      "bb_mid": 156.06780090332032,
+      "bb_lower": 152.63269084077476,
+      "atr14": 1.428875433670422
     }
   },
   "fundamental": {
@@ -114,105 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Unemployment Claims",
-        "impact": "Medium",
-        "time": "2026-10-01T08:30:00-04:00",
-        "forecast": "201K",
-        "previous": "197K",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Barkin Speaks",
-        "impact": "Low",
-        "time": "2026-10-01T09:05:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Collins Speaks",
-        "impact": "Low",
-        "time": "2026-10-01T09:05:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Schmid Speaks",
-        "impact": "Low",
-        "time": "2026-10-01T09:05:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Final Manufacturing PMI",
-        "impact": "Low",
-        "time": "2026-10-01T09:45:00-04:00",
-        "forecast": "56.9",
-        "previous": "57.0",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Waller Speaks",
-        "impact": "Medium",
-        "time": "2026-10-01T10:00:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "ISM Manufacturing PMI",
-        "impact": "Medium",
-        "time": "2026-10-01T10:00:00-04:00",
-        "forecast": "54.8",
-        "previous": "54.6",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Construction Spending m/m",
-        "impact": "Low",
-        "time": "2026-10-01T10:00:00-04:00",
-        "forecast": "0.0%",
-        "previous": "-0.5%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "ISM Manufacturing Prices",
-        "impact": "Low",
-        "time": "2026-10-01T10:00:00-04:00",
-        "forecast": "72.9",
-        "previous": "71.1",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Omdia Total Vehicle Sales",
-        "impact": "Low",
-        "time": "2026-10-01T10:15:00-04:00",
-        "forecast": "16.3M",
-        "previous": "16.8M",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Natural Gas Storage",
-        "impact": "Low",
-        "time": "2026-10-01T10:30:00-04:00",
-        "forecast": "63B",
-        "previous": "53B",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "FOMC Member Jefferson Speaks",
