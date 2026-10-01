@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-10-01T08:20:20.747631+09:00",
-  "generated_at_utc": "2026-09-30T23:20:22.195386+00:00",
+  "generated_at_jst": "2026-10-01T12:13:46.295234+09:00",
+  "generated_at_utc": "2026-10-01T03:13:48.049866+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.006,
-    "technical_score": 0.011,
+    "overall_score": 0.038,
+    "technical_score": 0.077,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(156.05) < SMA50(158.27) でデッドクロス状態（売り要因）",
-      "RSI14=50.7で中立圏",
+      "SMA20(156.09) < SMA50(158.29) でデッドクロス状態（売り要因）",
+      "RSI14=54.6で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 157.3979949951172,
-      "sma20": 156.0522003173828,
-      "sma50": 158.2717007446289,
+      "price": 158.10000610351562,
+      "sma20": 156.08730087280273,
+      "sma50": 158.28574096679688,
       "sma200": null,
-      "rsi14": 50.675353662433054,
-      "macd": -0.0901620420594611,
-      "macd_signal": -0.40675565340571895,
-      "bb_upper": 159.45862209352345,
-      "bb_mid": 156.0522003173828,
-      "bb_lower": 152.64577854124218,
-      "atr14": 1.3508049293456452
+      "rsi14": 54.61402095450378,
+      "macd": -0.03416115591940638,
+      "macd_signal": -0.395555476177708,
+      "bb_upper": 159.56581608838323,
+      "bb_mid": 156.08730087280273,
+      "bb_lower": 152.60878565722223,
+      "atr14": 1.4060188575683015
     }
   },
   "fundamental": {
@@ -114,42 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "BOJ Summary of Opinions",
-        "impact": "Low",
-        "time": "2026-09-30T19:50:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "Tankan Manufacturing Index",
-        "impact": "Low",
-        "time": "2026-09-30T19:50:00-04:00",
-        "forecast": "25",
-        "previous": "22",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "Tankan Non-Manufacturing Index",
-        "impact": "Low",
-        "time": "2026-09-30T19:50:00-04:00",
-        "forecast": "36",
-        "previous": "37",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "Final Manufacturing PMI",
-        "impact": "Low",
-        "time": "2026-09-30T20:30:00-04:00",
-        "forecast": "54.1",
-        "previous": "54.1",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Challenger Job Cuts y/y",
