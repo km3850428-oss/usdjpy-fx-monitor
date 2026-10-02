@@ -1,8 +1,8 @@
 {
   "signal": "待ち",
-  "overall_score": 0.01,
-  "technical_score": 0.02,
+  "overall_score": 0.027,
+  "technical_score": 0.055,
   "fundamental_score": 0.0,
   "override_reason": null,
-  "timestamp": "2026-10-02T23:19:25.125185+09:00"
+  "timestamp": "2026-10-03T04:40:54.428222+09:00"
 }
