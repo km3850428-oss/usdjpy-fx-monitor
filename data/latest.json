@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-10-04T15:31:50.329814+09:00",
-  "generated_at_utc": "2026-10-04T06:31:51.336485+00:00",
+  "generated_at_jst": "2026-10-04T21:57:27.147856+09:00",
+  "generated_at_utc": "2026-10-04T12:57:28.025599+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": 0.026,
@@ -148,6 +148,42 @@
         "time": "2026-10-05T23:35:00-04:00",
         "forecast": "",
         "previous": "3.00|3.3",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "BOJ Gov Ueda Speaks",
+        "impact": "High",
+        "time": "2026-10-06T02:35:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "ADP Weekly Employment Change",
+        "impact": "Low",
+        "time": "2026-10-06T08:15:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "ADP Weekly Employment Change",
+        "impact": "Low",
+        "time": "2026-10-06T08:16:00-04:00",
+        "forecast": "",
+        "previous": "20.0K",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Trade Balance",
+        "impact": "Low",
+        "time": "2026-10-06T08:30:00-04:00",
+        "forecast": "-95.2B",
+        "previous": "-88.6B",
         "actual": null
       }
     ]
