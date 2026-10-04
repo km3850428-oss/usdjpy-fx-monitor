@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-10-04T09:14:58.832058+09:00",
-  "generated_at_utc": "2026-10-04T00:15:00.921630+00:00",
+  "generated_at_jst": "2026-10-04T15:31:50.329814+09:00",
+  "generated_at_utc": "2026-10-04T06:31:51.336485+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": 0.026,
@@ -113,6 +113,43 @@
   "calendar": {
     "caution_window_hours": 3,
     "display_window_hours": 48,
-    "events": []
+    "events": [
+      {
+        "country": "JPY",
+        "title": "Consumer Confidence",
+        "impact": "Low",
+        "time": "2026-10-05T01:00:00-04:00",
+        "forecast": "35.3",
+        "previous": "35.5",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Final Services PMI",
+        "impact": "Low",
+        "time": "2026-10-05T09:45:00-04:00",
+        "forecast": "58.7",
+        "previous": "58.7",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "ISM Services PMI",
+        "impact": "Medium",
+        "time": "2026-10-05T10:00:00-04:00",
+        "forecast": "55.1",
+        "previous": "55.4",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "10-y Bond Auction",
+        "impact": "Low",
+        "time": "2026-10-05T23:35:00-04:00",
+        "forecast": "",
+        "previous": "3.00|3.3",
+        "actual": null
+      }
+    ]
   }
 }
