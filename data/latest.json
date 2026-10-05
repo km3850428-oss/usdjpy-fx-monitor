@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-10-05T20:00:09.909473+09:00",
-  "generated_at_utc": "2026-10-05T11:00:10.868526+00:00",
+  "generated_at_jst": "2026-10-06T04:43:46.723480+09:00",
+  "generated_at_utc": "2026-10-05T19:43:48.301434+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.031,
-    "technical_score": 0.062,
+    "overall_score": 0.033,
+    "technical_score": 0.066,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(156.26) < SMA50(158.04) でデッドクロス状態（売り要因）",
-      "RSI14=53.7で中立圏",
+      "RSI14=54.0で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 157.91200256347656,
-      "sma20": 156.2593002319336,
-      "sma50": 158.04282104492188,
+      "price": 157.94400024414062,
+      "sma20": 156.2609001159668,
+      "sma50": 158.04346099853515,
       "sma200": null,
-      "rsi14": 53.745417599172754,
-      "macd": 0.03490259997803946,
-      "macd_signal": -0.2539806652968462,
-      "bb_upper": 159.85798524584894,
-      "bb_mid": 156.2593002319336,
-      "bb_lower": 152.66061521801825,
-      "atr14": 1.3583839782199725
+      "rsi14": 53.958465451880116,
+      "macd": 0.03745512151249386,
+      "macd_signal": -0.25347016098995534,
+      "bb_upper": 159.86270590959788,
+      "bb_mid": 156.2609001159668,
+      "bb_lower": 152.6590943223357,
+      "atr14": 1.3673125496485439
     }
   },
   "fundamental": {
@@ -115,24 +115,6 @@
     "display_window_hours": 48,
     "events": [
       {
-        "country": "USD",
-        "title": "Final Services PMI",
-        "impact": "Low",
-        "time": "2026-10-05T09:45:00-04:00",
-        "forecast": "58.7",
-        "previous": "58.7",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "ISM Services PMI",
-        "impact": "Medium",
-        "time": "2026-10-05T10:00:00-04:00",
-        "forecast": "55.1",
-        "previous": "55.4",
-        "actual": null
-      },
-      {
         "country": "JPY",
         "title": "10-y Bond Auction",
         "impact": "Low",
@@ -173,7 +155,7 @@
         "title": "Trade Balance",
         "impact": "Low",
         "time": "2026-10-06T08:30:00-04:00",
-        "forecast": "-95.2B",
+        "forecast": "-100.8B",
         "previous": "-88.6B",
         "actual": null
       },
@@ -191,6 +173,15 @@
         "title": "FOMC Member Bowman Speaks",
         "impact": "Low",
         "time": "2026-10-06T10:45:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Schmid Speaks",
+        "impact": "Low",
+        "time": "2026-10-06T13:15:00-04:00",
         "forecast": "",
         "previous": "",
         "actual": null
@@ -220,6 +211,42 @@
         "time": "2026-10-07T01:00:00-04:00",
         "forecast": "118.1%",
         "previous": "117.9%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Crude Oil Inventories",
+        "impact": "Low",
+        "time": "2026-10-07T10:30:00-04:00",
+        "forecast": "",
+        "previous": "0.9M",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "10-y Bond Auction",
+        "impact": "Low",
+        "time": "2026-10-07T13:01:00-04:00",
+        "forecast": "",
+        "previous": "4.83|2.7",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Meeting Minutes",
+        "impact": "High",
+        "time": "2026-10-07T14:00:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Consumer Credit m/m",
+        "impact": "Low",
+        "time": "2026-10-07T15:00:00-04:00",
+        "forecast": "15.4B",
+        "previous": "18.1B",
         "actual": null
       }
     ]
