@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-10-05T12:09:24.603663+09:00",
-  "generated_at_utc": "2026-10-05T03:09:26.719790+00:00",
+  "generated_at_jst": "2026-10-05T20:00:09.909473+09:00",
+  "generated_at_utc": "2026-10-05T11:00:10.868526+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.036,
-    "technical_score": 0.072,
+    "overall_score": 0.031,
+    "technical_score": 0.062,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(156.26) < SMA50(158.04) でデッドクロス状態（売り要因）",
-      "RSI14=54.3で中立圏",
+      "RSI14=53.7で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.00100708007812,
-      "sma20": 156.26375045776368,
-      "sma50": 158.0446011352539,
+      "price": 157.91200256347656,
+      "sma20": 156.2593002319336,
+      "sma50": 158.04282104492188,
       "sma200": null,
-      "rsi14": 54.30696535711501,
-      "macd": 0.04200267537646596,
-      "macd_signal": -0.2525606502171609,
-      "bb_upper": 159.8712501706436,
-      "bb_mid": 156.26375045776368,
-      "bb_lower": 152.65625074488375,
-      "atr14": 1.3501693001368251
+      "rsi14": 53.745417599172754,
+      "macd": 0.03490259997803946,
+      "macd_signal": -0.2539806652968462,
+      "bb_upper": 159.85798524584894,
+      "bb_mid": 156.2593002319336,
+      "bb_lower": 152.66061521801825,
+      "atr14": 1.3583839782199725
     }
   },
   "fundamental": {
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "Consumer Confidence",
-        "impact": "Low",
-        "time": "2026-10-05T01:00:00-04:00",
-        "forecast": "35.3",
-        "previous": "35.5",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Final Services PMI",
@@ -220,6 +211,15 @@
         "time": "2026-10-06T19:30:00-04:00",
         "forecast": "3.7%",
         "previous": "4.7%",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Leading Indicators",
+        "impact": "Low",
+        "time": "2026-10-07T01:00:00-04:00",
+        "forecast": "118.1%",
+        "previous": "117.9%",
         "actual": null
       }
     ]
