@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-10-06T04:43:46.723480+09:00",
-  "generated_at_utc": "2026-10-05T19:43:48.301434+00:00",
+  "generated_at_jst": "2026-10-06T10:02:45.304797+09:00",
+  "generated_at_utc": "2026-10-06T01:02:46.935447+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.033,
-    "technical_score": 0.066,
+    "overall_score": 0.03,
+    "technical_score": 0.059,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(156.26) < SMA50(158.04) でデッドクロス状態（売り要因）",
-      "RSI14=54.0で中立圏",
+      "SMA20(156.45) < SMA50(157.92) でデッドクロス状態（売り要因）",
+      "RSI14=53.6で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 157.94400024414062,
-      "sma20": 156.2609001159668,
-      "sma50": 158.04346099853515,
+      "price": 157.8979949951172,
+      "sma20": 156.45254974365236,
+      "sma50": 157.92180084228517,
       "sma200": null,
-      "rsi14": 53.958465451880116,
-      "macd": 0.03745512151249386,
-      "macd_signal": -0.25347016098995534,
-      "bb_upper": 159.86270590959788,
-      "bb_mid": 156.2609001159668,
-      "bb_lower": 152.6590943223357,
-      "atr14": 1.3673125496485439
+      "rsi14": 53.56682714386837,
+      "macd": 0.06063805676018319,
+      "macd_signal": -0.19332894501293227,
+      "bb_upper": 159.92017638289025,
+      "bb_mid": 156.45254974365236,
+      "bb_lower": 152.98492310441446,
+      "atr14": 1.2872644180130932
     }
   },
   "fundamental": {
@@ -209,7 +209,7 @@
         "title": "Leading Indicators",
         "impact": "Low",
         "time": "2026-10-07T01:00:00-04:00",
-        "forecast": "118.1%",
+        "forecast": "118.3%",
         "previous": "117.9%",
         "actual": null
       },
@@ -245,8 +245,17 @@
         "title": "Consumer Credit m/m",
         "impact": "Low",
         "time": "2026-10-07T15:00:00-04:00",
-        "forecast": "15.4B",
+        "forecast": "14.4B",
         "previous": "18.1B",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Current Account",
+        "impact": "Low",
+        "time": "2026-10-07T19:50:00-04:00",
+        "forecast": "2.13T",
+        "previous": "2.52T",
         "actual": null
       }
     ]
