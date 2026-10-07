@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-10-07T15:42:29.747008+09:00",
-  "generated_at_utc": "2026-10-07T06:42:31.208266+00:00",
+  "generated_at_jst": "2026-10-07T23:04:21.783676+09:00",
+  "generated_at_utc": "2026-10-07T14:04:22.871813+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.051,
-    "technical_score": 0.103,
+    "overall_score": 0.043,
+    "technical_score": 0.086,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(156.70) < SMA50(157.81) でデッドクロス状態（売り要因）",
-      "RSI14=56.2で中立圏",
+      "SMA20(156.69) < SMA50(157.81) でデッドクロス状態（売り要因）",
+      "RSI14=55.2で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.3040008544922,
-      "sma20": 156.69710006713868,
-      "sma50": 157.8119009399414,
+      "price": 158.1439971923828,
+      "sma20": 156.6890998840332,
+      "sma50": 157.8087008666992,
       "sma200": null,
-      "rsi14": 56.167468238905975,
-      "macd": 0.1276308219101452,
-      "macd_signal": -0.12830255737774918,
-      "bb_upper": 159.96390320811483,
-      "bb_mid": 156.69710006713868,
-      "bb_lower": 153.43029692616253,
-      "atr14": 1.2497895012385853
+      "rsi14": 55.164252269015094,
+      "macd": 0.1148669970125411,
+      "macd_signal": -0.13085532235727,
+      "bb_upper": 159.94007914414718,
+      "bb_mid": 156.6890998840332,
+      "bb_lower": 153.43812062391922,
+      "atr14": 1.2584325153289873
     }
   },
   "fundamental": {
@@ -256,6 +256,24 @@
         "time": "2026-10-09T02:00:00-04:00",
         "forecast": "",
         "previous": "64.7%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Prelim UoM Consumer Sentiment",
+        "impact": "Medium",
+        "time": "2026-10-09T10:00:00-04:00",
+        "forecast": "47.5",
+        "previous": "47.8",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Prelim UoM Inflation Expectations",
+        "impact": "Medium",
+        "time": "2026-10-09T10:00:00-04:00",
+        "forecast": "",
+        "previous": "4.6%",
         "actual": null
       }
     ]
