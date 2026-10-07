@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-10-07T09:14:44.181025+09:00",
-  "generated_at_utc": "2026-10-07T00:14:46.436760+00:00",
+  "generated_at_jst": "2026-10-07T15:42:29.747008+09:00",
+  "generated_at_utc": "2026-10-07T06:42:31.208266+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.058,
-    "technical_score": 0.116,
+    "overall_score": 0.051,
+    "technical_score": 0.103,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(156.70) < SMA50(157.81) でデッドクロス状態（売り要因）",
-      "RSI14=57.0で中立圏",
+      "RSI14=56.2で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.44000244140625,
-      "sma20": 156.7039001464844,
-      "sma50": 157.8146209716797,
+      "price": 158.3040008544922,
+      "sma20": 156.69710006713868,
+      "sma50": 157.8119009399414,
       "sma200": null,
-      "rsi14": 56.985553211058146,
-      "macd": 0.13847995135057545,
-      "macd_signal": -0.1261327314896631,
-      "bb_upper": 159.98532046936555,
-      "bb_mid": 156.7039001464844,
-      "bb_lower": 153.42247982360323,
-      "atr14": 1.2461470103066659
+      "rsi14": 56.167468238905975,
+      "macd": 0.1276308219101452,
+      "macd_signal": -0.12830255737774918,
+      "bb_upper": 159.96390320811483,
+      "bb_mid": 156.69710006713868,
+      "bb_lower": 153.43029692616253,
+      "atr14": 1.2497895012385853
     }
   },
   "fundamental": {
@@ -39,73 +39,73 @@
   "news": {
     "items": [
       {
-        "title": "Wall Street ends at a record high for the first time since mid-August",
-        "link": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-after-nasdaq-hits-record-on-reduced-fed-hike-bets-4933219",
+        "title": "Deutsche Bank forecasts S&P 500 to hit 7000 by end of 2025",
+        "link": "https://www.investing.com/news/stock-market-news/deutsche-bank-forecasts-sp-500-to-hit-7000-by-end-of-2025-3741586",
         "source": "Most Popular News",
-        "published_at": "2026-10-06 20:13:28",
+        "published_at": "2024-11-26 10:47:35",
         "sentiment": "neutral"
       },
       {
-        "title": "U.S. 10-year yield climb revives dotcom-era parallels",
-        "link": "https://www.investing.com/news/stock-market-news/us-10year-yield-climb-revives-dotcomera-parallels-ubs-weighs-in-4933936",
+        "title": "Trump's tariffs, Fed minutes, Rumble's Bitcoin buy - what's moving markets",
+        "link": "https://www.investing.com/news/economy/trumps-tariffs-fed-minutes-rumbles-bitcoin-buy--whats-moving-markets-3741453",
         "source": "Most Popular News",
-        "published_at": "2026-10-06 10:43:10",
+        "published_at": "2024-11-26 08:55:17",
         "sentiment": "neutral"
       },
       {
-        "title": "Goldman Sachs warns Samsung stock faces triple-hit volatility this week",
-        "link": "https://www.investing.com/news/stock-market-news/goldman-sachs-warns-samsung-stock-faces-triplehit-volatility-this-week-4933847",
+        "title": "Bitcoin price today: slips to $94k as risk appetite sours on Trump tariff threat",
+        "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-today-slips-to-94k-as-risk-appetite-sours-on-trump-tariff-threat-3741330",
         "source": "Most Popular News",
-        "published_at": "2026-10-06 10:16:39",
+        "published_at": "2024-11-26 06:22:06",
         "sentiment": "neutral"
       },
       {
-        "title": "Goldman flags 2 key market risks if a climb in yields persists",
-        "link": "https://www.investing.com/news/stock-market-news/goldman-flags-2-key-market-risks-if-a-climb-in-yields-persists-4934045",
+        "title": "2025 macro outlook for the US is 'murky at best' says Deutsche Bank",
+        "link": "https://www.investing.com/news/economy/2025-macro-outlook-for-the-us-is-murky-at-best-says-deutsche-bank-3741435",
         "source": "Most Popular News",
-        "published_at": "2026-10-06 11:05:08",
+        "published_at": "2024-11-26 08:26:03",
         "sentiment": "neutral"
       },
       {
-        "title": "Up +106% and +101%: These stocks are still in our AI-picks for October - See why",
-        "link": "https://www.investing.com/news/stock-market-news/up-106-and-101-these-stocks-are-still-in-our-aipicks-for-october--see-why-4933676",
+        "title": "Trump says he will impose additional 10% tariffs on China over drug inflow",
+        "link": "https://www.investing.com/news/politics/trump-says-he-will-impose-additional-10-tariffs-on-china-over-drug-inflow-3741069",
         "source": "Most Popular News",
-        "published_at": "2026-10-06 09:04:08",
+        "published_at": "2024-11-26 00:01:07",
         "sentiment": "neutral"
       },
       {
-        "title": "SpaceX seeks $40 billion to buy Nvidia chips, FT reports",
-        "link": "https://www.investing.com/news/stock-market-news/spacex-seeks-40-billion-to-buy-nvidia-chips-ft-reports-4935381",
+        "title": "Asia stocks fall after Trump threatens tariffs, Japan's Nikkei leads losses",
+        "link": "https://www.investing.com/news/stock-market-news/asia-stocks-fall-after-trump-threatens-tariffs-japans-nikkei-leads-losses-3741249",
         "source": "Most Popular News",
-        "published_at": "2026-10-06 23:24:41",
+        "published_at": "2024-11-26 03:31:51",
         "sentiment": "neutral"
       },
       {
-        "title": "Gulf oil export data; Constellation Brands to report - what’s moving markets",
-        "link": "https://www.investing.com/news/economy-news/gulf-oil-export-data-constellation-brands-to-report--whats-moving-markets-4933574",
+        "title": "S&P 500 positioning levels at record highs, pullback risks rise, Citi warns",
+        "link": "https://www.investing.com/news/stock-market-news/sp-500-positioning-levels-at-record-highs-pullback-risks-rise-citi-warns-3741245",
         "source": "Most Popular News",
-        "published_at": "2026-10-06 07:53:41",
+        "published_at": "2024-11-26 03:26:47",
         "sentiment": "neutral"
       },
       {
-        "title": "SpaceX  seeks to raise $40 bln to buy Nvidia chips- FT",
-        "link": "https://www.investing.com/news/stock-market-news/spacex--seeks-to-raise-40-bln-to-buy-nvidia-chips-ft-4935412",
+        "title": "Analyst calls Bitcoin 'global bubble', could soar to infinity",
+        "link": "https://www.investing.com/news/cryptocurrency-news/analyst-calls-bitcoin-global-bubble-could-soar-to-infinity-3740406",
         "source": "Most Popular News",
-        "published_at": "2026-10-06 23:27:11",
+        "published_at": "2024-11-25 18:20:45",
         "sentiment": "neutral"
       },
       {
-        "title": "Samsung’s Q3 profit seen jumping nine-fold, but chip margins may be flat",
-        "link": "https://www.investing.com/news/stock-market-news/samsungs-q3-profit-seen-jumping-ninefold-but-chip-margins-may-be-flat-4935396",
+        "title": "Stock market today: Dow hits record as Trump's pick for Treasury stokes optimism",
+        "link": "https://www.investing.com/news/stock-market-news/stock-market-today-dow-hits-record-as-trumps-pick-for-treasury-stokes-optimism-3738482",
         "source": "Most Popular News",
-        "published_at": "2026-10-06 23:12:29",
+        "published_at": "2024-11-25 21:05:30",
         "sentiment": "neutral"
       },
       {
-        "title": "The S&P 500 rose +0.5% in September; this AI stock picking strategy surged +13.4%",
-        "link": "https://www.investing.com/news/stock-market-news/the-sp-500-rose-05-in-september-this-ai-stock-picking-strategy-surged-134-4932152",
+        "title": "Jump in Tesla stock mostly driven by 'animal spirits/momentum' says UBS",
+        "link": "https://www.investing.com/news/stock-market-news/jump-in-tesla-stock-mostly-driven-by-animal-spiritsmomentum-says-ubs-3739718",
         "source": "Most Popular News",
-        "published_at": "2026-10-05 12:45:56",
+        "published_at": "2024-11-25 14:19:31",
         "sentiment": "neutral"
       }
     ]
@@ -115,21 +115,21 @@
     "display_window_hours": 48,
     "events": [
       {
-        "country": "JPY",
-        "title": "Leading Indicators",
-        "impact": "Low",
-        "time": "2026-10-07T01:00:00-04:00",
-        "forecast": "118.1%",
-        "previous": "117.9%",
-        "actual": null
-      },
-      {
         "country": "USD",
         "title": "Crude Oil Inventories",
         "impact": "Low",
         "time": "2026-10-07T10:30:00-04:00",
         "forecast": "1.9M",
         "previous": "0.9M",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "President Trump Speaks",
+        "impact": "Medium",
+        "time": "2026-10-07T13:00:00-04:00",
+        "forecast": "",
+        "previous": "",
         "actual": null
       },
       {
@@ -247,6 +247,15 @@
         "time": "2026-10-08T19:30:00-04:00",
         "forecast": "-3.5%",
         "previous": "-3.6%",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Prelim Machine Tool Orders y/y",
+        "impact": "Low",
+        "time": "2026-10-09T02:00:00-04:00",
+        "forecast": "",
+        "previous": "64.7%",
         "actual": null
       }
     ]
