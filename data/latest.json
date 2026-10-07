@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-10-07T23:04:21.783676+09:00",
-  "generated_at_utc": "2026-10-07T14:04:22.871813+00:00",
+  "generated_at_jst": "2026-10-08T05:20:13.806842+09:00",
+  "generated_at_utc": "2026-10-07T20:20:14.945049+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.043,
-    "technical_score": 0.086,
+    "overall_score": 0.04,
+    "technical_score": 0.079,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(156.69) < SMA50(157.81) でデッドクロス状態（売り要因）",
-      "RSI14=55.2で中立圏",
+      "RSI14=54.8で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.1439971923828,
-      "sma20": 156.6890998840332,
-      "sma50": 157.8087008666992,
+      "price": 158.0800018310547,
+      "sma20": 156.6859001159668,
+      "sma50": 157.80742095947267,
       "sma200": null,
-      "rsi14": 55.164252269015094,
-      "macd": 0.1148669970125411,
-      "macd_signal": -0.13085532235727,
-      "bb_upper": 159.94007914414718,
-      "bb_mid": 156.6890998840332,
-      "bb_lower": 153.43812062391922,
+      "rsi14": 54.75002874300979,
+      "macd": 0.10976195394360388,
+      "macd_signal": -0.13187633097105744,
+      "bb_upper": 159.93097059574978,
+      "bb_mid": 156.6859001159668,
+      "bb_lower": 153.44082963618382,
       "atr14": 1.2584325153289873
     }
   },
@@ -114,51 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Crude Oil Inventories",
-        "impact": "Low",
-        "time": "2026-10-07T10:30:00-04:00",
-        "forecast": "1.9M",
-        "previous": "0.9M",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "President Trump Speaks",
-        "impact": "Medium",
-        "time": "2026-10-07T13:00:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "10-y Bond Auction",
-        "impact": "Low",
-        "time": "2026-10-07T13:01:00-04:00",
-        "forecast": "",
-        "previous": "4.83|2.7",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Meeting Minutes",
-        "impact": "High",
-        "time": "2026-10-07T14:00:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Consumer Credit m/m",
-        "impact": "Low",
-        "time": "2026-10-07T15:00:00-04:00",
-        "forecast": "14.5B",
-        "previous": "18.1B",
-        "actual": null
-      },
       {
         "country": "JPY",
         "title": "Current Account",
@@ -274,6 +229,15 @@
         "time": "2026-10-09T10:00:00-04:00",
         "forecast": "",
         "previous": "4.6%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Collins Speaks",
+        "impact": "Low",
+        "time": "2026-10-09T16:00:00-04:00",
+        "forecast": "",
+        "previous": "",
         "actual": null
       }
     ]
