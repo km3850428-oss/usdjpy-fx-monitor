@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-10-08T05:20:13.806842+09:00",
-  "generated_at_utc": "2026-10-07T20:20:14.945049+00:00",
+  "generated_at_jst": "2026-10-08T09:36:04.661864+09:00",
+  "generated_at_utc": "2026-10-08T00:36:08.087304+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.04,
-    "technical_score": 0.079,
+    "overall_score": 0.021,
+    "technical_score": 0.042,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(156.69) < SMA50(157.81) でデッドクロス状態（売り要因）",
-      "RSI14=54.8で中立圏",
+      "SMA20(156.91) < SMA50(157.70) でデッドクロス状態（売り要因）",
+      "RSI14=52.5で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.0800018310547,
-      "sma20": 156.6859001159668,
-      "sma50": 157.80742095947267,
+      "price": 157.83900451660156,
+      "sma20": 156.91000061035157,
+      "sma50": 157.7025210571289,
       "sma200": null,
-      "rsi14": 54.75002874300979,
-      "macd": 0.10976195394360388,
-      "macd_signal": -0.13187633097105744,
-      "bb_upper": 159.93097059574978,
-      "bb_mid": 156.6859001159668,
-      "bb_lower": 153.44082963618382,
-      "atr14": 1.2584325153289873
+      "rsi14": 52.50664201141373,
+      "macd": 0.13704902556193588,
+      "macd_signal": -0.07528670628986345,
+      "bb_upper": 159.85881947369947,
+      "bb_mid": 156.91000061035157,
+      "bb_lower": 153.96118174700368,
+      "atr14": 1.2024769896044933
     }
   },
   "fundamental": {
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "Current Account",
-        "impact": "Low",
-        "time": "2026-10-07T19:50:00-04:00",
-        "forecast": "2.14T",
-        "previous": "2.52T",
-        "actual": null
-      },
       {
         "country": "JPY",
         "title": "30-y Bond Auction",
