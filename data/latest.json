@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-10-08T23:14:00.878197+09:00",
-  "generated_at_utc": "2026-10-08T14:14:01.898699+00:00",
+  "generated_at_jst": "2026-10-09T05:22:39.222024+09:00",
+  "generated_at_utc": "2026-10-08T20:22:40.258746+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.039,
-    "technical_score": 0.077,
+    "overall_score": 0.023,
+    "technical_score": 0.045,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(156.92) < SMA50(157.71) でデッドクロス状態（売り要因）",
-      "RSI14=54.6で中立圏",
+      "SMA20(156.91) < SMA50(157.70) でデッドクロス状態（売り要因）",
+      "RSI14=52.7で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.11500549316406,
-      "sma20": 156.92380065917968,
-      "sma50": 157.70804107666015,
+      "price": 157.86700439453125,
+      "sma20": 156.91140060424806,
+      "sma50": 157.7030810546875,
       "sma200": null,
-      "rsi14": 54.633758567291174,
-      "macd": 0.15906619748147932,
-      "macd_signal": -0.07088327190595475,
-      "bb_upper": 159.89343504939262,
-      "bb_mid": 156.92380065917968,
-      "bb_lower": 153.95416626896673,
-      "atr14": 1.2171908219147611
+      "rsi14": 52.71485544588443,
+      "macd": 0.1392826340577642,
+      "macd_signal": -0.07483998459069778,
+      "bb_upper": 159.86210253884352,
+      "bb_mid": 156.91140060424806,
+      "bb_lower": 153.9606986696526,
+      "atr14": 1.2268332866887568
     }
   },
   "fundamental": {
@@ -114,33 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Natural Gas Storage",
-        "impact": "Low",
-        "time": "2026-10-08T10:30:00-04:00",
-        "forecast": "79B",
-        "previous": "64B",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "30-y Bond Auction",
-        "impact": "Low",
-        "time": "2026-10-08T13:01:00-04:00",
-        "forecast": "",
-        "previous": "5.31|2.6",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Musalem Speaks",
-        "impact": "Low",
-        "time": "2026-10-08T13:40:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
       {
         "country": "JPY",
         "title": "Household Spending y/y",
