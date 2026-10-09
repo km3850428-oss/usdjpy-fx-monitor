@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-10-09T05:22:39.222024+09:00",
-  "generated_at_utc": "2026-10-08T20:22:40.258746+00:00",
+  "generated_at_jst": "2026-10-09T09:51:23.575729+09:00",
+  "generated_at_utc": "2026-10-09T00:51:25.165272+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.023,
-    "technical_score": 0.045,
+    "overall_score": 0.037,
+    "technical_score": 0.073,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(156.91) < SMA50(157.70) でデッドクロス状態（売り要因）",
-      "RSI14=52.7で中立圏",
+      "SMA20(157.10) < SMA50(157.67) でデッドクロス状態（売り要因）",
+      "RSI14=54.4で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 157.86700439453125,
-      "sma20": 156.91140060424806,
-      "sma50": 157.7030810546875,
+      "price": 158.08799743652344,
+      "sma20": 157.10135040283203,
+      "sma50": 157.66504089355467,
       "sma200": null,
-      "rsi14": 52.71485544588443,
-      "macd": 0.1392826340577642,
-      "macd_signal": -0.07483998459069778,
-      "bb_upper": 159.86210253884352,
-      "bb_mid": 156.91140060424806,
-      "bb_lower": 153.9606986696526,
-      "atr14": 1.2268332866887568
+      "rsi14": 54.3997809218677,
+      "macd": 0.17681077942685874,
+      "macd_signal": -0.02204291535820014,
+      "bb_upper": 159.8742794493174,
+      "bb_mid": 157.10135040283203,
+      "bb_lower": 154.32842135634664,
+      "atr14": 1.1581132866090964
     }
   },
   "fundamental": {
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "Household Spending y/y",
-        "impact": "Low",
-        "time": "2026-10-08T19:30:00-04:00",
-        "forecast": "-3.5%",
-        "previous": "-3.6%",
-        "actual": null
-      },
       {
         "country": "JPY",
         "title": "Prelim Machine Tool Orders y/y",
