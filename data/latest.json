@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-10-11T20:07:10.060190+09:00",
-  "generated_at_utc": "2026-10-11T11:07:11.901039+00:00",
+  "generated_at_jst": "2026-10-12T02:04:11.996417+09:00",
+  "generated_at_utc": "2026-10-11T17:04:13.145972+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": 0.046,
@@ -175,6 +175,33 @@
         "time": "2026-10-13T06:00:00-04:00",
         "forecast": "98.0",
         "previous": "98.7",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "ADP Weekly Employment Change",
+        "impact": "Low",
+        "time": "2026-10-13T08:15:00-04:00",
+        "forecast": "",
+        "previous": "23.8K",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Existing Home Sales",
+        "impact": "Low",
+        "time": "2026-10-13T10:00:00-04:00",
+        "forecast": "3.96M",
+        "previous": "3.98M",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Barkin Speaks",
+        "impact": "Low",
+        "time": "2026-10-13T13:00:00-04:00",
+        "forecast": "",
+        "previous": "",
         "actual": null
       }
     ]
