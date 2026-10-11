@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-10-12T02:04:11.996417+09:00",
-  "generated_at_utc": "2026-10-11T17:04:13.145972+00:00",
+  "generated_at_jst": "2026-10-12T06:16:09.672209+09:00",
+  "generated_at_utc": "2026-10-11T21:16:11.321961+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.046,
-    "technical_score": 0.092,
+    "overall_score": 0.039,
+    "technical_score": 0.077,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.11) < SMA50(157.67) でデッドクロス状態（売り要因）",
-      "RSI14=55.5で中立圏",
+      "SMA20(157.33) < SMA50(157.68) でデッドクロス状態（売り要因）",
+      "RSI14=54.6で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.24600219726562,
-      "sma20": 157.10925064086913,
-      "sma50": 157.66820098876954,
+      "price": 158.11599731445312,
+      "sma20": 157.33470077514647,
+      "sma50": 157.67522094726561,
       "sma200": null,
-      "rsi14": 55.497491591324156,
-      "macd": 0.189415147805164,
-      "macd_signal": -0.019522041682539085,
-      "bb_upper": 159.89488675630463,
-      "bb_mid": 157.10925064086913,
-      "bb_lower": 154.32361452543364,
-      "atr14": 1.1803279036570875
+      "rsi14": 54.626984637903924,
+      "macd": 0.192828058863995,
+      "macd_signal": 0.02061226906957374,
+      "bb_upper": 159.53001745605314,
+      "bb_mid": 157.33470077514647,
+      "bb_lower": 155.1393840942398,
+      "atr14": 1.1094817685435472
     }
   },
   "fundamental": {
@@ -200,6 +200,15 @@
         "title": "FOMC Member Barkin Speaks",
         "impact": "Low",
         "time": "2026-10-13T13:00:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Collins Speaks",
+        "impact": "Low",
+        "time": "2026-10-13T16:00:00-04:00",
         "forecast": "",
         "previous": "",
         "actual": null
