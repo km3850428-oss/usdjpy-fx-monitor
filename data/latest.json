@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-10-11T08:59:42.971253+09:00",
-  "generated_at_utc": "2026-10-10T23:59:44.552217+00:00",
+  "generated_at_jst": "2026-10-11T13:51:11.163119+09:00",
+  "generated_at_utc": "2026-10-11T04:51:13.299868+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": 0.046,
@@ -113,6 +113,52 @@
   "calendar": {
     "caution_window_hours": 3,
     "display_window_hours": 48,
-    "events": []
+    "events": [
+      {
+        "country": "JPY",
+        "title": "Bank Holiday",
+        "impact": "Holiday",
+        "time": "2026-10-11T19:00:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Bank Holiday",
+        "impact": "Holiday",
+        "time": "2026-10-12T07:00:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Hammack Speaks",
+        "impact": "Low",
+        "time": "2026-10-12T12:10:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Bank Lending y/y",
+        "impact": "Low",
+        "time": "2026-10-12T19:50:00-04:00",
+        "forecast": "5.5%",
+        "previous": "5.4%",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "PPI y/y",
+        "impact": "Low",
+        "time": "2026-10-12T19:50:00-04:00",
+        "forecast": "7.6%",
+        "previous": "7.6%",
+        "actual": null
+      }
+    ]
   }
 }
