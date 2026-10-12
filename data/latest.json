@@ -1,10 +1,10 @@
 {
-  "generated_at_jst": "2026-10-12T06:16:09.672209+09:00",
-  "generated_at_utc": "2026-10-11T21:16:11.321961+00:00",
+  "generated_at_jst": "2026-10-12T09:51:23.905008+09:00",
+  "generated_at_utc": "2026-10-12T00:51:26.594738+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.039,
-    "technical_score": 0.077,
+    "overall_score": 0.038,
+    "technical_score": 0.076,
     "fundamental_score": 0.0,
     "override_reason": null
   },
@@ -15,17 +15,17 @@
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.11599731445312,
-      "sma20": 157.33470077514647,
-      "sma50": 157.67522094726561,
+      "price": 158.10699462890625,
+      "sma20": 157.33425064086913,
+      "sma50": 157.6750408935547,
       "sma200": null,
-      "rsi14": 54.626984637903924,
-      "macd": 0.192828058863995,
-      "macd_signal": 0.02061226906957374,
-      "bb_upper": 159.53001745605314,
-      "bb_mid": 157.33470077514647,
-      "bb_lower": 155.1393840942398,
-      "atr14": 1.1094817685435472
+      "rsi14": 54.55131884521607,
+      "macd": 0.19206793320307725,
+      "macd_signal": 0.02040692727398619,
+      "bb_upper": 159.52889638745444,
+      "bb_mid": 157.33425064086913,
+      "bb_lower": 155.13960489428382,
+      "atr14": 1.1193896314104275
     }
   },
   "fundamental": {
@@ -115,15 +115,6 @@
     "display_window_hours": 48,
     "events": [
       {
-        "country": "JPY",
-        "title": "Bank Holiday",
-        "impact": "Holiday",
-        "time": "2026-10-11T19:00:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
         "country": "USD",
         "title": "Bank Holiday",
         "impact": "Holiday",
@@ -211,6 +202,15 @@
         "time": "2026-10-13T16:00:00-04:00",
         "forecast": "",
         "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "M2 Money Stock y/y",
+        "impact": "Low",
+        "time": "2026-10-13T19:50:00-04:00",
+        "forecast": "2.1%",
+        "previous": "2.0%",
         "actual": null
       }
     ]
