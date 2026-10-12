@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-10-13T01:20:30.733177+09:00",
-  "generated_at_utc": "2026-10-12T16:20:32.261540+00:00",
+  "generated_at_jst": "2026-10-13T08:23:33.194171+09:00",
+  "generated_at_utc": "2026-10-12T23:23:34.891497+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.072,
-    "technical_score": 0.145,
+    "overall_score": 0.063,
+    "technical_score": 0.126,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.36) < SMA50(157.69) でデッドクロス状態（売り要因）",
-      "RSI14=58.7で中立圏",
+      "SMA20(157.36) < SMA50(157.68) でデッドクロス状態（売り要因）",
+      "RSI14=57.6で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.70599365234375,
-      "sma20": 157.36420059204102,
-      "sma50": 157.68702087402343,
+      "price": 158.5330047607422,
+      "sma20": 157.35555114746094,
+      "sma50": 157.6835610961914,
       "sma200": null,
-      "rsi14": 58.696268760375986,
-      "macd": 0.23985133108413947,
-      "macd_signal": 0.02996360685019864,
-      "bb_upper": 159.6187789936964,
-      "bb_mid": 157.36420059204102,
-      "bb_lower": 155.10962219038564,
-      "atr14": 1.1438178627859854
+      "rsi14": 57.57896472641587,
+      "macd": 0.22605164742364536,
+      "macd_signal": 0.027203670118099817,
+      "bb_upper": 159.58968991778303,
+      "bb_mid": 157.35555114746094,
+      "bb_lower": 155.12141237713885,
+      "atr14": 1.1361753892926818
     }
   },
   "fundamental": {
@@ -146,7 +146,7 @@
         "title": "NFIB Small Business Index",
         "impact": "Low",
         "time": "2026-10-13T06:00:00-04:00",
-        "forecast": "98.0",
+        "forecast": "98.1",
         "previous": "98.7",
         "actual": null
       },
@@ -164,7 +164,7 @@
         "title": "Existing Home Sales",
         "impact": "Low",
         "time": "2026-10-13T10:00:00-04:00",
-        "forecast": "3.96M",
+        "forecast": "3.95M",
         "previous": "3.98M",
         "actual": null
       },
@@ -238,6 +238,33 @@
         "time": "2026-10-14T08:30:00-04:00",
         "forecast": "3.6%",
         "previous": "3.4%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Barkin Speaks",
+        "impact": "Low",
+        "time": "2026-10-14T13:30:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Beige Book",
+        "impact": "Low",
+        "time": "2026-10-14T14:00:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "API Weekly Statistical Bulletin",
+        "impact": "Low",
+        "time": "2026-10-14T16:30:00-04:00",
+        "forecast": "",
+        "previous": "",
         "actual": null
       }
     ]
