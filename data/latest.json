@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-10-12T15:47:53.090568+09:00",
-  "generated_at_utc": "2026-10-12T06:47:55.243034+00:00",
+  "generated_at_jst": "2026-10-13T01:20:30.733177+09:00",
+  "generated_at_utc": "2026-10-12T16:20:32.261540+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.054,
-    "technical_score": 0.107,
+    "overall_score": 0.072,
+    "technical_score": 0.145,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.35) < SMA50(157.68) でデッドクロス状態（売り要因）",
-      "RSI14=56.4で中立圏",
+      "SMA20(157.36) < SMA50(157.69) でデッドクロス状態（売り要因）",
+      "RSI14=58.7で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.36399841308594,
-      "sma20": 157.34710083007812,
-      "sma50": 157.68018096923828,
+      "price": 158.70599365234375,
+      "sma20": 157.36420059204102,
+      "sma50": 157.68702087402343,
       "sma200": null,
-      "rsi14": 56.42742178052508,
-      "macd": 0.21256965957641683,
-      "macd_signal": 0.02450727254865411,
-      "bb_upper": 159.56369741198412,
-      "bb_mid": 157.34710083007812,
-      "bb_lower": 155.13050424817212,
-      "atr14": 1.1193896314104275
+      "rsi14": 58.696268760375986,
+      "macd": 0.23985133108413947,
+      "macd_signal": 0.02996360685019864,
+      "bb_upper": 159.6187789936964,
+      "bb_mid": 157.36420059204102,
+      "bb_lower": 155.10962219038564,
+      "atr14": 1.1438178627859854
     }
   },
   "fundamental": {
@@ -115,24 +115,6 @@
     "display_window_hours": 48,
     "events": [
       {
-        "country": "USD",
-        "title": "Bank Holiday",
-        "impact": "Holiday",
-        "time": "2026-10-12T07:00:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Hammack Speaks",
-        "impact": "Low",
-        "time": "2026-10-12T12:10:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
         "country": "JPY",
         "title": "Bank Lending y/y",
         "impact": "Low",
@@ -211,6 +193,51 @@
         "time": "2026-10-13T19:50:00-04:00",
         "forecast": "2.1%",
         "previous": "2.0%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Bowman Speaks",
+        "impact": "Low",
+        "time": "2026-10-14T05:40:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Core CPI m/m",
+        "impact": "High",
+        "time": "2026-10-14T08:30:00-04:00",
+        "forecast": "0.2%",
+        "previous": "0.3%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Core CPI y/y",
+        "impact": "High",
+        "time": "2026-10-14T08:30:00-04:00",
+        "forecast": "2.5%",
+        "previous": "2.4%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "CPI m/m",
+        "impact": "High",
+        "time": "2026-10-14T08:30:00-04:00",
+        "forecast": "0.6%",
+        "previous": "0.4%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "CPI y/y",
+        "impact": "High",
+        "time": "2026-10-14T08:30:00-04:00",
+        "forecast": "3.6%",
+        "previous": "3.4%",
         "actual": null
       }
     ]
