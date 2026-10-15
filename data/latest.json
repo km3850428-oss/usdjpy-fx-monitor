@@ -1,12 +1,12 @@
 {
-  "generated_at_jst": "2026-10-15T15:44:40.369547+09:00",
-  "generated_at_utc": "2026-10-15T06:44:41.366510+00:00",
+  "generated_at_jst": "2026-10-15T21:18:57.407516+09:00",
+  "generated_at_utc": "2026-10-15T12:19:02.634954+00:00",
   "judgment": {
-    "signal": "買い",
-    "overall_score": 0.353,
+    "signal": "待ち",
+    "overall_score": 0.352,
     "technical_score": 0.705,
     "fundamental_score": 0.0,
-    "override_reason": null
+    "override_reason": "重要指標発表が近いためスコアに関わらず待ちと判定"
   },
   "technical": {
     "reasons": [
@@ -15,16 +15,16 @@
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 157.9810028076172,
-      "sma20": 157.7969512939453,
-      "sma50": 157.71700103759767,
+      "price": 157.97999572753906,
+      "sma20": 157.7969009399414,
+      "sma50": 157.7169808959961,
       "sma200": null,
-      "rsi14": 52.30619240021172,
-      "macd": 0.2385714060243913,
-      "macd_signal": 0.13113511151327623,
-      "bb_upper": 158.99652712485332,
-      "bb_mid": 157.7969512939453,
-      "bb_lower": 156.5973754630373,
+      "rsi14": 52.29687694357994,
+      "macd": 0.23849106915204743,
+      "macd_signal": 0.13111904413880746,
+      "bb_upper": 158.9964443251064,
+      "bb_mid": 157.7969009399414,
+      "bb_lower": 156.59735755477638,
       "atr14": 1.0648206722495703
     }
   },
@@ -32,9 +32,9 @@
     "reasons": [
       "FRED APIキー未設定のため金利差の自動評価をスキップ",
       "関連ニュース見出しにドル/円方向を示すキーワードなし（中立）",
-      "直近の重要指標発表なし"
+      "今後3時間以内の重要指標: USD Core PPI m/m (10/15 08:30 UTC) / USD Core Retail Sales m/m (10/15 08:30 UTC) / USD PPI m/m (10/15 08:30 UTC) / USD Retail Sales m/m (10/15 08:30 UTC)"
     ],
-    "has_upcoming_event": false
+    "has_upcoming_event": true
   },
   "news": {
     "items": [
