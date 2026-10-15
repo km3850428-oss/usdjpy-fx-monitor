@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-10-15T07:52:20.698438+09:00",
-  "generated_at_utc": "2026-10-14T22:52:22.648053+00:00",
+  "generated_at_jst": "2026-10-15T10:09:32.132783+09:00",
+  "generated_at_utc": "2026-10-15T01:09:34.036752+00:00",
   "judgment": {
-    "signal": "待ち",
-    "overall_score": 0.027,
-    "technical_score": 0.054,
+    "signal": "買い",
+    "overall_score": 0.331,
+    "technical_score": 0.661,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.69) < SMA50(157.70) でデッドクロス状態（売り要因）",
-      "RSI14=53.3で中立圏",
+      "SMA20(157.78) > SMA50(157.71) でゴールデンクロス状態（買い要因）",
+      "RSI14=49.7で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.06500244140625,
-      "sma20": 157.68575134277344,
-      "sma50": 157.70424102783204,
+      "price": 157.67999267578125,
+      "sma20": 157.78190078735352,
+      "sma50": 157.71098083496094,
       "sma200": null,
-      "rsi14": 53.267052914664674,
-      "macd": 0.23659808276642025,
-      "macd_signal": 0.10014973405965472,
-      "bb_upper": 159.10212468409225,
-      "bb_mid": 157.68575134277344,
-      "bb_lower": 156.26937800145464,
-      "atr14": 1.0657444273136403
+      "rsi14": 49.66213494267307,
+      "macd": 0.214559201775387,
+      "macd_signal": 0.12633267066347537,
+      "bb_upper": 158.97930493850478,
+      "bb_mid": 157.78190078735352,
+      "bb_lower": 156.58449663620226,
+      "atr14": 1.057962936479481
     }
   },
   "fundamental": {
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "Core Machinery Orders m/m",
-        "impact": "Low",
-        "time": "2026-10-14T19:50:00-04:00",
-        "forecast": "2.2%",
-        "previous": "-3.7%",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "FOMC Member Bowman Speaks",
