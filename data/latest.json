@@ -1,40 +1,40 @@
 {
-  "generated_at_jst": "2026-10-15T21:18:57.407516+09:00",
-  "generated_at_utc": "2026-10-15T12:19:02.634954+00:00",
+  "generated_at_jst": "2026-10-16T02:30:21.145287+09:00",
+  "generated_at_utc": "2026-10-15T17:30:24.158340+00:00",
   "judgment": {
-    "signal": "待ち",
-    "overall_score": 0.352,
-    "technical_score": 0.705,
+    "signal": "買い",
+    "overall_score": 0.371,
+    "technical_score": 0.742,
     "fundamental_score": 0.0,
-    "override_reason": "重要指標発表が近いためスコアに関わらず待ちと判定"
+    "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.80) > SMA50(157.72) でゴールデンクロス状態（買い要因）",
-      "RSI14=52.3で中立圏",
+      "SMA20(157.81) > SMA50(157.72) でゴールデンクロス状態（買い要因）",
+      "RSI14=54.5で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 157.97999572753906,
-      "sma20": 157.7969009399414,
-      "sma50": 157.7169808959961,
+      "price": 158.21099853515625,
+      "sma20": 157.80845108032227,
+      "sma50": 157.72160095214844,
       "sma200": null,
-      "rsi14": 52.29687694357994,
-      "macd": 0.23849106915204743,
-      "macd_signal": 0.13111904413880746,
-      "bb_upper": 158.9964443251064,
-      "bb_mid": 157.7969009399414,
-      "bb_lower": 156.59735755477638,
-      "atr14": 1.0648206722495703
+      "rsi14": 54.52425552540938,
+      "macd": 0.25691864354888594,
+      "macd_signal": 0.13480455901817517,
+      "bb_upper": 159.01980791709695,
+      "bb_mid": 157.80845108032227,
+      "bb_lower": 156.5970942435476,
+      "atr14": 1.067177065246222
     }
   },
   "fundamental": {
     "reasons": [
       "FRED APIキー未設定のため金利差の自動評価をスキップ",
       "関連ニュース見出しにドル/円方向を示すキーワードなし（中立）",
-      "今後3時間以内の重要指標: USD Core PPI m/m (10/15 08:30 UTC) / USD Core Retail Sales m/m (10/15 08:30 UTC) / USD PPI m/m (10/15 08:30 UTC) / USD Retail Sales m/m (10/15 08:30 UTC)"
+      "直近の重要指標発表なし"
     ],
-    "has_upcoming_event": true
+    "has_upcoming_event": false
   },
   "news": {
     "items": [
@@ -114,96 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Core PPI m/m",
-        "impact": "High",
-        "time": "2026-10-15T08:30:00-04:00",
-        "forecast": "0.3%",
-        "previous": "0.2%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Core Retail Sales m/m",
-        "impact": "High",
-        "time": "2026-10-15T08:30:00-04:00",
-        "forecast": "0.6%",
-        "previous": "1.4%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "PPI m/m",
-        "impact": "High",
-        "time": "2026-10-15T08:30:00-04:00",
-        "forecast": "0.6%",
-        "previous": "0.4%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Retail Sales m/m",
-        "impact": "High",
-        "time": "2026-10-15T08:30:00-04:00",
-        "forecast": "0.3%",
-        "previous": "1.2%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Philly Fed Manufacturing Index",
-        "impact": "Medium",
-        "time": "2026-10-15T08:30:00-04:00",
-        "forecast": "28.2",
-        "previous": "37.8",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Unemployment Claims",
-        "impact": "Medium",
-        "time": "2026-10-15T08:30:00-04:00",
-        "forecast": "199K",
-        "previous": "197K",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Empire State Manufacturing Index",
-        "impact": "Low",
-        "time": "2026-10-15T08:30:00-04:00",
-        "forecast": "12.1",
-        "previous": "7.6",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Business Inventories m/m",
-        "impact": "Low",
-        "time": "2026-10-15T10:00:00-04:00",
-        "forecast": "0.4%",
-        "previous": "0.8%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Natural Gas Storage",
-        "impact": "Low",
-        "time": "2026-10-15T10:30:00-04:00",
-        "forecast": "76B",
-        "previous": "85B",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Crude Oil Inventories",
-        "impact": "Low",
-        "time": "2026-10-15T12:00:00-04:00",
-        "forecast": "0.2M",
-        "previous": "-3.2M",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "FOMC Member Hammack Speaks",
