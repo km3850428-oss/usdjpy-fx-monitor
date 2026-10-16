@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-10-16T21:52:14.154162+09:00",
-  "generated_at_utc": "2026-10-16T12:52:15.493390+00:00",
+  "generated_at_jst": "2026-10-17T02:05:41.530631+09:00",
+  "generated_at_utc": "2026-10-16T17:05:42.540006+00:00",
   "judgment": {
     "signal": "買い",
-    "overall_score": 0.355,
-    "technical_score": 0.71,
+    "overall_score": 0.369,
+    "technical_score": 0.738,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.89) > SMA50(157.71) でゴールデンクロス状態（買い要因）",
-      "RSI14=52.6で中立圏",
+      "SMA20(157.90) > SMA50(157.71) でゴールデンクロス状態（買い要因）",
+      "RSI14=54.3で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.01300048828125,
-      "sma20": 157.88995132446288,
-      "sma50": 157.70860107421876,
+      "price": 158.21299743652344,
+      "sma20": 157.899951171875,
+      "sma50": 157.7126010131836,
       "sma200": null,
-      "rsi14": 52.591457849569714,
-      "macd": 0.22239582402880842,
-      "macd_signal": 0.14908006624262304,
-      "bb_upper": 158.79822145377395,
-      "bb_mid": 157.88995132446288,
-      "bb_lower": 156.98168119515182,
-      "atr14": 1.0180833195689445
+      "rsi14": 54.306492431580416,
+      "macd": 0.2383499965381759,
+      "macd_signal": 0.15227090074449653,
+      "bb_upper": 158.81827369713272,
+      "bb_mid": 157.899951171875,
+      "bb_lower": 156.98162864661725,
+      "atr14": 1.0362968641420471
     }
   },
   "fundamental": {
@@ -114,24 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Capacity Utilization Rate",
-        "impact": "Low",
-        "time": "2026-10-16T09:15:00-04:00",
-        "forecast": "76.5%",
-        "previous": "76.3%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Industrial Production m/m",
-        "impact": "Low",
-        "time": "2026-10-16T09:15:00-04:00",
-        "forecast": "0.4%",
-        "previous": "0.0%",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Federal Budget Balance",
