@@ -1,40 +1,40 @@
 {
-  "generated_at_jst": "2026-10-16T11:22:15.127129+09:00",
-  "generated_at_utc": "2026-10-16T02:22:17.442968+00:00",
+  "generated_at_jst": "2026-10-16T16:42:27.019631+09:00",
+  "generated_at_utc": "2026-10-16T07:42:28.688011+00:00",
   "judgment": {
-    "signal": "待ち",
-    "overall_score": 0.354,
-    "technical_score": 0.708,
+    "signal": "買い",
+    "overall_score": 0.355,
+    "technical_score": 0.71,
     "fundamental_score": 0.0,
-    "override_reason": "重要指標発表が近いためスコアに関わらず待ちと判定"
+    "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(157.89) > SMA50(157.71) でゴールデンクロス状態（買い要因）",
-      "RSI14=52.5で中立圏",
+      "RSI14=52.6で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 157.99899291992188,
-      "sma20": 157.8892509460449,
-      "sma50": 157.70832092285156,
+      "price": 158.01300048828125,
+      "sma20": 157.88995132446288,
+      "sma50": 157.70860107421876,
       "sma200": null,
-      "rsi14": 52.46650172594624,
-      "macd": 0.22127841116824243,
-      "macd_signal": 0.14885658367050983,
-      "bb_upper": 158.79714308481232,
-      "bb_mid": 157.8892509460449,
-      "bb_lower": 156.9813588072775,
-      "atr14": 1.0077967159138106
+      "rsi14": 52.591457849569714,
+      "macd": 0.22239582402880842,
+      "macd_signal": 0.14908006624262304,
+      "bb_upper": 158.79822145377395,
+      "bb_mid": 157.88995132446288,
+      "bb_lower": 156.98168119515182,
+      "atr14": 1.0180833195689445
     }
   },
   "fundamental": {
     "reasons": [
       "FRED APIキー未設定のため金利差の自動評価をスキップ",
       "関連ニュース見出しにドル/円方向を示すキーワードなし（中立）",
-      "今後3時間以内の重要指標: USD Fed Chairman Warsh Speaks (10/15 23:30 UTC)"
+      "直近の重要指標発表なし"
     ],
-    "has_upcoming_event": true
+    "has_upcoming_event": false
   },
   "news": {
     "items": [
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Fed Chairman Warsh Speaks",
-        "impact": "High",
-        "time": "2026-10-15T23:30:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Import Prices m/m",
