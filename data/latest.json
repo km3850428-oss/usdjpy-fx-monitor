@@ -1,40 +1,40 @@
 {
-  "generated_at_jst": "2026-10-16T08:26:50.513924+09:00",
-  "generated_at_utc": "2026-10-15T23:26:51.805158+00:00",
+  "generated_at_jst": "2026-10-16T11:22:15.127129+09:00",
+  "generated_at_utc": "2026-10-16T02:22:17.442968+00:00",
   "judgment": {
-    "signal": "買い",
-    "overall_score": 0.361,
-    "technical_score": 0.722,
+    "signal": "待ち",
+    "overall_score": 0.354,
+    "technical_score": 0.708,
     "fundamental_score": 0.0,
-    "override_reason": null
+    "override_reason": "重要指標発表が近いためスコアに関わらず待ちと判定"
   },
   "technical": {
     "reasons": [
       "SMA20(157.89) > SMA50(157.71) でゴールデンクロス状態（買い要因）",
-      "RSI14=53.3で中立圏",
+      "RSI14=52.5で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.0989990234375,
-      "sma20": 157.8942512512207,
-      "sma50": 157.71032104492187,
+      "price": 157.99899291992188,
+      "sma20": 157.8892509460449,
+      "sma50": 157.70832092285156,
       "sma200": null,
-      "rsi14": 53.3444481812791,
-      "macd": 0.2292561060355638,
-      "macd_signal": 0.15045212264397412,
-      "bb_upper": 158.80578258721488,
-      "bb_mid": 157.8942512512207,
-      "bb_lower": 156.98271991522654,
-      "atr14": 1.0054392330036543
+      "rsi14": 52.46650172594624,
+      "macd": 0.22127841116824243,
+      "macd_signal": 0.14885658367050983,
+      "bb_upper": 158.79714308481232,
+      "bb_mid": 157.8892509460449,
+      "bb_lower": 156.9813588072775,
+      "atr14": 1.0077967159138106
     }
   },
   "fundamental": {
     "reasons": [
       "FRED APIキー未設定のため金利差の自動評価をスキップ",
       "関連ニュース見出しにドル/円方向を示すキーワードなし（中立）",
-      "直近の重要指標発表なし"
+      "今後3時間以内の重要指標: USD Fed Chairman Warsh Speaks (10/15 23:30 UTC)"
     ],
-    "has_upcoming_event": false
+    "has_upcoming_event": true
   },
   "news": {
     "items": [
