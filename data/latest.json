@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-10-16T16:42:27.019631+09:00",
-  "generated_at_utc": "2026-10-16T07:42:28.688011+00:00",
+  "generated_at_jst": "2026-10-16T21:52:14.154162+09:00",
+  "generated_at_utc": "2026-10-16T12:52:15.493390+00:00",
   "judgment": {
     "signal": "買い",
     "overall_score": 0.355,
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Import Prices m/m",
-        "impact": "Low",
-        "time": "2026-10-16T08:30:00-04:00",
-        "forecast": "0.9%",
-        "previous": "0.7%",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Capacity Utilization Rate",
