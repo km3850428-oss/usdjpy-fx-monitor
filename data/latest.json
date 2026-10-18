@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-10-18T11:14:38.055267+09:00",
-  "generated_at_utc": "2026-10-18T02:14:38.943909+00:00",
+  "generated_at_jst": "2026-10-18T16:34:46.026347+09:00",
+  "generated_at_utc": "2026-10-18T07:34:46.826891+00:00",
   "judgment": {
     "signal": "買い",
     "overall_score": 0.353,
@@ -113,6 +113,25 @@
   "calendar": {
     "caution_window_hours": 3,
     "display_window_hours": 48,
-    "events": []
+    "events": [
+      {
+        "country": "JPY",
+        "title": "Tertiary Industry Activity m/m",
+        "impact": "Low",
+        "time": "2026-10-19T00:30:00-04:00",
+        "forecast": "-0.3%",
+        "previous": "0.4%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "NAHB Housing Market Index",
+        "impact": "Low",
+        "time": "2026-10-19T10:00:00-04:00",
+        "forecast": "31",
+        "previous": "32",
+        "actual": null
+      }
+    ]
   }
 }
