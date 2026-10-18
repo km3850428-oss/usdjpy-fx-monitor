@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-10-18T21:18:03.226103+09:00",
-  "generated_at_utc": "2026-10-18T12:18:04.519511+00:00",
+  "generated_at_jst": "2026-10-19T01:14:40.751885+09:00",
+  "generated_at_utc": "2026-10-18T16:14:41.716597+00:00",
   "judgment": {
     "signal": "買い",
     "overall_score": 0.353,
@@ -139,6 +139,33 @@
         "time": "2026-10-20T08:15:00-04:00",
         "forecast": "",
         "previous": "24.8K",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Building Permits",
+        "impact": "Low",
+        "time": "2026-10-20T08:30:00-04:00",
+        "forecast": "1.39M",
+        "previous": "1.39M",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Housing Starts",
+        "impact": "Low",
+        "time": "2026-10-20T08:30:00-04:00",
+        "forecast": "1.30M",
+        "previous": "1.28M",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Pending Home Sales m/m",
+        "impact": "Low",
+        "time": "2026-10-20T10:00:00-04:00",
+        "forecast": "-0.4%",
+        "previous": "0.3%",
         "actual": null
       }
     ]
