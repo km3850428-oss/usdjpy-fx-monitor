@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-10-19T09:37:40.754155+09:00",
-  "generated_at_utc": "2026-10-19T00:37:42.957052+00:00",
+  "generated_at_jst": "2026-10-19T14:30:36.961843+09:00",
+  "generated_at_utc": "2026-10-19T05:30:38.259798+00:00",
   "judgment": {
     "signal": "買い",
-    "overall_score": 0.338,
-    "technical_score": 0.675,
+    "overall_score": 0.363,
+    "technical_score": 0.725,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.94) > SMA50(157.71) でゴールデンクロス状態（買い要因）",
-      "RSI14=50.5で中立圏",
+      "SMA20(157.95) > SMA50(157.72) でゴールデンクロス状態（買い要因）",
+      "RSI14=53.5で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 157.82200622558594,
-      "sma20": 157.93525161743165,
-      "sma50": 157.70982116699219,
+      "price": 158.1230010986328,
+      "sma20": 157.95030136108397,
+      "sma50": 157.71584106445312,
       "sma200": null,
-      "rsi14": 50.51532870607342,
-      "macd": 0.20144641326263013,
-      "macd_signal": 0.1611954694049036,
-      "bb_upper": 158.75843656987905,
-      "bb_mid": 157.93525161743165,
-      "bb_lower": 157.11206666498424,
-      "atr14": 0.9829122386414952
+      "rsi14": 53.503366067022526,
+      "macd": 0.22545740028630235,
+      "macd_signal": 0.165997666809638,
+      "bb_upper": 158.77577148760292,
+      "bb_mid": 157.95030136108397,
+      "bb_lower": 157.12483123456502,
+      "atr14": 0.98305501731058
     }
   },
   "fundamental": {
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "Tertiary Industry Activity m/m",
-        "impact": "Low",
-        "time": "2026-10-19T00:30:00-04:00",
-        "forecast": "-0.3%",
-        "previous": "0.4%",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "NAHB Housing Market Index",
