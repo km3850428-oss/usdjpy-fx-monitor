@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-10-19T20:37:42.617340+09:00",
-  "generated_at_utc": "2026-10-19T11:37:47.937657+00:00",
+  "generated_at_jst": "2026-10-20T02:59:26.183487+09:00",
+  "generated_at_utc": "2026-10-19T17:59:27.464074+00:00",
   "judgment": {
     "signal": "買い",
-    "overall_score": 0.365,
-    "technical_score": 0.729,
+    "overall_score": 0.388,
+    "technical_score": 0.775,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.95) > SMA50(157.72) でゴールデンクロス状態（買い要因）",
-      "RSI14=53.8で中立圏",
+      "SMA20(157.97) > SMA50(157.72) でゴールデンクロス状態（買い要因）",
+      "RSI14=56.5で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.1479949951172,
-      "sma20": 157.9515510559082,
-      "sma50": 157.7163409423828,
+      "price": 158.4709930419922,
+      "sma20": 157.96770095825195,
+      "sma50": 157.72280090332032,
       "sma200": null,
-      "rsi14": 53.760049009319616,
-      "macd": 0.22745121539048796,
-      "macd_signal": 0.16639642983047515,
-      "bb_upper": 158.77819687903948,
-      "bb_mid": 157.9515510559082,
-      "bb_lower": 157.1249052327769,
-      "atr14": 0.9927694163758702
+      "rsi14": 56.52762979321646,
+      "macd": 0.25321744135203517,
+      "macd_signal": 0.1715496750227846,
+      "bb_upper": 158.82264252277,
+      "bb_mid": 157.96770095825195,
+      "bb_lower": 157.1127593937339,
+      "atr14": 1.0119115672547765
     }
   },
   "fundamental": {
@@ -116,15 +116,6 @@
     "events": [
       {
         "country": "USD",
-        "title": "NAHB Housing Market Index",
-        "impact": "Low",
-        "time": "2026-10-19T10:00:00-04:00",
-        "forecast": "31",
-        "previous": "32",
-        "actual": null
-      },
-      {
-        "country": "USD",
         "title": "ADP Weekly Employment Change",
         "impact": "Low",
         "time": "2026-10-20T08:15:00-04:00",
@@ -155,7 +146,7 @@
         "title": "Pending Home Sales m/m",
         "impact": "Low",
         "time": "2026-10-20T10:00:00-04:00",
-        "forecast": "-0.4%",
+        "forecast": "-0.7%",
         "previous": "0.3%",
         "actual": null
       },
@@ -173,8 +164,17 @@
         "title": "Trade Balance",
         "impact": "Low",
         "time": "2026-10-20T19:50:00-04:00",
-        "forecast": "-0.21T",
+        "forecast": "-0.26T",
         "previous": "-0.84T",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Crude Oil Inventories",
+        "impact": "Low",
+        "time": "2026-10-21T10:30:00-04:00",
+        "forecast": "",
+        "previous": "-8.6M",
         "actual": null
       }
     ]
