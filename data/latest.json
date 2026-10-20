@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-10-20T21:24:54.660223+09:00",
-  "generated_at_utc": "2026-10-20T12:24:55.560481+00:00",
+  "generated_at_jst": "2026-10-21T02:38:31.365213+09:00",
+  "generated_at_utc": "2026-10-20T17:38:33.520893+00:00",
   "judgment": {
     "signal": "買い",
-    "overall_score": 0.347,
-    "technical_score": 0.695,
+    "overall_score": 0.361,
+    "technical_score": 0.722,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.96) > SMA50(157.69) でゴールデンクロス状態（買い要因）",
-      "RSI14=51.7で中立圏",
+      "SMA20(157.97) > SMA50(157.69) でゴールデンクロス状態（買い要因）",
+      "RSI14=53.3で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 157.94400024414062,
-      "sma20": 157.96320114135742,
-      "sma50": 157.68526092529297,
+      "price": 158.12600708007812,
+      "sma20": 157.9723014831543,
+      "sma50": 157.68890106201172,
       "sma200": null,
-      "rsi14": 51.69383244171771,
-      "macd": 0.18336945039712305,
-      "macd_signal": 0.16542596650256913,
-      "bb_upper": 158.74273627235974,
-      "bb_mid": 157.96320114135742,
-      "bb_lower": 157.1836660103551,
+      "rsi14": 53.34044709625221,
+      "macd": 0.19788851423260212,
+      "macd_signal": 0.16832977926966494,
+      "bb_upper": 158.75513535301158,
+      "bb_mid": 157.9723014831543,
+      "bb_lower": 157.189467613297,
       "atr14": 0.9931843689768922
     }
   },
@@ -116,33 +116,6 @@
     "events": [
       {
         "country": "USD",
-        "title": "Building Permits",
-        "impact": "Low",
-        "time": "2026-10-20T08:30:00-04:00",
-        "forecast": "1.39M",
-        "previous": "1.39M",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Housing Starts",
-        "impact": "Low",
-        "time": "2026-10-20T08:30:00-04:00",
-        "forecast": "1.30M",
-        "previous": "1.28M",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Pending Home Sales m/m",
-        "impact": "Low",
-        "time": "2026-10-20T10:00:00-04:00",
-        "forecast": "-0.6%",
-        "previous": "0.3%",
-        "actual": null
-      },
-      {
-        "country": "USD",
         "title": "API Weekly Statistical Bulletin",
         "impact": "Low",
         "time": "2026-10-20T16:30:00-04:00",
@@ -166,6 +139,33 @@
         "time": "2026-10-21T10:30:00-04:00",
         "forecast": "-0.1M",
         "previous": "-8.6M",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Unemployment Claims",
+        "impact": "Medium",
+        "time": "2026-10-22T08:30:00-04:00",
+        "forecast": "200K",
+        "previous": "199K",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "CB Leading Index m/m",
+        "impact": "Low",
+        "time": "2026-10-22T10:00:00-04:00",
+        "forecast": "-0.1%",
+        "previous": "-0.1%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Natural Gas Storage",
+        "impact": "Low",
+        "time": "2026-10-22T10:30:00-04:00",
+        "forecast": "83B",
+        "previous": "67B",
         "actual": null
       }
     ]
