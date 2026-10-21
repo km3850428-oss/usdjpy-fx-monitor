@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-10-21T06:01:31.001886+09:00",
-  "generated_at_utc": "2026-10-20T21:01:32.269314+00:00",
+  "generated_at_jst": "2026-10-21T09:14:58.929751+09:00",
+  "generated_at_utc": "2026-10-21T00:15:00.694774+00:00",
   "judgment": {
     "signal": "買い",
-    "overall_score": 0.361,
-    "technical_score": 0.722,
+    "overall_score": 0.373,
+    "technical_score": 0.746,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.97) > SMA50(157.69) でゴールデンクロス状態（買い要因）",
-      "RSI14=53.3で中立圏",
+      "SMA20(158.04) > SMA50(157.68) でゴールデンクロス状態（買い要因）",
+      "RSI14=54.7で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.12399291992188,
-      "sma20": 157.9722007751465,
-      "sma50": 157.6888607788086,
+      "price": 158.343994140625,
+      "sma20": 158.03615036010743,
+      "sma50": 157.67842071533204,
       "sma200": null,
-      "rsi14": 53.322839497922075,
-      "macd": 0.19772784048794279,
-      "macd_signal": 0.16829764452073306,
-      "bb_upper": 158.75495190191205,
-      "bb_mid": 157.9722007751465,
-      "bb_lower": 157.18944964838093,
-      "atr14": 0.9931843689768922
+      "rsi14": 54.73669575238451,
+      "macd": 0.23569845013474833,
+      "macd_signal": 0.18688608161328044,
+      "bb_upper": 158.829389037837,
+      "bb_mid": 158.03615036010743,
+      "bb_lower": 157.24291168237787,
+      "atr14": 0.9514461171542264
     }
   },
   "fundamental": {
@@ -115,15 +115,6 @@
     "display_window_hours": 48,
     "events": [
       {
-        "country": "JPY",
-        "title": "Trade Balance",
-        "impact": "Low",
-        "time": "2026-10-20T19:50:00-04:00",
-        "forecast": "-0.26T",
-        "previous": "-0.84T",
-        "actual": null
-      },
-      {
         "country": "USD",
         "title": "Crude Oil Inventories",
         "impact": "Low",
@@ -157,6 +148,15 @@
         "time": "2026-10-22T10:30:00-04:00",
         "forecast": "83B",
         "previous": "67B",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "National Core CPI y/y",
+        "impact": "Low",
+        "time": "2026-10-22T19:30:00-04:00",
+        "forecast": "2.1%",
+        "previous": "1.7%",
         "actual": null
       }
     ]
