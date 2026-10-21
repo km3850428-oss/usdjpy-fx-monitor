@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-10-21T19:52:08.731242+09:00",
-  "generated_at_utc": "2026-10-21T10:52:09.942284+00:00",
+  "generated_at_jst": "2026-10-22T00:44:59.586890+09:00",
+  "generated_at_utc": "2026-10-21T15:45:05.140814+00:00",
   "judgment": {
     "signal": "買い",
-    "overall_score": 0.351,
-    "technical_score": 0.701,
+    "overall_score": 0.355,
+    "technical_score": 0.71,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(158.02) > SMA50(157.67) でゴールデンクロス状態（買い要因）",
-      "RSI14=52.1で中立圏",
+      "SMA20(158.03) > SMA50(157.67) でゴールデンクロス状態（買い要因）",
+      "RSI14=52.6で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.06399536132812,
-      "sma20": 158.02215042114258,
-      "sma50": 157.6728207397461,
+      "price": 158.1230010986328,
+      "sma20": 158.0251007080078,
+      "sma50": 157.6740008544922,
       "sma200": null,
-      "rsi14": 52.08780324187826,
-      "macd": 0.21336236517660723,
-      "macd_signal": 0.18241886462165222,
-      "bb_upper": 158.80228788329958,
-      "bb_mid": 158.02215042114258,
-      "bb_lower": 157.24201295898558,
-      "atr14": 0.9570885993668381
+      "rsi14": 52.624478616079074,
+      "macd": 0.21806937555987815,
+      "macd_signal": 0.1833602666983064,
+      "bb_upper": 158.80634997217493,
+      "bb_mid": 158.0251007080078,
+      "bb_lower": 157.2438514438407,
+      "atr14": 0.9708029809935121
     }
   },
   "fundamental": {
@@ -116,15 +116,6 @@
     "events": [
       {
         "country": "USD",
-        "title": "Crude Oil Inventories",
-        "impact": "Low",
-        "time": "2026-10-21T10:30:00-04:00",
-        "forecast": "-0.1M",
-        "previous": "-8.6M",
-        "actual": null
-      },
-      {
-        "country": "USD",
         "title": "Unemployment Claims",
         "impact": "Medium",
         "time": "2026-10-22T08:30:00-04:00",
@@ -166,6 +157,42 @@
         "time": "2026-10-22T20:30:00-04:00",
         "forecast": "54.5",
         "previous": "54.1",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Flash Manufacturing PMI",
+        "impact": "Medium",
+        "time": "2026-10-23T09:45:00-04:00",
+        "forecast": "55.4",
+        "previous": "57.0",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Flash Services PMI",
+        "impact": "Medium",
+        "time": "2026-10-23T09:45:00-04:00",
+        "forecast": "57.8",
+        "previous": "58.7",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Revised UoM Consumer Sentiment",
+        "impact": "Medium",
+        "time": "2026-10-23T10:00:00-04:00",
+        "forecast": "46.3",
+        "previous": "46.3",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Revised UoM Inflation Expectations",
+        "impact": "Medium",
+        "time": "2026-10-23T10:00:00-04:00",
+        "forecast": "",
+        "previous": "4.7%",
         "actual": null
       }
     ]
