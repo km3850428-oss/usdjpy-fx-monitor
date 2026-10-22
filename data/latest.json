@@ -1,32 +1,31 @@
 {
-  "generated_at_jst": "2026-10-22T15:51:05.928446+09:00",
-  "generated_at_utc": "2026-10-22T06:51:08.668613+00:00",
+  "generated_at_jst": "2026-10-22T21:38:56.293614+09:00",
+  "generated_at_utc": "2026-10-22T12:38:57.383276+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.048,
-    "technical_score": 0.097,
+    "overall_score": -0.045,
+    "technical_score": -0.089,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.97) > SMA50(157.63) でゴールデンクロス状態（買い要因）",
-      "RSI14=43.7で中立圏",
-      "MACDがシグナルを下抜け（売り要因）",
-      "価格がボリンジャーバンド-2σを下回り売られすぎ（買い要因）"
+      "SMA20(157.98) > SMA50(157.63) でゴールデンクロス状態（買い要因）",
+      "RSI14=44.7で中立圏",
+      "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 157.0540008544922,
-      "sma20": 157.97180099487304,
-      "sma50": 157.6314208984375,
+      "price": 157.18499755859375,
+      "sma20": 157.9783508300781,
+      "sma50": 157.63404083251953,
       "sma200": null,
-      "rsi14": 43.74237049835617,
-      "macd": 0.13020754899704912,
-      "macd_signal": 0.17455445705041803,
-      "bb_upper": 158.86354665239548,
-      "bb_mid": 157.97180099487304,
-      "bb_lower": 157.0800553373506,
-      "atr14": 0.9878347139985212
+      "rsi14": 44.656870928982826,
+      "macd": 0.14065742852650942,
+      "macd_signal": 0.17664443295631008,
+      "bb_upper": 158.84323214861192,
+      "bb_mid": 157.9783508300781,
+      "bb_lower": 157.1134695115443,
+      "atr14": 1.0144057153238561
     }
   },
   "fundamental": {
@@ -115,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Unemployment Claims",
-        "impact": "Medium",
-        "time": "2026-10-22T08:30:00-04:00",
-        "forecast": "200K",
-        "previous": "199K",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "CB Leading Index m/m",
