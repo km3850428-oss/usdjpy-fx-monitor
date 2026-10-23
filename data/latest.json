@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-10-23T22:57:11.672099+09:00",
-  "generated_at_utc": "2026-10-23T13:57:12.801860+00:00",
+  "generated_at_jst": "2026-10-24T03:04:33.017742+09:00",
+  "generated_at_utc": "2026-10-23T18:04:34.643512+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.029,
-    "technical_score": 0.057,
+    "overall_score": 0.037,
+    "technical_score": 0.075,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.92) > SMA50(157.60) でゴールデンクロス状態（買い要因）",
-      "RSI14=40.6で中立圏",
+      "SMA20(157.93) > SMA50(157.60) でゴールデンクロス状態（買い要因）",
+      "RSI14=42.0で中立圏",
       "MACDがシグナルを下抜け（売り要因）",
       "価格がボリンジャーバンド-2σを下回り売られすぎ（買い要因）"
     ],
     "indicators": {
-      "price": 156.6649932861328,
-      "sma20": 157.91840057373048,
-      "sma50": 157.59776092529296,
+      "price": 156.8800048828125,
+      "sma20": 157.92915115356445,
+      "sma50": 157.60206115722656,
       "sma200": null,
-      "rsi14": 40.56140657582171,
-      "macd": 0.08619897676987875,
-      "macd_signal": 0.17063682718676687,
-      "bb_upper": 158.82533391166658,
-      "bb_mid": 157.91840057373048,
-      "bb_lower": 157.01146723579438,
+      "rsi14": 41.97008507334314,
+      "macd": 0.1033508990121561,
+      "macd_signal": 0.17406721163522235,
+      "bb_upper": 158.77667791580774,
+      "bb_mid": 157.92915115356445,
+      "bb_lower": 157.08162439132116,
       "atr14": 1.0882329725400648
     }
   },
@@ -114,25 +114,6 @@
   "calendar": {
     "caution_window_hours": 3,
     "display_window_hours": 48,
-    "events": [
-      {
-        "country": "USD",
-        "title": "Revised UoM Consumer Sentiment",
-        "impact": "Medium",
-        "time": "2026-10-23T10:00:00-04:00",
-        "forecast": "46.3",
-        "previous": "46.3",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Revised UoM Inflation Expectations",
-        "impact": "Medium",
-        "time": "2026-10-23T10:00:00-04:00",
-        "forecast": "",
-        "previous": "4.7%",
-        "actual": null
-      }
-    ]
+    "events": []
   }
 }
