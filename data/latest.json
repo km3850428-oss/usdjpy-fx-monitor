@@ -1,32 +1,32 @@
 {
-  "generated_at_jst": "2026-10-23T08:55:10.367214+09:00",
-  "generated_at_utc": "2026-10-22T23:55:11.739011+00:00",
+  "generated_at_jst": "2026-10-23T11:38:58.544419+09:00",
+  "generated_at_utc": "2026-10-23T02:38:59.910278+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.02,
-    "technical_score": 0.04,
+    "overall_score": 0.043,
+    "technical_score": 0.087,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.91) > SMA50(157.59) でゴールデンクロス状態（買い要因）",
-      "RSI14=39.2で中立圏",
+      "SMA20(157.94) > SMA50(157.60) でゴールデンクロス状態（買い要因）",
+      "RSI14=42.9で中立圏",
       "MACDがシグナルを下抜け（売り要因）",
       "価格がボリンジャーバンド-2σを下回り売られすぎ（買い要因）"
     ],
     "indicators": {
-      "price": 156.447998046875,
-      "sma20": 157.90755081176758,
-      "sma50": 157.5934210205078,
+      "price": 157.02099609375,
+      "sma20": 157.93620071411132,
+      "sma50": 157.60488098144532,
       "sma200": null,
-      "rsi14": 39.23246480783888,
-      "macd": 0.06888881523366308,
-      "macd_signal": 0.16717479487952375,
-      "bb_upper": 158.88041503587695,
-      "bb_mid": 157.90755081176758,
-      "bb_lower": 156.9346865876582,
-      "atr14": 1.0655900194848191
+      "rsi14": 42.94816339118345,
+      "macd": 0.11459806113819582,
+      "macd_signal": 0.1763166440604303,
+      "bb_upper": 158.74860150314007,
+      "bb_mid": 157.93620071411132,
+      "bb_lower": 157.12379992508258,
+      "atr14": 1.0882329725400648
     }
   },
   "fundamental": {
@@ -115,15 +115,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "Flash Manufacturing PMI",
-        "impact": "Low",
-        "time": "2026-10-22T20:30:00-04:00",
-        "forecast": "54.5",
-        "previous": "54.1",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Flash Manufacturing PMI",
