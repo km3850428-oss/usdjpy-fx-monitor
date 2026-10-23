@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-10-23T17:06:19.633833+09:00",
-  "generated_at_utc": "2026-10-23T08:06:20.632884+00:00",
+  "generated_at_jst": "2026-10-23T22:57:11.672099+09:00",
+  "generated_at_utc": "2026-10-23T13:57:12.801860+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.043,
-    "technical_score": 0.086,
+    "overall_score": 0.029,
+    "technical_score": 0.057,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.94) > SMA50(157.60) でゴールデンクロス状態（買い要因）",
-      "RSI14=42.8で中立圏",
+      "SMA20(157.92) > SMA50(157.60) でゴールデンクロス状態（買い要因）",
+      "RSI14=40.6で中立圏",
       "MACDがシグナルを下抜け（売り要因）",
       "価格がボリンジャーバンド-2σを下回り売られすぎ（買い要因）"
     ],
     "indicators": {
-      "price": 157.00599670410156,
-      "sma20": 157.9354507446289,
-      "sma50": 157.60458099365235,
+      "price": 156.6649932861328,
+      "sma20": 157.91840057373048,
+      "sma50": 157.59776092529296,
       "sma200": null,
-      "rsi14": 42.84194871105186,
-      "macd": 0.11340152863064645,
-      "macd_signal": 0.1760773375589204,
-      "bb_upper": 158.7514287117711,
-      "bb_mid": 157.9354507446289,
-      "bb_lower": 157.1194727774867,
+      "rsi14": 40.56140657582171,
+      "macd": 0.08619897676987875,
+      "macd_signal": 0.17063682718676687,
+      "bb_upper": 158.82533391166658,
+      "bb_mid": 157.91840057373048,
+      "bb_lower": 157.01146723579438,
       "atr14": 1.0882329725400648
     }
   },
@@ -115,24 +115,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Flash Manufacturing PMI",
-        "impact": "Medium",
-        "time": "2026-10-23T09:45:00-04:00",
-        "forecast": "55.4",
-        "previous": "57.0",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Flash Services PMI",
-        "impact": "Medium",
-        "time": "2026-10-23T09:45:00-04:00",
-        "forecast": "57.9",
-        "previous": "58.7",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Revised UoM Consumer Sentiment",
