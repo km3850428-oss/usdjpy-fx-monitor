@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-10-27T02:57:46.694392+09:00",
-  "generated_at_utc": "2026-10-26T17:57:47.911771+00:00",
+  "generated_at_jst": "2026-10-27T07:18:08.898201+09:00",
+  "generated_at_utc": "2026-10-26T22:18:10.625898+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": -0.023,
-    "technical_score": -0.045,
+    "overall_score": -0.015,
+    "technical_score": -0.029,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(157.91) > SMA50(157.56) でゴールデンクロス状態（買い要因）",
-      "RSI14=47.3で中立圏",
+      "RSI14=48.2で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 157.3939971923828,
-      "sma20": 157.90640106201172,
-      "sma50": 157.55776092529297,
+      "price": 157.52499389648438,
+      "sma20": 157.9129508972168,
+      "sma50": 157.560380859375,
       "sma200": null,
-      "rsi14": 47.27355059919438,
-      "macd": 0.03098607029357936,
-      "macd_signal": 0.14052058218476002,
-      "bb_upper": 158.87208743120186,
-      "bb_mid": 157.90640106201172,
-      "bb_lower": 156.9407146928216,
-      "atr14": 1.090910247715513
+      "rsi14": 48.24115960625766,
+      "macd": 0.041435949823039664,
+      "macd_signal": 0.14261055809065207,
+      "bb_upper": 158.86569419072234,
+      "bb_mid": 157.9129508972168,
+      "bb_lower": 156.96020760371127,
+      "atr14": 1.0855533228410712
     }
   },
   "fundamental": {
@@ -155,7 +155,7 @@
         "title": "Durable Goods Orders m/m",
         "impact": "Low",
         "time": "2026-10-27T08:30:00-04:00",
-        "forecast": "1.8%",
+        "forecast": "2.0%",
         "previous": "0.0%",
         "actual": null
       },
@@ -164,7 +164,7 @@
         "title": "HPI m/m",
         "impact": "Low",
         "time": "2026-10-27T09:00:00-04:00",
-        "forecast": "0.1%",
+        "forecast": "0.2%",
         "previous": "0.3%",
         "actual": null
       },
@@ -173,7 +173,7 @@
         "title": "S&P/CS Composite-20 HPI y/y",
         "impact": "Low",
         "time": "2026-10-27T09:00:00-04:00",
-        "forecast": "2.7%",
+        "forecast": "2.6%",
         "previous": "2.5%",
         "actual": null
       },
@@ -182,7 +182,7 @@
         "title": "CB Consumer Confidence",
         "impact": "Medium",
         "time": "2026-10-27T10:00:00-04:00",
-        "forecast": "80.7",
+        "forecast": "81.2",
         "previous": "81.9",
         "actual": null
       },
@@ -191,7 +191,7 @@
         "title": "New Home Sales",
         "impact": "Low",
         "time": "2026-10-27T10:00:00-04:00",
-        "forecast": "649K",
+        "forecast": "651K",
         "previous": "684K",
         "actual": null
       },
@@ -200,7 +200,7 @@
         "title": "Richmond Manufacturing Index",
         "impact": "Low",
         "time": "2026-10-27T10:00:00-04:00",
-        "forecast": "1",
+        "forecast": "0",
         "previous": "-2",
         "actual": null
       },
@@ -218,7 +218,7 @@
         "title": "Goods Trade Balance",
         "impact": "Low",
         "time": "2026-10-28T08:30:00-04:00",
-        "forecast": "-130.8B",
+        "forecast": "-130.4B",
         "previous": "-132.6B",
         "actual": null
       },
@@ -227,7 +227,7 @@
         "title": "Prelim Wholesale Inventories m/m",
         "impact": "Low",
         "time": "2026-10-28T08:30:00-04:00",
-        "forecast": "0.4%",
+        "forecast": "0.5%",
         "previous": "0.7%",
         "actual": null
       },
@@ -238,6 +238,33 @@
         "time": "2026-10-28T10:30:00-04:00",
         "forecast": "-0.3M",
         "previous": "-3.1M",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Federal Funds Rate",
+        "impact": "High",
+        "time": "2026-10-28T14:00:00-04:00",
+        "forecast": "4.00%",
+        "previous": "4.00%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Statement",
+        "impact": "High",
+        "time": "2026-10-28T14:00:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Press Conference",
+        "impact": "High",
+        "time": "2026-10-28T14:30:00-04:00",
+        "forecast": "",
+        "previous": "",
         "actual": null
       }
     ]
