@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-10-27T10:44:20.708116+09:00",
-  "generated_at_utc": "2026-10-27T01:44:21.792040+00:00",
+  "generated_at_jst": "2026-10-27T16:04:21.502686+09:00",
+  "generated_at_utc": "2026-10-27T07:04:22.601072+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": -0.002,
-    "technical_score": -0.003,
+    "overall_score": 0.008,
+    "technical_score": 0.015,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.89) > SMA50(157.51) でゴールデンクロス状態（買い要因）",
-      "RSI14=49.8で中立圏",
+      "SMA20(157.90) > SMA50(157.52) でゴールデンクロス状態（買い要因）",
+      "RSI14=50.9で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 157.68299865722656,
-      "sma20": 157.8943016052246,
-      "sma50": 157.51334106445313,
+      "price": 157.83599853515625,
+      "sma20": 157.9019515991211,
+      "sma50": 157.5164010620117,
       "sma200": null,
-      "rsi14": 49.813365889223405,
-      "macd": -0.013618256392419426,
-      "macd_signal": 0.10249424119653426,
-      "bb_upper": 158.92796662063256,
-      "bb_mid": 157.8943016052246,
-      "bb_lower": 156.86063658981664,
-      "atr14": 1.0789215482563614
+      "rsi14": 50.91203109024016,
+      "macd": -0.0014131379251125509,
+      "macd_signal": 0.10493526488999563,
+      "bb_upper": 158.93128770027272,
+      "bb_mid": 157.9019515991211,
+      "bb_lower": 156.8726154979695,
+      "atr14": 1.084564030468973
     }
   },
   "fundamental": {
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "BOJ Core CPI y/y",
-        "impact": "Low",
-        "time": "2026-10-27T01:00:00-04:00",
-        "forecast": "1.9%",
-        "previous": "1.8%",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "ADP Weekly Employment Change",
@@ -256,6 +247,15 @@
         "time": "2026-10-28T14:30:00-04:00",
         "forecast": "",
         "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Consumer Confidence",
+        "impact": "Low",
+        "time": "2026-10-29T01:00:00-04:00",
+        "forecast": "35.1",
+        "previous": "35.4",
         "actual": null
       }
     ]
