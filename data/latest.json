@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-10-27T22:47:05.386475+09:00",
-  "generated_at_utc": "2026-10-27T13:47:06.457705+00:00",
+  "generated_at_jst": "2026-10-28T04:06:12.880723+09:00",
+  "generated_at_utc": "2026-10-27T19:06:13.831387+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.008,
-    "technical_score": 0.016,
+    "overall_score": 0.012,
+    "technical_score": 0.024,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.90) > SMA50(157.52) でゴールデンクロス状態（買い要因）",
-      "RSI14=51.0で中立圏",
+      "SMA20(157.91) > SMA50(157.52) でゴールデンクロス状態（買い要因）",
+      "RSI14=51.4で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 157.84500122070312,
-      "sma20": 157.90240173339845,
-      "sma50": 157.51658111572266,
+      "price": 157.91299438476562,
+      "sma20": 157.90580139160156,
+      "sma50": 157.5179409790039,
       "sma200": null,
-      "rsi14": 50.97518122663798,
-      "macd": -0.0006949749754880941,
-      "macd_signal": 0.10507889747992052,
-      "bb_upper": 158.93162426367374,
-      "bb_mid": 157.90240173339845,
-      "bb_lower": 156.87317920312316,
-      "atr14": 1.087207070717299
+      "rsi14": 51.44692818885502,
+      "macd": 0.004728981132046783,
+      "macd_signal": 0.1061636887014275,
+      "bb_upper": 158.93467472141555,
+      "bb_mid": 157.90580139160156,
+      "bb_lower": 156.87692806178757,
+      "atr14": 1.0925639955917408
     }
   },
   "fundamental": {
@@ -116,33 +116,6 @@
     "events": [
       {
         "country": "USD",
-        "title": "CB Consumer Confidence",
-        "impact": "Medium",
-        "time": "2026-10-27T10:00:00-04:00",
-        "forecast": "81.2",
-        "previous": "81.9",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "New Home Sales",
-        "impact": "Low",
-        "time": "2026-10-27T10:00:00-04:00",
-        "forecast": "651K",
-        "previous": "684K",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Richmond Manufacturing Index",
-        "impact": "Low",
-        "time": "2026-10-27T10:00:00-04:00",
-        "forecast": "0",
-        "previous": "-2",
-        "actual": null
-      },
-      {
-        "country": "USD",
         "title": "API Weekly Statistical Bulletin",
         "impact": "Low",
         "time": "2026-10-27T16:30:00-04:00",
@@ -173,7 +146,7 @@
         "title": "Crude Oil Inventories",
         "impact": "Low",
         "time": "2026-10-28T10:30:00-04:00",
-        "forecast": "-0.3M",
+        "forecast": "-0.1M",
         "previous": "-3.1M",
         "actual": null
       },
@@ -265,6 +238,15 @@
         "time": "2026-10-29T08:30:00-04:00",
         "forecast": "0.6%",
         "previous": "0.9%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Natural Gas Storage",
+        "impact": "Low",
+        "time": "2026-10-29T10:30:00-04:00",
+        "forecast": "",
+        "previous": "77B",
         "actual": null
       }
     ]
