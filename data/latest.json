@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-10-28T04:06:12.880723+09:00",
-  "generated_at_utc": "2026-10-27T19:06:13.831387+00:00",
+  "generated_at_jst": "2026-10-28T08:22:23.545411+09:00",
+  "generated_at_utc": "2026-10-27T23:22:24.453573+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.012,
-    "technical_score": 0.024,
+    "overall_score": 0.015,
+    "technical_score": 0.03,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(157.91) > SMA50(157.52) でゴールデンクロス状態（買い要因）",
-      "RSI14=51.4で中立圏",
+      "RSI14=51.8で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 157.91299438476562,
-      "sma20": 157.90580139160156,
-      "sma50": 157.5179409790039,
+      "price": 157.96600341796875,
+      "sma20": 157.90845184326173,
+      "sma50": 157.51900115966797,
       "sma200": null,
-      "rsi14": 51.44692818885502,
-      "macd": 0.004728981132046783,
-      "macd_signal": 0.1061636887014275,
-      "bb_upper": 158.93467472141555,
-      "bb_mid": 157.90580139160156,
-      "bb_lower": 156.87692806178757,
-      "atr14": 1.0925639955917408
+      "rsi14": 51.80846168159488,
+      "macd": 0.008957621957392803,
+      "macd_signal": 0.1070094168664967,
+      "bb_upper": 158.93767624299295,
+      "bb_mid": 157.90845184326173,
+      "bb_lower": 156.8792274435305,
+      "atr14": 1.094921478501897
     }
   },
   "fundamental": {
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "API Weekly Statistical Bulletin",
-        "impact": "Low",
-        "time": "2026-10-27T16:30:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Goods Trade Balance",
