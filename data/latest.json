@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-10-27T07:18:08.898201+09:00",
-  "generated_at_utc": "2026-10-26T22:18:10.625898+00:00",
+  "generated_at_jst": "2026-10-27T10:44:20.708116+09:00",
+  "generated_at_utc": "2026-10-27T01:44:21.792040+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": -0.015,
-    "technical_score": -0.029,
+    "overall_score": -0.002,
+    "technical_score": -0.003,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.91) > SMA50(157.56) でゴールデンクロス状態（買い要因）",
-      "RSI14=48.2で中立圏",
+      "SMA20(157.89) > SMA50(157.51) でゴールデンクロス状態（買い要因）",
+      "RSI14=49.8で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 157.52499389648438,
-      "sma20": 157.9129508972168,
-      "sma50": 157.560380859375,
+      "price": 157.68299865722656,
+      "sma20": 157.8943016052246,
+      "sma50": 157.51334106445313,
       "sma200": null,
-      "rsi14": 48.24115960625766,
-      "macd": 0.041435949823039664,
-      "macd_signal": 0.14261055809065207,
-      "bb_upper": 158.86569419072234,
-      "bb_mid": 157.9129508972168,
-      "bb_lower": 156.96020760371127,
-      "atr14": 1.0855533228410712
+      "rsi14": 49.813365889223405,
+      "macd": -0.013618256392419426,
+      "macd_signal": 0.10249424119653426,
+      "bb_upper": 158.92796662063256,
+      "bb_mid": 157.8943016052246,
+      "bb_lower": 156.86063658981664,
+      "atr14": 1.0789215482563614
     }
   },
   "fundamental": {
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "SPPI y/y",
-        "impact": "Low",
-        "time": "2026-10-26T19:50:00-04:00",
-        "forecast": "3.7%",
-        "previous": "3.7%",
-        "actual": null
-      },
       {
         "country": "JPY",
         "title": "BOJ Core CPI y/y",
