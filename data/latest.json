@@ -1,40 +1,40 @@
 {
-  "generated_at_jst": "2026-10-29T01:53:55.708930+09:00",
-  "generated_at_utc": "2026-10-28T16:53:56.859082+00:00",
+  "generated_at_jst": "2026-10-29T06:26:36.727156+09:00",
+  "generated_at_utc": "2026-10-28T21:26:37.835873+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.031,
-    "technical_score": 0.062,
+    "overall_score": 0.005,
+    "technical_score": 0.01,
     "fundamental_score": 0.0,
-    "override_reason": "重要指標発表が近いためスコアに関わらず待ちと判定"
+    "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.93) > SMA50(157.48) でゴールデンクロス状態（買い要因）",
-      "RSI14=53.7で中立圏",
+      "SMA20(157.90) > SMA50(157.47) でゴールデンクロス状態（買い要因）",
+      "RSI14=50.6で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 158.21099853515625,
-      "sma20": 157.9269012451172,
-      "sma50": 157.48346099853515,
+      "price": 157.77200317382812,
+      "sma20": 157.9049514770508,
+      "sma50": 157.47468109130858,
       "sma200": null,
-      "rsi14": 53.74436336561291,
-      "macd": 0.019421644231385926,
-      "macd_signal": 0.08391216744763999,
-      "bb_upper": 158.95322656266876,
-      "bb_mid": 157.9269012451172,
-      "bb_lower": 156.90057592756563,
-      "atr14": 1.0632780738995729
+      "rsi14": 50.59504669748192,
+      "macd": -0.015597928752072221,
+      "macd_signal": 0.07690825285094836,
+      "bb_upper": 158.9244486357462,
+      "bb_mid": 157.9049514770508,
+      "bb_lower": 156.8854543183554,
+      "atr14": 1.0699919410870729
     }
   },
   "fundamental": {
     "reasons": [
       "FRED APIキー未設定のため金利差の自動評価をスキップ",
       "関連ニュース見出しにドル/円方向を示すキーワードなし（中立）",
-      "今後3時間以内の重要指標: USD Federal Funds Rate (10/28 14:00 UTC) / USD FOMC Statement (10/28 14:00 UTC) / USD FOMC Press Conference (10/28 14:30 UTC)"
+      "直近の重要指標発表なし"
     ],
-    "has_upcoming_event": true
+    "has_upcoming_event": false
   },
   "news": {
     "items": [
@@ -114,33 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Federal Funds Rate",
-        "impact": "High",
-        "time": "2026-10-28T14:00:00-04:00",
-        "forecast": "4.00%",
-        "previous": "4.00%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Statement",
-        "impact": "High",
-        "time": "2026-10-28T14:00:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Press Conference",
-        "impact": "High",
-        "time": "2026-10-28T14:30:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
       {
         "country": "JPY",
         "title": "Consumer Confidence",
