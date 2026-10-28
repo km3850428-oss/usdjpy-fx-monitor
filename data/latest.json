@@ -1,40 +1,40 @@
 {
-  "generated_at_jst": "2026-10-28T19:10:47.284029+09:00",
-  "generated_at_utc": "2026-10-28T10:10:48.782768+00:00",
+  "generated_at_jst": "2026-10-29T01:53:55.708930+09:00",
+  "generated_at_utc": "2026-10-28T16:53:56.859082+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.009,
-    "technical_score": 0.019,
+    "overall_score": 0.031,
+    "technical_score": 0.062,
     "fundamental_score": 0.0,
-    "override_reason": null
+    "override_reason": "重要指標発表が近いためスコアに関わらず待ちと判定"
   },
   "technical": {
     "reasons": [
-      "SMA20(157.91) > SMA50(157.48) でゴールデンクロス状態（買い要因）",
-      "RSI14=51.1で中立圏",
+      "SMA20(157.93) > SMA50(157.48) でゴールデンクロス状態（買い要因）",
+      "RSI14=53.7で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 157.84100341796875,
-      "sma20": 157.9084014892578,
-      "sma50": 157.47606109619142,
+      "price": 158.21099853515625,
+      "sma20": 157.9269012451172,
+      "sma50": 157.48346099853515,
       "sma200": null,
-      "rsi14": 51.11815302379761,
-      "macd": -0.010093635772193466,
-      "macd_signal": 0.07800911144692411,
-      "bb_upper": 158.926470323663,
-      "bb_mid": 157.9084014892578,
-      "bb_lower": 156.8903326548526,
-      "atr14": 1.0482775943376308
+      "rsi14": 53.74436336561291,
+      "macd": 0.019421644231385926,
+      "macd_signal": 0.08391216744763999,
+      "bb_upper": 158.95322656266876,
+      "bb_mid": 157.9269012451172,
+      "bb_lower": 156.90057592756563,
+      "atr14": 1.0632780738995729
     }
   },
   "fundamental": {
     "reasons": [
       "FRED APIキー未設定のため金利差の自動評価をスキップ",
       "関連ニュース見出しにドル/円方向を示すキーワードなし（中立）",
-      "直近の重要指標発表なし"
+      "今後3時間以内の重要指標: USD Federal Funds Rate (10/28 14:00 UTC) / USD FOMC Statement (10/28 14:00 UTC) / USD FOMC Press Conference (10/28 14:30 UTC)"
     ],
-    "has_upcoming_event": false
+    "has_upcoming_event": true
   },
   "news": {
     "items": [
@@ -114,33 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Goods Trade Balance",
-        "impact": "Low",
-        "time": "2026-10-28T08:30:00-04:00",
-        "forecast": "-130.4B",
-        "previous": "-132.6B",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Prelim Wholesale Inventories m/m",
-        "impact": "Low",
-        "time": "2026-10-28T08:30:00-04:00",
-        "forecast": "0.5%",
-        "previous": "0.7%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Crude Oil Inventories",
-        "impact": "Low",
-        "time": "2026-10-28T10:30:00-04:00",
-        "forecast": "0.1M",
-        "previous": "-3.1M",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Federal Funds Rate",
@@ -317,6 +290,42 @@
         "title": "BOJ Press Conference",
         "impact": "High",
         "time": "2026-10-30T01:30:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Employment Cost Index q/q",
+        "impact": "Medium",
+        "time": "2026-10-30T08:30:00-04:00",
+        "forecast": "0.8%",
+        "previous": "0.9%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Chicago PMI",
+        "impact": "Low",
+        "time": "2026-10-30T09:45:00-04:00",
+        "forecast": "55.8",
+        "previous": "58.8",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Daly Speaks",
+        "impact": "Low",
+        "time": "2026-10-30T12:00:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Musalem Speaks",
+        "impact": "Low",
+        "time": "2026-10-30T12:30:00-04:00",
         "forecast": "",
         "previous": "",
         "actual": null
