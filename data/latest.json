@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-10-28T12:10:40.201930+09:00",
-  "generated_at_utc": "2026-10-28T03:10:43.055560+00:00",
+  "generated_at_jst": "2026-10-28T19:10:47.284029+09:00",
+  "generated_at_utc": "2026-10-28T10:10:48.782768+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.013,
-    "technical_score": 0.026,
+    "overall_score": 0.009,
+    "technical_score": 0.019,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(157.91) > SMA50(157.48) でゴールデンクロス状態（買い要因）",
-      "RSI14=51.6で中立圏",
+      "RSI14=51.1で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 157.89999389648438,
-      "sma20": 157.9113510131836,
-      "sma50": 157.47724090576173,
+      "price": 157.84100341796875,
+      "sma20": 157.9084014892578,
+      "sma50": 157.47606109619142,
       "sma200": null,
-      "rsi14": 51.556668347943365,
-      "macd": -0.0053878426142262015,
-      "macd_signal": 0.07895027007851757,
-      "bb_upper": 158.9289393813948,
-      "bb_mid": 157.9113510131836,
-      "bb_lower": 156.8937626449724,
+      "rsi14": 51.11815302379761,
+      "macd": -0.010093635772193466,
+      "macd_signal": 0.07800911144692411,
+      "bb_upper": 158.926470323663,
+      "bb_mid": 157.9084014892578,
+      "bb_lower": 156.8903326548526,
       "atr14": 1.0482775943376308
     }
   },
@@ -299,6 +299,24 @@
         "title": "BOJ Outlook Report",
         "impact": "High",
         "time": "2026-10-29T22:31:00-04:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Housing Starts y/y",
+        "impact": "Low",
+        "time": "2026-10-30T01:00:00-04:00",
+        "forecast": "2.7%",
+        "previous": "6.1%",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "BOJ Press Conference",
+        "impact": "High",
+        "time": "2026-10-30T01:30:00-04:00",
         "forecast": "",
         "previous": "",
         "actual": null
