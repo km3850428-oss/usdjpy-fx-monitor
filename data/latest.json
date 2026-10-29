@@ -1,40 +1,40 @@
 {
-  "generated_at_jst": "2026-10-30T04:58:25.323895+09:00",
-  "generated_at_utc": "2026-10-29T19:58:26.251207+00:00",
+  "generated_at_jst": "2026-10-30T08:48:14.315968+09:00",
+  "generated_at_utc": "2026-10-29T23:48:15.458051+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.018,
-    "technical_score": 0.035,
+    "overall_score": 0.005,
+    "technical_score": 0.01,
     "fundamental_score": 0.0,
-    "override_reason": null
+    "override_reason": "重要指標発表が近いためスコアに関わらず待ちと判定"
   },
   "technical": {
     "reasons": [
-      "SMA20(157.94) > SMA50(157.47) でゴールデンクロス状態（買い要因）",
-      "RSI14=52.1で中立圏",
+      "SMA20(157.93) > SMA50(157.47) でゴールデンクロス状態（買い要因）",
+      "RSI14=50.6で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 157.97999572753906,
-      "sma20": 157.937100982666,
-      "sma50": 157.47318084716798,
+      "price": 157.7949981689453,
+      "sma20": 157.92785110473633,
+      "sma50": 157.4694808959961,
       "sma200": null,
-      "rsi14": 52.125700288686346,
-      "macd": 0.022904465237985505,
-      "macd_signal": 0.0689185507812476,
-      "bb_upper": 158.94147969710744,
-      "bb_mid": 157.937100982666,
-      "bb_lower": 156.93272226822458,
-      "atr14": 1.0245153696345102
+      "rsi14": 50.616786734638616,
+      "macd": 0.008146825236224231,
+      "macd_signal": 0.06596702278089535,
+      "bb_upper": 158.93397246450883,
+      "bb_mid": 157.92785110473633,
+      "bb_lower": 156.92172974496384,
+      "atr14": 1.0163715359291532
     }
   },
   "fundamental": {
     "reasons": [
       "FRED APIキー未設定のため金利差の自動評価をスキップ",
       "関連ニュース見出しにドル/円方向を示すキーワードなし（中立）",
-      "直近の重要指標発表なし"
+      "今後3時間以内の重要指標: JPY BOJ Policy Rate (10/29 22:30 UTC) / JPY Monetary Policy Statement (10/29 22:30 UTC) / JPY BOJ Outlook Report (10/29 22:31 UTC)"
     ],
-    "has_upcoming_event": false
+    "has_upcoming_event": true
   },
   "news": {
     "items": [
@@ -114,24 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "Tokyo Core CPI y/y",
-        "impact": "Medium",
-        "time": "2026-10-29T19:30:00-04:00",
-        "forecast": "2.6%",
-        "previous": "2.7%",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "Unemployment Rate",
-        "impact": "Low",
-        "time": "2026-10-29T19:30:00-04:00",
-        "forecast": "2.5%",
-        "previous": "2.5%",
-        "actual": null
-      },
       {
         "country": "JPY",
         "title": "Prelim Industrial Production m/m",
