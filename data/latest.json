@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-10-29T10:25:20.321090+09:00",
-  "generated_at_utc": "2026-10-29T01:25:21.352982+00:00",
+  "generated_at_jst": "2026-10-29T16:50:26.582329+09:00",
+  "generated_at_utc": "2026-10-29T07:50:27.606296+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.006,
-    "technical_score": 0.012,
+    "overall_score": 0.008,
+    "technical_score": 0.016,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(157.93) > SMA50(157.47) でゴールデンクロス状態（買い要因）",
-      "RSI14=50.7で中立圏",
+      "RSI14=51.0で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 157.8070068359375,
-      "sma20": 157.92845153808594,
-      "sma50": 157.46972106933595,
+      "price": 157.83700561523438,
+      "sma20": 157.9299514770508,
+      "sma50": 157.4703210449219,
       "sma200": null,
-      "rsi14": 50.71207790647493,
-      "macd": 0.009104781577462973,
-      "macd_signal": 0.0661586140491431,
-      "bb_upper": 158.93425335278576,
-      "bb_mid": 157.92845153808594,
-      "bb_lower": 156.92264972338612,
-      "atr14": 1.013586806925247
+      "rsi14": 50.95169927806502,
+      "macd": 0.011497846592618544,
+      "macd_signal": 0.06663722705217422,
+      "bb_upper": 158.9350799762401,
+      "bb_mid": 157.9299514770508,
+      "bb_lower": 156.92482297786148,
+      "atr14": 1.0204434527818318
     }
   },
   "fundamental": {
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "Consumer Confidence",
-        "impact": "Low",
-        "time": "2026-10-29T01:00:00-04:00",
-        "forecast": "35.1",
-        "previous": "35.4",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Advance GDP q/q",
