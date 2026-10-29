@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-10-29T16:50:26.582329+09:00",
-  "generated_at_utc": "2026-10-29T07:50:27.606296+00:00",
+  "generated_at_jst": "2026-10-29T23:47:55.526683+09:00",
+  "generated_at_utc": "2026-10-29T14:47:57.069150+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.008,
-    "technical_score": 0.016,
+    "overall_score": 0.007,
+    "technical_score": 0.014,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(157.93) > SMA50(157.47) でゴールデンクロス状態（買い要因）",
-      "RSI14=51.0で中立圏",
+      "RSI14=50.8で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 157.83700561523438,
-      "sma20": 157.9299514770508,
-      "sma50": 157.4703210449219,
+      "price": 157.8209991455078,
+      "sma20": 157.92915115356445,
+      "sma50": 157.47000091552735,
       "sma200": null,
-      "rsi14": 50.95169927806502,
-      "macd": 0.011497846592618544,
-      "macd_signal": 0.06663722705217422,
-      "bb_upper": 158.9350799762401,
-      "bb_mid": 157.9299514770508,
-      "bb_lower": 156.92482297786148,
-      "atr14": 1.0204434527818318
+      "rsi14": 50.82356325852168,
+      "macd": 0.010220977212725302,
+      "macd_signal": 0.06638185317619556,
+      "bb_upper": 158.93461669553292,
+      "bb_mid": 157.92915115356445,
+      "bb_lower": 156.92368561159597,
+      "atr14": 1.0245153696345102
     }
   },
   "fundamental": {
@@ -114,69 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Advance GDP q/q",
-        "impact": "High",
-        "time": "2026-10-29T08:30:00-04:00",
-        "forecast": "3.2%",
-        "previous": "1.5%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Core PCE Price Index m/m",
-        "impact": "High",
-        "time": "2026-10-29T08:30:00-04:00",
-        "forecast": "0.3%",
-        "previous": "0.2%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Advance GDP Price Index q/q",
-        "impact": "Medium",
-        "time": "2026-10-29T08:30:00-04:00",
-        "forecast": "3.2%",
-        "previous": "6.2%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Unemployment Claims",
-        "impact": "Medium",
-        "time": "2026-10-29T08:30:00-04:00",
-        "forecast": "198K",
-        "previous": "194K",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Personal Income m/m",
-        "impact": "Low",
-        "time": "2026-10-29T08:30:00-04:00",
-        "forecast": "0.3%",
-        "previous": "0.2%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Personal Spending m/m",
-        "impact": "Low",
-        "time": "2026-10-29T08:30:00-04:00",
-        "forecast": "0.6%",
-        "previous": "0.9%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Natural Gas Storage",
-        "impact": "Low",
-        "time": "2026-10-29T10:30:00-04:00",
-        "forecast": "75B",
-        "previous": "77B",
-        "actual": null
-      },
       {
         "country": "JPY",
         "title": "Tokyo Core CPI y/y",
