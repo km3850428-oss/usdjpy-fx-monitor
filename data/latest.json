@@ -1,38 +1,38 @@
 {
-  "generated_at_jst": "2026-10-30T08:48:14.315968+09:00",
-  "generated_at_utc": "2026-10-29T23:48:15.458051+00:00",
+  "generated_at_jst": "2026-10-30T12:39:32.227549+09:00",
+  "generated_at_utc": "2026-10-30T03:39:33.964568+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.005,
-    "technical_score": 0.01,
+    "overall_score": -0.021,
+    "technical_score": -0.042,
     "fundamental_score": 0.0,
     "override_reason": "重要指標発表が近いためスコアに関わらず待ちと判定"
   },
   "technical": {
     "reasons": [
-      "SMA20(157.93) > SMA50(157.47) でゴールデンクロス状態（買い要因）",
-      "RSI14=50.6で中立圏",
+      "SMA20(157.90) > SMA50(157.44) でゴールデンクロス状態（買い要因）",
+      "RSI14=47.5で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 157.7949981689453,
-      "sma20": 157.92785110473633,
-      "sma50": 157.4694808959961,
+      "price": 157.40499877929688,
+      "sma20": 157.9036506652832,
+      "sma50": 157.44068084716798,
       "sma200": null,
-      "rsi14": 50.616786734638616,
-      "macd": 0.008146825236224231,
-      "macd_signal": 0.06596702278089535,
-      "bb_upper": 158.93397246450883,
-      "bb_mid": 157.92785110473633,
-      "bb_lower": 156.92172974496384,
-      "atr14": 1.0163715359291532
+      "rsi14": 47.450105289321925,
+      "macd": -0.0159435894711919,
+      "macd_signal": 0.05003874145222099,
+      "bb_upper": 158.93590315940762,
+      "bb_mid": 157.9036506652832,
+      "bb_lower": 156.8713981711588,
+      "atr14": 1.005479998911791
     }
   },
   "fundamental": {
     "reasons": [
       "FRED APIキー未設定のため金利差の自動評価をスキップ",
       "関連ニュース見出しにドル/円方向を示すキーワードなし（中立）",
-      "今後3時間以内の重要指標: JPY BOJ Policy Rate (10/29 22:30 UTC) / JPY Monetary Policy Statement (10/29 22:30 UTC) / JPY BOJ Outlook Report (10/29 22:31 UTC)"
+      "今後3時間以内の重要指標: JPY BOJ Press Conference (10/30 01:30 UTC)"
     ],
     "has_upcoming_event": true
   },
@@ -114,51 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "Prelim Industrial Production m/m",
-        "impact": "Low",
-        "time": "2026-10-29T19:50:00-04:00",
-        "forecast": "1.2%",
-        "previous": "-1.7%",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "Retail Sales y/y",
-        "impact": "Low",
-        "time": "2026-10-29T19:50:00-04:00",
-        "forecast": "3.3%",
-        "previous": "2.7%",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "BOJ Policy Rate",
-        "impact": "High",
-        "time": "2026-10-29T22:30:00-04:00",
-        "forecast": "<1.25%",
-        "previous": "<1.25%",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "Monetary Policy Statement",
-        "impact": "High",
-        "time": "2026-10-29T22:30:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "BOJ Outlook Report",
-        "impact": "High",
-        "time": "2026-10-29T22:31:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
       {
         "country": "JPY",
         "title": "Housing Starts y/y",
