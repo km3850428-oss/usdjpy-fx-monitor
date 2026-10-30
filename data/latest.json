@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-10-30T19:36:40.935465+09:00",
-  "generated_at_utc": "2026-10-30T10:36:42.197669+00:00",
+  "generated_at_jst": "2026-10-31T01:53:11.044280+09:00",
+  "generated_at_utc": "2026-10-30T16:53:12.372539+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": -0.029,
-    "technical_score": -0.058,
+    "overall_score": -0.019,
+    "technical_score": -0.037,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.90) > SMA50(157.44) でゴールデンクロス状態（買い要因）",
-      "RSI14=46.5で中立圏",
+      "SMA20(157.91) > SMA50(157.44) でゴールデンクロス状態（買い要因）",
+      "RSI14=47.8で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 157.2760009765625,
-      "sma20": 157.89720077514647,
-      "sma50": 157.4381008911133,
+      "price": 157.44700622558594,
+      "sma20": 157.90575103759767,
+      "sma50": 157.44152099609374,
       "sma200": null,
-      "rsi14": 46.502323225290105,
-      "macd": -0.026234012481353375,
-      "macd_signal": 0.047980656850188694,
-      "bb_upper": 158.9440806669072,
-      "bb_mid": 157.89720077514647,
-      "bb_lower": 156.85032088338573,
-      "atr14": 1.005479998911791
+      "rsi14": 47.76714016803692,
+      "macd": -0.012592568114797587,
+      "macd_signal": 0.05070894572349985,
+      "bb_upper": 158.9338941737371,
+      "bb_mid": 157.90575103759767,
+      "bb_lower": 156.87760790145825,
+      "atr14": 1.0164085616210545
     }
   },
   "fundamental": {
@@ -113,43 +113,6 @@
   "calendar": {
     "caution_window_hours": 3,
     "display_window_hours": 48,
-    "events": [
-      {
-        "country": "USD",
-        "title": "Employment Cost Index q/q",
-        "impact": "Medium",
-        "time": "2026-10-30T08:30:00-04:00",
-        "forecast": "0.8%",
-        "previous": "0.9%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Chicago PMI",
-        "impact": "Low",
-        "time": "2026-10-30T09:45:00-04:00",
-        "forecast": "55.8",
-        "previous": "58.8",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Daly Speaks",
-        "impact": "Low",
-        "time": "2026-10-30T12:00:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Musalem Speaks",
-        "impact": "Low",
-        "time": "2026-10-30T12:30:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      }
-    ]
+    "events": []
   }
 }
