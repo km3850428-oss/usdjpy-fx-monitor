@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-10-30T12:39:32.227549+09:00",
-  "generated_at_utc": "2026-10-30T03:39:33.964568+00:00",
+  "generated_at_jst": "2026-10-30T19:36:40.935465+09:00",
+  "generated_at_utc": "2026-10-30T10:36:42.197669+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": -0.021,
-    "technical_score": -0.042,
+    "overall_score": -0.029,
+    "technical_score": -0.058,
     "fundamental_score": 0.0,
-    "override_reason": "重要指標発表が近いためスコアに関わらず待ちと判定"
+    "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(157.90) > SMA50(157.44) でゴールデンクロス状態（買い要因）",
-      "RSI14=47.5で中立圏",
+      "RSI14=46.5で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 157.40499877929688,
-      "sma20": 157.9036506652832,
-      "sma50": 157.44068084716798,
+      "price": 157.2760009765625,
+      "sma20": 157.89720077514647,
+      "sma50": 157.4381008911133,
       "sma200": null,
-      "rsi14": 47.450105289321925,
-      "macd": -0.0159435894711919,
-      "macd_signal": 0.05003874145222099,
-      "bb_upper": 158.93590315940762,
-      "bb_mid": 157.9036506652832,
-      "bb_lower": 156.8713981711588,
+      "rsi14": 46.502323225290105,
+      "macd": -0.026234012481353375,
+      "macd_signal": 0.047980656850188694,
+      "bb_upper": 158.9440806669072,
+      "bb_mid": 157.89720077514647,
+      "bb_lower": 156.85032088338573,
       "atr14": 1.005479998911791
     }
   },
@@ -32,9 +32,9 @@
     "reasons": [
       "FRED APIキー未設定のため金利差の自動評価をスキップ",
       "関連ニュース見出しにドル/円方向を示すキーワードなし（中立）",
-      "今後3時間以内の重要指標: JPY BOJ Press Conference (10/30 01:30 UTC)"
+      "直近の重要指標発表なし"
     ],
-    "has_upcoming_event": true
+    "has_upcoming_event": false
   },
   "news": {
     "items": [
@@ -114,24 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "Housing Starts y/y",
-        "impact": "Low",
-        "time": "2026-10-30T01:00:00-04:00",
-        "forecast": "2.7%",
-        "previous": "6.1%",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "BOJ Press Conference",
-        "impact": "High",
-        "time": "2026-10-30T01:30:00-04:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Employment Cost Index q/q",
