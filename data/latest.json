@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-11-02T04:59:12.358321+09:00",
-  "generated_at_utc": "2026-11-01T19:59:13.631484+00:00",
+  "generated_at_jst": "2026-11-02T08:24:17.486527+09:00",
+  "generated_at_utc": "2026-11-01T23:24:18.765937+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.006,
-    "technical_score": 0.011,
+    "overall_score": -0.008,
+    "technical_score": -0.015,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.92) > SMA50(157.45) でゴールデンクロス状態（買い要因）",
-      "RSI14=50.7で中立圏",
+      "SMA20(157.92) > SMA50(157.42) でゴールデンクロス状態（買い要因）",
+      "RSI14=49.1で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 157.8040008544922,
-      "sma20": 157.92360076904296,
-      "sma50": 157.44866088867187,
+      "price": 157.62600708007812,
+      "sma20": 157.9182014465332,
+      "sma50": 157.42310089111328,
       "sma200": null,
-      "rsi14": 50.666768066952635,
-      "macd": 0.016019742300557027,
-      "macd_signal": 0.05660179961678115,
-      "bb_upper": 158.93038366037433,
-      "bb_mid": 157.92360076904296,
-      "bb_lower": 156.9168178777116,
-      "atr14": 1.0144057192920737
+      "rsi14": 49.0795818118954,
+      "macd": 0.005339095470617394,
+      "macd_signal": 0.0463492587875484,
+      "bb_upper": 158.93040946019389,
+      "bb_mid": 157.9182014465332,
+      "bb_lower": 156.90599343287252,
+      "atr14": 0.9698052671746711
     }
   },
   "fundamental": {
@@ -218,6 +218,15 @@
         "title": "Congressional Elections",
         "impact": "High",
         "time": "2026-11-03T10:16:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "API Weekly Statistical Bulletin",
+        "impact": "Low",
+        "time": "2026-11-03T16:30:00-05:00",
         "forecast": "",
         "previous": "",
         "actual": null
