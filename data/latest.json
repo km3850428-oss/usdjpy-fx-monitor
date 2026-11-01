@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-11-01T17:26:57.070077+09:00",
-  "generated_at_utc": "2026-11-01T08:26:57.862985+00:00",
+  "generated_at_jst": "2026-11-02T00:36:55.539047+09:00",
+  "generated_at_utc": "2026-11-01T15:36:56.615519+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": 0.006,
@@ -173,6 +173,51 @@
         "title": "Bank Holiday",
         "impact": "Holiday",
         "time": "2026-11-02T19:00:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "JOLTS Job Openings",
+        "impact": "Medium",
+        "time": "2026-11-03T10:00:00-05:00",
+        "forecast": "7.11M",
+        "previous": "7.08M",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Factory Orders m/m",
+        "impact": "Low",
+        "time": "2026-11-03T10:00:00-05:00",
+        "forecast": "1.2%",
+        "previous": "0.1%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "RCM/TIPP Economic Optimism",
+        "impact": "Low",
+        "time": "2026-11-03T10:10:00-05:00",
+        "forecast": "46.2",
+        "previous": "46.8",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Omdia Total Vehicle Sales",
+        "impact": "Low",
+        "time": "2026-11-03T10:15:00-05:00",
+        "forecast": "15.9M",
+        "previous": "16.0M",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Congressional Elections",
+        "impact": "High",
+        "time": "2026-11-03T10:16:00-05:00",
         "forecast": "",
         "previous": "",
         "actual": null
