@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-11-02T08:24:17.486527+09:00",
-  "generated_at_utc": "2026-11-01T23:24:18.765937+00:00",
+  "generated_at_jst": "2026-11-02T12:33:17.846540+09:00",
+  "generated_at_utc": "2026-11-02T03:33:20.190922+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": -0.008,
-    "technical_score": -0.015,
+    "overall_score": 0.013,
+    "technical_score": 0.027,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.92) > SMA50(157.42) でゴールデンクロス状態（買い要因）",
-      "RSI14=49.1で中立圏",
+      "SMA20(157.93) > SMA50(157.43) でゴールデンクロス状態（買い要因）",
+      "RSI14=51.6で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 157.62600708007812,
-      "sma20": 157.9182014465332,
-      "sma50": 157.42310089111328,
+      "price": 157.90899658203125,
+      "sma20": 157.93235092163087,
+      "sma50": 157.42876068115234,
       "sma200": null,
-      "rsi14": 49.0795818118954,
-      "macd": 0.005339095470617394,
-      "macd_signal": 0.0463492587875484,
-      "bb_upper": 158.93040946019389,
-      "bb_mid": 157.9182014465332,
-      "bb_lower": 156.90599343287252,
-      "atr14": 0.9698052671746711
+      "rsi14": 51.594111706449894,
+      "macd": 0.027919278274140424,
+      "macd_signal": 0.050872311037961394,
+      "bb_upper": 158.9352296284382,
+      "bb_mid": 157.93235092163087,
+      "bb_lower": 156.92947221482353,
+      "atr14": 0.9823562086925495
     }
   },
   "fundamental": {
@@ -115,15 +115,6 @@
     "display_window_hours": 48,
     "events": [
       {
-        "country": "JPY",
-        "title": "Final Manufacturing PMI",
-        "impact": "Low",
-        "time": "2026-11-01T19:30:00-05:00",
-        "forecast": "53.3",
-        "previous": "53.3",
-        "actual": null
-      },
-      {
         "country": "USD",
         "title": "Final Manufacturing PMI",
         "impact": "Low",
@@ -137,7 +128,7 @@
         "title": "ISM Manufacturing PMI",
         "impact": "Medium",
         "time": "2026-11-02T10:00:00-05:00",
-        "forecast": "54.7",
+        "forecast": "54.5",
         "previous": "54.5",
         "actual": null
       },
@@ -146,7 +137,7 @@
         "title": "Construction Spending m/m",
         "impact": "Low",
         "time": "2026-11-02T10:00:00-05:00",
-        "forecast": "0.3%",
+        "forecast": "0.4%",
         "previous": "0.9%",
         "actual": null
       },
@@ -229,6 +220,15 @@
         "time": "2026-11-03T16:30:00-05:00",
         "forecast": "",
         "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Monetary Base y/y",
+        "impact": "Low",
+        "time": "2026-11-03T18:50:00-05:00",
+        "forecast": "-14.0%",
+        "previous": "-15.2%",
         "actual": null
       }
     ]
