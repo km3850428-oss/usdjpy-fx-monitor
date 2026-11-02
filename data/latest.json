@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-11-02T20:51:28.592424+09:00",
-  "generated_at_utc": "2026-11-02T11:51:29.845689+00:00",
+  "generated_at_jst": "2026-11-03T06:07:58.438660+09:00",
+  "generated_at_utc": "2026-11-02T21:07:59.612603+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.012,
-    "technical_score": 0.024,
+    "overall_score": 0.015,
+    "technical_score": 0.03,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(157.93) > SMA50(157.43) でゴールデンクロス状態（買い要因）",
-      "RSI14=51.4で中立圏",
+      "RSI14=51.8で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 157.89199829101562,
-      "sma20": 157.93150100708007,
-      "sma50": 157.42842071533204,
+      "price": 157.93099975585938,
+      "sma20": 157.93345108032227,
+      "sma50": 157.4292007446289,
       "sma200": null,
-      "rsi14": 51.44697475303783,
-      "macd": 0.02656328924726381,
-      "macd_signal": 0.05060111323258607,
-      "bb_upper": 158.93449185451908,
-      "bb_mid": 157.93150100708007,
-      "bb_lower": 156.92851015964106,
+      "rsi14": 51.78325173576124,
+      "macd": 0.029674517211986995,
+      "macd_signal": 0.05122335882553071,
+      "bb_upper": 158.93627018781598,
+      "bb_mid": 157.93345108032227,
+      "bb_lower": 156.93063197282856,
       "atr14": 0.9838570195881968
     }
   },
@@ -115,51 +115,6 @@
     "display_window_hours": 48,
     "events": [
       {
-        "country": "USD",
-        "title": "Final Manufacturing PMI",
-        "impact": "Low",
-        "time": "2026-11-02T09:45:00-05:00",
-        "forecast": "56.0",
-        "previous": "56.0",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "ISM Manufacturing PMI",
-        "impact": "Medium",
-        "time": "2026-11-02T10:00:00-05:00",
-        "forecast": "54.5",
-        "previous": "54.5",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Construction Spending m/m",
-        "impact": "Low",
-        "time": "2026-11-02T10:00:00-05:00",
-        "forecast": "0.4%",
-        "previous": "0.9%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "ISM Manufacturing Prices",
-        "impact": "Low",
-        "time": "2026-11-02T10:00:00-05:00",
-        "forecast": "77.2",
-        "previous": "77.9",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Loan Officer Survey",
-        "impact": "Low",
-        "time": "2026-11-02T14:03:00-05:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
         "country": "JPY",
         "title": "Bank Holiday",
         "impact": "Holiday",
@@ -229,6 +184,51 @@
         "time": "2026-11-03T18:50:00-05:00",
         "forecast": "-14.0%",
         "previous": "-15.2%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "ADP Non-Farm Employment Change",
+        "impact": "Low",
+        "time": "2026-11-04T08:15:00-05:00",
+        "forecast": "68K",
+        "previous": "90K",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Trade Balance",
+        "impact": "Low",
+        "time": "2026-11-04T08:30:00-05:00",
+        "forecast": "-107.9B",
+        "previous": "-105.6B",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Final Services PMI",
+        "impact": "Low",
+        "time": "2026-11-04T09:45:00-05:00",
+        "forecast": "57.9",
+        "previous": "57.9",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "ISM Services PMI",
+        "impact": "Medium",
+        "time": "2026-11-04T10:00:00-05:00",
+        "forecast": "54.9",
+        "previous": "54.9",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Crude Oil Inventories",
+        "impact": "Low",
+        "time": "2026-11-04T10:30:00-05:00",
+        "forecast": "",
+        "previous": "-1.9M",
         "actual": null
       }
     ]
