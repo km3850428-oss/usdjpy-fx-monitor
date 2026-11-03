@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-11-03T20:29:23.092964+09:00",
-  "generated_at_utc": "2026-11-03T11:29:25.624635+00:00",
+  "generated_at_jst": "2026-11-04T03:51:12.336881+09:00",
+  "generated_at_utc": "2026-11-03T18:51:14.245452+00:00",
   "judgment": {
     "signal": "買い",
-    "overall_score": 0.373,
-    "technical_score": 0.747,
+    "overall_score": 0.393,
+    "technical_score": 0.787,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.94) > SMA50(157.41) でゴールデンクロス状態（買い要因）",
-      "RSI14=54.8で中立圏",
+      "SMA20(157.95) > SMA50(157.41) でゴールデンクロス状態（買い要因）",
+      "RSI14=57.2で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.28599548339844,
-      "sma20": 157.9369010925293,
-      "sma50": 157.407060546875,
+      "price": 158.61300659179688,
+      "sma20": 157.95325164794923,
+      "sma50": 157.41360076904297,
       "sma200": null,
-      "rsi14": 54.79302734031669,
-      "macd": 0.05270477825854414,
-      "macd_signal": 0.048277733435070996,
-      "bb_upper": 158.9593600413203,
-      "bb_mid": 157.9369010925293,
-      "bb_lower": 156.91444214373828,
-      "atr14": 0.9445513325674281
+      "rsi14": 57.190961653124596,
+      "macd": 0.07879113448404951,
+      "macd_signal": 0.05349500468017207,
+      "bb_upper": 159.0091285220986,
+      "bb_mid": 157.95325164794923,
+      "bb_lower": 156.89737477379987,
+      "atr14": 0.9686940066048164
     }
   },
   "fundamental": {
@@ -116,51 +116,6 @@
     "events": [
       {
         "country": "USD",
-        "title": "JOLTS Job Openings",
-        "impact": "Medium",
-        "time": "2026-11-03T10:00:00-05:00",
-        "forecast": "7.15M",
-        "previous": "7.08M",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Factory Orders m/m",
-        "impact": "Low",
-        "time": "2026-11-03T10:00:00-05:00",
-        "forecast": "1.2%",
-        "previous": "0.1%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "RCM/TIPP Economic Optimism",
-        "impact": "Low",
-        "time": "2026-11-03T10:10:00-05:00",
-        "forecast": "46.2",
-        "previous": "46.8",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Omdia Total Vehicle Sales",
-        "impact": "Low",
-        "time": "2026-11-03T10:15:00-05:00",
-        "forecast": "15.8M",
-        "previous": "16.0M",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Congressional Elections",
-        "impact": "High",
-        "time": "2026-11-03T10:16:00-05:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
         "title": "API Weekly Statistical Bulletin",
         "impact": "Low",
         "time": "2026-11-03T16:30:00-05:00",
@@ -218,7 +173,7 @@
         "title": "Crude Oil Inventories",
         "impact": "Low",
         "time": "2026-11-04T10:30:00-05:00",
-        "forecast": "",
+        "forecast": "-0.1M",
         "previous": "-1.9M",
         "actual": null
       },
@@ -247,6 +202,60 @@
         "time": "2026-11-05T05:30:00-05:00",
         "forecast": "",
         "previous": "-19.9%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Unemployment Claims",
+        "impact": "Medium",
+        "time": "2026-11-05T08:30:00-05:00",
+        "forecast": "197K",
+        "previous": "194K",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Prelim Nonfarm Productivity q/q",
+        "impact": "Low",
+        "time": "2026-11-05T08:30:00-05:00",
+        "forecast": "2.8%",
+        "previous": "1.4%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Prelim Unit Labor Costs q/q",
+        "impact": "Low",
+        "time": "2026-11-05T08:30:00-05:00",
+        "forecast": "0.3%",
+        "previous": "1.3%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Hammack Speaks",
+        "impact": "Low",
+        "time": "2026-11-05T08:50:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Barkin Speaks",
+        "impact": "Low",
+        "time": "2026-11-05T09:10:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Natural Gas Storage",
+        "impact": "Low",
+        "time": "2026-11-05T10:30:00-05:00",
+        "forecast": "",
+        "previous": "80B",
         "actual": null
       }
     ]
