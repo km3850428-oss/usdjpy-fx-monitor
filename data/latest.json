@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-11-03T12:11:37.297428+09:00",
-  "generated_at_utc": "2026-11-03T03:11:39.733372+00:00",
+  "generated_at_jst": "2026-11-03T20:29:23.092964+09:00",
+  "generated_at_utc": "2026-11-03T11:29:25.624635+00:00",
   "judgment": {
-    "signal": "待ち",
-    "overall_score": 0.014,
-    "technical_score": 0.028,
+    "signal": "買い",
+    "overall_score": 0.373,
+    "technical_score": 0.747,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.92) > SMA50(157.40) でゴールデンクロス状態（買い要因）",
-      "RSI14=51.7で中立圏",
-      "MACDがシグナルを下抜け（売り要因）"
+      "SMA20(157.94) > SMA50(157.41) でゴールデンクロス状態（買い要因）",
+      "RSI14=54.8で中立圏",
+      "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 157.91000366210938,
-      "sma20": 157.91810150146483,
-      "sma50": 157.39954071044923,
+      "price": 158.28599548339844,
+      "sma20": 157.9369010925293,
+      "sma50": 157.407060546875,
       "sma200": null,
-      "rsi14": 51.68105946043173,
-      "macd": 0.022711128697011418,
-      "macd_signal": 0.04227900352276445,
-      "bb_upper": 158.9272745886862,
-      "bb_mid": 157.91810150146483,
-      "bb_lower": 156.90892841424346,
-      "atr14": 0.9209078389150843
+      "rsi14": 54.79302734031669,
+      "macd": 0.05270477825854414,
+      "macd_signal": 0.048277733435070996,
+      "bb_upper": 158.9593600413203,
+      "bb_mid": 157.9369010925293,
+      "bb_lower": 156.91444214373828,
+      "atr14": 0.9445513325674281
     }
   },
   "fundamental": {
@@ -229,6 +229,24 @@
         "time": "2026-11-04T18:50:00-05:00",
         "forecast": "",
         "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "10-y Bond Auction",
+        "impact": "Low",
+        "time": "2026-11-04T22:35:00-05:00",
+        "forecast": "",
+        "previous": "3.10|3.8",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Challenger Job Cuts y/y",
+        "impact": "Low",
+        "time": "2026-11-05T05:30:00-05:00",
+        "forecast": "",
+        "previous": "-19.9%",
         "actual": null
       }
     ]
