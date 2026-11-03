@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-11-03T06:07:58.438660+09:00",
-  "generated_at_utc": "2026-11-02T21:07:59.612603+00:00",
+  "generated_at_jst": "2026-11-03T12:11:37.297428+09:00",
+  "generated_at_utc": "2026-11-03T03:11:39.733372+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.015,
-    "technical_score": 0.03,
+    "overall_score": 0.014,
+    "technical_score": 0.028,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.93) > SMA50(157.43) でゴールデンクロス状態（買い要因）",
-      "RSI14=51.8で中立圏",
+      "SMA20(157.92) > SMA50(157.40) でゴールデンクロス状態（買い要因）",
+      "RSI14=51.7で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 157.93099975585938,
-      "sma20": 157.93345108032227,
-      "sma50": 157.4292007446289,
+      "price": 157.91000366210938,
+      "sma20": 157.91810150146483,
+      "sma50": 157.39954071044923,
       "sma200": null,
-      "rsi14": 51.78325173576124,
-      "macd": 0.029674517211986995,
-      "macd_signal": 0.05122335882553071,
-      "bb_upper": 158.93627018781598,
-      "bb_mid": 157.93345108032227,
-      "bb_lower": 156.93063197282856,
-      "atr14": 0.9838570195881968
+      "rsi14": 51.68105946043173,
+      "macd": 0.022711128697011418,
+      "macd_signal": 0.04227900352276445,
+      "bb_upper": 158.9272745886862,
+      "bb_mid": 157.91810150146483,
+      "bb_lower": 156.90892841424346,
+      "atr14": 0.9209078389150843
     }
   },
   "fundamental": {
@@ -115,20 +115,11 @@
     "display_window_hours": 48,
     "events": [
       {
-        "country": "JPY",
-        "title": "Bank Holiday",
-        "impact": "Holiday",
-        "time": "2026-11-02T19:00:00-05:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
         "country": "USD",
         "title": "JOLTS Job Openings",
         "impact": "Medium",
         "time": "2026-11-03T10:00:00-05:00",
-        "forecast": "7.11M",
+        "forecast": "7.15M",
         "previous": "7.08M",
         "actual": null
       },
@@ -155,7 +146,7 @@
         "title": "Omdia Total Vehicle Sales",
         "impact": "Low",
         "time": "2026-11-03T10:15:00-05:00",
-        "forecast": "15.9M",
+        "forecast": "15.8M",
         "previous": "16.0M",
         "actual": null
       },
@@ -191,7 +182,7 @@
         "title": "ADP Non-Farm Employment Change",
         "impact": "Low",
         "time": "2026-11-04T08:15:00-05:00",
-        "forecast": "68K",
+        "forecast": "67K",
         "previous": "90K",
         "actual": null
       },
@@ -218,7 +209,7 @@
         "title": "ISM Services PMI",
         "impact": "Medium",
         "time": "2026-11-04T10:00:00-05:00",
-        "forecast": "54.9",
+        "forecast": "54.8",
         "previous": "54.9",
         "actual": null
       },
@@ -229,6 +220,15 @@
         "time": "2026-11-04T10:30:00-05:00",
         "forecast": "",
         "previous": "-1.9M",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Monetary Policy Meeting Minutes",
+        "impact": "Low",
+        "time": "2026-11-04T18:50:00-05:00",
+        "forecast": "",
+        "previous": "",
         "actual": null
       }
     ]
