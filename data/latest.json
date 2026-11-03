@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-11-04T03:51:12.336881+09:00",
-  "generated_at_utc": "2026-11-03T18:51:14.245452+00:00",
+  "generated_at_jst": "2026-11-04T08:47:55.889101+09:00",
+  "generated_at_utc": "2026-11-03T23:47:56.777958+00:00",
   "judgment": {
     "signal": "買い",
-    "overall_score": 0.393,
-    "technical_score": 0.787,
+    "overall_score": 0.39,
+    "technical_score": 0.781,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(157.95) > SMA50(157.41) でゴールデンクロス状態（買い要因）",
-      "RSI14=57.2で中立圏",
+      "RSI14=56.9で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.61300659179688,
-      "sma20": 157.95325164794923,
-      "sma50": 157.41360076904297,
+      "price": 158.56500244140625,
+      "sma20": 157.9508514404297,
+      "sma50": 157.41264068603516,
       "sma200": null,
-      "rsi14": 57.190961653124596,
-      "macd": 0.07879113448404951,
-      "macd_signal": 0.05349500468017207,
-      "bb_upper": 159.0091285220986,
-      "bb_mid": 157.95325164794923,
-      "bb_lower": 156.89737477379987,
-      "atr14": 0.9686940066048164
+      "rsi14": 56.85500865168336,
+      "macd": 0.07496174356970187,
+      "macd_signal": 0.05272912649730254,
+      "bb_upper": 159.0006141304965,
+      "bb_mid": 157.9508514404297,
+      "bb_lower": 156.90108875036287,
+      "atr14": 0.9764084143894146
     }
   },
   "fundamental": {
@@ -115,15 +115,6 @@
     "display_window_hours": 48,
     "events": [
       {
-        "country": "USD",
-        "title": "API Weekly Statistical Bulletin",
-        "impact": "Low",
-        "time": "2026-11-03T16:30:00-05:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
         "country": "JPY",
         "title": "Monetary Base y/y",
         "impact": "Low",
@@ -173,7 +164,7 @@
         "title": "Crude Oil Inventories",
         "impact": "Low",
         "time": "2026-11-04T10:30:00-05:00",
-        "forecast": "-0.1M",
+        "forecast": "-1.7M",
         "previous": "-1.9M",
         "actual": null
       },
@@ -254,8 +245,17 @@
         "title": "Natural Gas Storage",
         "impact": "Low",
         "time": "2026-11-05T10:30:00-05:00",
-        "forecast": "",
+        "forecast": "81B",
         "previous": "80B",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Average Cash Earnings y/y",
+        "impact": "Low",
+        "time": "2026-11-05T18:30:00-05:00",
+        "forecast": "3.8%",
+        "previous": "3.8%",
         "actual": null
       }
     ]
