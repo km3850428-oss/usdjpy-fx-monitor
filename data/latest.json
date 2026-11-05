@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-11-05T09:39:39.973711+09:00",
-  "generated_at_utc": "2026-11-05T00:39:42.875603+00:00",
+  "generated_at_jst": "2026-11-05T16:35:07.501864+09:00",
+  "generated_at_utc": "2026-11-05T07:35:08.813267+00:00",
   "judgment": {
     "signal": "買い",
-    "overall_score": 0.369,
-    "technical_score": 0.739,
+    "overall_score": 0.362,
+    "technical_score": 0.724,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.94) > SMA50(157.36) でゴールデンクロス状態（買い要因）",
-      "RSI14=54.3で中立圏",
+      "SMA20(157.93) > SMA50(157.36) でゴールデンクロス状態（買い要因）",
+      "RSI14=53.5で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.26100158691406,
-      "sma20": 157.93705062866212,
-      "sma50": 157.36468017578125,
+      "price": 158.1739959716797,
+      "sma20": 157.93270034790038,
+      "sma50": 157.36294006347657,
       "sma200": null,
-      "rsi14": 54.315246509080396,
-      "macd": 0.10310566417680889,
-      "macd_signal": 0.06015807344410253,
-      "bb_upper": 158.9720613484102,
-      "bb_mid": 157.93705062866212,
-      "bb_lower": 156.90203990891405,
-      "atr14": 0.9307696133257832
+      "rsi14": 53.45966053467487,
+      "macd": 0.09616504529768122,
+      "macd_signal": 0.058769949668277,
+      "bb_upper": 158.9626972335206,
+      "bb_mid": 157.93270034790038,
+      "bb_lower": 156.90270346228016,
+      "atr14": 0.9621264248492207
     }
   },
   "fundamental": {
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "10-y Bond Auction",
-        "impact": "Low",
-        "time": "2026-11-04T22:35:00-05:00",
-        "forecast": "",
-        "previous": "3.10|3.8",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Challenger Job Cuts y/y",
