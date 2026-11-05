@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-11-05T16:35:07.501864+09:00",
-  "generated_at_utc": "2026-11-05T07:35:08.813267+00:00",
+  "generated_at_jst": "2026-11-06T00:57:15.876862+09:00",
+  "generated_at_utc": "2026-11-05T15:57:17.210316+00:00",
   "judgment": {
     "signal": "買い",
-    "overall_score": 0.362,
-    "technical_score": 0.724,
+    "overall_score": 0.34,
+    "technical_score": 0.681,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.93) > SMA50(157.36) でゴールデンクロス状態（買い要因）",
-      "RSI14=53.5で中立圏",
+      "SMA20(157.92) > SMA50(157.36) でゴールデンクロス状態（買い要因）",
+      "RSI14=50.9で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.1739959716797,
-      "sma20": 157.93270034790038,
-      "sma50": 157.36294006347657,
+      "price": 157.89100646972656,
+      "sma20": 157.91855087280274,
+      "sma50": 157.3572802734375,
       "sma200": null,
-      "rsi14": 53.45966053467487,
-      "macd": 0.09616504529768122,
-      "macd_signal": 0.058769949668277,
-      "bb_upper": 158.9626972335206,
-      "bb_mid": 157.93270034790038,
-      "bb_lower": 156.90270346228016,
-      "atr14": 0.9621264248492207
+      "rsi14": 50.854158501219096,
+      "macd": 0.0735903841732295,
+      "macd_signal": 0.05425501744338665,
+      "bb_upper": 158.94234723149617,
+      "bb_mid": 157.91855087280274,
+      "bb_lower": 156.8947545141093,
+      "atr14": 0.9715563564898457
     }
   },
   "fundamental": {
@@ -114,69 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Challenger Job Cuts y/y",
-        "impact": "Low",
-        "time": "2026-11-05T05:30:00-05:00",
-        "forecast": "",
-        "previous": "-19.9%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Unemployment Claims",
-        "impact": "Medium",
-        "time": "2026-11-05T08:30:00-05:00",
-        "forecast": "197K",
-        "previous": "194K",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Prelim Nonfarm Productivity q/q",
-        "impact": "Low",
-        "time": "2026-11-05T08:30:00-05:00",
-        "forecast": "2.8%",
-        "previous": "1.4%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Prelim Unit Labor Costs q/q",
-        "impact": "Low",
-        "time": "2026-11-05T08:30:00-05:00",
-        "forecast": "0.3%",
-        "previous": "1.3%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Hammack Speaks",
-        "impact": "Low",
-        "time": "2026-11-05T08:50:00-05:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Barkin Speaks",
-        "impact": "Low",
-        "time": "2026-11-05T09:10:00-05:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Natural Gas Storage",
-        "impact": "Low",
-        "time": "2026-11-05T10:30:00-05:00",
-        "forecast": "81B",
-        "previous": "80B",
-        "actual": null
-      },
       {
         "country": "JPY",
         "title": "Average Cash Earnings y/y",
