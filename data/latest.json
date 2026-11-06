@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-11-06T06:45:01.277229+09:00",
-  "generated_at_utc": "2026-11-05T21:45:02.779687+00:00",
+  "generated_at_jst": "2026-11-06T10:55:58.804716+09:00",
+  "generated_at_utc": "2026-11-06T01:56:00.526073+00:00",
   "judgment": {
     "signal": "買い",
-    "overall_score": 0.324,
-    "technical_score": 0.648,
+    "overall_score": 0.338,
+    "technical_score": 0.676,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.91) > SMA50(157.35) でゴールデンクロス状態（買い要因）",
-      "RSI14=48.9で中立圏",
+      "SMA20(157.93) > SMA50(157.34) でゴールデンクロス状態（買い要因）",
+      "RSI14=50.5で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 157.65499877929688,
-      "sma20": 157.90675048828126,
-      "sma50": 157.35256011962892,
+      "price": 157.89199829101562,
+      "sma20": 157.93330001831055,
+      "sma50": 157.33802001953126,
       "sma200": null,
-      "rsi14": 48.86786063309163,
-      "macd": 0.05476355986544945,
-      "macd_signal": 0.05048965258183064,
-      "bb_upper": 158.93730181795667,
-      "bb_mid": 157.90675048828126,
-      "bb_lower": 156.87619915860586,
-      "atr14": 0.9821274275696448
+      "rsi14": 50.53929423996038,
+      "macd": 0.09824945153434328,
+      "macd_signal": 0.06897955109297987,
+      "bb_upper": 158.97412126573136,
+      "bb_mid": 157.93330001831055,
+      "bb_lower": 156.89247877088974,
+      "atr14": 0.9784284032918071
     }
   },
   "fundamental": {
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "Average Cash Earnings y/y",
-        "impact": "Low",
-        "time": "2026-11-05T18:30:00-05:00",
-        "forecast": "3.8%",
-        "previous": "3.8%",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "FOMC Member Williams Speaks",
