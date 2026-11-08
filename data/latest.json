@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-11-08T19:55:06.241232+09:00",
-  "generated_at_utc": "2026-11-08T10:55:08.063189+00:00",
+  "generated_at_jst": "2026-11-09T01:52:09.613174+09:00",
+  "generated_at_utc": "2026-11-08T16:52:11.071623+00:00",
   "judgment": {
     "signal": "買い",
     "overall_score": 0.374,
@@ -218,6 +218,60 @@
         "title": "FOMC Member Waller Speaks",
         "impact": "Medium",
         "time": "2026-11-10T04:00:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "NFIB Small Business Index",
+        "impact": "Low",
+        "time": "2026-11-10T06:00:00-05:00",
+        "forecast": "97.7",
+        "previous": "97.9",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "ADP Weekly Employment Change",
+        "impact": "Low",
+        "time": "2026-11-10T08:15:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "ADP Weekly Employment Change",
+        "impact": "Low",
+        "time": "2026-11-10T08:16:00-05:00",
+        "forecast": "",
+        "previous": "16.8K",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Core CPI m/m",
+        "impact": "High",
+        "time": "2026-11-10T08:30:00-05:00",
+        "forecast": "0.2%",
+        "previous": "0.3%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "CPI m/m",
+        "impact": "High",
+        "time": "2026-11-10T08:30:00-05:00",
+        "forecast": "0.3%",
+        "previous": "0.6%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Logan Speaks",
+        "impact": "Low",
+        "time": "2026-11-10T10:50:00-05:00",
         "forecast": "",
         "previous": "",
         "actual": null
