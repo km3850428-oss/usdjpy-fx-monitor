@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-11-09T01:52:09.613174+09:00",
-  "generated_at_utc": "2026-11-08T16:52:11.071623+00:00",
+  "generated_at_jst": "2026-11-09T05:54:00.528643+09:00",
+  "generated_at_utc": "2026-11-08T20:54:01.501885+00:00",
   "judgment": {
     "signal": "買い",
-    "overall_score": 0.374,
-    "technical_score": 0.748,
+    "overall_score": 0.364,
+    "technical_score": 0.728,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.92) > SMA50(157.30) でゴールデンクロス状態（買い要因）",
-      "RSI14=54.9で中立圏",
+      "SMA20(157.92) > SMA50(157.29) でゴールデンクロス状態（買い要因）",
+      "RSI14=53.7で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.4250030517578,
-      "sma20": 157.92470016479493,
-      "sma50": 157.29620025634765,
+      "price": 158.26100158691406,
+      "sma20": 157.91650009155273,
+      "sma50": 157.2929202270508,
       "sma200": null,
-      "rsi14": 54.87150077010391,
-      "macd": 0.10563458813771831,
-      "macd_signal": 0.07133502900802025,
-      "bb_upper": 159.00085799982628,
-      "bb_mid": 157.92470016479493,
-      "bb_lower": 156.84854232976357,
+      "rsi14": 53.6710288691037,
+      "macd": 0.09255185020148815,
+      "macd_signal": 0.06871848142077422,
+      "bb_upper": 158.9790194760758,
+      "bb_mid": 157.91650009155273,
+      "bb_lower": 156.85398070702968,
       "atr14": 0.9754875883637901
     }
   },
@@ -272,6 +272,33 @@
         "title": "FOMC Member Logan Speaks",
         "impact": "Low",
         "time": "2026-11-10T10:50:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "10-y Bond Auction",
+        "impact": "Low",
+        "time": "2026-11-10T13:01:00-05:00",
+        "forecast": "",
+        "previous": "5.30|2.8",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Schmid Speaks",
+        "impact": "Low",
+        "time": "2026-11-10T13:30:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Bowman Speaks",
+        "impact": "Low",
+        "time": "2026-11-10T15:30:00-05:00",
         "forecast": "",
         "previous": "",
         "actual": null
