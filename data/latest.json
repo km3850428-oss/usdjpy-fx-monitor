@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-11-08T12:30:53.302673+09:00",
-  "generated_at_utc": "2026-11-08T03:30:55.206280+00:00",
+  "generated_at_jst": "2026-11-08T19:55:06.241232+09:00",
+  "generated_at_utc": "2026-11-08T10:55:08.063189+00:00",
   "judgment": {
     "signal": "買い",
     "overall_score": 0.374,
@@ -113,6 +113,115 @@
   "calendar": {
     "caution_window_hours": 3,
     "display_window_hours": 48,
-    "events": []
+    "events": [
+      {
+        "country": "JPY",
+        "title": "Leading Indicators",
+        "impact": "Low",
+        "time": "2026-11-09T00:00:00-05:00",
+        "forecast": "116.7%",
+        "previous": "118.0%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Bowman Speaks",
+        "impact": "Low",
+        "time": "2026-11-09T08:40:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Final Wholesale Inventories m/m",
+        "impact": "Low",
+        "time": "2026-11-09T10:00:00-05:00",
+        "forecast": "0.6%",
+        "previous": "0.6%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Goolsbee Speaks",
+        "impact": "Low",
+        "time": "2026-11-09T10:00:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Barkin Speaks",
+        "impact": "Low",
+        "time": "2026-11-09T12:15:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Household Spending y/y",
+        "impact": "Low",
+        "time": "2026-11-09T18:30:00-05:00",
+        "forecast": "-3.1%",
+        "previous": "-3.1%",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Bank Lending y/y",
+        "impact": "Low",
+        "time": "2026-11-09T18:50:00-05:00",
+        "forecast": "5.4%",
+        "previous": "5.3%",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "BOJ Summary of Opinions",
+        "impact": "Low",
+        "time": "2026-11-09T18:50:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Current Account",
+        "impact": "Low",
+        "time": "2026-11-09T18:50:00-05:00",
+        "forecast": "2.81T",
+        "previous": "2.98T",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "30-y Bond Auction",
+        "impact": "Low",
+        "time": "2026-11-09T22:35:00-05:00",
+        "forecast": "",
+        "previous": "4.11|3.9",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Economy Watchers Sentiment",
+        "impact": "Low",
+        "time": "2026-11-10T00:00:00-05:00",
+        "forecast": "46.9",
+        "previous": "47.0",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Waller Speaks",
+        "impact": "Medium",
+        "time": "2026-11-10T04:00:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      }
+    ]
   }
 }
