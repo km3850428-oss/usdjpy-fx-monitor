@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-11-09T05:54:00.528643+09:00",
-  "generated_at_utc": "2026-11-08T20:54:01.501885+00:00",
+  "generated_at_jst": "2026-11-09T09:21:05.641887+09:00",
+  "generated_at_utc": "2026-11-09T00:21:07.214544+00:00",
   "judgment": {
     "signal": "買い",
-    "overall_score": 0.364,
-    "technical_score": 0.728,
+    "overall_score": 0.359,
+    "technical_score": 0.719,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.92) > SMA50(157.29) でゴールデンクロス状態（買い要因）",
-      "RSI14=53.7で中立圏",
+      "SMA20(157.91) > SMA50(157.29) でゴールデンクロス状態（買い要因）",
+      "RSI14=53.1で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.26100158691406,
-      "sma20": 157.91650009155273,
-      "sma50": 157.2929202270508,
+      "price": 158.18800354003906,
+      "sma20": 157.912850189209,
+      "sma50": 157.2914602661133,
       "sma200": null,
-      "rsi14": 53.6710288691037,
-      "macd": 0.09255185020148815,
-      "macd_signal": 0.06871848142077422,
-      "bb_upper": 158.9790194760758,
-      "bb_mid": 157.91650009155273,
-      "bb_lower": 156.85398070702968,
-      "atr14": 0.9754875883637901
+      "rsi14": 53.116418529649444,
+      "macd": 0.08671499813837613,
+      "macd_signal": 0.0675337727111099,
+      "bb_upper": 158.97087881863624,
+      "bb_mid": 157.912850189209,
+      "bb_lower": 156.85482155978175,
+      "atr14": 0.9830490837782702
     }
   },
   "fundamental": {
@@ -301,6 +301,42 @@
         "time": "2026-11-10T15:30:00-05:00",
         "forecast": "",
         "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "API Weekly Statistical Bulletin",
+        "impact": "Low",
+        "time": "2026-11-10T16:30:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Bowman Speaks",
+        "impact": "Low",
+        "time": "2026-11-10T18:30:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Paulson Speaks",
+        "impact": "Low",
+        "time": "2026-11-10T18:30:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "M2 Money Stock y/y",
+        "impact": "Low",
+        "time": "2026-11-10T18:50:00-05:00",
+        "forecast": "2.1%",
+        "previous": "2.0%",
         "actual": null
       }
     ]
