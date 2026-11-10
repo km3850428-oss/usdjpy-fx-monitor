@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-11-10T02:59:58.869167+09:00",
-  "generated_at_utc": "2026-11-09T18:00:00.024483+00:00",
+  "generated_at_jst": "2026-11-10T10:19:37.503851+09:00",
+  "generated_at_utc": "2026-11-10T01:19:38.771474+00:00",
   "judgment": {
     "signal": "買い",
-    "overall_score": 0.351,
-    "technical_score": 0.701,
+    "overall_score": 0.345,
+    "technical_score": 0.69,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(157.91) > SMA50(157.29) でゴールデンクロス状態（買い要因）",
-      "RSI14=52.1で中立圏",
+      "SMA20(157.89) > SMA50(157.26) でゴールデンクロス状態（買い要因）",
+      "RSI14=51.4で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.0540008544922,
-      "sma20": 157.90615005493163,
-      "sma50": 157.28878021240234,
+      "price": 158.00999450683594,
+      "sma20": 157.89254989624024,
+      "sma50": 157.2588003540039,
       "sma200": null,
-      "rsi14": 52.06199530903938,
-      "macd": 0.0760253252172447,
-      "macd_signal": 0.06539583812688361,
-      "bb_upper": 158.958524119518,
-      "bb_mid": 157.90615005493163,
-      "bb_lower": 156.85377599034527,
-      "atr14": 0.9830490837782702
+      "rsi14": 51.38476277697573,
+      "macd": 0.09349601828230902,
+      "macd_signal": 0.07405367909031041,
+      "bb_upper": 158.92036070384978,
+      "bb_mid": 157.89254989624024,
+      "bb_lower": 156.8647390886307,
+      "atr14": 0.9323263413812812
     }
   },
   "fundamental": {
@@ -116,42 +116,6 @@
     "events": [
       {
         "country": "JPY",
-        "title": "Household Spending y/y",
-        "impact": "Low",
-        "time": "2026-11-09T18:30:00-05:00",
-        "forecast": "-3.1%",
-        "previous": "-3.1%",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "Bank Lending y/y",
-        "impact": "Low",
-        "time": "2026-11-09T18:50:00-05:00",
-        "forecast": "5.4%",
-        "previous": "5.3%",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "BOJ Summary of Opinions",
-        "impact": "Low",
-        "time": "2026-11-09T18:50:00-05:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "Current Account",
-        "impact": "Low",
-        "time": "2026-11-09T18:50:00-05:00",
-        "forecast": "2.81T",
-        "previous": "2.98T",
-        "actual": null
-      },
-      {
-        "country": "JPY",
         "title": "30-y Bond Auction",
         "impact": "Low",
         "time": "2026-11-09T22:35:00-05:00",
@@ -164,7 +128,7 @@
         "title": "Economy Watchers Sentiment",
         "impact": "Low",
         "time": "2026-11-10T00:00:00-05:00",
-        "forecast": "46.9",
+        "forecast": "47.1",
         "previous": "47.0",
         "actual": null
       },
@@ -182,7 +146,7 @@
         "title": "NFIB Small Business Index",
         "impact": "Low",
         "time": "2026-11-10T06:00:00-05:00",
-        "forecast": "97.7",
+        "forecast": "98.0",
         "previous": "97.9",
         "actual": null
       },
@@ -310,6 +274,15 @@
         "time": "2026-11-11T08:00:00-05:00",
         "forecast": "",
         "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "PPI y/y",
+        "impact": "Low",
+        "time": "2026-11-11T18:50:00-05:00",
+        "forecast": "6.5%",
+        "previous": "6.8%",
         "actual": null
       }
     ]
