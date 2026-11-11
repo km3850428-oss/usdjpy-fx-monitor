@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-11-11T11:24:55.186373+09:00",
-  "generated_at_utc": "2026-11-11T02:24:56.563263+00:00",
+  "generated_at_jst": "2026-11-11T19:03:15.608098+09:00",
+  "generated_at_utc": "2026-11-11T10:03:16.433394+00:00",
   "judgment": {
     "signal": "買い",
-    "overall_score": 0.397,
-    "technical_score": 0.795,
+    "overall_score": 0.403,
+    "technical_score": 0.806,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(157.92) > SMA50(157.23) でゴールデンクロス状態（買い要因）",
-      "RSI14=57.7で中立圏",
+      "RSI14=58.4で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.85000610351562,
-      "sma20": 157.91760025024413,
-      "sma50": 157.23134063720704,
+      "price": 158.96099853515625,
+      "sma20": 157.92314987182618,
+      "sma50": 157.23356048583983,
       "sma200": null,
-      "rsi14": 57.67442999015244,
-      "macd": 0.1565900849186903,
-      "macd_signal": 0.09021643679622889,
-      "bb_upper": 159.0161163839758,
-      "bb_mid": 157.91760025024413,
-      "bb_lower": 156.81908411651247,
-      "atr14": 0.9715267818057769
+      "rsi14": 58.38539883058988,
+      "macd": 0.16544418202960287,
+      "macd_signal": 0.0919872562184114,
+      "bb_upper": 159.04242476831521,
+      "bb_mid": 157.92314987182618,
+      "bb_lower": 156.80387497533715,
+      "atr14": 0.9728128797410447
     }
   },
   "fundamental": {
@@ -115,15 +115,6 @@
     "display_window_hours": 48,
     "events": [
       {
-        "country": "JPY",
-        "title": "Prelim Machine Tool Orders y/y",
-        "impact": "Low",
-        "time": "2026-11-11T01:00:00-05:00",
-        "forecast": "",
-        "previous": "60.4%",
-        "actual": null
-      },
-      {
         "country": "USD",
         "title": "Bank Holiday",
         "impact": "Holiday",
@@ -200,7 +191,7 @@
         "title": "Crude Oil Inventories",
         "impact": "Low",
         "time": "2026-11-12T12:00:00-05:00",
-        "forecast": "",
+        "forecast": "-0.6M",
         "previous": "-0.9M",
         "actual": null
       },
@@ -236,7 +227,7 @@
         "title": "Federal Budget Balance",
         "impact": "Low",
         "time": "2026-11-12T14:00:00-05:00",
-        "forecast": "-286.3B",
+        "forecast": "-298.6B",
         "previous": "-26.9B",
         "actual": null
       },
