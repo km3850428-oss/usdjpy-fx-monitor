@@ -1,32 +1,32 @@
 {
-  "generated_at_jst": "2026-11-12T17:59:06.792751+09:00",
-  "generated_at_utc": "2026-11-12T08:59:08.105614+00:00",
+  "generated_at_jst": "2026-11-13T02:24:59.412945+09:00",
+  "generated_at_utc": "2026-11-12T17:25:00.800439+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.243,
-    "technical_score": 0.486,
+    "overall_score": 0.245,
+    "technical_score": 0.489,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(158.00) > SMA50(157.24) でゴールデンクロス状態（買い要因）",
-      "RSI14=62.9で中立圏",
+      "RSI14=63.1で中立圏",
       "MACDがシグナルを上抜け（買い要因）",
       "価格がボリンジャーバンド+2σを上回り過熱感（売り/待ち要因）"
     ],
     "indicators": {
-      "price": 159.68600463867188,
-      "sma20": 157.9968002319336,
-      "sma50": 157.24370056152344,
+      "price": 159.73500061035156,
+      "sma20": 157.99925003051757,
+      "sma50": 157.24468048095704,
       "sma200": null,
-      "rsi14": 62.882271669183375,
-      "macd": 0.2636703846860087,
-      "macd_signal": 0.12303946353963328,
-      "bb_upper": 159.3331639999042,
-      "bb_mid": 157.9968002319336,
-      "bb_lower": 156.660436463963,
-      "atr14": 1.0523579368949785
+      "rsi14": 63.14477460662076,
+      "macd": 0.2675788952473397,
+      "macd_signal": 0.12382116565189949,
+      "bb_upper": 159.3487671035293,
+      "bb_mid": 157.99925003051757,
+      "bb_lower": 156.64973295750585,
+      "atr14": 1.0593584513341527
     }
   },
   "fundamental": {
@@ -117,65 +117,11 @@
     "events": [
       {
         "country": "USD",
-        "title": "Unemployment Claims",
-        "impact": "Medium",
-        "time": "2026-11-12T08:30:00-05:00",
-        "forecast": "194K",
-        "previous": "189K",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Hammack Speaks",
-        "impact": "Low",
-        "time": "2026-11-12T08:30:00-05:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Existing Home Sales",
-        "impact": "Low",
-        "time": "2026-11-12T10:00:00-05:00",
-        "forecast": "3.89M",
-        "previous": "3.99M",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Barr Speaks",
-        "impact": "Low",
-        "time": "2026-11-12T10:00:00-05:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
         "title": "Mortgage Delinquencies",
         "impact": "Low",
-        "time": "2026-11-12T10:00:00-05:00",
+        "time": "2026-11-12T12:59:00-05:00",
         "forecast": "",
         "previous": "4.37%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Goolsbee Speaks",
-        "impact": "Low",
-        "time": "2026-11-12T11:15:00-05:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Crude Oil Inventories",
-        "impact": "Low",
-        "time": "2026-11-12T12:00:00-05:00",
-        "forecast": "-0.6M",
-        "previous": "-0.9M",
         "actual": null
       },
       {
