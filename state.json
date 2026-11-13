@@ -1,8 +1,8 @@
 {
   "signal": "待ち",
-  "overall_score": 0.252,
-  "technical_score": 0.504,
+  "overall_score": 0.251,
+  "technical_score": 0.503,
   "fundamental_score": 0.0,
-  "override_reason": null,
-  "timestamp": "2026-11-13T12:15:12.988170+09:00"
+  "override_reason": "重要指標発表が近いためスコアに関わらず待ちと判定",
+  "timestamp": "2026-11-13T20:43:58.531019+09:00"
 }
