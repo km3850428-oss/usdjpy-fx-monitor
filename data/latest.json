@@ -1,32 +1,32 @@
 {
-  "generated_at_jst": "2026-11-13T07:59:30.404655+09:00",
-  "generated_at_utc": "2026-11-12T22:59:31.706531+00:00",
+  "generated_at_jst": "2026-11-13T12:15:12.988170+09:00",
+  "generated_at_utc": "2026-11-13T03:15:14.868971+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.249,
-    "technical_score": 0.497,
+    "overall_score": 0.252,
+    "technical_score": 0.504,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(158.01) > SMA50(157.25) でゴールデンクロス状態（買い要因）",
-      "RSI14=63.8で中立圏",
+      "SMA20(158.09) > SMA50(157.33) でゴールデンクロス状態（買い要因）",
+      "RSI14=64.3で中立圏",
       "MACDがシグナルを上抜け（買い要因）",
       "価格がボリンジャーバンド+2σを上回り過熱感（売り/待ち要因）"
     ],
     "indicators": {
-      "price": 159.85699462890625,
-      "sma20": 158.0053497314453,
-      "sma50": 157.24712036132811,
+      "price": 159.9429931640625,
+      "sma20": 158.0891990661621,
+      "sma50": 157.33032012939452,
       "sma200": null,
-      "rsi14": 63.78252265523824,
-      "macd": 0.27731061182720396,
-      "macd_signal": 0.12576750896787234,
-      "bb_upper": 159.38858190053205,
-      "bb_mid": 158.0053497314453,
-      "bb_lower": 156.62211756235857,
-      "atr14": 1.0460004714234383
+      "rsi14": 64.2983198226262,
+      "macd": 0.377074813041844,
+      "macd_signal": 0.1744389922158813,
+      "bb_upper": 159.69463999229623,
+      "bb_mid": 158.0891990661621,
+      "bb_lower": 156.483758140028,
+      "atr14": 0.9992025122557127
     }
   },
   "fundamental": {
@@ -115,15 +115,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "FOMC Member Williams Speaks",
-        "impact": "Low",
-        "time": "2026-11-12T18:30:00-05:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Core PPI m/m",
