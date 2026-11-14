@@ -1,32 +1,32 @@
 {
-  "generated_at_jst": "2026-11-14T03:58:15.853338+09:00",
-  "generated_at_utc": "2026-11-13T18:58:17.158854+00:00",
+  "generated_at_jst": "2026-11-14T09:10:27.363702+09:00",
+  "generated_at_utc": "2026-11-14T00:10:29.188453+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.243,
-    "technical_score": 0.486,
+    "overall_score": 0.25,
+    "technical_score": 0.499,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(158.08) > SMA50(157.33) でゴールデンクロス状態（買い要因）",
-      "RSI14=62.8で中立圏",
+      "SMA20(158.09) > SMA50(157.33) でゴールデンクロス状態（買い要因）",
+      "RSI14=63.9で中立圏",
       "MACDがシグナルを上抜け（買い要因）",
       "価格がボリンジャーバンド+2σを上回り過熱感（売り/待ち要因）"
     ],
     "indicators": {
-      "price": 159.70399475097656,
-      "sma20": 158.0772491455078,
-      "sma50": 157.3255401611328,
+      "price": 159.875,
+      "sma20": 158.08579940795897,
+      "sma50": 157.32896026611328,
       "sma200": null,
-      "rsi14": 62.84512982145501,
-      "macd": 0.3580094125677533,
-      "macd_signal": 0.17062591212106315,
-      "bb_upper": 159.62718966925075,
-      "bb_mid": 158.0772491455078,
-      "bb_lower": 156.52730862176486,
-      "atr14": 1.031345151415869
+      "rsi14": 63.93064995266792,
+      "macd": 0.37164388559634176,
+      "macd_signal": 0.1733439491315082,
+      "bb_upper": 159.6749166047283,
+      "bb_mid": 158.08579940795897,
+      "bb_lower": 156.49668221118964,
+      "atr14": 1.0163583700329593
     }
   },
   "fundamental": {
@@ -114,16 +114,6 @@
   "calendar": {
     "caution_window_hours": 3,
     "display_window_hours": 48,
-    "events": [
-      {
-        "country": "USD",
-        "title": "FOMC Member Jefferson Speaks",
-        "impact": "Low",
-        "time": "2026-11-13T19:00:00-05:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      }
-    ]
+    "events": []
   }
 }
