@@ -1,32 +1,31 @@
 {
-  "generated_at_jst": "2026-11-16T03:15:02.857915+09:00",
-  "generated_at_utc": "2026-11-15T18:15:03.736507+00:00",
+  "generated_at_jst": "2026-11-16T08:16:30.019346+09:00",
+  "generated_at_utc": "2026-11-15T23:16:32.582119+00:00",
   "judgment": {
-    "signal": "待ち",
-    "overall_score": 0.25,
-    "technical_score": 0.499,
+    "signal": "買い",
+    "overall_score": 0.443,
+    "technical_score": 0.886,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(158.09) > SMA50(157.33) でゴールデンクロス状態（買い要因）",
-      "RSI14=63.9で中立圏",
-      "MACDがシグナルを上抜け（買い要因）",
-      "価格がボリンジャーバンド+2σを上回り過熱感（売り/待ち要因）"
+      "SMA20(158.19) > SMA50(157.40) でゴールデンクロス状態（買い要因）",
+      "RSI14=63.1で中立圏",
+      "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 159.875,
-      "sma20": 158.08579940795897,
-      "sma50": 157.32896026611328,
+      "price": 159.7989959716797,
+      "sma20": 158.18544921875,
+      "sma50": 157.40100006103515,
       "sma200": null,
-      "rsi14": 63.93064995266792,
-      "macd": 0.37164388559634176,
-      "macd_signal": 0.1733439491315082,
-      "bb_upper": 159.6749166047283,
-      "bb_mid": 158.08579940795897,
-      "bb_lower": 156.49668221118964,
-      "atr14": 1.0163583700329593
+      "rsi14": 63.14437883636672,
+      "macd": 0.44296022075738506,
+      "macd_signal": 0.22726720345668355,
+      "bb_upper": 159.9418388700331,
+      "bb_mid": 158.18544921875,
+      "bb_lower": 156.42905956746688,
+      "atr14": 0.9691181812833953
     }
   },
   "fundamental": {
@@ -293,6 +292,24 @@
         "time": "2026-11-17T10:00:00-05:00",
         "forecast": "29",
         "previous": "29",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Williams Speaks",
+        "impact": "Low",
+        "time": "2026-11-17T14:25:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "API Weekly Statistical Bulletin",
+        "impact": "Low",
+        "time": "2026-11-17T16:30:00-05:00",
+        "forecast": "",
+        "previous": "",
         "actual": null
       }
     ]
