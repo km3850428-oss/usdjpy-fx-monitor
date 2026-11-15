@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-11-15T12:55:42.584403+09:00",
-  "generated_at_utc": "2026-11-15T03:55:44.218469+00:00",
+  "generated_at_jst": "2026-11-15T20:40:59.990601+09:00",
+  "generated_at_utc": "2026-11-15T11:41:00.951427+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": 0.25,
@@ -114,6 +114,88 @@
   "calendar": {
     "caution_window_hours": 3,
     "display_window_hours": 48,
-    "events": []
+    "events": [
+      {
+        "country": "JPY",
+        "title": "Prelim GDP Price Index y/y",
+        "impact": "Low",
+        "time": "2026-11-15T18:50:00-05:00",
+        "forecast": "2.6%",
+        "previous": "2.6%",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Prelim GDP q/q",
+        "impact": "Low",
+        "time": "2026-11-15T18:50:00-05:00",
+        "forecast": "0.1%",
+        "previous": "0.3%",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Revised Industrial Production m/m",
+        "impact": "Low",
+        "time": "2026-11-15T23:30:00-05:00",
+        "forecast": "2.2%",
+        "previous": "2.2%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Barr Speaks",
+        "impact": "Low",
+        "time": "2026-11-16T05:00:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Empire State Manufacturing Index",
+        "impact": "Low",
+        "time": "2026-11-16T08:30:00-05:00",
+        "forecast": "17.6",
+        "previous": "25.5",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Williams Speaks",
+        "impact": "Low",
+        "time": "2026-11-16T09:05:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Cleveland Fed Inflation Expectations",
+        "impact": "Low",
+        "time": "2026-11-16T09:48:00-05:00",
+        "forecast": "",
+        "previous": "3.3%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Fed Chairman Warsh Speaks",
+        "impact": "High",
+        "time": "2026-11-16T12:00:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Tertiary Industry Activity m/m",
+        "impact": "Low",
+        "time": "2026-11-16T23:30:00-05:00",
+        "forecast": "0.0%",
+        "previous": "-0.1%",
+        "actual": null
+      }
+    ]
   }
 }
