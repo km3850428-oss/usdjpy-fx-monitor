@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-11-15T20:40:59.990601+09:00",
-  "generated_at_utc": "2026-11-15T11:41:00.951427+00:00",
+  "generated_at_jst": "2026-11-16T03:15:02.857915+09:00",
+  "generated_at_utc": "2026-11-15T18:15:03.736507+00:00",
   "judgment": {
     "signal": "待ち",
     "overall_score": 0.25,
@@ -194,6 +194,105 @@
         "time": "2026-11-16T23:30:00-05:00",
         "forecast": "0.0%",
         "previous": "-0.1%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Musalem Speaks",
+        "impact": "Low",
+        "time": "2026-11-17T07:30:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "ADP Weekly Employment Change",
+        "impact": "Low",
+        "time": "2026-11-17T08:15:00-05:00",
+        "forecast": "",
+        "previous": "19.8K",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Core Retail Sales m/m",
+        "impact": "High",
+        "time": "2026-11-17T08:30:00-05:00",
+        "forecast": "0.4%",
+        "previous": "0.9%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Retail Sales m/m",
+        "impact": "High",
+        "time": "2026-11-17T08:30:00-05:00",
+        "forecast": "0.2%",
+        "previous": "0.8%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Import Prices m/m",
+        "impact": "Low",
+        "time": "2026-11-17T08:30:00-05:00",
+        "forecast": "0.7%",
+        "previous": "1.1%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Waller Speaks",
+        "impact": "Low",
+        "time": "2026-11-17T09:10:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Capacity Utilization Rate",
+        "impact": "Low",
+        "time": "2026-11-17T09:15:00-05:00",
+        "forecast": "76.8%",
+        "previous": "76.9%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Industrial Production m/m",
+        "impact": "Low",
+        "time": "2026-11-17T09:15:00-05:00",
+        "forecast": "0.1%",
+        "previous": "0.7%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Hammack Speaks",
+        "impact": "Low",
+        "time": "2026-11-17T09:30:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Business Inventories m/m",
+        "impact": "Low",
+        "time": "2026-11-17T10:00:00-05:00",
+        "forecast": "0.5%",
+        "previous": "0.4%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "NAHB Housing Market Index",
+        "impact": "Low",
+        "time": "2026-11-17T10:00:00-05:00",
+        "forecast": "29",
+        "previous": "29",
         "actual": null
       }
     ]
