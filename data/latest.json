@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-11-16T08:16:30.019346+09:00",
-  "generated_at_utc": "2026-11-15T23:16:32.582119+00:00",
+  "generated_at_jst": "2026-11-16T12:56:09.864663+09:00",
+  "generated_at_utc": "2026-11-16T03:56:12.515844+00:00",
   "judgment": {
     "signal": "買い",
-    "overall_score": 0.443,
-    "technical_score": 0.886,
+    "overall_score": 0.43,
+    "technical_score": 0.86,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(158.19) > SMA50(157.40) でゴールデンクロス状態（買い要因）",
-      "RSI14=63.1で中立圏",
+      "SMA20(158.18) > SMA50(157.40) でゴールデンクロス状態（買い要因）",
+      "RSI14=61.6で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 159.7989959716797,
-      "sma20": 158.18544921875,
-      "sma50": 157.40100006103515,
+      "price": 159.64599609375,
+      "sma20": 158.17779922485352,
+      "sma50": 157.39794006347657,
       "sma200": null,
-      "rsi14": 63.14437883636672,
-      "macd": 0.44296022075738506,
-      "macd_signal": 0.22726720345668355,
-      "bb_upper": 159.9418388700331,
-      "bb_mid": 158.18544921875,
-      "bb_lower": 156.42905956746688,
-      "atr14": 0.9691181812833953
+      "rsi14": 61.61598496424891,
+      "macd": 0.43071521086000075,
+      "macd_signal": 0.22476751652192778,
+      "bb_upper": 159.90569971455278,
+      "bb_mid": 158.17779922485352,
+      "bb_lower": 156.44989873515425,
+      "atr14": 0.969106194082789
     }
   },
   "fundamental": {
@@ -116,24 +116,6 @@
     "events": [
       {
         "country": "JPY",
-        "title": "Prelim GDP Price Index y/y",
-        "impact": "Low",
-        "time": "2026-11-15T18:50:00-05:00",
-        "forecast": "2.6%",
-        "previous": "2.6%",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "Prelim GDP q/q",
-        "impact": "Low",
-        "time": "2026-11-15T18:50:00-05:00",
-        "forecast": "0.1%",
-        "previous": "0.3%",
-        "actual": null
-      },
-      {
-        "country": "JPY",
         "title": "Revised Industrial Production m/m",
         "impact": "Low",
         "time": "2026-11-15T23:30:00-05:00",
@@ -182,6 +164,15 @@
         "title": "Fed Chairman Warsh Speaks",
         "impact": "High",
         "time": "2026-11-16T12:00:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Hammack Speaks",
+        "impact": "Low",
+        "time": "2026-11-16T14:15:00-05:00",
         "forecast": "",
         "previous": "",
         "actual": null
@@ -310,6 +301,15 @@
         "time": "2026-11-17T16:30:00-05:00",
         "forecast": "",
         "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Trade Balance",
+        "impact": "Low",
+        "time": "2026-11-17T18:50:00-05:00",
+        "forecast": "-0.88T",
+        "previous": "-0.70T",
         "actual": null
       }
     ]
