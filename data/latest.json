@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-11-17T13:53:36.648619+09:00",
-  "generated_at_utc": "2026-11-17T04:53:37.321952+00:00",
+  "generated_at_jst": "2026-11-17T22:59:41.624178+09:00",
+  "generated_at_utc": "2026-11-17T13:59:42.339957+00:00",
   "judgment": {
     "signal": "買い",
-    "overall_score": 0.397,
-    "technical_score": 0.794,
+    "overall_score": 0.404,
+    "technical_score": 0.808,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(158.22) > SMA50(157.51) でゴールデンクロス状態（買い要因）",
-      "RSI14=57.7で中立圏",
+      "SMA20(158.23) > SMA50(157.51) でゴールデンクロス状態（買い要因）",
+      "RSI14=58.5で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 159.2519989013672,
-      "sma20": 158.22094955444337,
-      "sma50": 157.50856018066406,
+      "price": 159.33900451660156,
+      "sma20": 158.22529983520508,
+      "sma50": 157.51030029296874,
       "sma200": null,
-      "rsi14": 57.6586401272155,
-      "macd": 0.4489447872864787,
-      "macd_signal": 0.27131331834221445,
-      "bb_upper": 160.0326505672284,
-      "bb_mid": 158.22094955444337,
-      "bb_lower": 156.40924854165834,
-      "atr14": 0.9562818973653799
+      "rsi14": 58.46822067190272,
+      "macd": 0.45588540616557793,
+      "macd_signal": 0.2727014421180343,
+      "bb_upper": 160.04781072911288,
+      "bb_mid": 158.22529983520508,
+      "bb_lower": 156.40278894129727,
+      "atr14": 0.9762109657945094
     }
   },
   "fundamental": {
@@ -113,6 +113,214 @@
   "calendar": {
     "caution_window_hours": 3,
     "display_window_hours": 48,
-    "events": []
+    "events": [
+      {
+        "country": "USD",
+        "title": "FOMC Member Waller Speaks",
+        "impact": "Low",
+        "time": "2026-11-17T09:10:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Capacity Utilization Rate",
+        "impact": "Low",
+        "time": "2026-11-17T09:15:00-05:00",
+        "forecast": "76.8%",
+        "previous": "76.9%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Industrial Production m/m",
+        "impact": "Low",
+        "time": "2026-11-17T09:15:00-05:00",
+        "forecast": "0.0%",
+        "previous": "0.7%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Hammack Speaks",
+        "impact": "Low",
+        "time": "2026-11-17T09:30:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Business Inventories m/m",
+        "impact": "Low",
+        "time": "2026-11-17T10:00:00-05:00",
+        "forecast": "0.5%",
+        "previous": "0.4%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "NAHB Housing Market Index",
+        "impact": "Low",
+        "time": "2026-11-17T10:00:00-05:00",
+        "forecast": "29",
+        "previous": "29",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Williams Speaks",
+        "impact": "Low",
+        "time": "2026-11-17T14:25:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "API Weekly Statistical Bulletin",
+        "impact": "Low",
+        "time": "2026-11-17T16:30:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Trade Balance",
+        "impact": "Low",
+        "time": "2026-11-17T18:50:00-05:00",
+        "forecast": "-0.90T",
+        "previous": "-0.70T",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Building Permits",
+        "impact": "Low",
+        "time": "2026-11-18T08:30:00-05:00",
+        "forecast": "1.38M",
+        "previous": "1.40M",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Housing Starts",
+        "impact": "Low",
+        "time": "2026-11-18T08:30:00-05:00",
+        "forecast": "1.25M",
+        "previous": "1.22M",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Pending Home Sales m/m",
+        "impact": "Low",
+        "time": "2026-11-18T10:00:00-05:00",
+        "forecast": "-2.1%",
+        "previous": "-7.3%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Crude Oil Inventories",
+        "impact": "Low",
+        "time": "2026-11-18T10:30:00-05:00",
+        "forecast": "-0.5M",
+        "previous": "4.7M",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Daly Speaks",
+        "impact": "Low",
+        "time": "2026-11-18T12:15:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Barr Speaks",
+        "impact": "Low",
+        "time": "2026-11-18T13:35:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Meeting Minutes",
+        "impact": "High",
+        "time": "2026-11-18T14:00:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Williams Speaks",
+        "impact": "Low",
+        "time": "2026-11-18T14:30:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "TIC Long-Term Purchases",
+        "impact": "Low",
+        "time": "2026-11-18T16:00:00-05:00",
+        "forecast": "160.7B",
+        "previous": "279.2B",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Kashkari Speaks",
+        "impact": "Low",
+        "time": "2026-11-18T16:15:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Core Machinery Orders m/m",
+        "impact": "Low",
+        "time": "2026-11-18T18:50:00-05:00",
+        "forecast": "1.3%",
+        "previous": "5.2%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Philly Fed Manufacturing Index",
+        "impact": "Medium",
+        "time": "2026-11-19T08:30:00-05:00",
+        "forecast": "19.2",
+        "previous": "20.9",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Unemployment Claims",
+        "impact": "Medium",
+        "time": "2026-11-19T08:30:00-05:00",
+        "forecast": "199K",
+        "previous": "200K",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Hammack Speaks",
+        "impact": "Low",
+        "time": "2026-11-19T08:50:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      }
+    ]
   }
 }
