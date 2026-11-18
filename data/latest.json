@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-11-18T07:05:29.038172+09:00",
-  "generated_at_utc": "2026-11-17T22:05:29.617188+00:00",
+  "generated_at_jst": "2026-11-18T12:58:01.365800+09:00",
+  "generated_at_utc": "2026-11-18T03:58:03.274960+00:00",
   "judgment": {
     "signal": "買い",
-    "overall_score": 0.403,
-    "technical_score": 0.805,
+    "overall_score": 0.402,
+    "technical_score": 0.803,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(158.22) > SMA50(157.51) でゴールデンクロス状態（買い要因）",
-      "RSI14=58.3で中立圏",
+      "SMA20(158.29) > SMA50(157.63) でゴールデンクロス状態（買い要因）",
+      "RSI14=58.2で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
       "price": 159.32400512695312,
-      "sma20": 158.22454986572265,
-      "sma50": 157.5100003051758,
+      "sma20": 158.28729934692382,
+      "sma50": 157.63090026855468,
       "sma200": null,
-      "rsi14": 58.32703459543493,
-      "macd": 0.45468887365800015,
-      "macd_signal": 0.2724621356165188,
-      "bb_upper": 160.04514243866646,
-      "bb_mid": 158.22454986572265,
-      "bb_lower": 156.40395729277884,
-      "atr14": 0.9762109657945094
+      "rsi14": 58.1836551101332,
+      "macd": 0.4721707858493005,
+      "macd_signal": 0.3149436793649989,
+      "bb_upper": 160.19845599198996,
+      "bb_mid": 158.28729934692382,
+      "bb_lower": 156.37614270185767,
+      "atr14": 0.9320016243980745
     }
   },
   "fundamental": {
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "JPY",
-        "title": "Trade Balance",
-        "impact": "Low",
-        "time": "2026-11-17T18:50:00-05:00",
-        "forecast": "-0.90T",
-        "previous": "-0.70T",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Building Permits",
@@ -308,6 +299,24 @@
         "title": "FOMC Member Barkin Speaks",
         "impact": "Low",
         "time": "2026-11-19T16:00:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "National Core CPI y/y",
+        "impact": "Low",
+        "time": "2026-11-19T18:30:00-05:00",
+        "forecast": "2.3%",
+        "previous": "2.1%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Paulson Speaks",
+        "impact": "Low",
+        "time": "2026-11-19T18:30:00-05:00",
         "forecast": "",
         "previous": "",
         "actual": null
