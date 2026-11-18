@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-11-18T21:39:39.749998+09:00",
-  "generated_at_utc": "2026-11-18T12:39:42.116706+00:00",
+  "generated_at_jst": "2026-11-19T06:00:29.752554+09:00",
+  "generated_at_utc": "2026-11-18T21:00:31.241719+00:00",
   "judgment": {
     "signal": "買い",
-    "overall_score": 0.408,
-    "technical_score": 0.816,
+    "overall_score": 0.4,
+    "technical_score": 0.801,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(158.29) > SMA50(157.63) でゴールデンクロス状態（買い要因）",
-      "RSI14=59.0で中立圏",
+      "RSI14=58.0で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 159.40199279785156,
-      "sma20": 158.29119873046875,
-      "sma50": 157.63246002197266,
+      "price": 159.30999755859375,
+      "sma20": 158.28659896850587,
+      "sma50": 157.6306201171875,
       "sma200": null,
-      "rsi14": 58.9791523336376,
-      "macd": 0.47839202455347163,
-      "macd_signal": 0.31618792710583316,
-      "bb_upper": 160.21155764378412,
-      "bb_mid": 158.29119873046875,
-      "bb_lower": 156.37083981715338,
+      "rsi14": 58.04304158230225,
+      "macd": 0.4710533729887345,
+      "macd_signal": 0.3147201967928857,
+      "bb_upper": 160.19616555623503,
+      "bb_mid": 158.28659896850587,
+      "bb_lower": 156.3770323807767,
       "atr14": 0.9444299080894808
     }
   },
@@ -114,87 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Building Permits",
-        "impact": "Low",
-        "time": "2026-11-18T08:30:00-05:00",
-        "forecast": "1.38M",
-        "previous": "1.40M",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Housing Starts",
-        "impact": "Low",
-        "time": "2026-11-18T08:30:00-05:00",
-        "forecast": "1.25M",
-        "previous": "1.22M",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Pending Home Sales m/m",
-        "impact": "Low",
-        "time": "2026-11-18T10:00:00-05:00",
-        "forecast": "-2.0%",
-        "previous": "-7.3%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Crude Oil Inventories",
-        "impact": "Low",
-        "time": "2026-11-18T10:30:00-05:00",
-        "forecast": "0.4M",
-        "previous": "4.7M",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Daly Speaks",
-        "impact": "Low",
-        "time": "2026-11-18T12:15:00-05:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Barr Speaks",
-        "impact": "Low",
-        "time": "2026-11-18T13:35:00-05:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Meeting Minutes",
-        "impact": "High",
-        "time": "2026-11-18T14:00:00-05:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Williams Speaks",
-        "impact": "Low",
-        "time": "2026-11-18T14:30:00-05:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "TIC Long-Term Purchases",
-        "impact": "Low",
-        "time": "2026-11-18T16:00:00-05:00",
-        "forecast": "160.7B",
-        "previous": "279.2B",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "FOMC Member Kashkari Speaks",
@@ -317,6 +236,42 @@
         "title": "FOMC Member Paulson Speaks",
         "impact": "Low",
         "time": "2026-11-19T18:30:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Waller Speaks",
+        "impact": "Low",
+        "time": "2026-11-20T08:25:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Revised UoM Consumer Sentiment",
+        "impact": "Medium",
+        "time": "2026-11-20T10:00:00-05:00",
+        "forecast": "51.7",
+        "previous": "51.0",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Revised UoM Inflation Expectations",
+        "impact": "Medium",
+        "time": "2026-11-20T10:00:00-05:00",
+        "forecast": "",
+        "previous": "4.3%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Cook Speaks",
+        "impact": "Low",
+        "time": "2026-11-20T12:15:00-05:00",
         "forecast": "",
         "previous": "",
         "actual": null
