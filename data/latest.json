@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-11-19T19:56:48.330160+09:00",
-  "generated_at_utc": "2026-11-19T10:56:49.695357+00:00",
+  "generated_at_jst": "2026-11-20T04:18:13.983408+09:00",
+  "generated_at_utc": "2026-11-19T19:18:15.257603+00:00",
   "judgment": {
     "signal": "買い",
-    "overall_score": 0.442,
-    "technical_score": 0.884,
+    "overall_score": 0.431,
+    "technical_score": 0.862,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(158.39) > SMA50(157.76) でゴールデンクロス状態（買い要因）",
-      "RSI14=63.0で中立圏",
+      "SMA20(158.38) > SMA50(157.76) でゴールデンクロス状態（買い要因）",
+      "RSI14=61.7で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 159.9199981689453,
-      "sma20": 158.38569869995118,
-      "sma50": 157.76144012451172,
+      "price": 159.7310028076172,
+      "sma20": 158.37624893188476,
+      "sma50": 157.75766021728515,
       "sma200": null,
-      "rsi14": 63.01188312772803,
-      "macd": 0.5266786286719025,
-      "macd_signal": 0.35958723710201024,
-      "bb_upper": 160.4480430489375,
-      "bb_mid": 158.38569869995118,
-      "bb_lower": 156.32335435096485,
-      "atr14": 0.9233109714650634
+      "rsi14": 61.72426688435159,
+      "macd": 0.5116020756314867,
+      "macd_signal": 0.3565719264939271,
+      "bb_upper": 160.41053335720605,
+      "bb_mid": 158.37624893188476,
+      "bb_lower": 156.34196450656347,
+      "atr14": 0.9257392987530098
     }
   },
   "fundamental": {
@@ -114,87 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Philly Fed Manufacturing Index",
-        "impact": "Medium",
-        "time": "2026-11-19T08:30:00-05:00",
-        "forecast": "20.6",
-        "previous": "20.9",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Unemployment Claims",
-        "impact": "Medium",
-        "time": "2026-11-19T08:30:00-05:00",
-        "forecast": "198K",
-        "previous": "200K",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Hammack Speaks",
-        "impact": "Low",
-        "time": "2026-11-19T08:50:00-05:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Jefferson Speaks",
-        "impact": "Low",
-        "time": "2026-11-19T09:25:00-05:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "CB Leading Index m/m",
-        "impact": "Low",
-        "time": "2026-11-19T10:00:00-05:00",
-        "forecast": "0.0%",
-        "previous": "0.0%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Mortgage Delinquencies",
-        "impact": "Low",
-        "time": "2026-11-19T10:15:00-05:00",
-        "forecast": "",
-        "previous": "4.37%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Natural Gas Storage",
-        "impact": "Low",
-        "time": "2026-11-19T10:30:00-05:00",
-        "forecast": "25B",
-        "previous": "61B",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Goolsbee Speaks",
-        "impact": "Low",
-        "time": "2026-11-19T12:30:00-05:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Barr Speaks",
-        "impact": "Low",
-        "time": "2026-11-19T14:15:00-05:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "FOMC Member Barkin Speaks",
