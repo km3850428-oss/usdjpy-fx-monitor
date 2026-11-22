@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-11-22T10:49:10.380962+09:00",
-  "generated_at_utc": "2026-11-22T01:49:11.614224+00:00",
+  "generated_at_jst": "2026-11-22T18:05:26.936727+09:00",
+  "generated_at_utc": "2026-11-22T09:05:29.161624+00:00",
   "judgment": {
     "signal": "買い",
     "overall_score": 0.427,
@@ -113,6 +113,52 @@
   "calendar": {
     "caution_window_hours": 3,
     "display_window_hours": 48,
-    "events": []
+    "events": [
+      {
+        "country": "JPY",
+        "title": "Bank Holiday",
+        "impact": "Holiday",
+        "time": "2026-11-22T19:00:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Flash Manufacturing PMI",
+        "impact": "Medium",
+        "time": "2026-11-23T09:45:00-05:00",
+        "forecast": "54.5",
+        "previous": "56.0",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Flash Services PMI",
+        "impact": "Medium",
+        "time": "2026-11-23T09:45:00-05:00",
+        "forecast": "55.6",
+        "previous": "57.9",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "FOMC Member Williams Speaks",
+        "impact": "Low",
+        "time": "2026-11-23T16:00:00-05:00",
+        "forecast": "",
+        "previous": "",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "Flash Manufacturing PMI",
+        "impact": "Low",
+        "time": "2026-11-23T19:30:00-05:00",
+        "forecast": "53.5",
+        "previous": "53.3",
+        "actual": null
+      }
+    ]
   }
 }
