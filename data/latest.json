@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-11-22T18:05:26.936727+09:00",
-  "generated_at_utc": "2026-11-22T09:05:29.161624+00:00",
+  "generated_at_jst": "2026-11-23T02:30:38.594879+09:00",
+  "generated_at_utc": "2026-11-22T17:30:39.799247+00:00",
   "judgment": {
     "signal": "買い",
     "overall_score": 0.427,
@@ -157,6 +157,51 @@
         "time": "2026-11-23T19:30:00-05:00",
         "forecast": "53.5",
         "previous": "53.3",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "ADP Weekly Employment Change",
+        "impact": "Low",
+        "time": "2026-11-24T08:15:00-05:00",
+        "forecast": "",
+        "previous": "23.8K",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "HPI m/m",
+        "impact": "Low",
+        "time": "2026-11-24T09:00:00-05:00",
+        "forecast": "0.2%",
+        "previous": "0.3%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "S&P/CS Composite-20 HPI y/y",
+        "impact": "Low",
+        "time": "2026-11-24T09:00:00-05:00",
+        "forecast": "2.7%",
+        "previous": "2.7%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "CB Consumer Confidence",
+        "impact": "Medium",
+        "time": "2026-11-24T10:00:00-05:00",
+        "forecast": "92.1",
+        "previous": "91.7",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Richmond Manufacturing Index",
+        "impact": "Low",
+        "time": "2026-11-24T10:00:00-05:00",
+        "forecast": "-3",
+        "previous": "-2",
         "actual": null
       }
     ]
