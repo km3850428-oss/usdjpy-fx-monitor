@@ -1,30 +1,30 @@
 {
-  "generated_at_jst": "2026-11-23T12:34:36.631528+09:00",
-  "generated_at_utc": "2026-11-23T03:34:37.982192+00:00",
+  "generated_at_jst": "2026-11-23T22:53:13.044687+09:00",
+  "generated_at_utc": "2026-11-23T13:53:13.566046+00:00",
   "judgment": {
     "signal": "買い",
-    "overall_score": 0.36,
-    "technical_score": 0.72,
+    "overall_score": 0.358,
+    "technical_score": 0.717,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(158.63) > SMA50(157.97) でゴールデンクロス状態（買い要因）",
-      "RSI14=53.2で中立圏",
+      "RSI14=53.0で中立圏",
       "MACDがシグナルを上抜け（買い要因）"
     ],
     "indicators": {
-      "price": 158.9720001220703,
-      "sma20": 158.62649841308593,
-      "sma50": 157.96612030029297,
+      "price": 158.94700622558594,
+      "sma20": 158.62524871826173,
+      "sma50": 157.9656204223633,
       "sma200": null,
-      "rsi14": 53.22862066030404,
-      "macd": 0.4518982948895598,
-      "macd_signal": 0.39531977258501333,
-      "bb_upper": 160.32917385603514,
-      "bb_mid": 158.62649841308593,
-      "bb_lower": 156.9238229701367,
+      "rsi14": 52.99332396537577,
+      "macd": 0.4499044797854026,
+      "macd_signal": 0.3949210095641819,
+      "bb_upper": 160.3268928146595,
+      "bb_mid": 158.62524871826173,
+      "bb_lower": 156.92360462186397,
       "atr14": 0.9699973960051214
     }
   },
@@ -211,6 +211,87 @@
         "time": "2026-11-24T18:50:00-05:00",
         "forecast": "3.6%",
         "previous": "3.7%",
+        "actual": null
+      },
+      {
+        "country": "JPY",
+        "title": "BOJ Core CPI y/y",
+        "impact": "Low",
+        "time": "2026-11-25T00:00:00-05:00",
+        "forecast": "2.5%",
+        "previous": "2.4%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Core PCE Price Index m/m",
+        "impact": "High",
+        "time": "2026-11-25T08:30:00-05:00",
+        "forecast": "0.3%",
+        "previous": "0.3%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Prelim GDP q/q",
+        "impact": "High",
+        "time": "2026-11-25T08:30:00-05:00",
+        "forecast": "3.5%",
+        "previous": "3.4%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Prelim GDP Price Index q/q",
+        "impact": "Medium",
+        "time": "2026-11-25T08:30:00-05:00",
+        "forecast": "2.3%",
+        "previous": "2.3%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Unemployment Claims",
+        "impact": "Medium",
+        "time": "2026-11-25T08:30:00-05:00",
+        "forecast": "201K",
+        "previous": "203K",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Core Durable Goods Orders m/m",
+        "impact": "Low",
+        "time": "2026-11-25T08:30:00-05:00",
+        "forecast": "0.5%",
+        "previous": "0.5%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Durable Goods Orders m/m",
+        "impact": "Low",
+        "time": "2026-11-25T08:30:00-05:00",
+        "forecast": "0.5%",
+        "previous": "1.8%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Personal Income m/m",
+        "impact": "Low",
+        "time": "2026-11-25T08:30:00-05:00",
+        "forecast": "0.4%",
+        "previous": "0.2%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Personal Spending m/m",
+        "impact": "Low",
+        "time": "2026-11-25T08:30:00-05:00",
+        "forecast": "0.4%",
+        "previous": "0.5%",
         "actual": null
       }
     ]
