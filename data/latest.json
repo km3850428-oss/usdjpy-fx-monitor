@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-11-23T22:53:13.044687+09:00",
-  "generated_at_utc": "2026-11-23T13:53:13.566046+00:00",
+  "generated_at_jst": "2026-11-24T10:24:39.591197+09:00",
+  "generated_at_utc": "2026-11-24T01:24:41.317616+00:00",
   "judgment": {
-    "signal": "買い",
-    "overall_score": 0.358,
-    "technical_score": 0.717,
+    "signal": "待ち",
+    "overall_score": 0.013,
+    "technical_score": 0.026,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
-      "SMA20(158.63) > SMA50(157.97) でゴールデンクロス状態（買い要因）",
-      "RSI14=53.0で中立圏",
-      "MACDがシグナルを上抜け（買い要因）"
+      "SMA20(158.69) > SMA50(158.05) でゴールデンクロス状態（買い要因）",
+      "RSI14=51.6で中立圏",
+      "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 158.94700622558594,
-      "sma20": 158.62524871826173,
-      "sma50": 157.9656204223633,
+      "price": 158.7989959716797,
+      "sma20": 158.6879981994629,
+      "sma50": 158.05358032226562,
       "sma200": null,
-      "rsi14": 52.99332396537577,
-      "macd": 0.4499044797854026,
-      "macd_signal": 0.3949210095641819,
-      "bb_upper": 160.3268928146595,
-      "bb_mid": 158.62524871826173,
-      "bb_lower": 156.92360462186397,
-      "atr14": 0.9699973960051214
+      "rsi14": 51.55125960688894,
+      "macd": 0.39121434909608865,
+      "macd_signal": 0.3939753783697758,
+      "bb_upper": 160.30966102004894,
+      "bb_mid": 158.6879981994629,
+      "bb_lower": 157.06633537887686,
+      "atr14": 0.900966673926192
     }
   },
   "fundamental": {
@@ -116,42 +116,6 @@
     "events": [
       {
         "country": "USD",
-        "title": "Flash Manufacturing PMI",
-        "impact": "Medium",
-        "time": "2026-11-23T09:45:00-05:00",
-        "forecast": "54.5",
-        "previous": "56.0",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Flash Services PMI",
-        "impact": "Medium",
-        "time": "2026-11-23T09:45:00-05:00",
-        "forecast": "55.6",
-        "previous": "57.9",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Williams Speaks",
-        "impact": "Low",
-        "time": "2026-11-23T16:00:00-05:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "JPY",
-        "title": "Flash Manufacturing PMI",
-        "impact": "Low",
-        "time": "2026-11-23T19:30:00-05:00",
-        "forecast": "53.5",
-        "previous": "53.3",
-        "actual": null
-      },
-      {
-        "country": "USD",
         "title": "ADP Weekly Employment Change",
         "impact": "Low",
         "time": "2026-11-24T08:15:00-05:00",
@@ -182,7 +146,7 @@
         "title": "CB Consumer Confidence",
         "impact": "Medium",
         "time": "2026-11-24T10:00:00-05:00",
-        "forecast": "92.1",
+        "forecast": "92.4",
         "previous": "91.7",
         "actual": null
       },
@@ -191,7 +155,7 @@
         "title": "Richmond Manufacturing Index",
         "impact": "Low",
         "time": "2026-11-24T10:00:00-05:00",
-        "forecast": "-3",
+        "forecast": "-2",
         "previous": "-2",
         "actual": null
       },
@@ -251,15 +215,6 @@
       },
       {
         "country": "USD",
-        "title": "Unemployment Claims",
-        "impact": "Medium",
-        "time": "2026-11-25T08:30:00-05:00",
-        "forecast": "201K",
-        "previous": "203K",
-        "actual": null
-      },
-      {
-        "country": "USD",
         "title": "Core Durable Goods Orders m/m",
         "impact": "Low",
         "time": "2026-11-25T08:30:00-05:00",
@@ -272,7 +227,7 @@
         "title": "Durable Goods Orders m/m",
         "impact": "Low",
         "time": "2026-11-25T08:30:00-05:00",
-        "forecast": "0.5%",
+        "forecast": "0.7%",
         "previous": "1.8%",
         "actual": null
       },
@@ -292,6 +247,51 @@
         "time": "2026-11-25T08:30:00-05:00",
         "forecast": "0.4%",
         "previous": "0.5%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Unemployment Claims",
+        "impact": "Low",
+        "time": "2026-11-25T08:30:00-05:00",
+        "forecast": "201K",
+        "previous": "203K",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "New Home Sales",
+        "impact": "Low",
+        "time": "2026-11-25T10:00:00-05:00",
+        "forecast": "650K",
+        "previous": "676K",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Crude Oil Inventories",
+        "impact": "Low",
+        "time": "2026-11-25T10:30:00-05:00",
+        "forecast": "",
+        "previous": "3.4M",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Natural Gas Storage",
+        "impact": "Low",
+        "time": "2026-11-25T12:00:00-05:00",
+        "forecast": "-19B",
+        "previous": "20B",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Beige Book",
+        "impact": "Low",
+        "time": "2026-11-25T14:00:00-05:00",
+        "forecast": "",
+        "previous": "",
         "actual": null
       }
     ]
