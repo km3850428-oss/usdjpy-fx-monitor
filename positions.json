@@ -1,5 +1,5 @@
 {
-  "next_id": 31,
+  "next_id": 32,
   "open": [
     {
       "id": 25,
@@ -36,6 +36,15 @@
       "take_profit": 162.706,
       "atr_at_entry": 0.969,
       "opened_at": "2026-11-16T08:16:30.019346+09:00"
+    },
+    {
+      "id": 31,
+      "direction": "買い",
+      "entry_price": 159.253,
+      "stop_loss": 157.845,
+      "take_profit": 162.068,
+      "atr_at_entry": 0.938,
+      "opened_at": "2026-11-24T20:50:33.951021+09:00"
     }
   ],
   "closed": [
