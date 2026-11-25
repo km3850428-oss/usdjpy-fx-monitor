@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-11-25T13:42:33.451284+09:00",
-  "generated_at_utc": "2026-11-25T04:42:34.573048+00:00",
+  "generated_at_jst": "2026-11-26T00:10:44.938402+09:00",
+  "generated_at_utc": "2026-11-25T15:10:46.348769+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.051,
-    "technical_score": 0.101,
+    "overall_score": 0.048,
+    "technical_score": 0.096,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(158.76) > SMA50(158.14) でゴールデンクロス状態（買い要因）",
-      "RSI14=56.1で中立圏",
+      "RSI14=55.7で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 159.29800415039062,
-      "sma20": 158.76374893188478,
-      "sma50": 158.13842041015624,
+      "price": 159.2570037841797,
+      "sma20": 158.7616989135742,
+      "sma50": 158.13760040283202,
       "sma200": null,
-      "rsi14": 56.089889067859566,
-      "macd": 0.394515485703522,
-      "macd_signal": 0.3967638274095297,
-      "bb_upper": 160.37662758433314,
-      "bb_mid": 158.76374893188478,
-      "bb_lower": 157.15087027943642,
-      "atr14": 0.8935920445595332
+      "rsi14": 55.74429976577108,
+      "macd": 0.3912448012194716,
+      "macd_signal": 0.3961096905127196,
+      "bb_upper": 160.37182025650378,
+      "bb_mid": 158.7616989135742,
+      "bb_lower": 157.15157757064463,
+      "atr14": 0.9053772792833056
     }
   },
   "fundamental": {
@@ -115,105 +115,6 @@
     "display_window_hours": 48,
     "events": [
       {
-        "country": "JPY",
-        "title": "BOJ Core CPI y/y",
-        "impact": "Low",
-        "time": "2026-11-25T00:00:00-05:00",
-        "forecast": "2.5%",
-        "previous": "2.4%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "FOMC Member Bowman Speaks",
-        "impact": "Low",
-        "time": "2026-11-25T07:25:00-05:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Core PCE Price Index m/m",
-        "impact": "High",
-        "time": "2026-11-25T08:30:00-05:00",
-        "forecast": "0.3%",
-        "previous": "0.3%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Prelim GDP q/q",
-        "impact": "High",
-        "time": "2026-11-25T08:30:00-05:00",
-        "forecast": "3.5%",
-        "previous": "3.4%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Prelim GDP Price Index q/q",
-        "impact": "Medium",
-        "time": "2026-11-25T08:30:00-05:00",
-        "forecast": "2.3%",
-        "previous": "2.3%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Core Durable Goods Orders m/m",
-        "impact": "Low",
-        "time": "2026-11-25T08:30:00-05:00",
-        "forecast": "0.5%",
-        "previous": "0.5%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Durable Goods Orders m/m",
-        "impact": "Low",
-        "time": "2026-11-25T08:30:00-05:00",
-        "forecast": "0.7%",
-        "previous": "1.8%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Personal Income m/m",
-        "impact": "Low",
-        "time": "2026-11-25T08:30:00-05:00",
-        "forecast": "0.4%",
-        "previous": "0.2%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Personal Spending m/m",
-        "impact": "Low",
-        "time": "2026-11-25T08:30:00-05:00",
-        "forecast": "0.4%",
-        "previous": "0.5%",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Unemployment Claims",
-        "impact": "Low",
-        "time": "2026-11-25T08:30:00-05:00",
-        "forecast": "201K",
-        "previous": "203K",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "New Home Sales",
-        "impact": "Low",
-        "time": "2026-11-25T10:00:00-05:00",
-        "forecast": "650K",
-        "previous": "676K",
-        "actual": null
-      },
-      {
         "country": "USD",
         "title": "Crude Oil Inventories",
         "impact": "Low",
@@ -256,6 +157,24 @@
         "time": "2026-11-26T18:30:00-05:00",
         "forecast": "3.0%",
         "previous": "2.6%",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Goods Trade Balance",
+        "impact": "Low",
+        "time": "2026-11-27T08:30:00-05:00",
+        "forecast": "-135.9B",
+        "previous": "-134.9B",
+        "actual": null
+      },
+      {
+        "country": "USD",
+        "title": "Prelim Wholesale Inventories m/m",
+        "impact": "Low",
+        "time": "2026-11-27T08:30:00-05:00",
+        "forecast": "0.5%",
+        "previous": "0.6%",
         "actual": null
       }
     ]
