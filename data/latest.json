@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-11-26T00:10:44.938402+09:00",
-  "generated_at_utc": "2026-11-25T15:10:46.348769+00:00",
+  "generated_at_jst": "2026-11-26T08:54:41.436193+09:00",
+  "generated_at_utc": "2026-11-25T23:54:42.417151+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.048,
-    "technical_score": 0.096,
+    "overall_score": 0.044,
+    "technical_score": 0.087,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(158.76) > SMA50(158.14) でゴールデンクロス状態（買い要因）",
-      "RSI14=55.7で中立圏",
+      "RSI14=55.2で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 159.2570037841797,
-      "sma20": 158.7616989135742,
-      "sma50": 158.13760040283202,
+      "price": 159.197998046875,
+      "sma20": 158.75874862670898,
+      "sma50": 158.13642028808593,
       "sma200": null,
-      "rsi14": 55.74429976577108,
-      "macd": 0.3912448012194716,
-      "macd_signal": 0.3961096905127196,
-      "bb_upper": 160.37182025650378,
-      "bb_mid": 158.7616989135742,
-      "bb_lower": 157.15157757064463,
-      "atr14": 0.9053772792833056
+      "rsi14": 55.23728727417202,
+      "macd": 0.38653779083620066,
+      "macd_signal": 0.39516828843606544,
+      "bb_upper": 160.36526083087048,
+      "bb_mid": 158.75874862670898,
+      "bb_lower": 157.15223642254747,
+      "atr14": 0.8855909895232609
     }
   },
   "fundamental": {
@@ -114,33 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Crude Oil Inventories",
-        "impact": "Low",
-        "time": "2026-11-25T10:30:00-05:00",
-        "forecast": "2.0M",
-        "previous": "3.4M",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Natural Gas Storage",
-        "impact": "Low",
-        "time": "2026-11-25T12:00:00-05:00",
-        "forecast": "-19B",
-        "previous": "20B",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Beige Book",
-        "impact": "Low",
-        "time": "2026-11-25T14:00:00-05:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
       {
         "country": "USD",
         "title": "Bank Holiday",
