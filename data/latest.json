@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-11-26T15:03:11.201877+09:00",
-  "generated_at_utc": "2026-11-26T06:03:12.304873+00:00",
+  "generated_at_jst": "2026-11-27T02:26:25.779208+09:00",
+  "generated_at_utc": "2026-11-26T17:26:27.271328+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.039,
-    "technical_score": 0.079,
+    "overall_score": 0.051,
+    "technical_score": 0.101,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(158.83) > SMA50(158.20) でゴールデンクロス状態（買い要因）",
-      "RSI14=54.7で中立圏",
+      "RSI14=56.1で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 159.16799926757812,
-      "sma20": 158.82869873046874,
-      "sma50": 158.20078002929688,
+      "price": 159.29400634765625,
+      "sma20": 158.83499908447266,
+      "sma50": 158.20330017089844,
       "sma200": null,
-      "rsi14": 54.7263574671773,
-      "macd": 0.3668916672734781,
-      "macd_signal": 0.3903294067692861,
-      "bb_upper": 160.3868422710529,
-      "bb_mid": 158.82869873046874,
-      "bb_lower": 157.2705551898846,
-      "atr14": 0.8848442134230577
+      "rsi14": 56.07904671016769,
+      "macd": 0.37694351411732896,
+      "macd_signal": 0.39233977613805626,
+      "bb_upper": 160.39992357076068,
+      "bb_mid": 158.83499908447266,
+      "bb_lower": 157.27007459818464,
+      "atr14": 0.8902730725887944
     }
   },
   "fundamental": {
@@ -114,15 +114,6 @@
     "caution_window_hours": 3,
     "display_window_hours": 48,
     "events": [
-      {
-        "country": "USD",
-        "title": "Bank Holiday",
-        "impact": "Holiday",
-        "time": "2026-11-26T08:00:00-05:00",
-        "forecast": "",
-        "previous": "",
-        "actual": null
-      },
       {
         "country": "JPY",
         "title": "Tokyo Core CPI y/y",
