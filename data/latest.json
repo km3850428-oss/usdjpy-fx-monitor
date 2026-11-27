@@ -1,31 +1,31 @@
 {
-  "generated_at_jst": "2026-11-27T19:19:23.357392+09:00",
-  "generated_at_utc": "2026-11-27T10:19:25.113617+00:00",
+  "generated_at_jst": "2026-11-28T04:44:21.769776+09:00",
+  "generated_at_utc": "2026-11-27T19:44:22.897625+00:00",
   "judgment": {
     "signal": "待ち",
-    "overall_score": 0.067,
-    "technical_score": 0.134,
+    "overall_score": 0.07,
+    "technical_score": 0.139,
     "fundamental_score": 0.0,
     "override_reason": null
   },
   "technical": {
     "reasons": [
       "SMA20(158.92) > SMA50(158.27) でゴールデンクロス状態（買い要因）",
-      "RSI14=58.1で中立圏",
+      "RSI14=58.4で中立圏",
       "MACDがシグナルを下抜け（売り要因）"
     ],
     "indicators": {
-      "price": 159.51800537109375,
-      "sma20": 158.91674880981446,
-      "sma50": 158.26950012207033,
+      "price": 159.5540008544922,
+      "sma20": 158.91854858398438,
+      "sma50": 158.2702200317383,
       "sma200": null,
-      "rsi14": 58.05236338681821,
-      "macd": 0.37412378796136636,
-      "macd_signal": 0.38767496310351823,
-      "bb_upper": 160.4271538588298,
-      "bb_mid": 158.91674880981446,
-      "bb_lower": 157.40634376079913,
-      "atr14": 0.855512231337569
+      "rsi14": 58.361837482126234,
+      "macd": 0.37699522253444684,
+      "macd_signal": 0.3882492500181344,
+      "bb_upper": 160.43205285794463,
+      "bb_mid": 158.91854858398438,
+      "bb_lower": 157.40504431002412,
+      "atr14": 0.8579405586255155
     }
   },
   "fundamental": {
@@ -113,25 +113,6 @@
   "calendar": {
     "caution_window_hours": 3,
     "display_window_hours": 48,
-    "events": [
-      {
-        "country": "USD",
-        "title": "Goods Trade Balance",
-        "impact": "Low",
-        "time": "2026-11-27T08:30:00-05:00",
-        "forecast": "-135.9B",
-        "previous": "-134.9B",
-        "actual": null
-      },
-      {
-        "country": "USD",
-        "title": "Prelim Wholesale Inventories m/m",
-        "impact": "Low",
-        "time": "2026-11-27T08:30:00-05:00",
-        "forecast": "0.5%",
-        "previous": "0.6%",
-        "actual": null
-      }
-    ]
+    "events": []
   }
 }
